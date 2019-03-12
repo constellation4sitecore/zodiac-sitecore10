@@ -1,0 +1,2 @@
+﻿The config files here are managed via NuGet and will be overwritten when imported/updated from NuGet.
+Use project-specific Config Patch files to change the values.

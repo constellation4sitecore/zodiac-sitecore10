@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
+	<sitecore>
+		<settings>
+			<!--
+			RICH TEXT EDITOR SETTINGS
+			
+			HtmlEditor.DefaultProfile
+			=========================
+			Using this setting loads all toolbars & buttons in Rich Text fields by default. You can still customize on a field-by
+			-field basis, this just changes the default behavior. Use this with caution because your CSS may not support all the
+			options exposed in the full editor.
+			-->
+			<setting name="HtmlEditor.DefaultProfile">
+				<patch:attribute name="value">/sitecore/system/Settings/Html Editor Profiles/Rich Text Full</patch:attribute>
+			</setting>
+			
+			<!--
+			WebStylesheet
+			=============
+			
+			Controls the CSS used to render content within the Rich Text field's editor. Note that there is only
+			one stylesheet for the editor, and it is active across all sites in your installation.
+			-->
+			<setting name="WebStylesheet">
+				<patch:attribute name="value">/Content/WYSIWYGStyle.css</patch:attribute>
+			</setting>
+		</settings>
+	</sitecore>
+</configuration>

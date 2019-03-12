@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:role="http://www.sitecore.net/xmlconfig/role/">
+	<sitecore>
+		<settings>
+			<!-- 
+			ENABLE THIS FILE IF YOU ARE USING LANGUAGE FALLBACK
+			
+			This value is used by Language Fallback subsystems within Sitecore.
+			
+			The default is 90K which is far too small.
+			
+			Watch your cache sizes in real-time to determine the best maximum size for this value.
+			-->
+			<setting name="Caching.SmallCacheSize" value="100MB" />
+
+		</settings>
+	</sitecore>
+</configuration>

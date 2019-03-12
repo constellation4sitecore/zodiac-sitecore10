@@ -1,0 +1,25 @@
+﻿Each Tenant and Site in your Sitecore install should have its own MVC Area to prevent namespace collisions between projects.
+What belongs here? This stuff:
+
+- Controllers
+- Models
+- Views, including:
+- - Renderings
+- - Sublayouts
+- - Layouts (use the Views/Shared folder
+
+Site-specific
+- Repositories
+- Model Builders
+- Pipeline handlers that relate specifically to page rendering.
+
+What doesn't belong here?
+- Globally applicable pipeline handlers
+- Extended business logic (create a Feature DLL)
+- Reusable business logic (create a Feature DLL)
+- Reusable presentation components**
+
+** There are 2 kinds of these, and the rules are different for each:
+
+1. Presentation that applies to all Sites for a givent Tenant belong here, in the Tenant's MVC Area.
+2. Presentation that applies to all Sites and all Tenants, this belongs in the root /Controllers, /Models, /Views folders.

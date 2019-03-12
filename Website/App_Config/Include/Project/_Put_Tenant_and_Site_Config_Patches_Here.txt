@@ -1,0 +1,2 @@
+﻿The Include/Projects folder should have a folder for each Site and Tenant in your installation.
+These folders should include details like site definitions and site-specific pipeline patch files.
