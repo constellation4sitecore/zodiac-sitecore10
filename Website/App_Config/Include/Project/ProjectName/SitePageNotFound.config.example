@@ -10,7 +10,7 @@
 
 		-->
 		<sites>
-			<site name="examplesiteproject">
+			<site name="projectName">
 				<patch:attribute name="notFoundPageID">{00000000-0000-0000-0000-00000000}</patch:attribute>
 			</site>
 		</sites>

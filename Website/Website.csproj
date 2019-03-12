@@ -358,19 +358,19 @@
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.MediaSettings.config" />
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Enable.Publishing.Accelerators.config" />
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.PublishingSettings.config" />
-    <None Include="App_Config\Include\Project\ExampleSiteProject\SiteCacheClearing.config.example" />
-    <None Include="App_Config\Include\Project\ExampleSiteProject\SiteLanguages.config.example" />
-    <None Include="App_Config\Include\Project\ExampleSiteProject\SitemapXml.config.example" />
-    <None Include="App_Config\Include\Project\ExampleSiteProject\SitePageNotFound.config.example" />
-    <None Include="App_Config\Include\Project\ExampleSiteProject\_SiteDefinition.local.config.example" />
+    <None Include="App_Config\Include\Project\ProjectName\SiteCacheClearing.config.example" />
+    <None Include="App_Config\Include\Project\ProjectName\SiteLanguages.config.example" />
+    <None Include="App_Config\Include\Project\ProjectName\SitemapXml.config.example" />
+    <None Include="App_Config\Include\Project\ProjectName\SitePageNotFound.config.example" />
+    <None Include="App_Config\Include\Project\ProjectName\_SiteDefinition.local.config.example" />
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.QueryMaxItems.config" />
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.SmallCacheSize.config.disable" />
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Disable.TrackingEnabled.local.config" />
     <Content Include="App_Config\Include\Constellation\Constellation.Feature.PageAnalyticsScripts.config">
       <SubType>Designer</SubType>
     </Content>
-    <None Include="App_Config\Include\Project\ExampleSiteProject\_SiteDefinition.qacm.config.example" />
-    <None Include="App_Config\Include\Project\ExampleSiteProject\_SiteDefinition.qacd.config.example" />
+    <None Include="App_Config\Include\Project\ProjectName\_SiteDefinition.qacm.config.example" />
+    <None Include="App_Config\Include\Project\ProjectName\_SiteDefinition.qacd.config.example" />
     <None Include="App_Config\AppSettings.config" />
     <Content Include="App_Config\Include\Constellation\Constellation.Foundation.ModelMapper.config" />
     <Content Include="App_Config\Include\Constellation\Constellation.Foundation.PackageVerification.config.example" />

@@ -16,11 +16,11 @@ element to specify an insertion point for the new element. Both accept an
 XPath relative to the parent node of the inserted element.
 
 -->
-	<sites env:require="Local">
+	<sites env:require="QACD">
 		<site patch:before="site[@name='website']" 
-		      name="examplesiteproject"
-		      hostName="examplesiteproject.localhost"
-		      targetHostName="examplesiteproject.localhost"
+		      name="projectName"
+		      hostName="projectName.yourserver.dev"
+		      targetHostName="projectName.yourserver.dev"
 		      scheme="http"
 		      language="en"
 		      virtualFolder="/"

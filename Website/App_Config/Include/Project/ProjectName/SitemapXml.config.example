@@ -13,8 +13,8 @@
 		<constellation>
 			<sitemapXml>
 				<crawlers>
-					<site name="examplesiteproject">
-						<crawler type="Website.Crawlers.TreeCrawler, Website" />
+					<site name="projectName">
+						<crawler type="ProjectName.Crawlers.TreeCrawler, ProjectName" />
 					</site>
 				</crawlers>
 			</sitemapXml>

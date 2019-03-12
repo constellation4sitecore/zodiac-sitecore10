@@ -3,7 +3,7 @@
 	<sitecore>
 		<!--
 
-		Purpose: This include file ensures the ExampleSiteProject's site has its caches cleared after publication.
+		Purpose: This include file ensures the projectName's site has its caches cleared after publication.
 
 		To enable this, rename this file so that it has a ".config" extension and 
 		change all the parameters to suit your own scenario
@@ -13,14 +13,14 @@
 			<event name="publish:end">
 				<handler type="Sitecore.Publishing.HtmlCacheClearer, Sitecore.Kernel" method="ClearCache">
 					<sites hint="list">
-						<site name="examplesiteproject">examplesiteproject</site>
+						<site name="projectName">projectName</site>
 					</sites>
 				</handler>
 			</event>
 			<event name="publish:end:remote">
 				<handler type="Sitecore.Publishing.HtmlCacheClearer, Sitecore.Kernel" method="ClearCache">
 					<sites hint="list">
-						<site name="examplesiteproject">examplesiteproject</site>
+						<site name="projectName">projectName</site>
 					</sites>
 				</handler>
 			</event>

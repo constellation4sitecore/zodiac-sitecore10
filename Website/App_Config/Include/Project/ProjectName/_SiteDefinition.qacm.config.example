@@ -18,9 +18,9 @@ XPath relative to the parent node of the inserted element.
 -->
 	<sites env:require="QACM">
 		<site patch:before="site[@name='website']" 
-		      name="examplesiteproject"
-		      hostName="cm.examplesiteproject.yourserver.dev"
-		      targetHostName="cm.examplesiteproject.yourserver.dev"
+		      name="projectName"
+		      hostName="cm.projectName.yourserver.dev"
+		      targetHostName="cm.projectName.yourserver.dev"
 		      scheme="http"
 		      language="en"
 		      virtualFolder="/"
