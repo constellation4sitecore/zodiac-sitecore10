@@ -156,3 +156,19 @@ Note that if you want the example site, but you don't want it to be the "primary
 At this point you should have a running installation using Zodiac (with Constellation) as the backbone. You can now start development of your solution!
 
 For details on how to use various features of this installation, visit https://constellation4sitecore.com/ the official documentation site for Constellation and Zodiac.
+
+# Credits
+A big thank you to [Verndale](https://www.verndale.com) for providing the time to assemble this kit.
+
+### Sponsors/Developers/Testers
+(in no particular order)
+- Hetal Dave
+- Davan Etelamaki
+- Sandy Foley
+- Joe Fusco
+- Deepthi Kata
+- Richard Levia
+- Santiago Morla
+- Mike Reynolds
+- Liz Spranzani
+- Steve Striga
