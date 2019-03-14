@@ -166,7 +166,7 @@ A big thank you to [Verndale](https://www.verndale.com) for providing the time t
 - Davan Etelamaki
 - Sandy Foley
 - Joe Fusco
-- Deepthi Kata
+- Deepthi Katta
 - Richard Levia
 - Santiago Morla
 - Mike Reynolds
