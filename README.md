@@ -143,7 +143,7 @@ Assuming you want the example site to be the "default" site for your install, yo
 
 In the "Website" project in Visual Studio:
 - Open the following file: Website/App_Config/Include/Project/ExampleSite/_SiteDefinition.local.config
-- Adjust the "hostName" and "targteHostName" attribute values to match your install's hostname.
+- Adjust the "hostName" and "targetHostName" attribute values to match your install's hostname.
 
 Note that if you want the example site, but you don't want it to be the "primary" site on your install, you can always add another hostname to your IIS website bindings. The above instructions still apply.
 
