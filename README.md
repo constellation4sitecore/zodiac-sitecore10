@@ -94,7 +94,7 @@ After NuGet Packages have been restored, run a Solution Build. Verify that the s
 ## Step 6: AppSettings.Config
 In the "Website" project there is an AppSettings.Config file located at /App_Config/AppSettings.config. You ___must___ manually copy this file into your local installation. It contains essential pre-Sitecore config patch settings that must be set to parse the config files correctly.
 
-    Example = C:\Inetpub\wwwroot\examplesite\App_Config\AppSettings.config
+        Example = C:\Inetpub\wwwroot\examplesite\App_Config\AppSettings.config
 
 ___After Deployment, your install will not start without this file.___
 
@@ -105,7 +105,7 @@ ___After Deployment, your install will not start without this file.___
 - In the (now visible) "Publish" toolbar, there should be a "Debug" target selected. Click the cog/gear icon to edit the publishing profile. 
 - Within the "Publish" panel that is now exposed, ensure the "Target Location" matches the location of your IIS Web App's root. (Use the Configure link to change it.)
 
-    Target Location = "C:\inetpub\wwwroot\examplesite.verndale-local.com"
+        Example Target Location = "C:\inetpub\wwwroot\examplesite.verndale-local.com"
 
 ## Step 8: Deploy!
 With the "Website" project selected in Solution Explorer, hit the "publish" button in the One-Click Publish toolbar.
