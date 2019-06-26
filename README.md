@@ -1,5 +1,6 @@
 # Zodiac for Sitecore 9.1+
 ## A starter kit for Sitecore implementation projects.
+## [Sponsored by Verndale](https://www.verndale.com)
 # What's in the Box
 A "complete" Visual Studio 2017 solution that you can fork/clone and use as the basis of your net-new Sitecore implementation project.
 
