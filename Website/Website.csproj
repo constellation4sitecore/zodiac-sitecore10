@@ -53,11 +53,11 @@
     <Reference Include="Constellation.Feature.PageAnalyticsScripts, Version=9.1.6.16542, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Feature.PageAnalyticsScripts.9.1.6.16542\lib\net471\Constellation.Feature.PageAnalyticsScripts.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Feature.PageTagging, Version=9.1.6.16588, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.PageTagging.9.1.6.16588\lib\net471\Constellation.Feature.PageTagging.dll</HintPath>
+    <Reference Include="Constellation.Feature.PageTagging, Version=9.1.8.21950, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Feature.PageTagging.9.1.8.21950\lib\net471\Constellation.Feature.PageTagging.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Feature.PageTagging.SitemapXml, Version=9.1.7.17210, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.PageTagging.SitemapXml.9.1.7.17210\lib\net471\Constellation.Feature.PageTagging.SitemapXml.dll</HintPath>
+    <Reference Include="Constellation.Feature.PageTagging.SitemapXml, Version=9.1.9.23213, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Feature.PageTagging.SitemapXml.9.1.9.23213\lib\net471\Constellation.Feature.PageTagging.SitemapXml.dll</HintPath>
     </Reference>
     <Reference Include="Constellation.Feature.Redirects, Version=9.1.6.19219, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Feature.Redirects.9.1.6.19219\lib\net471\Constellation.Feature.Redirects.dll</HintPath>
