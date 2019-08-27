@@ -56,8 +56,8 @@
     <Reference Include="Constellation.Feature.PageTagging, Version=9.1.8.21950, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Feature.PageTagging.9.1.8.21950\lib\net471\Constellation.Feature.PageTagging.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Feature.PageTagging.SitemapXml, Version=9.1.9.23213, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.PageTagging.SitemapXml.9.1.9.23213\lib\net471\Constellation.Feature.PageTagging.SitemapXml.dll</HintPath>
+    <Reference Include="Constellation.Feature.PageTagging.SitemapXml, Version=9.1.10.28380, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Feature.PageTagging.SitemapXml.9.1.10.28380\lib\net471\Constellation.Feature.PageTagging.SitemapXml.dll</HintPath>
     </Reference>
     <Reference Include="Constellation.Feature.Redirects, Version=9.1.6.19219, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Feature.Redirects.9.1.6.19219\lib\net471\Constellation.Feature.Redirects.dll</HintPath>
@@ -98,8 +98,8 @@
     <Reference Include="Constellation.Foundation.PageNotFound, Version=9.1.2.23026, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.PageNotFound.9.1.2.23026\lib\net471\Constellation.Foundation.PageNotFound.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.SitemapXml, Version=9.1.5.26323, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.SitemapXml.9.1.5.26323\lib\net471\Constellation.Foundation.SitemapXml.dll</HintPath>
+    <Reference Include="Constellation.Foundation.SitemapXml, Version=9.1.6.27627, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.SitemapXml.9.1.6.27627\lib\net471\Constellation.Foundation.SitemapXml.dll</HintPath>
     </Reference>
     <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
       <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
