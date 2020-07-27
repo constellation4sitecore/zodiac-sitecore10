@@ -44,62 +44,62 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Constellation.Feature.ItemSorting, Version=9.1.3.28240, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.ItemSorting.9.1.3.28240\lib\net471\Constellation.Feature.ItemSorting.dll</HintPath>
+    <Reference Include="Constellation.Feature.ItemSorting, Version=9.3.0.18725, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Feature.ItemSorting.9.3.0.18725\lib\net471\Constellation.Feature.ItemSorting.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Feature.Navigation, Version=9.1.10.23104, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.Navigation.9.1.10.23104\lib\net471\Constellation.Feature.Navigation.dll</HintPath>
+    <Reference Include="Constellation.Feature.Navigation, Version=9.3.0.19127, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Feature.Navigation.9.3.0.19127\lib\net471\Constellation.Feature.Navigation.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Feature.PageAnalyticsScripts, Version=9.1.8.23134, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.PageAnalyticsScripts.9.1.8.23134\lib\net471\Constellation.Feature.PageAnalyticsScripts.dll</HintPath>
+    <Reference Include="Constellation.Feature.PageAnalyticsScripts, Version=9.3.0.19298, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Feature.PageAnalyticsScripts.9.3.0.19298\lib\net471\Constellation.Feature.PageAnalyticsScripts.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Feature.PageTagging, Version=9.1.11.17067, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.PageTagging.9.1.11.17067\lib\net471\Constellation.Feature.PageTagging.dll</HintPath>
+    <Reference Include="Constellation.Feature.PageTagging, Version=9.3.0.19376, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Feature.PageTagging.9.3.0.19376\lib\net471\Constellation.Feature.PageTagging.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Feature.PageTagging.SitemapXml, Version=9.1.13.25048, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.PageTagging.SitemapXml.9.1.13.25048\lib\net471\Constellation.Feature.PageTagging.SitemapXml.dll</HintPath>
+    <Reference Include="Constellation.Feature.PageTagging.SitemapXml, Version=9.3.0.19740, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Feature.PageTagging.SitemapXml.9.3.0.19740\lib\net471\Constellation.Feature.PageTagging.SitemapXml.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Feature.Redirects, Version=9.1.12.30074, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.Redirects.9.1.12.30074\lib\net471\Constellation.Feature.Redirects.dll</HintPath>
+    <Reference Include="Constellation.Feature.Redirects, Version=9.3.0.21411, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Feature.Redirects.9.3.0.21411\lib\net471\Constellation.Feature.Redirects.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Feature.UrlFriendlyPageNames, Version=9.1.2.16140, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.UrlFriendlyPageNames.9.1.2.16140\lib\net471\Constellation.Feature.UrlFriendlyPageNames.dll</HintPath>
+    <Reference Include="Constellation.Feature.UrlFriendlyPageNames, Version=9.3.0.21561, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Feature.UrlFriendlyPageNames.9.3.0.21561\lib\net471\Constellation.Feature.UrlFriendlyPageNames.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.Caching, Version=9.1.3.26256, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.Caching.9.1.3.26256\lib\net471\Constellation.Foundation.Caching.dll</HintPath>
+    <Reference Include="Constellation.Foundation.Caching, Version=9.3.0.27247, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.Caching.9.3.0.27247\lib\net471\Constellation.Foundation.Caching.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.Contexts, Version=9.1.2.19985, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.Contexts.9.1.2.19985\lib\net471\Constellation.Foundation.Contexts.dll</HintPath>
+    <Reference Include="Constellation.Foundation.Contexts, Version=9.3.0.27338, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.Contexts.9.3.0.27338\lib\net471\Constellation.Foundation.Contexts.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.Data, Version=9.1.2.20242, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.Data.9.1.2.20242\lib\net471\Constellation.Foundation.Data.dll</HintPath>
+    <Reference Include="Constellation.Foundation.Data, Version=9.3.0.27860, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.Data.9.3.0.27860\lib\net471\Constellation.Foundation.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.Datasources, Version=9.1.2.23267, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.Datasources.9.1.2.23267\lib\net471\Constellation.Foundation.Datasources.dll</HintPath>
+    <Reference Include="Constellation.Foundation.Datasources, Version=9.3.0.28349, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.Datasources.9.3.0.28349\lib\net471\Constellation.Foundation.Datasources.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.Globalization, Version=9.1.2.20734, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.Globalization.9.1.2.20734\lib\net471\Constellation.Foundation.Globalization.dll</HintPath>
+    <Reference Include="Constellation.Foundation.Globalization, Version=9.3.0.28437, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.Globalization.9.3.0.28437\lib\net471\Constellation.Foundation.Globalization.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.Linking, Version=9.1.3.28630, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.Linking.9.1.3.28630\lib\net471\Constellation.Foundation.Linking.dll</HintPath>
+    <Reference Include="Constellation.Foundation.Linking, Version=9.3.0.16413, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.Linking.9.3.0.16413\lib\net471\Constellation.Foundation.Linking.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.ModelMapping, Version=9.1.10.19264, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.ModelMapping.9.1.10.19264\lib\net471\Constellation.Foundation.ModelMapping.dll</HintPath>
+    <Reference Include="Constellation.Foundation.ModelMapping, Version=9.3.0.29450, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.ModelMapping.9.3.0.29450\lib\net471\Constellation.Foundation.ModelMapping.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.Mvc, Version=9.1.6.30699, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.Mvc.9.1.6.30699\lib\net471\Constellation.Foundation.Mvc.dll</HintPath>
+    <Reference Include="Constellation.Foundation.Mvc, Version=9.3.1.28171, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.Mvc.9.3.1.28171\lib\net471\Constellation.Foundation.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.Mvc.Patterns, Version=9.1.11.23057, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.Mvc.Patterns.9.1.11.23057\lib\net471\Constellation.Foundation.Mvc.Patterns.dll</HintPath>
+    <Reference Include="Constellation.Foundation.Mvc.Patterns, Version=9.3.1.28598, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.Mvc.Patterns.9.3.1.28598\lib\net471\Constellation.Foundation.Mvc.Patterns.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.PackageVerification, Version=9.1.2.20552, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.PackageVerification.9.1.2.20552\lib\net471\Constellation.Foundation.PackageVerification.dll</HintPath>
+    <Reference Include="Constellation.Foundation.PackageVerification, Version=9.3.0.27935, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.PackageVerification.9.3.0.27935\lib\net471\Constellation.Foundation.PackageVerification.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.PageNotFound, Version=9.1.3.30027, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.PageNotFound.9.1.3.30027\lib\net471\Constellation.Foundation.PageNotFound.dll</HintPath>
+    <Reference Include="Constellation.Foundation.PageNotFound, Version=9.3.0.18066, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.PageNotFound.9.3.0.18066\lib\net471\Constellation.Foundation.PageNotFound.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.SitemapXml, Version=9.1.8.24584, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.SitemapXml.9.1.8.24584\lib\net471\Constellation.Foundation.SitemapXml.dll</HintPath>
+    <Reference Include="Constellation.Foundation.SitemapXml, Version=9.3.0.17031, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.SitemapXml.9.3.0.17031\lib\net471\Constellation.Foundation.SitemapXml.dll</HintPath>
     </Reference>
     <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
       <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
@@ -116,12 +116,42 @@
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Configuration.ConfigurationBuilders.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Configuration.ConfigurationBuilders.Base.1.0.2\lib\Net471\Microsoft.Configuration.ConfigurationBuilders.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Configuration.ConfigurationBuilders.Environment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Configuration.ConfigurationBuilders.Environment.1.0.2\lib\Net471\Microsoft.Configuration.ConfigurationBuilders.Environment.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Extensions.Configuration, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Binder, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Binder.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Extensions.DependencyInjection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.2.1.1\lib\net461\Microsoft.Extensions.DependencyInjection.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.2.1.1\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Options.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
@@ -144,6 +174,15 @@
     <Reference Include="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Web.Delegation, Version=7.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Deployment.3.5.0\lib\Net40\Microsoft.Web.Delegation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Deployment, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Deployment.3.5.0\lib\Net40\Microsoft.Web.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Deployment.Tracing, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Deployment.3.5.0\lib\Net40\Microsoft.Web.Deployment.Tracing.dll</HintPath>
+    </Reference>
     <Reference Include="Mvp.Xml, Version=2.3.0.0, Culture=neutral, PublicKeyToken=6ead800d778c9b9f, processorArchitecture=MSIL">
       <HintPath>..\packages\Mvp.Xml.2.3.0\lib\net20\Mvp.Xml.dll</HintPath>
     </Reference>
@@ -159,55 +198,70 @@
     <Reference Include="RazorGenerator.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>..\packages\RazorGenerator.Mvc.2.4.9\lib\net40\RazorGenerator.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Abstractions, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Abstractions.9.1.1\lib\net471\Sitecore.Abstractions.dll</HintPath>
+    <Reference Include="Sitecore.Abstractions, Version=13.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Abstractions.9.2.0\lib\net471\Sitecore.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Client, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Client.9.1.1\lib\net471\Sitecore.Client.dll</HintPath>
+    <Reference Include="Sitecore.Annotations, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Annotations.9.3.0\lib\net471\Sitecore.Annotations.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.ContentSearch, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.ContentSearch.9.1.1\lib\net471\Sitecore.ContentSearch.dll</HintPath>
+    <Reference Include="Sitecore.Client, Version=14.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Client.9.3.0\lib\net471\Sitecore.Client.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.ContentSearch.Data, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.ContentSearch.Data.9.1.1\lib\net471\Sitecore.ContentSearch.Data.dll</HintPath>
+    <Reference Include="Sitecore.ContentSearch, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.ContentSearch.9.3.0\lib\net471\Sitecore.ContentSearch.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.ContentSearch.Linq, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.ContentSearch.Linq.9.1.1\lib\net471\Sitecore.ContentSearch.Linq.dll</HintPath>
+    <Reference Include="Sitecore.ContentSearch.ContentExtraction, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.ContentSearch.ContentExtraction.9.3.0\lib\net471\Sitecore.ContentSearch.ContentExtraction.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Kernel, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Kernel.9.1.1\lib\net471\Sitecore.Kernel.dll</HintPath>
+    <Reference Include="Sitecore.ContentSearch.Data, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.ContentSearch.Data.9.3.0\lib\net471\Sitecore.ContentSearch.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Logging, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Logging.9.1.1\lib\net471\Sitecore.Logging.dll</HintPath>
+    <Reference Include="Sitecore.ContentSearch.Linq, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.ContentSearch.Linq.9.3.0\lib\net471\Sitecore.ContentSearch.Linq.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Logging.Client, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Logging.Client.9.1.1\lib\net471\Sitecore.Logging.Client.dll</HintPath>
+    <Reference Include="Sitecore.Framework.Conditions, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Framework.Conditions.4.0.0\lib\netstandard2.0\Sitecore.Framework.Conditions.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Mvc, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Mvc.9.1.1\lib\net471\Sitecore.Mvc.dll</HintPath>
+    <Reference Include="Sitecore.Framework.Data.Blobs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Framework.Data.Blobs.1.0.0\lib\netstandard2.0\Sitecore.Framework.Data.Blobs.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Nexus, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Nexus.9.1.1\lib\net471\Sitecore.Nexus.dll</HintPath>
+    <Reference Include="Sitecore.Framework.Data.Blobs.Abstractions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Framework.Data.Blobs.Abstractions.1.0.0\lib\netstandard2.0\Sitecore.Framework.Data.Blobs.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Kernel, Version=14.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Kernel.9.3.0\lib\net471\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Logging, Version=13.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Logging.9.3.0\lib\net471\Sitecore.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Logging.Client, Version=13.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Logging.Client.9.3.0\lib\net471\Sitecore.Logging.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Mvc, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Mvc.9.3.0\lib\net471\Sitecore.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Nexus, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Nexus.9.3.0\lib\net471\Sitecore.Nexus.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Nexus.Consumption, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9de34fe2109de40c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Nexus.Consumption.1.0.1\lib\netstandard2.0\Sitecore.Nexus.Consumption.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Nexus.Consumption.1.1.1\lib\netstandard2.0\Sitecore.Nexus.Consumption.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Nexus.Licensing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=9de34fe2109de40c, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.Nexus.Licensing.2.0.6\lib\netstandard2.0\Sitecore.Nexus.Licensing.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.NVelocity, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.NVelocity.9.1.1\lib\net471\Sitecore.NVelocity.dll</HintPath>
+    <Reference Include="Sitecore.NVelocity, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.NVelocity.9.2.0\lib\net471\Sitecore.NVelocity.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Publishing.WebDeploy, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Publishing.WebDeploy.9.1.1\lib\net471\Sitecore.Publishing.WebDeploy.dll</HintPath>
+    <Reference Include="Sitecore.Web, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Web.9.3.0\lib\net471\Sitecore.Web.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Web, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Web.9.1.1\lib\net471\Sitecore.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Zip, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Zip.9.1.1\lib\net471\Sitecore.Zip.dll</HintPath>
+    <Reference Include="Sitecore.Zip, Version=12.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Zip.9.3.0\lib\net471\Sitecore.Zip.dll</HintPath>
     </Reference>
     <Reference Include="sysglobl" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Data.OracleClient" />
@@ -222,15 +276,29 @@
     <Reference Include="System.IO.Packaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.IO.Packaging.4.0.0\lib\net46\System.IO.Packaging.dll</HintPath>
     </Reference>
+    <Reference Include="System.Linq" />
+    <Reference Include="System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.1\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
     <Reference Include="System.Net" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.Formatting, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.6\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
     <Reference Include="System.Reflection, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Reflection.4.1.0\lib\net462\System.Reflection.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime" />
     <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.1\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Security.AccessControl, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -248,6 +316,7 @@
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.ServiceModel.Web" />
     <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Threading.Thread" />
     <Reference Include="System.Transactions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -266,8 +335,8 @@
     <Reference Include="System.Web.Http.WebHost, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.6\lib\net45\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
@@ -354,21 +423,21 @@
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.MediaSettings.config" />
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Enable.Publishing.Accelerators.config" />
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.PublishingSettings.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.Linking.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.ModelMapper.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.PackageVerification.config.example" />
     <Content Include="App_Config\Include\Constellation\Constellation.Feature.ItemSorting.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Feature.Navigation.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Feature.UrlFriendlyPageNames.config" />
     <Content Include="App_Config\Include\Constellation\Constellation.Foundation.Datasources.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.PageNotFound.config" />
+    <Content Include="App_Config\Include\Constellation\Constellation.Feature.Navigation.config" />
     <Content Include="App_Config\Include\Constellation\Constellation.Feature.PageAnalyticsScripts.config" />
     <Content Include="App_Config\Include\Constellation\Constellation.Feature.PageTagging.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Feature.Redirects.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.Caching.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.SitemapXml.config" />
     <Content Include="App_Config\Include\Constellation\Constellation.Foundation.SitemapXml.PageTagging.Override.config" />
+    <Content Include="App_Config\Include\Constellation\Constellation.Feature.Redirects.config" />
+    <Content Include="App_Config\Include\Constellation\Constellation.Feature.UrlFriendlyPageNames.config" />
+    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.Caching.config" />
+    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.Linking.config" />
+    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.ModelMapper.config" />
     <Content Include="App_Config\Include\Constellation\Constellation.Foundation.Mvc.config" />
+    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.PackageVerification.config.example" />
+    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.PageNotFound.config" />
+    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.SitemapXml.config" />
     <Content Include="App_Config\Include\Constellation\Constellation.Foundation.Mvc.Patterns.config" />
     <None Include="App_Config\Include\Project\ProjectName\SiteCacheClearing.config.example" />
     <None Include="App_Config\Include\Project\ProjectName\SiteLanguages.config.example" />
@@ -390,13 +459,13 @@
     <None Include="App_Config\ConnectionStrings.config" />
     <Content Include="App_Data\packages\Helix-Prerequisite-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-ItemSorting-Items.zip" />
-    <Content Include="App_Data\packages\Constellation-Feature-Navigation-Items.zip" />
-    <Content Include="App_Data\packages\Constellation-Feature-UrlFriendlyPageNames-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Foundation-Datasources-Items.zip" />
+    <Content Include="App_Data\packages\Constellation-Feature-Navigation-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-PageAnalyticsScripts-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-PageTagging-Items.zip" />
-    <Content Include="App_Data\packages\Constellation-Feature-Redirects-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-PageTagging-SitemapXml-Items.zip" />
+    <Content Include="App_Data\packages\Constellation-Feature-Redirects-Items.zip" />
+    <Content Include="App_Data\packages\Constellation-Feature-UrlFriendlyPageNames-Items.zip" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />

@@ -169,7 +169,7 @@ A big thank you to [Verndale](https://www.verndale.com) for providing the time t
 - Sandy Foley
 - Joe Fusco
 - Deepthi Katta
-- Richard Levia
+- Richard Leiva
 - Santiago Morla
 - Mike Reynolds
 - Liz Spranzani

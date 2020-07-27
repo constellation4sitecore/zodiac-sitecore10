@@ -1,6 +1,6 @@
 ﻿Zodiac
 
-Copyright (c) 2019 Richard J. Cabral, Davan Etelamaki, Verndale
+Copyright (c) 2020 Richard J. Cabral, Davan Etelamaki, Richard Leiva, Verndale
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
