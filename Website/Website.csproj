@@ -439,7 +439,6 @@
     <Content Include="App_Config\Include\Constellation\Constellation.Foundation.PageNotFound.config" />
     <Content Include="App_Config\Include\Constellation\Constellation.Foundation.SitemapXml.config" />
     <Content Include="App_Config\Include\Constellation\Constellation.Foundation.Mvc.Patterns.config" />
-    <None Include="App_Config\Include\Project\ProjectName\SiteCacheClearing.config.example" />
     <None Include="App_Config\Include\Project\ProjectName\SiteLanguages.config.example" />
     <None Include="App_Config\Include\Project\ProjectName\SitemapXml.config.example" />
     <None Include="App_Config\Include\Project\ProjectName\SitePageNotFound.config.example" />
