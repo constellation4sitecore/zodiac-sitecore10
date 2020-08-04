@@ -1,12 +1,12 @@
-# Zodiac for Sitecore 9.1+
+# Zodiac for Sitecore 10
 ## A starter kit for Sitecore implementation projects.
 ## [Sponsored by Verndale](https://www.verndale.com)
 # What's in the Box
-A "complete" Visual Studio 2017 solution that you can fork/clone and use as the basis of your net-new Sitecore implementation project.
+A "complete" Visual Studio 2019 solution that you can fork/clone and use as the basis of your net-new Sitecore implementation project.
 
 Features include:
 - ASP.NET MVC implementation
-- No external build frameworks required, just Visual Studio 2017
+- No external build frameworks required, just Visual Studio 2019
 - Helix-compatible
 - IIS Url Rewrite 2.1 compatible with "Sitecore safe" default rules
 - "Must Have" overrides for Sitecore configuration defaults that provide improved performance during development and production.
@@ -25,38 +25,31 @@ Features include:
 - A framework for creating dynamic robots.txt and sitemap.xml responses for each site in the installation
 
 # Installation
-There are several options, depending upon what you want to do. In all cases, you need a target Sitecore 9.1 installation! so...
+There are several options, depending upon what you want to do. In all cases, you need a target Sitecore 10 installation! so...
 
 ## Step 1: Compatibility Check!
 ### Workstation Assumptions:
 - You are running Windows 10, 64-bit.
 - IIS 10 is installed.
 - IIS Url Rewrite 2.1 https://www.iis.net/downloads/microsoft/url-rewrite is installed.
-- Your Windows instance meets Sitecore's minimum requirements of 4 cores and > 12 GB of RAM
+- Your Windows instance meets Sitecore's minimum requirements of 4 cores and > 16 GB of RAM
 - If you're running SOLR and SQL Server locally as well, we recommend having even more cores & RAM available. (at least 8 threads)
 
 ___If your machine does not meet these minimums, you will likely experience resource-related problems that are virtually impossible to troubleshoot.___
 
 ### Development Enviornment Assumptions:
-- For Sitecore 9.1, you must have the .NET Framework SDK version 4.7.1 installed.
-- This solution was tested on Visual Studio 2017 v15.9.9. 
+- For Sitecore 10, you must have the .NET Framework SDK version 4.8 installed.
+- This solution was tested on Visual Studio 2019 v16.6.5. 
 - You must run Visual Studio in "as Administrator" mode to ensure you have sufficient local privileges.
 - Your NuGet feeds should include the Sitecore package feeds. You can get the feed links here: https://sitecore.myget.org/gallery/sc-packages 
-- If you are using Team Development for Sitecore (TDS) this solution was tested with TDS version 5.8.0.6.
-- Although not required, we use the SlowCheetah Visual Studio extension. If you are not going to use SlowCheetah, you may have to adjust a NuGet package.
 
-### Sitecore Installation Prerequisites:
-- Solr 7.2+
-- SQL Server 2016 Update 2+
-- Your Sitecore license file
-
-## Step 2: Install Sitecore 9.1+
+## Step 2: Install Sitecore 10
 Since these instructions are intended for developers expecting to use Zodiac for development, we assume you are installing a "Standalone" local instance of Sitecore on your personal development machine.
 
 - Follow the instructions on https://dev.sitecore.net/
 - Note the hostname and the installation folder of your new install, you'll need these facts later.
 
-## Step 3: Verify Sitecore 9.1 is Installed Correctly
+## Step 3: Verify Sitecore 10 is Installed Correctly
 It is essential that you have a "stock" copy of Sitecore running before proceeding.
 - If you load your supplied hostname, do you get the default Sitecore web page?
 - Can you log into Sitecore?
@@ -76,18 +69,18 @@ ___Continuing will not fix those issues and will make validating Zodiac's instal
 ## Step 4: Choose the Repository you want to Fork/Clone:
 Currently there are 3 options:
 
-- https://github.com/sitecorerick/zodiac-sitecore9 Just the solution with no examples, no site, no Items. Use this if you know what you're doing, or you want to deviate from some Zodiac conventions. 
-- https://github.com/sitecorerick/zodiac-sitecore9-example The above solution, adds rendering code and Sitecore packages to populate the install with a fully working example site.
-- https://github.com/sitecorerick/zodiac-sitecore9-example-tds Includes all of the above, and also TDS projects for populating/maintaining the Items associated with the example site.
+- https://github.com/sitecorerick/zodiac-sitecore10 Just the solution with no examples, no site, no Items. Use this if you know what you're doing, or you want to deviate from some Zodiac conventions. 
+- https://github.com/sitecorerick/zodiac-sitecore10-example The above solution, adds rendering code and Sitecore packages to populate the install with a fully working example site.
+- https://github.com/sitecorerick/zodiac-sitecore10-example-tds Includes all of the above, and also TDS projects for populating/maintaining the Items associated with the example site.
 
 Go ahead & set up a Working Copy on your local machine. We recommend creating a new Branch based on the "master" branch of whichever repository you choose.
 
 ## Step 5: Load the Solution in Visual Studio
 The three repositories mentioned above are linked to each other. In your working copy, you will find up to three *.sln files. Make sure you load the Solution file that matches your Repository name. You can delete the others.
 For completeness, you should be loading one of the following:
-- Zodiac-Sitecore9.sln
-- Zodiac-Sitecore9-Example.sln
-- Zodiac-Sitecore9-Example-TDS.sln
+- Zodiac-Sitecore10.sln
+- Zodiac-Sitecore10-Example.sln
+- Zodiac-Sitecore10-Example-TDS.sln
 
 Assuming Visual Studio fires up and everything looks OK, click on the Solution in Solution Explorer and choose "Restore NuGet Packages".
 After NuGet Packages have been restored, run a Solution Build. Verify that the solution does build. _Building will not deploy, and you should *not* deploy at this stage._
@@ -114,28 +107,6 @@ With the "Website" project selected in Solution Explorer, hit the "publish" butt
 ## Step 9: Log into Sitecore
 ___Important!___ After Visual Studio deploys your solution for the first time, you _must_ run Sitecore immediately. This will install a number of prerequisite Items that allow you to start development.
 
-## Step 10.A (for Example Site builds using TDS) Install TDS and Sync
-- In Visual Studio, open the _TDS/TdsGlobal.config file for editing. 
-- Modify the following elements to match your local installation: 
-
-        <SitecoreWebUrl>http://examplesite.verndale-local.com</SitecoreWebUrl>
-        <SitecoreDeployFolder>C:\inetpub\wwwroot\examplesite.verndale-local.com</SitecoreDeployFolder>
-
-- Save and close the config file.
-- In Visual Studio, select the "Feature.Labels.TDS.Templates" project. 
-- Right-click and choose "Install Sitecore Connector" from the menu. 
-- Use your preferred method to push all TDS projects into your Sitecore installation. Note you may have to push Templates first.
-
-## Step 10.B (For Example Site builds not using TDS) Install Packages!
-- Log into the Sitecore Desktop. 
-- Open the Package Installer
-- When you deployed the solution, the necessary Example Site packages were placed in the /packages folder. You simply need to select each and install.
-- Install the packages in the following order:
-    - "1_ExampleSite-MediaLibrary.zip"
-	- "2_ExampleSite-Templates.zip"
-	- "3_ExampleSite-System.zip"
-	- "4_ExampleSite-Layout.zip"
-	- "5_ExampleSite-Content.zip"
 
 ## Step 11: (for Example Site builds only) Configure Sitecore to load the Example Site
 If you are using one of the solutions that includes the Example Site, you need to adjust the configuration files so that Sitecore will resolve the site properly.
