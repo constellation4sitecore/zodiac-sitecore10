@@ -1,4 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+	THIS FILE IS DISABLED FOR SITECORE 10 BECAUSE THE COMPILATION OF SPEAK VIEWS IS NOW OFF BY DEFAULT.
+-->
 <configuration xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:set="http://www.sitecore.net/xmlconfig/set/">
 	<sitecore>
 		<pipelines>

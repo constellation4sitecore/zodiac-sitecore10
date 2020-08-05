@@ -23,7 +23,7 @@
 			one stylesheet for the editor, and it is active across all sites in your installation.
 			-->
 			<setting name="WebStylesheet">
-				<patch:attribute name="value">/Content/WYSIWYGStyle.css</patch:attribute>
+				<patch:attribute name="value">/Content/RichTextEditorStyles.css</patch:attribute>
 			</setting>
 		</settings>
 	</sitecore>

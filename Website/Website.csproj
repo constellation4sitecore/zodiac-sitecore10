@@ -391,6 +391,7 @@
     <Content Include="App_Data\packages\PutPackagesHere.txt" />
     <Content Include="Areas\_Put_Tenant_and_Site_Presentation_Components_Here.txt" />
     <Content Include="Constellation.License.txt" />
+    <Content Include="Content\RichTextEditorStyles.css" />
     <Content Include="sitecore modules\Shell\Redirect\EditRedirect.xaml.xml" />
     <Content Include="sitecore modules\Shell\Redirect\Export.xaml.xml" />
     <Content Include="sitecore modules\Shell\Redirect\Import.xaml.xml" />
@@ -412,7 +413,7 @@
     <Content Include="App_Config\Include\Helix\Sitecore.Helix.Prerequisite.Items.config" />
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Disable.Counters.config" />
     <Content Include="App_Config\RewriteRules.config" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Disable.PrecompilingOfSpeakViews.config" />
+    <None Include="App_Config\Include\_SitecoreDefaultOverrides\Disable.PrecompilingOfSpeakViews.config.disable" />
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Disable.ContentTestingScreenshots.config" />
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Add.MvcRouteConfigSupport.config" />
     <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.DatabaseCacheSizes.config" />
