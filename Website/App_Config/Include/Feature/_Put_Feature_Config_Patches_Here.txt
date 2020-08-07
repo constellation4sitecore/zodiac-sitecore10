@@ -1,0 +1,3 @@
+﻿The Include/Feature folder should contain any config files required by your Feature Modules.
+
+If your Feature modules are DLLs (as recommended for Zodiac) you will need to manually maintain the Feature module config file in this location.

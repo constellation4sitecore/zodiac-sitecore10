@@ -1,0 +1,9 @@
+﻿The config files here adjust the performance of Sitecore by enabling/disabling certain features as well as changing default values based on
+best practices. They are specific to YOUR Zodiac solution: Feel free to adjust these values.
+
+Note that the default state for Zodiac is for Analytics to be turned off - this helps with local development workstation performance.
+
+Note that the files here are prefixed with what they do: Add/Change/Disable the named settings.
+
+Files ending in .disable can be enabled by removing the .disable extension.
+

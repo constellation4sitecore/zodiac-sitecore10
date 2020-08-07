@@ -1,0 +1,3 @@
+﻿The Include/Foundation folder should contain any config files required by your Foundation Modules.
+
+If your Foundation modules are DLLs (as recommended for Zodiac) you will need to manually maintain the Foundation config file in this location.
