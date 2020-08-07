@@ -384,10 +384,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Constellation\_Do_Not_Modify_These_Config_Files.txt" />
-    <Content Include="App_Config\Include\Helix\_Do_Not_Modify_These_Config_Files.txt" />
+    <Content Include="App_Config\HelixPrerequisites\_Do_Not_Modify_These_Config_Files.txt" />
     <Content Include="App_Config\Include\Project\_Put_Tenant_and_Site_Config_Patches_Here.txt" />
-    <Content Include="App_Config\Include\Website\_Put_System_Wide_Config_Patches_Here.txt" />
     <Content Include="App_Data\packages\PutPackagesHere.txt" />
     <Content Include="Areas\_Put_Tenant_and_Site_Presentation_Components_Here.txt" />
     <Content Include="Constellation.License.txt" />
@@ -410,51 +408,45 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <Content Include="App_Config\Include\Helix\Sitecore.Helix.Prerequisite.Items.config" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Disable.Counters.config" />
+    <Content Include="App_Config\HelixPrerequisites\Sitecore.Helix.Prerequisite.Items.config" />
+    <Content Include="App_Config\DefaultSettingOverrides\Disable.Counters.config" />
     <Content Include="App_Config\RewriteRules.config" />
-    <None Include="App_Config\Include\_SitecoreDefaultOverrides\Disable.PrecompilingOfSpeakViews.config.disable" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Disable.ContentTestingScreenshots.config" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Add.MvcRouteConfigSupport.config" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.DatabaseCacheSizes.config" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Disable.AnalyticsEnabled.local.config" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.Mail.Settings.local.config">
+    <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Caching.config" />
+    <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Datasources.config" />
+    <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Linking.config" />
+    <Content Include="App_Config\Include\Foundation\Constellation.Foundation.ModelMapper.config" />
+    <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.config" />
+    <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.Patterns.config" />
+    <Content Include="App_Config\Include\Foundation\Constellation.Foundation.PageNotFound.config" />
+    <Content Include="App_Config\Include\Foundation\Constellation.Foundation.SitemapXml.config" />
+    <Content Include="App_Config\Include\Feature\Constellation.Feature.ItemSorting.config" />
+    <Content Include="App_Config\Include\Feature\Constellation.Feature.Navigation.config" />
+    <Content Include="App_Config\Include\Feature\Constellation.Feature.PageAnalyticsScripts.config" />
+    <Content Include="App_Config\Include\Feature\Constellation.Feature.PageTagging.config" />
+    <Content Include="App_Config\Include\Feature\Constellation.Feature.PageTagging.SitemapXml.config" />
+    <Content Include="App_Config\Include\Feature\Constellation.Feature.Redirects.config" />
+    <Content Include="App_Config\Include\Feature\Constellation.Feature.UrlFriendlyPageNames.config" />
+    <Content Include="App_Config\DefaultSettingOverrides\Disable.ContentTestingScreenshots.config" />
+    <Content Include="App_Config\DefaultSettingOverrides\Add.MvcRouteConfigSupport.config" />
+    <Content Include="App_Config\DefaultSettingOverrides\Change.DatabaseCacheSizes.config" />
+    <Content Include="App_Config\DefaultSettingOverrides\Disable.AnalyticsEnabled.local.config" />
+    <Content Include="App_Config\DefaultSettingOverrides\Change.Mail.Settings.local.config">
       <TransformOnBuild>true</TransformOnBuild>
     </Content>
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.MediaSettings.config" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Enable.Publishing.Accelerators.config" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.PublishingSettings.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Feature.ItemSorting.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.Datasources.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Feature.Navigation.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Feature.PageAnalyticsScripts.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Feature.PageTagging.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.SitemapXml.PageTagging.Override.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Feature.Redirects.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Feature.UrlFriendlyPageNames.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.Caching.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.Linking.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.ModelMapper.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.Mvc.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.PackageVerification.config.example" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.PageNotFound.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.SitemapXml.config" />
-    <Content Include="App_Config\Include\Constellation\Constellation.Foundation.Mvc.Patterns.config" />
-    <None Include="App_Config\Include\Project\ProjectName\SiteLanguages.config.example" />
-    <None Include="App_Config\Include\Project\ProjectName\SitemapXml.config.example" />
-    <None Include="App_Config\Include\Project\ProjectName\SitePageNotFound.config.example" />
-    <None Include="App_Config\Include\Project\ProjectName\_SiteDefinition.local.config.example" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.QueryMaxItems.config" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.SmallCacheSize.config.disable" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Disable.TrackingEnabled.local.config" />
-    <None Include="App_Config\Include\Project\ProjectName\_SiteDefinition.qacm.config.example" />
-    <None Include="App_Config\Include\Project\ProjectName\_SiteDefinition.qacd.config.example" />
+    <Content Include="App_Config\DefaultSettingOverrides\Change.MediaSettings.config" />
+    <Content Include="App_Config\DefaultSettingOverrides\Enable.Publishing.Accelerators.config" />
+    <Content Include="App_Config\DefaultSettingOverrides\Change.PublishingSettings.config" />
+    <None Include="App_Config\Include\Project\ProjectName\ProjectName.Site.config.example" />
+    <Content Include="App_Config\DefaultSettingOverrides\Change.QueryMaxItems.config" />
+    <Content Include="App_Config\DefaultSettingOverrides\Change.SmallCacheSize.config.disable" />
+    <Content Include="App_Config\DefaultSettingOverrides\Disable.TrackingEnabled.local.config" />
     <None Include="App_Config\AppSettings.config" />
-    <None Include="App_Config\Include\_SitecoreDefaultOverrides\Change.RichTextEditorSettings.config.disable" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.HtmlCacheLifetime.config" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.LayoutNotFound.config" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.Mail.Settings.qacm.config" />
-    <Content Include="App_Config\Include\_SitecoreDefaultOverrides\Change.Mail.Settings.qacd.config" />
+    <Content Include="App_Config\DefaultSettingOverrides\Change.RichTextEditorSettings.config.disable" />
+    <Content Include="App_Config\DefaultSettingOverrides\Change.HtmlCacheLifetime.config" />
+    <Content Include="App_Config\DefaultSettingOverrides\Change.LayoutNotFound.config" />
+    <Content Include="App_Config\DefaultSettingOverrides\Change.Mail.Settings.qacm.config" />
+    <Content Include="App_Config\DefaultSettingOverrides\Change.Mail.Settings.qacd.config" />
+    <Content Include="App_Config\Layers.config" />
     <None Include="App_Config\Sitecore.config" />
     <None Include="App_Config\ConnectionStrings.config" />
     <Content Include="App_Data\packages\Helix-Prerequisite-Items.zip" />
@@ -478,8 +470,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Config\Include\Feature\" />
-    <Folder Include="App_Config\Include\Foundation\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Repositories\" />

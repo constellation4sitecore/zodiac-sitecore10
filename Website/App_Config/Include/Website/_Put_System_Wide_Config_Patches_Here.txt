@@ -1,2 +1,0 @@
-﻿If you have new patches to apply to Sitecore that affect the entire installation, 
-and need to be installed last, they should appear in this folder.
