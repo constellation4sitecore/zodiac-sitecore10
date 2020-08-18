@@ -1,0 +1,21 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Constellation.Feature.Navigation.Models.NavigationMenu>
+
+@* 
+	This is the Feature's default output, which is intentionally simple. You could customize this to be suitable for the bulk of your
+	websites and only override it with new markup when a site deviates from your stock navigation approach.
+*@
+
+<div id="primaryNavigation">
+	<ul>
+		@foreach (var link in Model.ChildLinks)
+		{
+			if (link.IsActive)
+			{
+				<li class="active"><a href="@link.LinkUrl">@link.GetBestLinkText() <span>(current)</span></a></li>
+				continue;
+			}
+
+			<li><a href="@link.LinkUrl">@link.GetBestLinkText()</a></li>
+		}
+	</ul>
+</div>

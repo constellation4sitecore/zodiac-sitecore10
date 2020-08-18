@@ -1,0 +1,5 @@
+﻿Constellation modules will place *.zip files here and Constellation is configured to install these files by name when they have not
+been installed in the target Sitecore environment. You can make use of this functionality to deploy "mandatory" Sitecore data to your
+installation during the Initialize pipeline using the Constellation.Foundation.PackageVerification library, which is installed in 
+Zodiac by default. See the example configuration file in the Foundation folder for details on how to configure the deployment of
+your own packages.

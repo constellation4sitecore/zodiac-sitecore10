@@ -86,11 +86,11 @@
     <Reference Include="Constellation.Foundation.ModelMapping, Version=10.0.1.23906, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.ModelMapping.10.0.1.23906\lib\net48\Constellation.Foundation.ModelMapping.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.Mvc, Version=10.0.1.23978, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.Mvc.10.0.1.23978\lib\net48\Constellation.Foundation.Mvc.dll</HintPath>
+    <Reference Include="Constellation.Foundation.Mvc, Version=10.0.2.29249, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.Mvc.10.0.2.29249\lib\net48\Constellation.Foundation.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.Mvc.Patterns, Version=10.0.1.24225, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.Mvc.Patterns.10.0.1.24225\lib\net48\Constellation.Foundation.Mvc.Patterns.dll</HintPath>
+    <Reference Include="Constellation.Foundation.Mvc.Patterns, Version=10.0.2.29575, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.Mvc.Patterns.10.0.2.29575\lib\net48\Constellation.Foundation.Mvc.Patterns.dll</HintPath>
     </Reference>
     <Reference Include="Constellation.Foundation.PackageVerification, Version=10.0.1.16481, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.PackageVerification.10.0.1.16481\lib\net48\Constellation.Foundation.PackageVerification.dll</HintPath>
@@ -205,6 +205,9 @@
     </Reference>
     <Reference Include="Sitecore.Mvc, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.Mvc.10.0.0\lib\net48\Sitecore.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Mvc.Analytics, Version=15.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Mvc.Analytics.10.0.0\lib\net48\Sitecore.Mvc.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Nexus, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.Nexus.10.0.0\lib\net48\Sitecore.Nexus.dll</HintPath>
@@ -343,9 +346,12 @@
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.Patterns.config" />
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.config" />
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.ModelMapper.config" />
-    <None Include="App_Config\Include\Foundation\_Put_Feature_Config_Patches_Here.txt" />
+    <Content Include="App_Config\Include\Foundation\Foundation.Labels.config" />
+    <None Include="App_Config\Include\Foundation\_Put_Foundation_Config_Patches_Here.txt" />
+    <Content Include="App_Config\Include\Project\ZodiacManual\ZodiacManual.Site.config" />
     <None Include="App_Config\Include\Project\_Put_Tenant_and_Site_Config_Patches_Here.txt" />
     <Content Include="App_Data\packages\PutPackagesHere.txt" />
+    <Content Include="App_Data\packages\_Package_Files_for_Install_on_Startup_Go_Here.txt" />
     <Content Include="Areas\_Put_Tenant_and_Site_Presentation_Components_Here.txt" />
     <Content Include="Constellation.License.txt" />
     <Content Include="Content\RichTextEditorStyles.css" />
@@ -359,6 +365,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Feature_Content\Controllers\ContextContentController.cs" />
+    <Compile Include="Areas\Feature_Content\Feature_ContentAreaRegistration.cs" />
+    <Compile Include="Areas\Feature_Content\Models\ContextContentModel.cs" />
+    <Compile Include="Areas\Feature_Navigation\Controllers\PrimaryNavigationController.cs" />
+    <Compile Include="Areas\Feature_Navigation\Feature_NavigationAreaRegistration.cs" />
+    <Compile Include="Areas\Feature_Navigation\ModelBuilders\PrimaryNavigationModelBuilder.cs" />
+    <Compile Include="Areas\ZodiacManual\ZodiacManualAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -402,6 +415,14 @@
     <Content Include="App_Data\packages\Constellation-Feature-ItemSorting-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-PageAnalyticsScripts-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-Redirects-Items.zip" />
+    <Content Include="Areas\ZodiacManual\Views\web.config" />
+    <Content Include="Areas\ZodiacManual\Views\Shared\ZodiacManualLayout.cshtml" />
+    <Content Include="App_Data\packages\Zodiac-Foundation-Labels-10.0.zip" />
+    <Content Include="Areas\ZodiacManual\Views\Content\ContextContent.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Navigation\PrimaryNavigation.cshtml" />
+    <Content Include="Areas\Feature_Navigation\Views\PrimaryNavigation.cshtml" />
+    <Content Include="Areas\Feature_Content\Views\web.config" />
+    <Content Include="Areas\Feature_Navigation\Views\web.config" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
@@ -414,9 +435,21 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
-    <Folder Include="Repositories\" />
+    <Folder Include="Areas\Feature_Content\Views\Shared\" />
+    <Folder Include="Areas\Feature_Navigation\Models\" />
+    <Folder Include="Areas\Feature_Navigation\Views\Shared\" />
+    <Folder Include="Areas\ZodiacManual\Controllers\" />
+    <Folder Include="Areas\ZodiacManual\Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Feature.Navigation\Feature.Navigation.csproj">
+      <Project>{8c29d5eb-84de-40b2-9343-a0d4950ecf61}</Project>
+      <Name>Feature.Navigation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Foundation.Labels\Foundation.Labels.csproj">
+      <Project>{74f50da4-2216-4f95-811a-361709ce5c1c}</Project>
+      <Name>Foundation.Labels</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,32 @@
+﻿@using Constellation.Feature.Navigation.Models
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Constellation.Feature.Navigation.Models.NavigationMenu>
+
+
+@*
+	This View is returned when the user is on the Zodiac Manual website. It is an override of the default Primary Navigation view in the 
+	Feature's MVC Area.
+*@
+
+<div class="collapse navbar-collapse" id="primaryNavigation">
+	<ul class="navbar-nav mr-auto">
+		@{
+			foreach (var link in Model.ChildLinks)
+			{
+				if (link.IsActive)
+				{
+					<li class="nav-item active"><a class="nav-link" href="@link.LinkUrl">@link.GetBestLinkText() <span class="sr-only">(current)</span></a></li>
+					continue;
+				}
+
+				<li class="nav-item"><a class="nav-link" href="@link.LinkUrl">@link.GetBestLinkText()</a></li>
+			}
+			foreach (var group in Model.ChildGroups)
+			{
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">@group.DisplayName</a>
+					<div class="dropdown-menu"></div>
+				</li>
+			}
+		}
+	</ul>
+</div>
