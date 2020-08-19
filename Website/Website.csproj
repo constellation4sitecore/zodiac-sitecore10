@@ -47,8 +47,8 @@
     <Reference Include="Constellation.Feature.ItemSorting, Version=10.0.1.28446, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Feature.ItemSorting.10.0.1.28446\lib\net48\Constellation.Feature.ItemSorting.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Feature.Navigation, Version=10.0.1.28589, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.Navigation.10.0.1.28589\lib\net48\Constellation.Feature.Navigation.dll</HintPath>
+    <Reference Include="Constellation.Feature.Navigation, Version=10.0.2.28531, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Feature.Navigation.10.0.2.28531\lib\net48\Constellation.Feature.Navigation.dll</HintPath>
     </Reference>
     <Reference Include="Constellation.Feature.PageAnalyticsScripts, Version=10.0.1.28680, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Feature.PageAnalyticsScripts.10.0.1.28680\lib\net48\Constellation.Feature.PageAnalyticsScripts.dll</HintPath>
@@ -368,9 +368,7 @@
     <Compile Include="Areas\Feature_Content\Controllers\ContextContentController.cs" />
     <Compile Include="Areas\Feature_Content\Feature_ContentAreaRegistration.cs" />
     <Compile Include="Areas\Feature_Content\Models\ContextContentModel.cs" />
-    <Compile Include="Areas\Feature_Navigation\Controllers\PrimaryNavigationController.cs" />
     <Compile Include="Areas\Feature_Navigation\Feature_NavigationAreaRegistration.cs" />
-    <Compile Include="Areas\Feature_Navigation\ModelBuilders\PrimaryNavigationModelBuilder.cs" />
     <Compile Include="Areas\ZodiacManual\ZodiacManualAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -435,8 +433,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Areas\Feature_Content\Views\Shared\" />
-    <Folder Include="Areas\Feature_Navigation\Models\" />
     <Folder Include="Areas\Feature_Navigation\Views\Shared\" />
     <Folder Include="Areas\ZodiacManual\Controllers\" />
     <Folder Include="Areas\ZodiacManual\Models\" />

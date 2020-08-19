@@ -10,22 +10,42 @@
 <div class="collapse navbar-collapse" id="primaryNavigation">
 	<ul class="navbar-nav mr-auto">
 		@{
-			foreach (var link in Model.ChildLinks)
+			foreach (var node in Model.Children)
 			{
-				if (link.IsActive)
+				if (node is NavigationLink link)
 				{
-					<li class="nav-item active"><a class="nav-link" href="@link.LinkUrl">@link.GetBestLinkText() <span class="sr-only">(current)</span></a></li>
+
+					if (link.IsActive)
+					{
+						<li class="nav-item active"><a class="nav-link" href="@link.LinkUrl">@link.GetBestLinkText() <span class="sr-only">(current)</span></a></li>
+						
+					}
+					else
+					{
+						<li class="nav-item"><a class="nav-link" href="@link.LinkUrl">@link.GetBestLinkText()</a></li>
+					}
 					continue;
 				}
-
-				<li class="nav-item"><a class="nav-link" href="@link.LinkUrl">@link.GetBestLinkText()</a></li>
-			}
-			foreach (var group in Model.ChildGroups)
-			{
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">@group.DisplayName</a>
-					<div class="dropdown-menu"></div>
-				</li>
+				if (node is LinkGroup group)
+				{
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">@group.DisplayName</a>
+						<div class="dropdown-menu">
+							@foreach (var child in group.Children)
+							{
+								if (child is NavigationLink childLink)
+								{
+									<a class="dropdown-item" href="@childLink.LinkUrl">@childLink.GetBestLinkText()</a>
+									continue;
+								}
+								if (child is LinkGroup)
+								{
+									<div class="dropdown-divider"></div>
+								}
+							}
+						</div>
+					</li>
+				}
 			}
 		}
 	</ul>

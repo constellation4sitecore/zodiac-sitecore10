@@ -31,8 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Constellation.Feature.Navigation, Version=10.0.1.28589, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.Navigation.10.0.1.28589\lib\net48\Constellation.Feature.Navigation.dll</HintPath>
+    <Reference Include="Constellation.Feature.Navigation, Version=10.0.2.28531, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Feature.Navigation.10.0.2.28531\lib\net48\Constellation.Feature.Navigation.dll</HintPath>
     </Reference>
     <Reference Include="Constellation.Foundation.Caching, Version=10.0.1.23545, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Caching.10.0.1.23545\lib\net48\Constellation.Foundation.Caching.dll</HintPath>
@@ -269,9 +269,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="App_Config\Include\Feature\Constellation.Feature.Navigation.config" />
     <None Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.config" />
     <None Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.Patterns.config" />
     <None Include="App_Config\Include\Foundation\Constellation.Foundation.PackageVerification.config.example" />
+    <None Include="App_Data\packages\Constellation-Feature-Navigation-Items.zip" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
