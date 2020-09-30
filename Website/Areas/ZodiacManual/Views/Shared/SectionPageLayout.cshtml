@@ -1,0 +1,72 @@
+﻿@using Constellation.Feature.PageTagging.Models
+@using Constellation.Foundation.ModelMapping
+@using Sitecore.Links
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sitecore.Sites
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+	Layout = null;
+	var viewModel = MappingContext.Current.MapItemToNew<PageMetadata>(Model.Item);
+
+	// This is here because the default LinkManager config for this site does not force the inclusion of the server and scheme, which we need for Canonicals.
+	var options = LinkManager.GetDefaultUrlBuilderOptions();
+	options.AlwaysIncludeServerUrl = true;
+	options.LanguageEmbedding = LanguageEmbedding.Never;
+	options.LowercaseUrls = true;
+	options.EncodeNames = true;
+	options.Site = SiteContext.Current;
+	var canonical = LinkManager.GetItemUrl(Model.Item, options);
+}
+
+<!doctype html>
+<html lang="@Model.Item.Language.Name">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>@viewModel.BrowserTitle</title>
+	<link rel="canonical" href="@canonical" />
+	<meta name="robots" content="noindex, nofollow"/>
+	@Html.Sitecore().Placeholder("HtmlHead")
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="/areas/zodiacmanual/styles/solarized-dark.css" />
+	@Html.Sitecore().VisitorIdentification()
+</head>
+<body>
+<div class="container">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="/">Zodiac Manual</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle Primary Navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		@Html.Sitecore().Placeholder("PrimaryNavigation")
+	</nav>
+</div>
+<div class="container pt-5">
+	<div class="row justify-content-end">
+		<div class="col-9">@Html.Sitecore().Rendering("{909828A7-FC76-4546-B0C5-A1EF27414BCA}")@*Feature/Content/Page Heading*@</div>
+	</div>
+	<div class="row">
+		<div class="col-3">
+			@Html.Sitecore().Placeholder("SectionNavigation")
+		</div>
+		<div class="col-9">
+			@Html.Sitecore().Placeholder("Rows")
+		</div>
+	</div>
+
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="/areas/ZodiacManual/Scripts/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.ImageWithCaptionModel>
+@{
+	var modalId = string.Empty;
+
+	if (Model.ViewFullSizeInModal)
+	{
+		modalId = "expandImage" + Model.ID.ToShortID();
+	}
+}
+
+
+<div>
+	<picture>
+		<source media="(min-width: 576px)" srcset="@Model.FullSizeImage.GetCustomHeightImageSrc(285)" />
+		<source media="(min-width: 676px)" srcset="@Model.FullSizeImage.GetCustomHeightImageSrc(387)" />
+		<source media="(min-width: 992px)" srcset="@Model.FullSizeImage.GetCustomHeightImageSrc(161)" />
+		<source media="(min-width: 1200px)" srcset="@Model.FullSizeImage.GetCustomHeightImageSrc(195)" />
+		<img src="@Model.FullSizeImage.GetCustomHeightImageSrc(195)" alt="@Model.FullSizeImage.Alt" />
+	</picture>
+	
+
+	@if (this.IsEditing || !string.IsNullOrEmpty(Model.Caption.ToString()))
+	{
+	<div>
+		<div>
+			@if (this.IsEditing)
+			{
+				<p>Title to display on zoom in modal:@Model.Heading</p>
+			}
+
+			<p>@Model.Caption</p>
+		</div>
+	</div>
+	}
+
+
+	@if (Model.ViewFullSizeInModal)
+	{
+		<div>
+			<button type="button" data-toggle="modal" data-target="#@modalId">Expand</button>
+		</div>
+
+	}
+</div>
+
+@if (Model.ViewFullSizeInModal)
+{
+	<div tabindex="-1" id="@modalId">
+		<div>
+			<div>
+				<div>
+					<h5>@Model.Heading</h5>
+					<button type="button" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div>
+					<a href="@Model.FullSizeImage.Src" target="_blank" title="View image in new tab.">
+						<img src="@Model.FullSizeImage.Src" alt="@Model.FullSizeImage.Alt" />
+					</a>
+					@if (!string.IsNullOrEmpty(Model.Caption.ToString()))
+					{
+						<div>@Model.Caption</div>
+					}
+				</div>
+				<div>
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+}

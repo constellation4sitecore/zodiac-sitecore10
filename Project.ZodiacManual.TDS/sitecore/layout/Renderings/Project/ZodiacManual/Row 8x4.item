@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {D42EC9EB-E081-446C-B29F-36F6C01D24EC}
+database: master
+path: /sitecore/layout/Renderings/Project/ZodiacManual/Row 8x4
+parent: {36BA39E0-BB7F-47C1-BBBC-59A9BA0D1719}
+name: Row 8x4
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 47
+
+~/areas/zodiacmanual/views/shared/row8x4.cshtml
+----field----
+field: {F869E724-0718-43E4-92A0-D612FE191CFB}
+name: Area
+key: area
+content-length: 12
+
+zodiacmanual
+----field----
+field: {F4069D71-74D7-4422-941D-54B517CF3001}
+name: Placeholder
+key: placeholder
+content-length: 4
+
+Rows
+----version----
+language: en
+version: 1
+revision: fbd0e49c-2f5f-4d55-abe5-bec4da3fff53
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200922T170204Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fbd0e49c-2f5f-4d55-abe5-bec4da3fff53
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200922T182327Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral

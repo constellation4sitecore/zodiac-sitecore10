@@ -40,8 +40,8 @@
     <Reference Include="Constellation.Foundation.Data, Version=10.0.0.22111, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Data.10.0.0.22111\lib\net48\Constellation.Foundation.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.ModelMapping, Version=10.0.1.23906, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.ModelMapping.10.0.1.23906\lib\net48\Constellation.Foundation.ModelMapping.dll</HintPath>
+    <Reference Include="Constellation.Foundation.ModelMapping, Version=10.0.4.24372, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.ModelMapping.10.0.4.24372\lib\net48\Constellation.Foundation.ModelMapping.dll</HintPath>
     </Reference>
     <Reference Include="Constellation.Foundation.Mvc, Version=10.0.2.29249, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Mvc.10.0.2.29249\lib\net48\Constellation.Foundation.Mvc.dll</HintPath>
@@ -264,21 +264,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\PrimaryNavigationController.cs" />
+    <Compile Include="Controllers\SectionCardsController.cs" />
+    <Compile Include="Controllers\SectionNavigationController.cs" />
     <Compile Include="ModelBuilders\PrimaryNavigationModelBuilder.cs" />
+    <Compile Include="Models\SectionCardModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\SectionCardRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="App_Config\Include\Feature\Constellation.Feature.Navigation.config" />
-    <None Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.config" />
-    <None Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.Patterns.config" />
-    <None Include="App_Config\Include\Foundation\Constellation.Foundation.PackageVerification.config.example" />
-    <None Include="App_Data\packages\Constellation-Feature-Navigation-Items.zip" />
+    <None Include="App_Config\Include\Foundation\Constellation.Foundation.ModelMapper.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\packages\PutPackagesHere.txt" />
     <Content Include="Constellation.License.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {75B7EC3D-5C95-4C35-B2F7-4F325C15B757}
+database: master
+path: /sitecore/templates/Project/Zodiac Manual/Pages/Content Page/__Standard Values
+parent: {A6DBF438-1236-4182-BF61-FAC8A221F81F}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {A6DBF438-1236-4182-BF61-FAC8A221F81F}
+templatekey: Content Page
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{A6DBF438-1236-4182-BF61-FAC8A221F81F}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 756
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{29339939-4C31-4DDA-8F64-0A3204E4F0AA}"><p uid="{07FD59E6-1556-4916-ABF9-8CEEE206F512}" key="Rows" md="{2A186E45-B549-446D-9E47-6C5C65736622}" /><p uid="{5DA09801-2429-401A-A878-FC7621C9B99F}" key="AuxiliaryComponents" md="{E5ABF102-F541-41C5-877E-AF3ACA5DACED}" /><p uid="{E941B0CF-5A49-49F6-B29B-D9B3BEA2D675}" key="ContentSections" md="{9E611D1D-6592-4F2C-8F65-CD27E16C9B0E}" /><r ds="{585505F7-F0A7-4EB5-962D-E9321C9C30F3}" id="{524F6302-7740-413D-B564-BA79B194C09D}" par="" ph="PrimaryNavigation" uid="{9EAE2944-EA3A-4495-BC95-FF4063C07F6E}" /><r id="{AD6093C5-7835-4F4C-B7C5-326970AE6B40}" ph="" uid="{E8A1B66F-9D6B-42A3-A77B-61B67EC50607}" /></d></r>
+----version----
+language: en
+version: 1
+revision: ba9c6fd1-286f-4cde-a2e2-5c3f58cce8f8
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200811T162157Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ba9c6fd1-286f-4cde-a2e2-5c3f58cce8f8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200922T173639Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral

@@ -1,0 +1,9 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.ContentSectionModel>
+<h3>@Model.Heading</h3>
+<div>@Model.Copy</div>
+@if (this.IsEditing || !string.IsNullOrEmpty(Model.TrailingLinkUrl))
+{
+	<div>
+		@Model.TrailingLink
+	</div>
+}

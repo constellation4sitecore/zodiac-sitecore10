@@ -1,0 +1,27 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.ImageWithCaptionModel>
+@{
+	var modalId = string.Empty;
+
+	if (Model.ViewFullSizeInModal)
+	{
+		modalId = "exapandImage" + Model.ID.ToShortID();
+	}
+}
+
+<div>
+	<div>
+		<div>
+			@Model.FullSizeImage
+			<div>
+				@if (this.IsEditing || !string.IsNullOrEmpty(Model.Heading.ToString()))
+				{
+					<h5>@Model.Heading</h5>
+				}
+				@if (this.IsEditing && !string.IsNullOrEmpty(Model.Caption.ToString()))
+				{
+					<p>@Model.Caption</p>
+				}
+			</div>
+		</div>
+	</div>
+</div>

@@ -83,8 +83,8 @@
     <Reference Include="Constellation.Foundation.Linking, Version=10.0.2.28223, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Linking.10.0.2.28223\lib\net48\Constellation.Foundation.Linking.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.ModelMapping, Version=10.0.1.23906, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.ModelMapping.10.0.1.23906\lib\net48\Constellation.Foundation.ModelMapping.dll</HintPath>
+    <Reference Include="Constellation.Foundation.ModelMapping, Version=10.0.4.24372, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.ModelMapping.10.0.4.24372\lib\net48\Constellation.Foundation.ModelMapping.dll</HintPath>
     </Reference>
     <Reference Include="Constellation.Foundation.Mvc, Version=10.0.2.29249, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Mvc.10.0.2.29249\lib\net48\Constellation.Foundation.Mvc.dll</HintPath>
@@ -352,6 +352,9 @@
     <None Include="App_Config\Include\Project\_Put_Tenant_and_Site_Config_Patches_Here.txt" />
     <Content Include="App_Data\packages\PutPackagesHere.txt" />
     <Content Include="App_Data\packages\_Package_Files_for_Install_on_Startup_Go_Here.txt" />
+    <Content Include="Areas\ZodiacManual\Scripts\highlight.pack.js" />
+    <Content Include="Areas\ZodiacManual\styles\solarized-dark.css" />
+    <Content Include="Areas\ZodiacManual\styles\vs.css" />
     <Content Include="Areas\_Put_Tenant_and_Site_Presentation_Components_Here.txt" />
     <Content Include="Constellation.License.txt" />
     <Content Include="Content\RichTextEditorStyles.css" />
@@ -365,9 +368,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Areas\Feature_Content\Controllers\ContextContentController.cs" />
     <Compile Include="Areas\Feature_Content\Feature_ContentAreaRegistration.cs" />
-    <Compile Include="Areas\Feature_Content\Models\ContextContentModel.cs" />
     <Compile Include="Areas\Feature_Navigation\Feature_NavigationAreaRegistration.cs" />
     <Compile Include="Areas\ZodiacManual\ZodiacManualAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
@@ -414,13 +415,32 @@
     <Content Include="App_Data\packages\Constellation-Feature-PageAnalyticsScripts-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-Redirects-Items.zip" />
     <Content Include="Areas\ZodiacManual\Views\web.config" />
-    <Content Include="Areas\ZodiacManual\Views\Shared\ZodiacManualLayout.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Shared\FullWidthLayout.cshtml" />
     <Content Include="App_Data\packages\Zodiac-Foundation-Labels-10.0.zip" />
     <Content Include="Areas\ZodiacManual\Views\Content\ContextContent.cshtml" />
     <Content Include="Areas\ZodiacManual\Views\Navigation\PrimaryNavigation.cshtml" />
     <Content Include="Areas\Feature_Navigation\Views\PrimaryNavigation.cshtml" />
     <Content Include="Areas\Feature_Content\Views\web.config" />
     <Content Include="Areas\Feature_Navigation\Views\web.config" />
+    <Content Include="Areas\Feature_Content\Views\ContextContent.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Content\ImageWithCaption.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Shared\Row4x8.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Shared\Row8x4.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Content\ContentSection.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Content\ImageRow.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Content\ContentRow.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Navigation\SectionNavigation.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Shared\SectionPageLayout.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Content\PageHeading.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Navigation\SectionCards.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Content\CodeBlockRow.cshtml" />
+    <Content Include="Areas\Feature_Content\Views\CodeBlockRow.cshtml" />
+    <Content Include="Areas\Feature_Content\Views\ContentSection.cshtml" />
+    <Content Include="Areas\Feature_Content\Views\ImageRow.cshtml" />
+    <Content Include="Areas\Feature_Content\Views\ImageWithCaption.cshtml" />
+    <Content Include="Areas\Feature_Content\Views\PageHeading.cshtml" />
+    <Content Include="Areas\Feature_Content\Views\CallToActionCard.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Content\CallToActionCard.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
@@ -432,12 +452,12 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Areas\Feature_Navigation\Views\Shared\" />
-    <Folder Include="Areas\ZodiacManual\Controllers\" />
-    <Folder Include="Areas\ZodiacManual\Models\" />
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\Feature.Content\Feature.Content.csproj">
+      <Project>{f3f7cd87-6087-47e6-80a1-4d0bfc5f4164}</Project>
+      <Name>Feature.Content</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Feature.Navigation\Feature.Navigation.csproj">
       <Project>{8c29d5eb-84de-40b2-9343-a0d4950ecf61}</Project>
       <Name>Feature.Navigation</Name>

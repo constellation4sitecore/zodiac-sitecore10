@@ -1,0 +1,9 @@
+﻿@using Sitecore.Mvc
+<div class="row mt-3">
+	<div class="col-8">
+		@Html.Sitecore().DynamicPlaceholder("ContentSections")
+	</div>
+	<div class="col-lg-4">
+		@Html.Sitecore().DynamicPlaceholder("AuxiliaryComponents")
+	</div>
+</div>

@@ -1,14 +1,10 @@
-﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Website.Areas.Feature_Content.Models.ContextContentModel>
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.ContextContentModel>
 
 <div class="row">
-	<div class="col">
-		<h1>@Model.Heading</h1>
-		
-		@if (Model.IntroCopy?.ToString().Length > 0)
+	<div class="col-12">
+		@if (this.IsEditing || Model.Copy?.ToString().Length > 0)
 		{
-			<p class="lead">@Model.IntroCopy</p>
+			<div>@Model.Copy</div>
 		}
-		
-		<div>@Model.Copy</div>
 	</div>
 </div>

@@ -1,0 +1,72 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.ImageWithCaptionModel>
+@{
+	var modalId = string.Empty;
+
+	if (Model.ViewFullSizeInModal)
+	{
+		modalId = "expandImage" + Model.ID.ToShortID();
+	}
+}
+
+
+<div class="card">
+	<picture>
+		<source media="(min-width: 576px)" srcset="@Model.FullSizeImage.GetCustomHeightImageSrc(285)" />
+		<source media="(min-width: 676px)" srcset="@Model.FullSizeImage.GetCustomHeightImageSrc(387)" />
+		<source media="(min-width: 992px)" srcset="@Model.FullSizeImage.GetCustomHeightImageSrc(161)" />
+		<source media="(min-width: 1200px)" srcset="@Model.FullSizeImage.GetCustomHeightImageSrc(195)" />
+		<img class="card-img-top" src="@Model.FullSizeImage.GetCustomHeightImageSrc(195)" alt="@Model.FullSizeImage.Alt" />
+	</picture>
+	
+
+	@if (this.IsEditing || !string.IsNullOrEmpty(Model.Caption.ToString()))
+	{
+	<div class="card-body">
+		<div class="card-text">
+			@if (this.IsEditing)
+			{
+				<p><small><strong>Title to display on zoom in modal:</strong> @Model.Heading</small></p>
+			}
+
+			<p><small>@Model.Caption</small></p>
+		</div>
+	</div>
+	}
+
+
+	@if (Model.ViewFullSizeInModal)
+	{
+		<div class="card-footer">
+			<button type="button" class="btn btn-link" data-toggle="modal" data-target="#@modalId">Expand</button>
+		</div>
+
+	}
+</div>
+
+@if (Model.ViewFullSizeInModal)
+{
+	<div class="modal fade" tabindex="-1" id="@modalId">
+		<div class="modal-dialog modal-xl">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">@Model.Heading</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<a href="@Model.FullSizeImage.Src" target="_blank" title="View image in new tab.">
+						<img src="@Model.FullSizeImage.Src" class="img-fluid" alt="@Model.FullSizeImage.Alt" />
+					</a>
+					@if (!string.IsNullOrEmpty(Model.Caption.ToString()))
+					{
+						<div>@Model.Caption</div>
+					}
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+}

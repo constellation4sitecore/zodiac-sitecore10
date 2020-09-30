@@ -1,0 +1,17 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.CodeBlockModel>
+
+<div>
+	<div>
+		<h3>@Model.Heading</h3>
+		<div>
+			@Model.HeaderText
+		</div>
+		<div>
+			<pre><code>@Model.CodeText</code></pre>
+		</div>
+		<div>
+			@Model.FooterText
+		</div>
+
+	</div>
+</div>

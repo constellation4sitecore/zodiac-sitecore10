@@ -1,0 +1,7 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.ContextContentModel>
+<h1>@Model.Heading</h1>
+
+@if (this.IsEditing || Model.IntroCopy?.ToString().Length > 0)
+{
+	<p>@Model.IntroCopy</p>
+}

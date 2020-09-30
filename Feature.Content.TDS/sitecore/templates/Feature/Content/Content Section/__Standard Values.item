@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {C325EFD7-E9DC-4D10-8530-AA6350CF1E9F}
+database: master
+path: /sitecore/templates/Feature/Content/Content Section/__Standard Values
+parent: {7BCA1A6D-2E40-4265-8575-ABCE3705555C}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {7BCA1A6D-2E40-4265-8575-ABCE3705555C}
+templatekey: Content Section
+
+----version----
+language: en
+version: 1
+revision: 6ad8f5b6-7d29-4ec7-8333-31419b8f025b
+
+----field----
+field: {19411C92-ADBE-4F6B-93A2-FFC01D5B45CA}
+name: Heading
+key: heading
+content-length: 5
+
+$name
+----field----
+field: {0616D4FC-880F-4CC1-A359-4CCC88FC37EC}
+name: Copy
+key: copy
+content-length: 695
+
+<p>Phasellus luctus sem ac nisi ullamcorper pharetra. In rutrum, odio in luctus dapibus, dolor risus venenatis massa, sed scelerisque libero ex at sapien. Aliquam molestie interdum rutrum. Donec sed magna a turpis imperdiet pretium vel sed orci. Aliquam in nunc maximus, cursus libero at, euismod nibh. Aenean feugiat urna id dui commodo, id congue arcu condimentum. Duis scelerisque elit libero, quis molestie augue tincidunt a. Integer aliquam blandit tellus, imperdiet volutpat ante porta non. Suspendisse sed facilisis leo, non faucibus leo. Suspendisse viverra, ligula eu molestie sodales, sem nulla finibus enim, sit amet eleifend justo arcu sed sapien. Nulla volutpat eleifend semper.</p>
+----field----
+field: {A2645C0C-2CEA-4C66-A09B-31F6E6271A7A}
+name: Trailing Link
+key: trailing link
+content-length: 152
+
+<link text="Optional Link" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200818T185808Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6ad8f5b6-7d29-4ec7-8333-31419b8f025b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200922T175823Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral

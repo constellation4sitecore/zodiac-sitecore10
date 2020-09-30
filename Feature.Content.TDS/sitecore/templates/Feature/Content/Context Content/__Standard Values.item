@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {7EA37E2A-C726-4023-AF2E-65C32C81B935}
+database: master
+path: /sitecore/templates/Feature/Content/Context Content/__Standard Values
+parent: {9E530360-4492-405A-88F9-1CBDDA256D95}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {9E530360-4492-405A-88F9-1CBDDA256D95}
+templatekey: Context Content
+
+----version----
+language: en
+version: 1
+revision: 01545589-753c-4af8-b91f-131d009e3b6f
+
+----field----
+field: {94016F9F-FF2C-4192-9A9F-8FD1D89B1F13}
+name: Heading
+key: heading
+content-length: 5
+
+$name
+----field----
+field: {1819E6ED-34FB-4F4B-8C28-6D55382BCD9F}
+name: Intro Copy
+key: intro copy
+content-length: 110
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat consequat massa vitae sollicitudin.
+----field----
+field: {911A2A84-64B8-4113-AB31-4F519EC3AC84}
+name: Copy
+key: copy
+content-length: 1023
+
+<p>Sed risus elit, gravida sit amet sagittis nec, efficitur nec eros. Phasellus bibendum eros metus, a finibus enim egestas non. Nunc quis risus massa. Curabitur ex velit, pellentesque nec maximus ut, tincidunt in mauris. Fusce egestas sapien lectus. Etiam in dignissim enim. Sed eu diam eleifend, tempor libero nec, suscipit nisi. Nunc eu orci a odio efficitur dignissim. Proin ut mi eu felis tempor scelerisque sed placerat velit. Nullam efficitur velit nulla, eu lobortis lorem pharetra eleifend. Nullam eget sem mauris.</p>
+<p>Integer ut aliquet elit. Ut id tempor erat. Pellentesque a sapien est. Nullam convallis nec sapien vitae interdum. Integer semper neque eu dolor venenatis vulputate. Donec arcu nisi, ultricies eget iaculis sed, pretium ut nunc. Vivamus eget condimentum metus. Mauris gravida interdum nisl in dictum. Ut ultrices sit amet risus at blandit. Vivamus vitae erat a metus pretium lobortis vitae vel nibh. Fusce ac placerat nibh. Maecenas tellus dui, semper eget semper et, venenatis vitae nunc.</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200811T172935Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+01545589-753c-4af8-b91f-131d009e3b6f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200922T175129Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral
