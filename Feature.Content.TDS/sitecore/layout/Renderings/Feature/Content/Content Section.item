@@ -20,9 +20,9 @@ ContentSection
 field: {1C0AF338-70A8-455F-8366-173135E03BE6}
 name: Placeholder
 key: placeholder
-content-length: 7
+content-length: 15
 
-Content
+ContentSections
 ----field----
 field: {3D08DB46-2267-41B0-BC52-BE69FD618633}
 name: Cacheable
@@ -58,10 +58,24 @@ key: datasource template
 content-length: 51
 
 /sitecore/templates/Feature/Content/Content Section
+----field----
+field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
+name: Page Editor Buttons
+key: page editor buttons
+content-length: 38
+
+{18C8E79B-8205-43FD-BD91-A82ECB743D0A}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 30
+
+office/32x32/layout_center.png
 ----version----
 language: en
 version: 1
-revision: 3c239924-2c7c-4cb0-96a4-f1b2ec603c0d
+revision: b328dbdc-2493-4088-9d24-8bf827d8083e
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -90,14 +104,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-3c239924-2c7c-4cb0-96a4-f1b2ec603c0d
+b328dbdc-2493-4088-9d24-8bf827d8083e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200922T165832Z
+20200928T141540Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,0 +1,95 @@
+----item----
+version: 1
+id: {AF3D1515-DDD6-4BB3-B478-072D7EBC5ECF}
+database: master
+path: /sitecore/templates/Feature/Content/Code Block/__Standard Values
+parent: {6F2CA05F-7C8A-4A57-BF4D-C3BD4C75FB9C}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {6F2CA05F-7C8A-4A57-BF4D-C3BD4C75FB9C}
+templatekey: Code Block
+
+----version----
+language: en
+version: 1
+revision: 38e4855d-7560-4c61-931b-9daf7f319e9a
+
+----field----
+field: {B594DE98-237F-4066-B26D-B73949C78345}
+name: Heading
+key: heading
+content-length: 5
+
+$name
+----field----
+field: {2B1180A9-AE15-4FA5-BAC0-0657F91E3D03}
+name: Header Text
+key: header text
+content-length: 179
+
+<p>Cras dolor ligula, aliquam ut ligula non, blandit volutpat eros. Curabitur sagittis augue ex, vitae pulvinar metus bibendum id. Donec quis enim sed sem consectetur feugiat.</p>
+----field----
+field: {1FF65E88-22E7-4BB7-AC61-3DFECAD95378}
+name: Code Text
+key: code text
+content-length: 261
+
+public main {
+    for (int i == 1, i >= 10, i++)
+    {
+        string output = string.Empty;
+        if (i % 3) output = "fizz";
+        if (i % 5) output += "buzz";
+        if (output.Length == 0) output = i;
+        Console.WriteLine(output);
+    }
+}
+----field----
+field: {C8F2152F-C43B-4CA7-BE84-68BA46B70B83}
+name: Footer Text
+key: footer text
+content-length: 193
+
+<p>Praesent volutpat tempor ante, et pulvinar urna blandit a. Fusce arcu ipsum, imperdiet a sem nec, feugiat bibendum risus. Etiam semper risus congue ligula malesuada, eu blandit mi porta.</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200928T200030Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+38e4855d-7560-4c61-931b-9daf7f319e9a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200928T200716Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral

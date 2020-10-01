@@ -257,12 +257,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\CallToActionCardController.cs" />
     <Compile Include="Controllers\CodeBlockController.cs" />
     <Compile Include="Controllers\ContentSectionController.cs" />
     <Compile Include="Controllers\ContextContentController.cs" />
     <Compile Include="Controllers\ImageWithCaptionController.cs" />
-    <Compile Include="Models\CallToActionCardModel.cs" />
     <Compile Include="Models\CodeBlockModel.cs" />
     <Compile Include="Models\ContentSectionModel.cs" />
     <Compile Include="Models\ContextContentModel.cs" />

@@ -439,8 +439,9 @@
     <Content Include="Areas\Feature_Content\Views\ImageRow.cshtml" />
     <Content Include="Areas\Feature_Content\Views\ImageWithCaption.cshtml" />
     <Content Include="Areas\Feature_Content\Views\PageHeading.cshtml" />
-    <Content Include="Areas\Feature_Content\Views\CallToActionCard.cshtml" />
-    <Content Include="Areas\ZodiacManual\Views\Content\CallToActionCard.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Shared\Row6x6.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\HomePageContentCard.cshtml" />
+    <Content Include="Areas\ZodiacManual\Views\Shared\CardDeck6x6.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />

@@ -10,19 +10,26 @@ template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
 templatekey: Controller rendering
 
 ----field----
+field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}
+name: Controller
+key: controller
+content-length: 14
+
+ContextContent
+----field----
 field: {FC5C3451-DFDE-4778-9901-5D0B1DA1E212}
 name: Area
 key: area
-content-length: 15
+content-length: 0
 
-Feature_Content
+
 ----field----
 field: {1C0AF338-70A8-455F-8366-173135E03BE6}
 name: Placeholder
 key: placeholder
 content-length: 4
 
-Main
+Rows
 ----field----
 field: {3D08DB46-2267-41B0-BC52-BE69FD618633}
 name: Cacheable
@@ -44,10 +51,24 @@ key: varybydata
 content-length: 1
 
 1
+----field----
+field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
+name: Page Editor Buttons
+key: page editor buttons
+content-length: 38
+
+{B42C8E10-64B0-441A-8FCA-3A42CE648952}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 34
+
+office/32x32/layout_horizontal.png
 ----version----
 language: en
 version: 1
-revision: 1c4bcb5f-e73f-4535-83c0-4c4d7a848418
+revision: 04256fb6-b47b-41ae-bf54-b7a904643c49
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -76,14 +97,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1c4bcb5f-e73f-4535-83c0-4c4d7a848418
+04256fb6-b47b-41ae-bf54-b7a904643c49
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200818T173537Z
+20200928T164742Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
