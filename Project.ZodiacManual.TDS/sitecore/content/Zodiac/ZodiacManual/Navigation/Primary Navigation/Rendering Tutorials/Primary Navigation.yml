@@ -1,0 +1,36 @@
+---
+ID: "b89a2fe8-e172-40ab-a1ba-e8eae44ab29e"
+Parent: "631b2cd4-fdd6-4e8c-8543-ea9ae55ce84c"
+Template: "38212b66-f3c1-46fc-9a32-e04f4337bf8f"
+Path: /sitecore/content/Zodiac/ZodiacManual/Navigation/Primary Navigation/Rendering Tutorials/Primary Navigation
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200818T181250Z
+    - ID: "343b5d00-6e10-4863-840b-cee38447b2f1"
+      Hint: Link
+      Value: |
+        <link id="{AA5A42B3-99AA-40B1-8B4C-6AAEDF82BD72}" querystring="" target="" text="" anchor="" title="" class="" url="/Zodiac/ZodiacManual/home/rendering-tutorials/primary-navigation" linktype="internal" />
+    - ID: "894e0985-dc34-4a16-80d6-5739e02a7fb3"
+      Hint: Use This Display Name
+      Type: Checkbox
+      Value: 0
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d36742c6-bcb2-4d72-b429-f4e4366afdde"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201001T135208Z

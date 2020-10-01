@@ -1,0 +1,41 @@
+---
+ID: "0e40e37c-f805-440e-b287-e3b7d11f8576"
+Parent: "d03a7c5a-f775-42c4-b60e-1028572b0b31"
+Template: "547a79db-25a0-414d-ab7a-589e0e7d7511"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/your-first-rendering/_subcontent/Datasource Location and Template Fields"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b674bf0-d756-48a7-a363-53f5ad334857"
+      Hint: Caption
+      Value: <p>These fields make the Rendering usable in Experience Editor</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200930T193004Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5d4203d2-30db-400d-81a2-22b4f6569eb9"
+    - ID: "9f337325-e776-41d5-9a15-ff017e501d5e"
+      Hint: View Full Size In Modal
+      Type: Checkbox
+      Value: 0
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200930T193109Z
+    - ID: "f4c8fdba-d80f-4612-b1c7-4a9a9c7c0bfd"
+      Hint: Full Size Image
+      Value: |
+        <image mediaid="{AE16C71E-8749-46CE-82C6-F9006C469CD1}" />
+    - ID: "fb51681e-4d1e-4eb8-b3ce-f78af3d5013f"
+      Hint: Heading
+      Value: Datasource Location and Template Fields

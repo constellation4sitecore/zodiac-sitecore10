@@ -1,0 +1,61 @@
+---
+ID: "75b7ec3d-5c95-4c35-b2f7-4f325c15b757"
+Parent: "a6dbf438-1236-4182-bf61-fac8a221f81f"
+Template: "a6dbf438-1236-4182-bf61-fac8a221f81f"
+Path: /sitecore/templates/Project/Zodiac Manual/Pages/Content Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{A6DBF438-1236-4182-BF61-FAC8A221F81F}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{29339939-4C31-4DDA-8F64-0A3204E4F0AA}">
+        <p
+          uid="{07FD59E6-1556-4916-ABF9-8CEEE206F512}"
+          key="Rows"
+          md="{2A186E45-B549-446D-9E47-6C5C65736622}" />
+        <p
+          uid="{5DA09801-2429-401A-A878-FC7621C9B99F}"
+          key="AuxiliaryComponents"
+          md="{E5ABF102-F541-41C5-877E-AF3ACA5DACED}" />
+        <p
+          uid="{E941B0CF-5A49-49F6-B29B-D9B3BEA2D675}"
+          key="ContentSections"
+          md="{9E611D1D-6592-4F2C-8F65-CD27E16C9B0E}" />
+        <r
+          ds="{585505F7-F0A7-4EB5-962D-E9321C9C30F3}"
+          id="{524F6302-7740-413D-B564-BA79B194C09D}"
+          par=""
+          ph="PrimaryNavigation"
+          uid="{9EAE2944-EA3A-4495-BC95-FF4063C07F6E}" />
+        <r
+          id="{AD6093C5-7835-4F4C-B7C5-326970AE6B40}"
+          ph=""
+          uid="{E8A1B66F-9D6B-42A3-A77B-61B67EC50607}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200811T162157Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c2f6264-3f14-4783-b4b4-092cdf4d8361"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200923T125706Z

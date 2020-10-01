@@ -1,0 +1,43 @@
+---
+ID: "7ea37e2a-c726-4023-af2e-65c32c81b935"
+Parent: "9e530360-4492-405a-88f9-1cbdda256d95"
+Template: "9e530360-4492-405a-88f9-1cbdda256d95"
+Path: /sitecore/templates/Feature/Content/Context Content/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
+      Hint: Intro Copy
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat consequat massa vitae sollicitudin.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200811T172935Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "01545589-753c-4af8-b91f-131d009e3b6f"
+    - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
+      Hint: Copy
+      Value: |
+        <p>Sed risus elit, gravida sit amet sagittis nec, efficitur nec eros. Phasellus bibendum eros metus, a finibus enim egestas non. Nunc quis risus massa. Curabitur ex velit, pellentesque nec maximus ut, tincidunt in mauris. Fusce egestas sapien lectus. Etiam in dignissim enim. Sed eu diam eleifend, tempor libero nec, suscipit nisi. Nunc eu orci a odio efficitur dignissim. Proin ut mi eu felis tempor scelerisque sed placerat velit. Nullam efficitur velit nulla, eu lobortis lorem pharetra eleifend. Nullam eget sem mauris.</p>
+        <p>Integer ut aliquet elit. Ut id tempor erat. Pellentesque a sapien est. Nullam convallis nec sapien vitae interdum. Integer semper neque eu dolor venenatis vulputate. Donec arcu nisi, ultricies eget iaculis sed, pretium ut nunc. Vivamus eget condimentum metus. Mauris gravida interdum nisl in dictum. Ut ultrices sit amet risus at blandit. Vivamus vitae erat a metus pretium lobortis vitae vel nibh. Fusce ac placerat nibh. Maecenas tellus dui, semper eget semper et, venenatis vitae nunc.</p>
+    - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
+      Hint: Heading
+      Value: $name
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200922T175129Z

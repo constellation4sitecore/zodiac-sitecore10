@@ -1,0 +1,53 @@
+---
+ID: "8d5e8756-e99b-4337-a310-142b6de3ae6f"
+Parent: "d03a7c5a-f775-42c4-b60e-1028572b0b31"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/your-first-rendering/_subcontent/Zodiac and Views"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Zodiac has a convention-over-configuration approach when it comes to Views:</p>
+        <ul>
+            <li>Zodiac prefers Controller renderings for everything except Sublayouts, which&nbsp;<em>must</em>&nbsp;be View Renderings.</li>
+            <li>View file names must match the name of the Rendering Definition.</li>
+            <li>View file paths on disk must match the path of the Rendering Definition.</li>
+            <li>Zodiac Features that need Views must have an MVC Area for that Feature.</li>
+            <li>Feature Area names must be formatted as "Feature_FeatureName" - Replace the "." with an "_".</li>
+            <li>Zodiac Projects that need Views must have an MVC Area for that Project.</li>
+            <li>Sites are Projects, Projects&nbsp;<em>must</em>&nbsp;be Sites in order for Zodiac to work properly.</li>
+            <li>Project Area names <em>must </em>match the Site definition name in the Sitecore configuration files.</li>
+        </ul>
+        <p>Zodiac has a unique concept of View Overrides.</p>
+        <ul>
+            <li>Features&nbsp;<em>must</em>&nbsp;have a View implemented in their MVC Area for a given Rendering Definition.</li>
+            <li>If your Site/Project requires different HTML than that provided by the Feature, you can&nbsp;<em>override</em>&nbsp;the Feature by providing a View of the same name and path in your Project's MVC Area.</li>
+        </ul>
+        <p>Zodiac will&nbsp;prefer Site/Project Views over Feature views. It is up to the developer to determine if HTML changes initiated during a given Site/Project build should be promoted up to the Feature itself. In general Zodiac development favors multiple extremely simple Views over one View with lots of logic - HTML is not DRY - This is a fundamental development principle that helps keep runtime bugs down and site performance up.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Zodiac and Views
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200928T151223Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f29ef4d4-c9e2-46a5-82ed-037b0150f2aa"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200930T143337Z

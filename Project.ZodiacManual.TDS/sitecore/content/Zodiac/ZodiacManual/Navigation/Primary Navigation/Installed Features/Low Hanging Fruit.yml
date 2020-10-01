@@ -1,0 +1,28 @@
+---
+ID: "9385d791-ae8c-4d31-836d-6fc78210beb7"
+Parent: "d303ca33-030b-47b0-88d4-d9c4ff02b3d7"
+Template: "38212b66-f3c1-46fc-9a32-e04f4337bf8f"
+Path: /sitecore/content/Zodiac/ZodiacManual/Navigation/Primary Navigation/Installed Features/Low Hanging Fruit
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T142718Z
+    - ID: "343b5d00-6e10-4863-840b-cee38447b2f1"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{ECA2A40B-8AE3-4595-84B8-535A0124D513}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "acb29f76-55b2-4999-b33a-ab8002607027"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201001T142758Z

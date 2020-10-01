@@ -1,0 +1,43 @@
+---
+ID: "71c2be5e-7181-4f02-aa4e-595696812dc4"
+Parent: "d03a7c5a-f775-42c4-b60e-1028572b0b31"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/your-first-rendering/_subcontent/Opportunities for Improvement"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Although this tutorial demonstrated how to create a new Rendering and register it with Sitecore, there is some work left to the implementer:</p>
+        <ul>
+            <li>Add placeholder settings to a Page and test out our new Rendering.</li>
+            <li>Set custom icons for our Template or Rendering Definition.</li>
+            <li>Create a Thumbnail for the Rendering Definition (Displayed in the "Add Here" dialog in Experience Editor)</li>
+            <li>Publish all of our Sitecore data to prime it for use.</li>
+        </ul>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Opportunities for Improvement
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200928T161913Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2a767a49-24a3-46a3-8043-7799ff8d7bb0"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200930T200957Z

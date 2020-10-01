@@ -1,0 +1,40 @@
+---
+ID: "6bbb4a9c-20a3-4573-8907-1ed527f927e3"
+Parent: "d03a7c5a-f775-42c4-b60e-1028572b0b31"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/your-first-rendering/_subcontent/Creating the Rendering Definition"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Because we've already specified that this component is an extension of the existing "Content" Feature, we can put our Controller Rendering Item under the <strong>/Layout/Renderings/Feature/Content</strong> folder.</p>
+        <p>This is another area where Zodiac's Convention over Configuration can save you time. Like Template Fields, the name of the Rendering can be human-legible. Include appropriate capitalization and spaces, however the letters (not the casing) need to match the name of the View file on disk. Using our Tutorial example, the <strong>Call to Action Card</strong> Rendering Definition will implicitly map to <strong>CallToActionCard.cshtml</strong> because they have the "same" name.</p>
+        <p>Note that the location within the Renderings folder also provides convention over configuration. Zodiac will look on disk for a view file at <strong>/Feature_Content/Views/CallToActionCard.cshtml</strong> because of the Feature and Content folders within the Renderings section of the Content Tree. For site overrides, Zodiac will look for an override at <strong>{ContextSiteName}/Views/Content/CallToActionCard.cshtml&nbsp;</strong></p>
+        <p>Having an automatic Site override saves developers a ton of work in multi-site installations, because they can maintain Feature-level placeholder settings and Standard Values for semantic page types rather than having to create discrete sets for each Site in the installation. Once you've done this once, you'll see the beauty of overrides by context/convention.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Creating the Rendering Definition
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200928T161706Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dbec680f-9e24-479d-a193-c16c81b09ac0"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200930T192243Z

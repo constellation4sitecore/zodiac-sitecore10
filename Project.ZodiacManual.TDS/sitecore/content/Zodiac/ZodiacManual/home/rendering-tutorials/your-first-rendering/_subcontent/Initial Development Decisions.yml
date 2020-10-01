@@ -1,0 +1,47 @@
+---
+ID: "520ffbcc-68da-4f22-827f-9f19798f2c8f"
+Parent: "d03a7c5a-f775-42c4-b60e-1028572b0b31"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/your-first-rendering/_subcontent/Initial Development Decisions"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Before starting on development, there are a handful of clarifications that the developer needs to make:</p>
+        <ol>
+            <li>Is this component a new Helix Feature or part of a an existing Helix Feature?</li>
+            <li>Should this Call to Action component be unique to the page it appears within, or should it be re-used on applicable pages across the site?</li>
+            <li>Are there limits to what a content author is allowed to place inside of any of the text areas of this component?</li>
+            <li>Can the "button" on this component link to any URL anywhere, or just to Sitecore Items?&nbsp;</li>
+            <li>If the button only links within Sitecore, should the Content Author be able to specify the link target?</li>
+            <li>Should the content author be able to specify the link text, or should it be implied via the target Item?</li>
+            <li>Is the link text specific to the link destination (this is good Accessibility practice) or is the link text more of a "read more" kind of button?</li>
+            <li>Given mobile support is a must, are the image sizes at various breakpoints known and documented?</li>
+        </ol>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Initial Development Questions
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200928T163546Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "45ca82b9-a098-4233-8136-b82e67b3cd34"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200928T191011Z

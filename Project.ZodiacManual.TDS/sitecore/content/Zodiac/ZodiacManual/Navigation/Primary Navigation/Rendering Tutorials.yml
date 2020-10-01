@@ -1,0 +1,28 @@
+---
+ID: "631b2cd4-fdd6-4e8c-8543-ea9ae55ce84c"
+Parent: "585505f7-f0a7-4eb5-962d-e9321c9c30f3"
+Template: "4a78b518-f009-45f3-89b9-ba2e8d0b7775"
+Path: /sitecore/content/Zodiac/ZodiacManual/Navigation/Primary Navigation/Rendering Tutorials
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 188
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200818T181203Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "90bf7cf2-d764-4dce-afd0-b38e09e9315b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201001T135124Z

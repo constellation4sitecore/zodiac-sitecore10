@@ -1,0 +1,30 @@
+---
+ID: "761953c5-3cfb-4b5f-a0ec-6e34d391f2e8"
+Parent: "8cab87ad-8291-4fd3-bd77-ee0d7b653f54"
+Template: "a6dbf438-1236-4182-bf61-fac8a221f81f"
+Path: /sitecore/content/Zodiac/ZodiacManual/home/license
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
+      Hint: Browser Title
+      Value: License
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200811T171715Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c3f60edc-9c2d-462c-a5b0-e96810fdb54a"
+    - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
+      Hint: Navigation Title
+      Value: License
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200811T171715Z

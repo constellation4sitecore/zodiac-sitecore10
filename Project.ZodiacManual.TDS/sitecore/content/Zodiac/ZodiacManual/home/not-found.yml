@@ -1,0 +1,39 @@
+---
+ID: "f39b754b-1b49-4a81-9156-a80cccd8b7ae"
+Parent: "8cab87ad-8291-4fd3-bd77-ee0d7b653f54"
+Template: "a6dbf438-1236-4182-bf61-fac8a221f81f"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/not-found"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
+      Hint: Intro Copy
+      Value: Sorry we couldn't find your page
+    - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
+      Hint: Browser Title
+      Value: Not Found
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200811T171658Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d246d4a7-d522-43bb-bb51-21f7d6356b1a"
+    - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
+      Hint: Copy
+      Value: The page you're looking for does not exist on this server.
+    - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
+      Hint: Heading
+      Value: Page Not Found
+    - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
+      Hint: Navigation Title
+      Value: Not Found
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200818T173823Z

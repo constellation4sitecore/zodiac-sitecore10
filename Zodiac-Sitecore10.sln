@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_TDS", "_TDS", "{3E642770-9
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Project.ZodiacManual.TDS", "Project.ZodiacManual.TDS\Project.ZodiacManual.TDS.scproj", "{211AE8FE-8E59-494E-99C8-032491AFC0B2}"
 EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Website.Deploy.TDS", "Website.Deploy.TDS\Website.Deploy.TDS.scproj", "{FAC43FB0-C18C-4D6F-98D5-C7A6708F67D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,12 @@ Global
 		{211AE8FE-8E59-494E-99C8-032491AFC0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{211AE8FE-8E59-494E-99C8-032491AFC0B2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{211AE8FE-8E59-494E-99C8-032491AFC0B2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FAC43FB0-C18C-4D6F-98D5-C7A6708F67D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC43FB0-C18C-4D6F-98D5-C7A6708F67D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC43FB0-C18C-4D6F-98D5-C7A6708F67D5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FAC43FB0-C18C-4D6F-98D5-C7A6708F67D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC43FB0-C18C-4D6F-98D5-C7A6708F67D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC43FB0-C18C-4D6F-98D5-C7A6708F67D5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

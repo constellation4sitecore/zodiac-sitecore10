@@ -1,0 +1,47 @@
+---
+ID: "56a64569-eef3-4f91-bf30-f863edd6bde6"
+Parent: "d03a7c5a-f775-42c4-b60e-1028572b0b31"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/your-first-rendering/_subcontent/Our Assumptions for this Example"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>For our example, we've identified the following specifications:</p>
+        <ul>
+            <li>We will make this part of the Helix Feature named "Content" within the Zodiac Solution.</li>
+            <li>We will treat the Call-to-Action as unique to the page where it was created.</li>
+            <li>The Heading text will be single-line text.</li>
+            <li>The Description text will be Rich Text, with basic text formatting allowed.</li>
+            <li>The button will allow for full link configuration, including linking to external URLs and media Items.</li>
+            <li>For the sake of this example, we will use Bootstrap 4.3 markup. In reality, your markup may come from a discrete front-end development process.</li>
+            <li>We will ask for the content author to supply a 1080p image, (1080px high, 1920px wide) and will re-size it according to Bootstrap 4.3 breakpoints.</li>
+        </ul>
+        <p>Using only these guidelines and the wireframe above, we're ready to create a new page component.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Our Assumptions for this Example
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200928T190150Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f3903cbf-3dce-458b-81cc-35238a9f96bd"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200928T191011Z

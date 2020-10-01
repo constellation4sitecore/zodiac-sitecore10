@@ -1,0 +1,27 @@
+---
+ID: "3c1e26bf-3a1c-48d9-8b3b-d1b4aafe686d"
+Parent: "6f63f40c-260a-4a58-99c7-53113845eba1"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: /sitecore/content/Zodiac/ZodiacManual/home/_subcontent/Test Content Section
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Test Content Section
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200924T134449Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "154dda45-e1f4-417c-b9d4-20d7353575a0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200924T134449Z

@@ -1,0 +1,57 @@
+---
+ID: "f93fc100-9ef5-4f5d-a5b2-ea3a08a7d9aa"
+Parent: "d03a7c5a-f775-42c4-b60e-1028572b0b31"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/your-first-rendering/_subcontent/Minimum Rendering Definition Settings"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>The example at right will actually function immediately. Sitecore will successfully load the CallToActionCardController which will then reference the correct CallToActionCard.cshtml View depending on which Site you load it from.</p>
+        <p>Zodiac's convention over configuration extends to Controllers and Controller actions as well.</p>
+        <ul>
+            <li>The convention controller name is the same as the name of the Rendering Definition.</li>
+            <li>The convention controller action is "index" - This is actually a Sitecore off-the-shelf feature.</li>
+        </ul>
+        <p>The only settings we&nbsp;<em>absolutely positively&nbsp;</em>have to make are the Datasource Location and Datasource Template fields.</p>
+        <ol>
+            <li>Set the <strong>Datasource Template</strong> field to reference our Template at <strong>/templates/Feature/Content/Call to Action Card</strong>.</li>
+            <li>Set the <strong>Datasource Location</strong> field to the XPath value: "<strong>./_subcontent</strong>"</li>
+        </ol>
+        <p>&nbsp;The value "<strong>./_subcontent</strong>" says "Whatever the Context Item is, find a child Item named _subcontent and use that as the Folder location for listing any Datasource Items in the Rendering's dialog boxes".</p>
+        <p>If you'll remember, when we created the Template for this component, we set the Base Template as "Subcontent Datasource". Zodiac uses that flag, along with a similar Flag inheritance on actual "page" Items to create and maintain a _subcontent folder for each Page on the site. The _subcontent folder will contain the one-off datasources for all on-page renderings where the content is intentionally unique to the page. This is a critical information architecture feature of Zodiac and makes it very easy to find the datasource for any given page Rendering in the content tree.</p>
+        <h4>Set Your Caching Values!</h4>
+        <p>While we've got the Rendering Definition open for editing, scroll to the bottom and set the following:</p>
+        <ul>
+            <li>Cacheable</li>
+            <li>Clear on Index Update</li>
+            <li>Vary-by-Data</li>
+        </ul>
+        <p>Doing this now means we don't have to do it on every Page that implements this rendering, and we won't have to chase this rendering for poor performance in the future.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Minimum Rendering Definition Settings
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200930T192312Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "52a45786-38ce-422c-87a7-79d2b296761d"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200930T200939Z

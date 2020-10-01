@@ -1,0 +1,47 @@
+---
+ID: "2a186e45-b549-446d-9e47-6c5c65736622"
+Parent: "d4d26772-e326-402b-91c6-4c75fb6271fe"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Project/ZodiacManual/Rows
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: 
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {4C00F4C7-AC92-4F4B-9CE8-D0AA9834CC0A}
+    {D42EC9EB-E081-446C-B29F-36F6C01D24EC}
+    {EF18114E-DB65-4272-B0AC-627FB66BC7C8}
+    {6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}
+    {6CFD0354-E7BA-4DBD-BE96-2ED742361CD9}
+    {45B0206A-6834-471A-9EF5-AAD3EE945D91}
+    {A43014C3-6498-4BE1-B8B9-712A4CE517E9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200922T170528Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0555336e-3eca-4a75-83f7-4a2da2425f29"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201001T150910Z

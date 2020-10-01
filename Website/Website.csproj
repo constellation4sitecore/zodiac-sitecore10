@@ -327,6 +327,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\DefaultSettingOverrides\Change.SerializationToYaml.config" />
     <None Include="App_Config\DefaultSettingOverrides\_Change_Global_Settings_Here.txt" />
     <None Include="App_Config\Helix\_Do_Not_Modify_These_Config_Files.txt" />
     <Content Include="App_Config\Include\Feature\Constellation.Feature.PageTagging.SitemapXml.config" />

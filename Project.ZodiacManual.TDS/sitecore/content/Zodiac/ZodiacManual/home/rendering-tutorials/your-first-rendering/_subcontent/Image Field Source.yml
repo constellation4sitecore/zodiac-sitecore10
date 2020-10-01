@@ -1,0 +1,41 @@
+---
+ID: "581463ea-b4c7-446f-88db-0ce26590eeec"
+Parent: "d03a7c5a-f775-42c4-b60e-1028572b0b31"
+Template: "547a79db-25a0-414d-ab7a-589e0e7d7511"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/your-first-rendering/_subcontent/Image Field Source"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b674bf0-d756-48a7-a363-53f5ad334857"
+      Hint: Caption
+      Value: <p>Each Feature Component should have its own Media Library Folder.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200930T182929Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c50d51cf-d4cc-42c3-b0fa-b036a0ca3728"
+    - ID: "9f337325-e776-41d5-9a15-ff017e501d5e"
+      Hint: View Full Size In Modal
+      Type: Checkbox
+      Value: 0
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200930T183033Z
+    - ID: "f4c8fdba-d80f-4612-b1c7-4a9a9c7c0bfd"
+      Hint: Full Size Image
+      Value: |
+        <image mediaid="{CFA376FD-4B45-42BE-8791-5E5460102C0F}" />
+    - ID: "fb51681e-4d1e-4eb8-b3ce-f78af3d5013f"
+      Hint: Heading
+      Value: Image Field Source

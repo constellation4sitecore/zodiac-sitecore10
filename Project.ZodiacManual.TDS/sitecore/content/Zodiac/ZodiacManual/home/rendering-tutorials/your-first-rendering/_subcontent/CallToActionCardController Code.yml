@@ -1,0 +1,60 @@
+---
+ID: "f302639b-7155-4366-a959-07cd2501106c"
+Parent: "d03a7c5a-f775-42c4-b60e-1028572b0b31"
+Template: "6f2ca05f-7c8a-4a57-bf4d-c3bd4c75fb9c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/your-first-rendering/_subcontent/CallToActionCardController Code"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1ff65e88-22e7-4bb7-ac61-3dfecad95378"
+      Hint: Code Text
+      Value: |
+        using Constellation.Foundation.ModelMapping;
+        using Constellation.Foundation.Mvc;
+        using Constellation.Foundation.Mvc.Patterns.Controllers;
+        using Feature.Content.Models;
+        
+        namespace Feature.Content.Controllers
+        {
+        	public class CallToActionCardController : DatasourceRenderingController<CallToActionCardModel>
+        	{
+        		public CallToActionCardController(IViewPathResolver viewPathResolver, IModelMapper modelMapper) : base(viewPathResolver, modelMapper)
+        		{
+        		}
+        	}
+        }
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200930T132040Z
+    - ID: "2b1180a9-ae15-4fa5-bac0-0657f91e3d03"
+      Hint: Header Text
+      Value: "<p>Controllers for Renderings that have a single, explicit Datasource Item assigned are incredibly easy to build in Zodiac. If ASP.NET MVC supported Generic Controllers, we wouldn't even need this class definition, but alas, here it is:</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "87d33a88-9163-4bae-849c-524d93fa47ac"
+    - ID: "b594de98-237f-4066-b26d-b73949c78345"
+      Hint: Heading
+      Value: Example Controller Code
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "c8f2152f-c43b-4ca7-be84-68ba46b70b83"
+      Hint: Footer Text
+      Value: |
+        <p>Zodiac and Constellation have another commonly implemented base Controller class for scenarios where the programmer has to do some work assembling the model: <strong>ConventionController</strong>. We'll cover that in another tutorial. In general, you should use DatasourceRenderingController&lt;T&gt; if:</p>
+        <ul>
+            <li>You are rendering data from a single Item</li>
+            <li>The user explicitly specifies the Rendering's Datasource</li>
+            <li>The Rendering's Datasource can be the Context Item</li>
+            <li>ModelMapper can handle all aspects of generating the ViewModel without intervention.</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200930T132824Z

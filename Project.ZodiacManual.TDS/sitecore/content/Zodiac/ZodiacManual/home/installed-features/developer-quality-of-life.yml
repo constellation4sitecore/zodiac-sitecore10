@@ -1,0 +1,37 @@
+---
+ID: "6f7987b0-439f-4ddd-bda9-f83867e055ce"
+Parent: "cb4d634a-409f-4e32-99db-e51dd3675116"
+Template: "9f2e6785-ae61-4ae4-837e-ffed3b217200"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/developer-quality-of-life"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
+      Hint: Browser Title
+      Value: Developer Quality of Life
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T142637Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bfe71fe8-598a-411c-90c2-268491b85cb1"
+    - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
+      Hint: Heading
+      Value: Developer Quality of Life
+    - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
+      Hint: Navigation Title
+      Value: Developer Quality of Life
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201001T142700Z

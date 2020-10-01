@@ -1,0 +1,48 @@
+---
+ID: "0b3818ef-0a35-49e4-9c4f-247a8c6cd410"
+Parent: "d03a7c5a-f775-42c4-b60e-1028572b0b31"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/your-first-rendering/_subcontent/Placeholder Settings"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>In order to actually create an instance of your new Rendering you'll need to create a Placeholder setting that references the Rendering Definition. From there, you then associate the Placeholder Setting with a given Placeholder on a Project's Page Template Standard Values.</p>
+        <p>Placeholder settings are tricky, because they walk the line between Features, which are fairly abstract, and Projects, which are intentionally concrete.</p>
+        <p>&nbsp;</p>
+        <p>Here's some general guidance that&nbsp;<em>might</em>&nbsp;work for your installation.</p>
+        <ul>
+            <li>Create Placeholder Settings rather than specifying a Default Placeholder value on your Rendering Definition.</li>
+            <li>Create Placeholder Settings at the Feature level, and keep them abstract: ex: primary, secondary, tertiary, optional content...</li>
+            <li>Placeholder names on Sublayouts should be physical, and not overlap the abstract names: Column1 Column 2, Column 3.</li>
+            <li>Marry the physical placeholder names to specific Placeholder Settings on a Project's Standard Values templates for Page type Items.</li>
+        </ul>
+        <p>The above approach will make sure that Placeholder Settings do not "bleed" across sites unintentionally and should allow you to control what functionality is available to each Site.</p>
+        <p>This approach will break down if you have a multi-site installation where there is absolutely no common page-building approach. You will have to create site-specific Placeholder Settings.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Placeholder Settings
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200928T161744Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f96baa4-da5e-4c1e-a59f-892b6b71526c"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200930T200048Z

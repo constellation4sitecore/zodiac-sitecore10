@@ -1,0 +1,45 @@
+---
+ID: "15dda906-bcb0-4111-a5c0-4d961b38916a"
+Parent: "d03a7c5a-f775-42c4-b60e-1028572b0b31"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/your-first-rendering/_subcontent/Creating the Data Template"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Let's lay out all the things the Sitecore developer has to do to implement this Call-to-Action Card:</p>
+        <ul>
+            <li><span style="font-size: 1rem;">Define a Data Template in Sitecore</span><br></li>
+            <li>Specify a Source location for any Image fields</li>
+            <li>For any Rich Text fields, determine what constraints should be placed on entered content.</li>
+            <li>If necessary, create a custom HTML Editor profile to match those constraints</li>
+            <li>Assign the HTML Editor profile to the Source of any Rich Text fields.</li>
+            <li><span style="font-size: 1rem;">Specify a Source location for the Link field</span><br></li>
+        </ul>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Creating the Data Template
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200928T142616Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a82bb73-39ac-444d-a53a-112a685ce123"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200930T163032Z

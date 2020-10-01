@@ -1,0 +1,37 @@
+---
+ID: "549f52ac-172a-4b9d-a377-b2c2d36dd082"
+Parent: "5e3c2c7c-16eb-40cc-a106-6aa6521344b7"
+Template: "9f2e6785-ae61-4ae4-837e-ffed3b217200"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/zodiac-fundamentals/security-and-workflow-design"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
+      Hint: Browser Title
+      Value: Security and Workflow Design
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T141044Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4f4af48b-4142-4045-8724-6a7dbdf64853"
+    - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
+      Hint: Heading
+      Value: Security and Workflow Design
+    - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
+      Hint: Navigation Title
+      Value: Security and Workflow Design
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201001T141426Z

@@ -1,0 +1,51 @@
+---
+ID: "b8ee211c-130f-4831-88d3-245359166d2c"
+Parent: "d03a7c5a-f775-42c4-b60e-1028572b0b31"
+Template: "6f2ca05f-7c8a-4a57-bf4d-c3bd4c75fb9c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/your-first-rendering/_subcontent/Feature View Code"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1ff65e88-22e7-4bb7-ac61-3dfecad95378"
+      Hint: Code Text
+      Value: |
+        @inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.CallToActionCardModel>
+        <div>
+        	@Model.ImageHeader.Rendered
+        	<h5>
+        		@Model.Heading
+        	</h5>
+        	<div>@Model.CardText</div>
+        	<div>@Model.ButtonLink.Rendered</div>
+        </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200930T145641Z
+    - ID: "2b1180a9-ae15-4fa5-bac0-0657f91e3d03"
+      Hint: Header Text
+      Value: |
+        <p>All Zodiac views should inherit from <strong>EditorCompatibleView&lt;TModel&gt;</strong>. This provides access to the <strong>Context.PageMode</strong> for the Request and allows you to change what's visible on the view depending on whether the current request is for a published page, for an Experience Editor preview, or whether the content author is attempting to edit the page.</p>
+        <p>General best practice is to ensure that when <strong>this.IsEditing</strong> is true, all Editor compatible fields are displayed, even if they are empty, to allow the Content Author to access them.</p>
+        <p>The code below is typical for Zodiac Views based on a single DataSource Item. where all fields are mandatory.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "59c1fda1-927d-4375-a4dc-925fa2400afa"
+    - ID: "b594de98-237f-4066-b26d-b73949c78345"
+      Hint: Heading
+      Value: Feature View Code
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "c8f2152f-c43b-4ca7-be84-68ba46b70b83"
+      Hint: Footer Text
+      Value: "<p>With the Feature View built, let's add a Project-level override by creating a View specific to the ZodiacManual site....</p>"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200930T155838Z

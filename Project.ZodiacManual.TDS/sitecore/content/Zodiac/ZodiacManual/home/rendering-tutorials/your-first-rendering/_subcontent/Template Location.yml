@@ -1,0 +1,41 @@
+---
+ID: "09b46762-e158-48ad-b9dc-4fca05b20dd8"
+Parent: "d03a7c5a-f775-42c4-b60e-1028572b0b31"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/your-first-rendering/_subcontent/Template Location"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Based on functional decisions at the start of this tutorial, we want to add this Data Template to the existing Content Feature folder in the Templates section of Sitecore.</p>
+        <p>From the <strong>Desktop Start Menu</strong>, launch the <strong>Template Manager</strong>.</p>
+        <p>Navigate to the <strong>Feature</strong> folder</p>
+        <p>Navigate to the <strong>Content </strong>folder</p>
+        <p>Select "<strong>New Template</strong>" from the right hand panel.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Template Location
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200930T170830Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1ebf1f4a-95b9-42bb-b29f-6a06a5da37bb"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200930T171055Z

@@ -1,0 +1,33 @@
+---
+ID: "cb4d634a-409f-4e32-99db-e51dd3675116"
+Parent: "8cab87ad-8291-4fd3-bd77-ee0d7b653f54"
+Template: "8e52b0a5-4391-4cce-8731-9cdd688e30a4"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
+      Hint: Browser Title
+      Value: Installed Features
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T142153Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9334ab61-b683-4c68-b083-34544140a953"
+    - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
+      Hint: Heading
+      Value: Installed Features
+    - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
+      Hint: Navigation Title
+      Value: Installed Features
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201001T142153Z
