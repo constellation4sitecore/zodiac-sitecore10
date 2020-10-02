@@ -1,0 +1,24 @@
+---
+ID: "e7e36cc1-8688-4ad0-8565-4a062dea2447"
+Parent: "1acd92ad-f546-4a62-b391-4c0f22912b08"
+Template: "05d33548-d7a2-43d7-8214-01a97d178e7a"
+Path: /sitecore/content/Zodiac/ZodiacManual/Labels/Content/Image With Caption Labels
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T203726Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1120cf3b-0e52-4c2a-8529-0ea88a5e54d1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201001T203726Z

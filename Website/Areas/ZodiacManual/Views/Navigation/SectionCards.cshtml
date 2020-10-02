@@ -1,17 +1,18 @@
 ﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<IEnumerable<Feature.Navigation.Models.SectionCardModel>>
 
-<div class="row">
-	<div class="col-12">
-		<div class="card-deck">
-			@foreach (var card in Model)
-			{
-				<div class="card w-25">
-					<div class="card-body">
-						<h5 class="card-title"><a href="@card.Url" class="text-decoration-none">@card.NavigationTitle</a></h5>
-						<p class="card-text"><a href="@card.Url" class="text-decoration-none">@card.MetaDescription</a></p>
-					</div>
+<div class="row row-cols-3">
+
+	@foreach (var card in Model)
+	{
+		<div class="col mt-5">
+			<div class="card h-100">
+				<div class="card-body">
+					<h5 class="card-title">@card.NavigationTitle</h5>
+					<p class="card-text">@card.MetaDescription</p>
 				</div>
-			}
+				<div class="card-footer"><a href="@card.Url">Read More</a></div>
+			</div>
 		</div>
-	</div>
+	}
+
 </div>

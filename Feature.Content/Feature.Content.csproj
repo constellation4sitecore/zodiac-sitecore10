@@ -264,6 +264,7 @@
     <Compile Include="Models\CodeBlockModel.cs" />
     <Compile Include="Models\ContentSectionModel.cs" />
     <Compile Include="Models\ContextContentModel.cs" />
+    <Compile Include="Models\ImageWithCaptionLabels.cs" />
     <Compile Include="Models\ImageWithCaptionModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -274,6 +275,11 @@
   <ItemGroup>
     <Content Include="Constellation.License.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Foundation.Labels\Foundation.Labels.csproj">
+      <Project>{74f50da4-2216-4f95-811a-361709ce5c1c}</Project>
+      <Name>Foundation.Labels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

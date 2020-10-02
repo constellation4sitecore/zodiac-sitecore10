@@ -1,0 +1,51 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>b3451f02-1453-41ad-8f1d-ac43b815342e</ProjectGuid>
+    <SourceWebPhysicalPath>
+    </SourceWebPhysicalPath>
+    <SourceWebProject>
+    </SourceWebProject>
+    <SourceWebVirtualPath>
+    </SourceWebVirtualPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <CompactSitecoreItemsInProjectFile>True</CompactSitecoreItemsInProjectFile>
+    <AssemblyName>Foundation.Labels.TDS</AssemblyName>
+    <Name>Foundation.Labels.TDS</Name>
+    <RootNamespace>Foundation.Labels.TDS</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <SitecoreItem Include="sitecore\content.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Labels.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Foundation.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Foundation\Zodiac.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Foundation\Zodiac\Labels.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Foundation\Zodiac\Labels\Label Folder.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Foundation\Zodiac\Labels\Label Folder\__Standard Values.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Foundation\Zodiac\Labels\Label Group.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Foundation\Zodiac\Labels\Label Group\__Standard Values.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+</Project>

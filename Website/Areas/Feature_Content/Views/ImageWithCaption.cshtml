@@ -1,4 +1,6 @@
-﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.ImageWithCaptionModel>
+﻿@using Feature.Content.Models
+@using Foundation.Labels
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.ImageWithCaptionModel>
 @{
 	var modalId = string.Empty;
 
@@ -6,6 +8,8 @@
 	{
 		modalId = "expandImage" + Model.ID.ToShortID();
 	}
+
+	var labels = LabelRepository.GetLabelsForView<ImageWithCaptionLabels>();
 }
 
 
@@ -37,7 +41,7 @@
 	@if (Model.ViewFullSizeInModal)
 	{
 		<div>
-			<button type="button" data-toggle="modal" data-target="#@modalId">Expand</button>
+			<button type="button" data-toggle="modal" data-target="#@modalId">@labels.Expand</button>
 		</div>
 
 	}
@@ -50,12 +54,12 @@
 			<div>
 				<div>
 					<h5>@Model.Heading</h5>
-					<button type="button" data-dismiss="modal" aria-label="Close">
+					<button type="button" data-dismiss="modal" aria-label="@labels.Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
 				<div>
-					<a href="@Model.FullSizeImage.Src" target="_blank" title="View image in new tab.">
+					<a href="@Model.FullSizeImage.Src" target="_blank" title="@labels.ViewImageInNewTab">
 						<img src="@Model.FullSizeImage.Src" alt="@Model.FullSizeImage.Alt" />
 					</a>
 					@if (!string.IsNullOrEmpty(Model.Caption.ToString()))
@@ -64,7 +68,7 @@
 					}
 				</div>
 				<div>
-					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary" data-dismiss="modal">@labels.Close</button>
 				</div>
 			</div>
 		</div>

@@ -443,6 +443,7 @@
     <Content Include="Areas\ZodiacManual\Views\Shared\Row6x6.cshtml" />
     <Content Include="Areas\ZodiacManual\Views\HomePageContentCard.cshtml" />
     <Content Include="Areas\ZodiacManual\Views\Shared\CardDeck6x6.cshtml" />
+    <Content Include="Areas\Feature_Navigation\Views\SectionCards.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
