@@ -25,7 +25,9 @@ namespace Foundation.Labels
 
 		private static readonly object LockObject = new object();
 
-		private static readonly string LabelPath = "./labels/*/*[@@templateid = '{0}']";
+		private static readonly string LabelPathWithFeatures = "./{0}/*/*[@@templateid = '{1}']";
+
+		private static readonly string LabelPathShort = "./{0}/*[@@templateid = '{1}']";
 		#endregion
 
 		#region Properties
@@ -238,25 +240,40 @@ namespace Foundation.Labels
 
 		private static Item GetLabelItem(Database database, Language language, SiteInfo site, string templateId)
 		{
+			var pathMask = LabelPathShort;
+
+			if (Sitecore.Configuration.Settings.GetBoolSetting(SettingNames.IncludeFeatureFoldersInPath, false))
+			{
+				pathMask = LabelPathWithFeatures;
+			}
+
+			var labelFolderName = Sitecore.Configuration.Settings.GetSetting(SettingNames.LabelFolderName);
+
+			if (string.IsNullOrEmpty(labelFolderName))
+			{
+				Log.Warn($"Foundation.Labels - Missing an XML setting value for {SettingNames.LabelFolderName} Labels cannot be resolved without this value.", typeof(LabelRepository));
+				return null;
+			}
+
 			var startItemPath = $"{site.RootPath}";
 			var startItem = database.GetItem(startItemPath, language);
 
-			var path = string.Format(LabelPath, templateId);
-			var labelItem = Query.SelectSingleItem(path, startItem);
+			var xPath = string.Format(pathMask, labelFolderName, templateId);
+			var labelItem = Query.SelectSingleItem(xPath, startItem);
 
 			if (labelItem != null)
 			{
 				return labelItem;
 			}
 
-			Log.Warn($"Foundation.Labels - Unable to locate a LabelGroup Item of the desired Type under site {site.Name}. Search Query: {path}. Did you forget to create the Item?", typeof(LabelRepository));
+			Log.Warn($"Foundation.Labels - Unable to locate a LabelGroup Item of the desired Type under site {site.Name}. Search Query: {xPath}. Did you forget to create the Item?", typeof(LabelRepository));
 
 			var contentItem = database.GetItem(Constants.ContentPath, language);
-			labelItem = Query.SelectSingleItem(path, contentItem);
+			labelItem = Query.SelectSingleItem(xPath, contentItem);
 
 			if (labelItem == null)
 			{
-				Log.Warn($"Foundation.Labels - Unable to locate a global LabelGroup Item of the desired Type. Search Query: {path} Did you forget to create the Item?", typeof(LabelRepository));
+				Log.Warn($"Foundation.Labels - Unable to locate a global LabelGroup Item of the desired Type. Search Query: {xPath} Did you forget to create the Item?", typeof(LabelRepository));
 
 			}
 

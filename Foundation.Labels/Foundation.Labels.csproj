@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Constellation.Foundation.Contexts, Version=10.0.0.22019, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.Contexts.10.0.0.22019\lib\net48\Constellation.Foundation.Contexts.dll</HintPath>
+    </Reference>
+    <Reference Include="Constellation.Foundation.Data, Version=10.0.0.22111, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.Data.10.0.0.22111\lib\net48\Constellation.Foundation.Data.dll</HintPath>
+    </Reference>
     <Reference Include="Constellation.Foundation.ModelMapping, Version=10.0.4.24372, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.ModelMapping.10.0.4.24372\lib\net48\Constellation.Foundation.ModelMapping.dll</HintPath>
     </Reference>
@@ -256,13 +262,14 @@
     <Compile Include="EditorCompatibleView.cs" />
     <Compile Include="LabelAttribute.cs" />
     <Compile Include="LabelController.cs" />
+    <Compile Include="Pipelines\LabelItemResolver.cs" />
     <Compile Include="LabelRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules\ItemIsInLabelsFolder.cs" />
+    <Compile Include="SettingNames.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="App_Config\Include\Foundation\Constellation.Foundation.ModelMapper.config" />
-    <None Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
