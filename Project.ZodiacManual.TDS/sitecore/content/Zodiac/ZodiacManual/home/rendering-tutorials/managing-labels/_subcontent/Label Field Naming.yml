@@ -1,0 +1,46 @@
+---
+ID: "7dc7cc33-95f2-4c48-9066-c05865922fe8"
+Parent: "47e86913-cb8d-47b4-9c4f-e3f8995eb561"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/managing-labels/_subcontent/Label Field Naming"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Because Label fields are meant to be one-or-few-word statements, Label fields are typically Single Line Text fields.</p>
+        <ul>
+            <li>Field Names should be the English equivalent of the word or words that need translating.</li>
+            <li>If the primary language of your Sitecore installation is not English, use whatever language you typically use for Template and Field names.</li>
+            <li>Field Names should be human-legible. Use spaces and title case.</li>
+            <li>Commonly Labels do not go through workflow, therefore the "unversioned" flag can be checked for your Fields.</li>
+            <li>Avoid using Rich Text for Label Fields. If your content requires Rich Text then it probably should be classified as a Label.</li>
+            <li>Although it is possible to have Images as Label Fields, this practice should be avoided as Accessibility Guidelines recommend against text embedded in images.</li>
+            <li>For ease of use, Provide Standard Values for all Field labels in all Languages that are commonly used in your system.</li>
+        </ul>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Label Field Definition
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201005T172421Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a63b6fbc-3f1e-40cf-baa4-ad47c5f29411"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201005T173126Z

@@ -1,0 +1,44 @@
+---
+ID: "3b90d7db-b23f-45ea-80c2-128a10a54bb3"
+Parent: "47e86913-cb8d-47b4-9c4f-e3f8995eb561"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/managing-labels/_subcontent/Content Tree Location"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Your new Label Items should exist in at least one location in the content tree, but can exist in multiple locations (one Item per Site). </p>
+        <ul>
+            <li>An Item must exist under <strong>/sitecore/content/_labels/</strong></li>
+            <li>You may have site-specific versions of your Labels Item under <strong>{site root path}/_labels</strong></li>
+            <li>You can choose whether to group your Label Items by Feature name (recommended) or not by adjusting a config setting in <strong>Foundation.Labels.config</strong>.</li>
+            <li>Your Label Group item should be named identically to its Template name for legibility.</li>
+        </ul>
+        <p>Because Label Items can be accessed via a REST call, their names must be URL compatible. Items in both global and site-specific Labels folders will automatically be renamed to URL-compatible variations.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Content Tree Location
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201005T164924Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "12fc1d9c-c7fa-48dc-add7-9f3c36419b9a"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201005T171259Z

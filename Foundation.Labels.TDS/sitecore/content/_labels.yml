@@ -1,24 +1,28 @@
 ---
-ID: "0fd02924-1e8d-4595-8a65-dbb139395dab"
-Parent: "423b409f-ea3c-4bb0-b2d8-bd0397327c2b"
-Template: "05d33548-d7a2-43d7-8214-01a97d178e7a"
-Path: /sitecore/content/Labels/Content/Image With Caption Labels
+ID: "fb71e3c4-b14c-4b85-8555-95471de37cd3"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "86dabd3c-f970-4155-a3d3-a5c401cc5f06"
+Path: /sitecore/content/_labels
 DB: master
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Labels
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20201001T203726Z
+      Value: 20201001T203704Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1120cf3b-0e52-4c2a-8529-0ea88a5e54d1"
+      Value: "95a76cc9-1e8b-4903-ac4b-b37741d2d5e7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201001T203726Z
+      Value: 20201002T165238Z

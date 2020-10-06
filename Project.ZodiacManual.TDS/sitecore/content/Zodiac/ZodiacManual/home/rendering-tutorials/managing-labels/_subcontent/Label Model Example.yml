@@ -1,0 +1,57 @@
+---
+ID: "acbfe74c-4e27-4204-86d5-0ca40a807577"
+Parent: "47e86913-cb8d-47b4-9c4f-e3f8995eb561"
+Template: "6f2ca05f-7c8a-4a57-bf4d-c3bd4c75fb9c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/managing-labels/_subcontent/Label Model Example"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1ff65e88-22e7-4bb7-ac61-3dfecad95378"
+      Hint: Code Text
+      Value: |
+        using Constellation.Foundation.ModelMapping.MappingAttributes;
+        using Foundation.Labels;
+        
+        namespace Feature.Content.Models
+        {
+        	[Label("{05D33548-D7A2-43D7-8214-01A97D178E7A}")]
+        	public class ImageWithCaptionLabels
+        	{
+        		[RawValueOnly]
+        		public string Expand { get; set; }
+        
+        		[RawValueOnly]
+        		public string Close { get; set; }
+        
+        		[RawValueOnly]
+        		public string ViewImageInNewTab { get; set; }
+        	}
+        }
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201005T175640Z
+    - ID: "2b1180a9-ae15-4fa5-bac0-0657f91e3d03"
+      Hint: Header Text
+      Value: <p>The <strong>ImageWithCaptionLabels </strong>object.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1b9c820b-f908-416c-94a5-3744bdaa1d0c"
+    - ID: "b594de98-237f-4066-b26d-b73949c78345"
+      Hint: Heading
+      Value: Label Model Example
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "c8f2152f-c43b-4ca7-be84-68ba46b70b83"
+      Hint: Footer Text
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201005T175907Z

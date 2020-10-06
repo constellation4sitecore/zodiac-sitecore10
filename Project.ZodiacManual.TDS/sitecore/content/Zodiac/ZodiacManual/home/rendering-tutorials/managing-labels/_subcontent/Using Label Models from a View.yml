@@ -1,0 +1,35 @@
+---
+ID: "b895fe9f-b6c2-47d1-a9de-7a43450713a9"
+Parent: "47e86913-cb8d-47b4-9c4f-e3f8995eb561"
+Template: "6f2ca05f-7c8a-4a57-bf4d-c3bd4c75fb9c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/managing-labels/_subcontent/Using Label Models from a View"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201005T175902Z
+    - ID: "2b1180a9-ae15-4fa5-bac0-0657f91e3d03"
+      Hint: Header Text
+      Value: |
+        <p>The easiest way to get labels for your view is to have your View descend from a class that will grab them automatically for you.</p>
+        <p><strong>EditorCompatibleView&lt;TModel, TLabels&gt;</strong> provides the developer with a way to specify the Labels object type they want via the <strong>@inherits</strong> declaration. The Labels object is exposed through a dedicated property "<strong>Labels</strong>" that will be of the type <strong>TLabels</strong> specified in the <strong>@inherits</strong> declaration.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f4486c79-a679-45e4-9930-2c9a478fcf40"
+    - ID: "b594de98-237f-4066-b26d-b73949c78345"
+      Hint: Heading
+      Value: Using Label Models from a View
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201005T191018Z
