@@ -23,6 +23,11 @@ namespace Foundation.Labels.Rules
 
 			var labelFolderName = Sitecore.Configuration.Settings.GetSetting(SettingNames.LabelFolderName);
 
+			if (item.Name.Equals(labelFolderName))
+			{
+				return false;
+			}
+
 			if (string.IsNullOrEmpty(labelFolderName))
 			{
 				Log.Warn($"Foundation.Labels - ItemIsInLabelsFolder requires an XML setting for {SettingNames.LabelFolderName} in order to execute. Check your cnofig file.", this);
