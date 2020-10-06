@@ -39,10 +39,16 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Feature.Content.TDS\Feature.Content.TDS.scproj">
+    <ProjectReference Include="..\Feature.Navigation.TDS\Feature.Navigation.TDS.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\Feature.Navigation.TDS\Feature.Navigation.TDS.scproj">
+    <ProjectReference Include="..\Foundation.Labels.TDS\Foundation.Labels.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Foundation.Navigation.TDS\Foundation.Navigation.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Foundation.Pages.TDS\Foundation.Pages.TDS.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\Project.ZodiacManual.TDS\Project.ZodiacManual.TDS.scproj">
@@ -54,11 +60,17 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundledProject Include="..\Feature.Content.TDS\Feature.Content.TDS.scproj">
-      <ProjectId>{2f00b3c4-8b9e-46d0-8da9-84b779363927}</ProjectId>
-    </BundledProject>
     <BundledProject Include="..\Feature.Navigation.TDS\Feature.Navigation.TDS.scproj">
       <ProjectId>{234efcce-24ae-40fb-855a-dc7717f21c72}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Foundation.Labels.TDS\Foundation.Labels.TDS.scproj">
+      <ProjectId>{b3451f02-1453-41ad-8f1d-ac43b815342e}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Foundation.Navigation.TDS\Foundation.Navigation.TDS.scproj">
+      <ProjectId>{750a592e-0b90-46ff-b9d8-0a56a380f2ca}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Foundation.Pages.TDS\Foundation.Pages.TDS.scproj">
+      <ProjectId>{359e0310-a030-4701-a343-4d8ba4689d6f}</ProjectId>
     </BundledProject>
     <BundledProject Include="..\Project.ZodiacManual.TDS\Project.ZodiacManual.TDS.scproj">
       <ProjectId>{211ae8fe-8e59-494e-99c8-032491afc0b2}</ProjectId>
