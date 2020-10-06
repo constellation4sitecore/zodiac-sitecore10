@@ -82,9 +82,21 @@ Languages:
               s:ph="Rows" />
             <r
               uid="{3BE7B7BB-B9E2-4E2E-ACE5-1DB0CDF1B9F4}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{6A777A53-E05E-4640-80A7-16D93F12F523}']"
               s:ds="{B895FE9F-B6C2-47D1-A9DE-7A43450713A9}"
               s:id="{45B0206A-6834-471A-9EF5-AAD3EE945D91}"
+              s:ph="Rows" />
+            <r
+              uid="{617BB1B4-CE66-43EE-A055-A15AA5B7D5C6}"
+              p:after="r[@uid='{3BE7B7BB-B9E2-4E2E-ACE5-1DB0CDF1B9F4}']"
+              s:ds="{9FE3838A-31B5-456A-AAF2-C74906016CCE}"
+              s:id="{45B0206A-6834-471A-9EF5-AAD3EE945D91}"
+              s:ph="Rows" />
+            <r
+              uid="{18439E2C-7C5A-4B58-81D6-462BD5B05EF7}"
+              p:after="*[1=2]"
+              s:ds="{28AE0C37-74A1-45EB-97BB-393E30D5F29A}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
               s:ph="Rows" />
           </d>
         </r>
@@ -99,7 +111,7 @@ Languages:
       Value: 20201001T135600Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a81bdd0d-361c-4e5b-adc9-1fc450e392ae"
+      Value: "f09740a4-00c7-4e83-a98f-e14139cf5c1d"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: |
@@ -130,4 +142,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201005T175907Z
+      Value: 20201006T141420Z

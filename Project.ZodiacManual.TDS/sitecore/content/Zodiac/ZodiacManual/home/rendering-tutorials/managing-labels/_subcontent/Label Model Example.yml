@@ -41,7 +41,7 @@ Languages:
       Value: <p>The <strong>ImageWithCaptionLabels </strong>object.</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1b9c820b-f908-416c-94a5-3744bdaa1d0c"
+      Value: "da3ae668-66d0-40f6-9f60-d1f3bf988ec4"
     - ID: "b594de98-237f-4066-b26d-b73949c78345"
       Hint: Heading
       Value: Label Model Example
@@ -51,7 +51,7 @@ Languages:
         sitecore\rcabral
     - ID: "c8f2152f-c43b-4ca7-be84-68ba46b70b83"
       Hint: Footer Text
-      Value: 
+      Value: "Note the <code>[Label()]</code> Attribute tells Zodiac that this class is a Label Model, and also what Item Template will map correctly to this Model. All Label Group models need the <strong>Label </strong>attribute."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201005T175907Z
+      Value: 20201006T140620Z

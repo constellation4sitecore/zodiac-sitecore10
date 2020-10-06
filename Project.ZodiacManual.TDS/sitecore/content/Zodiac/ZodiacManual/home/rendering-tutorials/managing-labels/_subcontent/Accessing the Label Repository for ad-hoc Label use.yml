@@ -1,0 +1,57 @@
+---
+ID: "9fe3838a-31b5-456a-aaf2-c74906016cce"
+Parent: "47e86913-cb8d-47b4-9c4f-e3f8995eb561"
+Template: "6f2ca05f-7c8a-4a57-bf4d-c3bd4c75fb9c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/managing-labels/_subcontent/Accessing the Label Repository for ad-hoc Label use"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1ff65e88-22e7-4bb7-ac61-3dfecad95378"
+      Hint: Code Text
+      Value: |
+        using Constellation.Foundation.Mvc;
+        using Feature.Content.Models;
+        using Foundation.Labels;
+        using Sitecore.Data.Items;
+        
+        namespace Feature.Content.Controllers
+        {
+        	public class ExampleController : ConventionController
+        	{
+        		public ExampleController(IViewPathResolver viewPathResolver) : base(viewPathResolver)
+        		{
+        		}
+        
+        		protected override object GetModel(Item datasource, Item contextItem)
+        		{
+        			var labels = LabelRepository.GetLabels<ImageWithCaptionLabels>(datasource.Database, datasource.Language, Sitecore.Context.Site.SiteInfo);
+        
+        ....
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201006T132656Z
+    - ID: "2b1180a9-ae15-4fa5-bac0-0657f91e3d03"
+      Hint: Header Text
+      Value: <p>If you need to grab a Label Model in a Repository, Controller, or ModelBuilder, the static <strong>LabelRepository </strong>allows you to specify the type of object you want back. You need to supply it with some Sitecore objects to ensure the data that populates your Label Model is correct for your code's executing context.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "496baf8e-f649-4600-9a2e-85d0c3790cec"
+    - ID: "b594de98-237f-4066-b26d-b73949c78345"
+      Hint: Heading
+      Value: "Accessing the Label Repository for ad-hoc Label use"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "c8f2152f-c43b-4ca7-be84-68ba46b70b83"
+      Hint: Footer Text
+      Value: <p>In the example above, you could assign Label values to a model that required some customization before passing it to the View.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201006T133322Z

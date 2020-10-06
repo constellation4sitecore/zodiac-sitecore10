@@ -1,0 +1,53 @@
+---
+ID: "28ae0c37-74a1-45eb-97bb-393e30d5f29a"
+Parent: "47e86913-cb8d-47b4-9c4f-e3f8995eb561"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/managing-labels/_subcontent/Accessing Labels from a REST Call"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>If you have an AJAX component on a Sitecore-hosted webpage and need to load some Labels, you can make an asynchronous call and retrieve a Label model as JSON.</p>
+        <ul>
+            <li>The Relative URL must start with "/labels"</li>
+            <li>The Relative URL must contain the path to the actual Label Item in Sitecore following the /_labels root item.</li>
+            <li>If you're including Feature folders in your Label folders, include them in the URL.</li>
+        </ul>
+        <p>Example 1 (site-defined Label Item):</p>
+        <ul>
+            <li>Sitecore path: <strong>/sitecore/content/zodiac/zodiacmanual/_labels/content/image-with-caption-labels</strong></li>
+            <li>REST URL: <strong>/labels/content/image-with-caption-labels</strong></li>
+        </ul>
+        <p>Example 2 (globally-defined Label Item):</p>
+        <ul>
+            <li>Sitecore path: <strong>/sitecore/content/_labels/content/image-with-caption-labels</strong></li>
+            <li>REST URL: <strong>/labels/content/image-with-caption-labels</strong></li>
+        </ul>
+        <p>Note that the REST URLs are identical. When requested, Sitecore will attempt to use Site-specific Labels first. If no such Item exists at that URL, it will attempt to use an Item from the global Labels collection. It is therefore best practice to always create a global Labels Item for each Feature's Labels, and only supply an "override" at the Site level if it is necessary.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Accessing Labels from a REST Call
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201006T140723Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3dc17787-1975-484f-9dc3-265fcc3a8952"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201006T142248Z

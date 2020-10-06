@@ -12,6 +12,17 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "1ff65e88-22e7-4bb7-ac61-3dfecad95378"
+      Hint: Code Text
+      Value: |
+        @using Feature.Content.Models
+        @using Foundation.Labels
+        @inherits EditorCompatibleView<Feature.Content.Models.ImageWithCaptionModel, ImageWithCaptionLabels>
+        
+        ...
+        
+        <button type="button">@Labels.Expand</button>
+        <button type="button">@Labels.Close</button>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20201005T175902Z
@@ -22,7 +33,7 @@ Languages:
         <p><strong>EditorCompatibleView&lt;TModel, TLabels&gt;</strong> provides the developer with a way to specify the Labels object type they want via the <strong>@inherits</strong> declaration. The Labels object is exposed through a dedicated property "<strong>Labels</strong>" that will be of the type <strong>TLabels</strong> specified in the <strong>@inherits</strong> declaration.</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f4486c79-a679-45e4-9930-2c9a478fcf40"
+      Value: "011e9b60-0dbc-4b65-a693-45738b353c44"
     - ID: "b594de98-237f-4066-b26d-b73949c78345"
       Hint: Heading
       Value: Using Label Models from a View
@@ -30,6 +41,10 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\rcabral
+    - ID: "c8f2152f-c43b-4ca7-be84-68ba46b70b83"
+      Hint: Footer Text
+      Value: |
+        <p>Accessing Label values is as easy as accessing Model properties, just using the View Property "<strong>Labels</strong>" instead of "<strong>Model</strong>".</p>
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201005T191018Z
+      Value: 20201006T131909Z
