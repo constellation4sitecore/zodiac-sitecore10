@@ -417,7 +417,6 @@
     <Content Include="App_Data\packages\Constellation-Feature-Redirects-Items.zip" />
     <Content Include="Areas\ZodiacManual\Views\web.config" />
     <Content Include="Areas\ZodiacManual\Views\Shared\FullWidthLayout.cshtml" />
-    <Content Include="App_Data\packages\Zodiac-Foundation-Labels-10.0.zip" />
     <Content Include="Areas\ZodiacManual\Views\Content\ContextContent.cshtml" />
     <Content Include="Areas\ZodiacManual\Views\Navigation\PrimaryNavigation.cshtml" />
     <Content Include="Areas\Feature_Navigation\Views\PrimaryNavigation.cshtml" />
