@@ -1,0 +1,42 @@
+---
+ID: "c325efd7-e9dc-4d10-8530-aa6350cf1e9f"
+Parent: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: /sitecore/templates/Feature/Content/Content Section/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: <p>Phasellus luctus sem ac nisi ullamcorper pharetra. In rutrum, odio in luctus dapibus, dolor risus venenatis massa, sed scelerisque libero ex at sapien. Aliquam molestie interdum rutrum. Donec sed magna a turpis imperdiet pretium vel sed orci. Aliquam in nunc maximus, cursus libero at, euismod nibh. Aenean feugiat urna id dui commodo, id congue arcu condimentum. Duis scelerisque elit libero, quis molestie augue tincidunt a. Integer aliquam blandit tellus, imperdiet volutpat ante porta non. Suspendisse sed facilisis leo, non faucibus leo. Suspendisse viverra, ligula eu molestie sodales, sem nulla finibus enim, sit amet eleifend justo arcu sed sapien. Nulla volutpat eleifend semper.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200818T185808Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6ad8f5b6-7d29-4ec7-8333-31419b8f025b"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link text="Optional Link" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200922T175823Z

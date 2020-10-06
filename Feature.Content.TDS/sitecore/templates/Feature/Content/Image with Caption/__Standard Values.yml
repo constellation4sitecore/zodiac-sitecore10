@@ -1,0 +1,46 @@
+---
+ID: "abb8d709-16da-49bf-8877-c7494d2c6b85"
+Parent: "547a79db-25a0-414d-ab7a-589e0e7d7511"
+Template: "547a79db-25a0-414d-ab7a-589e0e7d7511"
+Path: /sitecore/templates/Feature/Content/Image with Caption/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b674bf0-d756-48a7-a363-53f5ad334857"
+      Hint: Caption
+      Value: <p>Aliquam consequat nunc et quam bibendum, non maximus mauris laoreet. Suspendisse sollicitudin vestibulum pellentesque. Aliquam vel vulputate libero. Mauris enim massa, lobortis at nisl quis, molestie eleifend nisl. </p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200922T150457Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0a020ff7-16fe-4ffe-aaf1-ce799108e560"
+    - ID: "9f337325-e776-41d5-9a15-ff017e501d5e"
+      Hint: View Full Size In Modal
+      Type: Checkbox
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200922T180258Z
+    - ID: "f4c8fdba-d80f-4612-b1c7-4a9a9c7c0bfd"
+      Hint: Full Size Image
+      Value: |
+        <image mediaid="{F9D65A80-A105-46E5-9407-2C4E421596F4}" />
+    - ID: "fb51681e-4d1e-4eb8-b3ce-f78af3d5013f"
+      Hint: Heading
+      Value: $name

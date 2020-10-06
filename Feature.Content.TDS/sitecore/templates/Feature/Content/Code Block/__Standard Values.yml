@@ -1,0 +1,54 @@
+---
+ID: "af3d1515-ddd6-4bb3-b478-072d7ebc5ecf"
+Parent: "6f2ca05f-7c8a-4a57-bf4d-c3bd4c75fb9c"
+Template: "6f2ca05f-7c8a-4a57-bf4d-c3bd4c75fb9c"
+Path: /sitecore/templates/Feature/Content/Code Block/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ff65e88-22e7-4bb7-ac61-3dfecad95378"
+      Hint: Code Text
+      Value: |
+        public main {
+            for (int i == 1, i >= 10, i++)
+            {
+                string output = string.Empty;
+                if (i % 3) output = "fizz";
+                if (i % 5) output += "buzz";
+                if (output.Length == 0) output = i;
+                Console.WriteLine(output);
+            }
+        }
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200928T200030Z
+    - ID: "2b1180a9-ae15-4fa5-bac0-0657f91e3d03"
+      Hint: Header Text
+      Value: <p>Cras dolor ligula, aliquam ut ligula non, blandit volutpat eros. Curabitur sagittis augue ex, vitae pulvinar metus bibendum id. Donec quis enim sed sem consectetur feugiat.</p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38e4855d-7560-4c61-931b-9daf7f319e9a"
+    - ID: "b594de98-237f-4066-b26d-b73949c78345"
+      Hint: Heading
+      Value: $name
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "c8f2152f-c43b-4ca7-be84-68ba46b70b83"
+      Hint: Footer Text
+      Value: <p>Praesent volutpat tempor ante, et pulvinar urna blandit a. Fusce arcu ipsum, imperdiet a sem nec, feugiat bibendum risus. Etiam semper risus congue ligula malesuada, eu blandit mi porta.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200928T200716Z
