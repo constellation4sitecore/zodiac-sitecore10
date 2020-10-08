@@ -1,0 +1,40 @@
+---
+ID: "84587b90-75a4-40ab-b3ad-fa95fe0dce7f"
+Parent: "750e46da-3582-456e-bc80-3b41eaa63050"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/data-architecture/_subcontent/Constellation Feature PageAnalyticsScripts"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>This module provides a way for Content Authors to add Javascript-based analysis scripts to site pages without developer intervention. A "widget" style Datasource Item provides HTML-compatible fields for pasting Javascript into the CMS. The Datasource provides discrete fields for each of the typical HTML Document locations where scripts may need to be placed, depending on vendor: within the Head element, at the start of the Body element, and at the end of the Body element.</p>
+        <p>Multiple datasources can be configured to allow for flexibility on a site-by-site or page-by-page basis.</p>
+        <p>The module includes Renderings for each location in the HTML Document.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Constellation.Feature.PageAnalyticsScripts
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201008T193903Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6631f29e-7f63-480a-871c-6b14c4627de2"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link text="Read the Manual" linktype="external" url="https://constellation4sitecore.com/feature/page-analytics-scripts/" anchor="" target="_blank" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201008T194300Z

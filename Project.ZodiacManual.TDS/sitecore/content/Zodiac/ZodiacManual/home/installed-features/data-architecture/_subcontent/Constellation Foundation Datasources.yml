@@ -1,0 +1,45 @@
+---
+ID: "19dbbd2d-72fe-48a3-ae45-80a88806c946"
+Parent: "750e46da-3582-456e-bc80-3b41eaa63050"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/data-architecture/_subcontent/Constellation Foundation Datasources"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>This module is used to enforce the following concepts:</p>
+        <ul>
+            <li><strong>Context Datasource </strong>- an Item that has presentation details and is represented by a visitor-visible URL. a "Page"</li>
+            <li><strong>Subcontent Datasource</strong> - an Item that contains the data for an on-page Rendering that is&nbsp;<em>not</em>&nbsp;the Context Datasource, but is unique to the page it appears within.</li>
+            <li><strong>Supports Subcontent</strong> - A flag on a Context Datasource or Page Item that creates the <strong>_subcontent</strong> folder below the page. This _subcontent folder holds the above Subcontent Datasources for the page.</li>
+            <li><strong>Widget Datasource</strong> - an Item that contains the data that can be used by Renderings on multiple pages. a "shared" datasource for multiple pages. Widgets are stored centrally for each Site in the installation.</li>
+        </ul>
+        <p>The above concepts are used to enforce the page + related content structure of a site. It allows content authors to readily identify if an Item is a page, a one-off page fragment, or a "shared" page fragment. The _subcontent folder also keeps contextual content close to each other in the content tree, allowing for superior copy/move/delete operations.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Constellation.Foundation.Datasources
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201008T165525Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "26efe3e5-4c19-49e5-8dfb-26db78d35756"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link text="Read the Manual" linktype="external" url="https://constellation4sitecore.com/foundation/foundation-datasources/" anchor="" target="_blank" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201008T170325Z

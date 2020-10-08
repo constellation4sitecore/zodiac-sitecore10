@@ -1,0 +1,53 @@
+---
+ID: "67962737-f458-48e9-8455-bb07132713c6"
+Parent: "750e46da-3582-456e-bc80-3b41eaa63050"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/data-architecture/_subcontent/Constellation Feature Navigation"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>This module recognizes the fact that marketers want explicit control over a website's primary navigation mechanisms, typically in the header and footer of a website. It also provides ready-to-go approaches to common dynamic navigation requirements such as breadcrumbs and enumerating the pages within a section of a website without configuration.</p>
+        <h4>Declared Navigation</h4>
+        <p>"Static" navigation where links are manually created and assembled into groups and/or menus.</p>
+        <h4>Branch Navigation</h4>
+        <p>"Dynamic" navigation where the Rendering searches the Content Tree for a "root node" and renders the Page-type children/descendants of that node.</p>
+        <h4>Breadcrumb Navigation
+        </h4>
+        <p>"Dynamic" navigation where the Rendering creates a list of ancestor Page links.</p>
+        <h4>Semantic Page Types</h4>
+        <p>To support the dynamic navigation above, Constellation ships with three "tag" style Templates that are used by navigation to interpret the content tree.</p>
+        <ul>
+            <li><strong>Page </strong>- Represents a visible URL and allows the module to distinguish between actual pages and page fragments.</li>
+            <li><strong>List Page</strong> - Represents a page that will contain a significant number of horizontally scaled descendants, like an event calendar or press release archive.</li>
+            <li><strong>Landing Page </strong>- Represents the "root" of a given website section. Used to find the "start" of a branch navigation menu.</li>
+        </ul>
+        <p>To use the Navigation module, your Project Pages must inherit from these flag Templates.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Constellation.Feature.Navigation
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201008T170422Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8b888101-6149-4de7-93d2-0843000edbdc"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link text="Read the Manual" linktype="external" url="https://constellation4sitecore.com/feature/navigation/" anchor="" target="_blank" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201008T174436Z

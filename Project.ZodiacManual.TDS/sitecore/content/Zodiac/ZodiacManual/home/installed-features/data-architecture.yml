@@ -13,6 +13,61 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E8A1B66F-9D6B-42A3-A77B-61B67EC50607}"
+              s:ph="Rows" />
+            <r
+              uid="{73CA264D-C80B-4CC7-A5A8-0F4A5C12021E}"
+              p:after="r[@uid='{E8A1B66F-9D6B-42A3-A77B-61B67EC50607}']"
+              s:ds="{19DBBD2D-72FE-48A3-AE45-80A88806C946}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{2F46142C-D2C3-45B6-8A1C-C2293EEBEDE0}"
+              p:after="r[@uid='{73CA264D-C80B-4CC7-A5A8-0F4A5C12021E}']"
+              s:ds="{67962737-F458-48E9-8455-BB07132713C6}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{D43E8585-F3C2-453A-B2B9-9C9C65990896}"
+              p:after="r[@uid='{2F46142C-D2C3-45B6-8A1C-C2293EEBEDE0}']"
+              s:ds="{4C67D3EF-C9DC-4E34-BE97-2113F01FF87A}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{3E666B86-5517-4E75-B7BD-FEC9322F0684}"
+              p:after="r[@uid='{D43E8585-F3C2-453A-B2B9-9C9C65990896}']"
+              s:ds="{84587B90-75A4-40AB-B3AD-FA95FE0DCE7F}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{16C24115-EFC3-446C-84B8-CE1D3361E015}"
+              p:after="r[@uid='{3E666B86-5517-4E75-B7BD-FEC9322F0684}']"
+              s:ds="{461A92E2-5B9A-4ACA-A2C3-4A714DEB0894}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{A859B67C-D659-4E72-8BE4-BD24C1C766B8}"
+              p:after="*[1=2]"
+              s:ds="{397DF065-3D1B-441C-8A8B-006CD478957C}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+          </d>
+        </r>
+    - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
+      Hint: Intro Copy
+      Value: "An opinionated framework for structuring the Sitecore content tree based on in-the-wild conventions."
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
       Hint: Browser Title
       Value: Data Architecture
@@ -21,7 +76,10 @@ Languages:
       Value: 20201001T142612Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2578d279-1a4f-4711-b38c-3dd21011b587"
+      Value: "3ffa5b63-8b4f-4d96-bd32-87256b9f7331"
+    - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
+      Hint: Copy
+      Value: <p>Zodiac utilizes Helix concepts for organizing data and functionality within the Sitecore solution, but extends Helix with an information architecture for Sites and Pages. The following installed subcomponents provide access to these modules.</p>
     - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
       Hint: Heading
       Value: Data Architecture
@@ -34,4 +92,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201001T142700Z
+      Value: 20201008T195525Z

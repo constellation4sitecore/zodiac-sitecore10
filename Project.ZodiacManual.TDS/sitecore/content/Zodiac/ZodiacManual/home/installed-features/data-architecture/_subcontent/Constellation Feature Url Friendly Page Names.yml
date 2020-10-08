@@ -1,0 +1,45 @@
+---
+ID: "397df065-3d1b-441c-8a8b-006cd478957c"
+Parent: "750e46da-3582-456e-bc80-3b41eaa63050"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/data-architecture/_subcontent/Constellation Feature Url Friendly Page Names"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Another one-off module exposed via a Sitecore Rule Action. Provides an Action that gives explicit control over Item names that is far more complete than Sitecore's off the shelf restrictions:</p>
+        <ul>
+            <li>Letter case management</li>
+            <li>Space/Dash management</li>
+            <li>Diacritic management</li>
+            <li>Support for Regex&nbsp;</li>
+            <li>Dealing with differences between Display Name and Item Name.</li>
+        </ul>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Constellation.Feature.UrlFriendlyPageNames
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201008T195236Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3e4522c9-4866-4abb-8fe3-4d1ba45e2af6"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link text="Read the Manual" linktype="external" url="https://constellation4sitecore.com/feature/url-friendly-page-names/" anchor="" target="_blank" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201008T195616Z
