@@ -1,0 +1,49 @@
+---
+ID: "3734b5bb-77e9-4cc0-8fa1-99abeea89b27"
+Parent: "23abedbd-062e-4a0a-8de8-d3c3f3ff9416"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/things-you-need-to-configure/_subcontent/The Example Site Config Document"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Zodiac includes an example configuration file that should be copied for each site in your installation.&nbsp;</p>
+        <p>The file is located at:<br>
+        <code>/Website/App_Config/Include/Project/ProjectName/ProjectName.Site.config.example</code></p>
+        <p>Instructions within the file explain how to use each configuration component.</p>
+        <p>Settings controlled by this file:</p>
+        <ul>
+            <li>Standard Site settings such as database, domain, and enableWebEdit</li>
+            <li>Site Hostname and Target Hostname settings per environment</li>
+            <li>The ID of the page to use as a 404 response.</li>
+            <li>A site-specific LinkProvider - even if you're using Sitecore's stock LinkProvider, you should create a custom set of settings to ensure that the Site's URLs are independent of any other settings made in system.</li>
+            <li>The Site's default Language as well as any additional languages the given Site is supposed to support. This provides Canonical and 404 support features for language switching.</li>
+            <li>Specify the Constellation.Foundation.SitemapXml Crawlers that are to be used to generate the given Site's robots.txt and sitemap.xml files.</li>
+        </ul>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: The Example Site Config Document
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201019T201226Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3cd19eb3-eada-4a16-bc12-80d8e2e919bb"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201020T154145Z

@@ -1,0 +1,47 @@
+---
+ID: "8a2e8cf2-5828-4363-a239-6f4518a77fc6"
+Parent: "d8367d50-cda9-4a7b-8614-140d834d6b3b"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/low-hanging-fruit/_subcontent/CMS-based Marketing Redirects"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>While Zodiac also ships with a few custom IIS Url Rewrite 2.1 rules for high-level redirects, it also ships with a robust solution for 301/302 redirects to meet any SEO magician's needs.&nbsp;</p>
+        <ul>
+            <li>Redirects can be managed directly in Sitecore via a dedicated Sheer-compatible interface. (available via the Desktop start menu)</li>
+            <li>Redirects use Buckets to circumvent the problems associated with Sitecore's own "Alias" technology.</li>
+            <li>Redirects can be bulk exported/imported to allow for quick maintenance of the complete list of current redirects.</li>
+            <li>The Redirect Manager UI has strict validation to prevent multi-redirect hops, duplicates, redirect loops, and dead-ends.</li>
+            <li>Each Site in the installation has its own set of Redirect links.</li>
+            <li>"Shorthand" URLs can be managed independently, as native Site "pages", allowing them to show up in dynamic navigation and to improve overall sitemap legibility.</li>
+        </ul>
+        <p>Under the hood Redirects are managed as true Content Items and are bound by Publishing and Publishing cache clearing strategies.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: "CMS-based Marketing Redirects"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201013T171911Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "abb7c2ad-23ee-47db-98a6-1b43a647533e"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link linktype="external" text="Read the Documentation" url="https://constellation4sitecore.com/feature/redirects/" anchor="" target="_blank" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201014T144415Z

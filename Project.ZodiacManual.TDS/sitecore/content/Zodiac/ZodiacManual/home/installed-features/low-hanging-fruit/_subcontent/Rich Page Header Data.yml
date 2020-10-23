@@ -1,0 +1,45 @@
+---
+ID: "df55ce10-2f39-49b5-84ce-6ec390fbf187"
+Parent: "d8367d50-cda9-4a7b-8614-140d834d6b3b"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/low-hanging-fruit/_subcontent/Rich Page Header Data"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>As mentioned in Data Architecture, Zodiac includes <strong>Constellation.Feature.PageTagging</strong>. This provides rich metadata that makes pages "pretty" when they are referenced from Google organic search, Facebook and Twitter posts:</p>
+        <ul>
+            <li>Dedicated field for the text displayed in the Browser tab.</li>
+            <li>Creator, Author and Publisher fields that auto-populate to all pages if set on the Home Page.</li>
+            <li>Supply a dedicated thumbnail for use on Facebook and Twitter cards.</li>
+            <li>Choose your Twitter Card type on pages that feature Video for a richer social experience.</li>
+        </ul>
+        <p>Installation is as simple as adding the appropriate <strong>PageTagging</strong> renderings on your site's Layout. </p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Rich Page Header Data
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201014T143132Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "156c6983-0046-408a-a6f4-ec3dd0fcb71e"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link linktype="external" text="Read the Documentation" url="https://constellation4sitecore.com/feature/page-tagging/" anchor="" target="_blank" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201014T144415Z

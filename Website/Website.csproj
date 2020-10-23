@@ -350,8 +350,9 @@
     <Content Include="App_Config\Include\Foundation\Foundation.Labels.config" />
     <None Include="App_Config\Include\Foundation\_Put_Foundation_Config_Patches_Here.txt" />
     <Content Include="App_Config\Include\Project\ZodiacManual\ZodiacManual.Site.config" />
+    <Content Include="App_Config\Include\Project\_ZodiacScaffolding\Install-Zodiac-Project-Scaffolding.config" />
     <None Include="App_Config\Include\Project\_Put_Tenant_and_Site_Config_Patches_Here.txt" />
-    <Content Include="App_Data\packages\PutPackagesHere.txt" />
+    <Content Include="App_Config\Include\Project\_ZodiacScaffolding\_This_Folder_Must_Be_First.txt" />
     <Content Include="App_Data\packages\_Package_Files_for_Install_on_Startup_Go_Here.txt" />
     <Content Include="Areas\ZodiacManual\Scripts\highlight.pack.js" />
     <Content Include="Areas\ZodiacManual\styles\solarized-dark.css" />
@@ -443,6 +444,7 @@
     <Content Include="Areas\ZodiacManual\Views\HomePageContentCard.cshtml" />
     <Content Include="Areas\ZodiacManual\Views\Shared\CardDeck6x6.cshtml" />
     <Content Include="Areas\Feature_Navigation\Views\SectionCards.cshtml" />
+    <Content Include="App_Data\packages\Zodiac-Project-Scaffolding.zip" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />

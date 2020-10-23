@@ -1,0 +1,39 @@
+---
+ID: "30492e51-bcd8-40e0-bdcf-eb5930956527"
+Parent: "7ac4f68f-a7fa-4de8-9cff-8c458d1ebc9a"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/developer-quality-of-life/_subcontent/Constellation Foundation ModelMapping"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Designed to provide extremely low friction going from Sitecore API items to ViewModels, Constellation.Foundation.ModelMapping provides extremely terse coding for both ViewModel construction as well as adding FieldRenderer support to Views. Zodiac programming patterns demand the use of ModelMapping to ensure that Sitecore API calls are grouped within the same "layer" of the application. Although ViewModels are hand coded, the Helix-ness of the ModelMapping paradigm and the simplicity of mapping entire Item data structures has driven strong adoption among Sitecore programmers.</p>
+        <p>Extensive documentation of the features is available online.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Constellation.Foundation.ModelMapping
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201019T182825Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3853f92e-34b1-4ba4-9063-a6feca4ec0f8"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link linktype="external" text="Read the Documentation" url="https://constellation4sitecore.com/foundation/modelmapping/" anchor="" target="_blank" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201019T183323Z

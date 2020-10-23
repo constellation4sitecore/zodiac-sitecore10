@@ -1,0 +1,39 @@
+---
+ID: "88a5b67b-90f8-4644-a522-a80b8db77f10"
+Parent: "d8367d50-cda9-4a7b-8614-140d834d6b3b"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/low-hanging-fruit/_subcontent/Sitemap xml"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Zodiac comes with a dynamic, multi-site sitemap.xml solution. Each site in the installation will be provided with a basic sitemap.xml document that lists all anonymous:read Items that are explicitly marked as "indexable" or that indexability could be inferred because they have a layout set for the Default device. Assuming the developer follows the Zodiac information architecture pattern&nbsp;all Zodiac "Page" style Items will include robot command fields (index, follow, etc.) that influence whether the Item should be included in the sitemap.xml.</p>
+        <p>The sitemap.xml implementation is fairly simple in that it dynamically represents a single document at the "root" of each site, and it specifically represents Items that are "pages" hosted within Sitecore that are below the Context Site's "start Item". To handle shared pages, wildcards, or URLs that reference external indexable content, each Site can have additional entries added to the sitemap.xml document via "crawlers". The details of this feature (and robots.txt handling) can be found in the <b>Constellation.Foundation.SitemapXml</b> library documentation.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Sitemap.xml
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201013T170544Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "12eb7cbe-def5-40dc-9a3b-9f8223b910b0"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link text="Read the Documentation" linktype="external" url="https://constellation4sitecore.com/foundation/sitemap-xml/" anchor="" target="_blank" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201013T171342Z

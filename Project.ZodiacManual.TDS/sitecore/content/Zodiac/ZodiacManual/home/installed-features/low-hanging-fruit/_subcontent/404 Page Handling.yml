@@ -1,0 +1,37 @@
+---
+ID: "18628193-c785-4ff0-a466-781b9e6f7a80"
+Parent: "d8367d50-cda9-4a7b-8614-140d834d6b3b"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/low-hanging-fruit/_subcontent/404 Page Handling"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: "<p>Notoriously difficult to set up in Sitecore, the Not Found page and its associated 404 Http Response Code are enabled by default. Zodiac provides the required settings and pipeline handlers to allow a Sitecore-hosted page Item to return a proper dynamic page and still achieve the 404 Response Code that is critical for SEO. All developers need to do is implement a not-found Page Item on each site, and include the ID of that Item in the site's XML configuration. No page-level components or static file trickery required.</p>"
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: 404 Page Handling
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201013T171411Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2eb3d5a0-efe1-42ef-a8bc-0a2e944ba420"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link text="Read the Documentation" linktype="external" url="https://constellation4sitecore.com/foundation/page-not-found-module/" anchor="" target="_blank" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201013T171823Z

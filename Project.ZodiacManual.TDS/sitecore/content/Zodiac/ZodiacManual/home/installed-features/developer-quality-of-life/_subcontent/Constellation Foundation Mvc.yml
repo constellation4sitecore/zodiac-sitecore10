@@ -1,0 +1,50 @@
+---
+ID: "4fa7ef02-8d45-4bdf-b5b6-202c8676a2aa"
+Parent: "7ac4f68f-a7fa-4de8-9cff-8c458d1ebc9a"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/developer-quality-of-life/_subcontent/Constellation Foundation Mvc"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>This module allows developers to utilize a convention-over-configuration approach to declaring Sitecore presentation components to the Sitecore system. Synergy between the Rendering Definition's location in the Content Tree and the View's location on disk ensures developers are not over-specifying Rendering Definitions nor creating piles of constants for View locations on disk. The objective is to create Rendering Definitions that provide runtime information to declarative Controllers and Views that require no branching logic to be useful to more than one Site.</p>
+        <p>Two base Controller classes assist the developer with wiring up Renderings:</p>
+        <ul>
+            <li>ConventionController provides direct access to the Context Item and the Rendering Datasource, as well as handles View path resolution. The developer only need create the ViewModel to use in the output.</li>
+            <li>DatasourceRenderingController&lt;TModel&gt; takes it a step further by assuming that the Datasource Item is directly compatible with ModelMapping and can be transformed without the developer having to explicitly wire up the transformation.</li>
+        </ul>
+        <p>These two controllers enforce the scope and role of Controllers within Zodiac as well as reduce typing. Better than 50% of a Zodiac solution's controllers are one-line declarations. (There would be no declarations at all if ASP.NET MVC supported Generic controllers!)</p>
+        <p>View Path Resolution is automatic.</p>
+        <ul>
+            <li>Views will be searched for on disk based on the Feature/Project level folder within Sitecore and the "C#ified" name of the Rendering Definition.</li>
+            <li>Feature-level Views can be overridden at the Project layer without creating dedicated Project layer Rendering Definitions, this greatly increases the flexibility of Helix Features and cuts down on the need for custom Placeholder settings or branching logic within Controllers or Views.</li>
+            <li>One Controller can service multiple Views by having Rendering Definitions that differ only in Item Name, providing a simple way to support "Compatible Renderings" without duplication of code or Controller-level branch logic.</li>
+        </ul>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Constellation.Foundation.Mvc
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201019T183410Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d1bc77db-0d43-4020-ae10-1b005283559e"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link linktype="external" text="Read the Documentation" url="https://constellation4sitecore.com/foundation/mvc/" anchor="" target="_blank" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201019T184534Z
