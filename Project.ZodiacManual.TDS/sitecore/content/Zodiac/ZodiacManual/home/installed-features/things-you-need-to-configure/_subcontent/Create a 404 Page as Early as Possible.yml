@@ -1,0 +1,36 @@
+---
+ID: "4614b551-6122-4378-8699-2321362744da"
+Parent: "23abedbd-062e-4a0a-8de8-d3c3f3ff9416"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/things-you-need-to-configure/_subcontent/Create a 404 Page as Early as Possible"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: "<p>The Site configuration file (described above) contains a Site-specific setting for the ID of a given site's 404 page. To ensure you don't forget to configure this setting, create a Home Page node and a Not Found node in your new Site's content tree as soon as possible. Assign the ID of your page to the setting in the config file and enjoy worry-free support for 404 response handling.</p>"
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Create a 404 Page as Early as Possible
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201102T155410Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "78499e19-04ee-4093-9cb9-e76f5669533c"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201102T160448Z

@@ -1,0 +1,44 @@
+---
+ID: "5569364c-7684-43b1-94ae-e4a5f66a53d8"
+Parent: "23abedbd-062e-4a0a-8de8-d3c3f3ff9416"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/things-you-need-to-configure/_subcontent/Organizing the Media Library"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Because most page fragments are Feature-level Datasource Items, any Image fields on these Items needs to have a fixed, site-independent folder in the media library to serve as the base location for related Images. There are benefits to this approach:</p>
+        <ul>
+            <li>In a multi-site scenario, you know that all images in the folder are compatible with the Feature's output.</li>
+            <li>You can tighten security in the Media Library to prevent users from uploading large amounts of unorganized files.</li>
+            <li>You can favor a page-first approach to Media, insisting that an image need not be uploaded to Sitecore until it is determined that it absolutely, positively, needs to appear on a given page.</li>
+        </ul>
+        <p>To help guide content authors into the correct organization of images within a given Feature's image folder, create sub-folders named after sites. This should help the content author realize that they should upload images into the appropriate site folder for better classification.</p>
+        <p>You can also use Site-based security to ensure that content authors cannot upload to, or even read from, site-level folders that they do not have access to.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Organizing the Media Library
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201102T181723Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ec14345b-e15c-4aca-8940-a6d7686506b1"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201102T182909Z

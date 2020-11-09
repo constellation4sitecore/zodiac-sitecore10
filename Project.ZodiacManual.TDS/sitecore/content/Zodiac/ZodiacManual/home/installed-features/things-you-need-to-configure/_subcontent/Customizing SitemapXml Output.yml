@@ -1,0 +1,46 @@
+---
+ID: "9ed28e2e-d2c1-4a4f-8c10-c58746d4abf2"
+Parent: "23abedbd-062e-4a0a-8de8-d3c3f3ff9416"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/things-you-need-to-configure/_subcontent/Customizing SitemapXml Output"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p><strong>Constellation.Foundation.SitemapXml </strong>relies on "crawlers" to cross the content tree and identify Items to write into the sitemap.xml response for search engines. The "stock" crawler for Zodiac will work for 90% of all brochure-style websites provided all Page templates descend from the Templates found in <code>templates/Foundation/Zodiac/Pages/Abstract.</code></p>
+        <p>The Abstract templates above implement Constellation Features for SEO, including Robots directives and an explicit checkmark for "include in Sitemap.xml". The stock crawler uses these properties to determine if an encountered Item should appear in the sitemap.xml response.</p>
+        <p>If your sitemap.xml needs to include Items that are not descendants of the Site's Start Item&nbsp;<em>or</em>&nbsp;the Items cannot inherit from the base Zodiac classes, you will need to write your own crawler and configure it to run from the site's config file (as described above).&nbsp;</p>
+        <p>Common scenarios for custom crawlers:</p>
+        <ul>
+            <li>"Wildcard" URLs where the presentation is provided, but the actual content comes from a dynamically determined Item.</li>
+            <li>External data that needs to have a "sitecore URL" such as a Product catalog.</li>
+            <li>"Shared" Items that do not live under the context site's Start Item node.</li>
+        </ul>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Customizing Sitemap.xml Output
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201102T160408Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a6cf1b13-0244-4c71-a982-dcb6e98f6e67"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link linktype="external" text="Constellation Documentation" url="https://constellation4sitecore.com/foundation/sitemap-xml/" anchor="" target="_blank" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201102T174529Z

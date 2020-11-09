@@ -40,15 +40,45 @@ Languages:
               uid="{E8A1B66F-9D6B-42A3-A77B-61B67EC50607}"
               s:ph="Rows" />
             <r
-              uid="{30F15D0E-C352-48FF-BB39-DD2EE0FA5D8E}"
+              uid="{6AFD798C-4B3A-4219-95A8-1D77749DEF44}"
               p:after="r[@uid='{E8A1B66F-9D6B-42A3-A77B-61B67EC50607}']"
+              s:id="{D42EC9EB-E081-446C-B29F-36F6C01D24EC}"
+              s:ph="Rows" />
+            <r
+              uid="{858F4675-0CE1-4E11-A8BE-B75DAE9B183F}"
+              p:after="r[@uid='{6AFD798C-4B3A-4219-95A8-1D77749DEF44}']"
+              s:ds="{ADFB98E6-FD5E-4573-834D-3A1A97B2E7F0}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{30F15D0E-C352-48FF-BB39-DD2EE0FA5D8E}"
+              p:after="r[@uid='{858F4675-0CE1-4E11-A8BE-B75DAE9B183F}']"
               s:ds="{3734B5BB-77E9-4CC0-8FA1-99ABEEA89B27}"
               s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
               s:ph="Rows" />
             <r
-              uid="{6AFD798C-4B3A-4219-95A8-1D77749DEF44}"
+              uid="{79053113-DC56-4A41-8638-13CF52CF8DFC}"
+              p:after="r[@uid='{30F15D0E-C352-48FF-BB39-DD2EE0FA5D8E}']"
+              s:ds="{4D80FA6C-8E20-4551-AAD1-E1D3DD369FF8}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{9ACB6FDD-8AD2-4F62-B064-C6CA32302ADE}"
+              p:after="r[@uid='{79053113-DC56-4A41-8638-13CF52CF8DFC}']"
+              s:ds="{4614B551-6122-4378-8699-2321362744DA}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{ED526EB5-93A4-45B5-AC69-E1EE81992270}"
+              p:after="r[@uid='{9ACB6FDD-8AD2-4F62-B064-C6CA32302ADE}']"
+              s:ds="{9ED28E2E-D2C1-4A4F-8C10-C58746D4ABF2}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{57FE8363-9745-4BD3-A7BF-EF5F46305A72}"
               p:after="*[1=2]"
-              s:id="{D42EC9EB-E081-446C-B29F-36F6C01D24EC}"
+              s:ds="{5569364C-7684-43B1-94AE-E4A5F66A53D8}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
               s:ph="Rows" />
           </d>
         </r>
@@ -63,18 +93,18 @@ Languages:
       Value: 20201001T142812Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "63a9315b-f0c8-4cf1-b94b-c7d73f62cb87"
+      Value: "60846d78-5cf2-4274-bdf5-f06f1ac47729"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: |
         <p>Because Zodiac doesn't know about your Project Layer, a few things need to be set up during your project build to get the most out of Zodiac, all of these are Site-specific:</p>
         <ul>
+            <li>Content Tree Site Node (Scaffolding)</li>
             <li>Site Config (including hostnames)</li>
             <li>LinkProvider settings</li>
             <li>404 Page ID</li>
             <li>Custom Sitemap.XML generation (if necessary)</li>
             <li>Media Library Site folders beneath Feature folders.</li>
-            <li>Content Tree scaffolding for the new Site.</li>
             <li>Static Navigation scaffolding for the new Site.</li>
             <li>Placeholder Settings, and MVC Area folder on disk</li>
             <li>Site Layout files and Layout Definition Items.</li>
@@ -92,4 +122,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201020T174142Z
+      Value: 20201102T182801Z

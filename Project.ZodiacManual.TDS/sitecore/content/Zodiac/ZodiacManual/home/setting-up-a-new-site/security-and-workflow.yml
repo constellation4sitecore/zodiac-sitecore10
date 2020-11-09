@@ -4,6 +4,10 @@ Parent: "87f208ca-597d-4b6e-979e-836b4e643442"
 Template: "9f2e6785-ae61-4ae4-837e-ffed3b217200"
 Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/security-and-workflow"
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
 Languages:
 - Language: en
   Versions:
@@ -17,7 +21,7 @@ Languages:
       Value: 20200811T172047Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "da5203ea-92e9-4a4a-bf32-cc5e9a41d568"
+      Value: "cd6e396e-9564-4e88-b37c-ec14e24ddf14"
     - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
       Hint: Heading
       Value: Security and Workflow
@@ -30,4 +34,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200922T175443Z
+      Value: 20201106T204340Z

@@ -4,11 +4,34 @@ Parent: "87f208ca-597d-4b6e-979e-836b4e643442"
 Template: "9f2e6785-ae61-4ae4-837e-ffed3b217200"
 Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/content-tree-setup"
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E8A1B66F-9D6B-42A3-A77B-61B67EC50607}"
+              s:ph="Rows" />
+          </d>
+        </r>
+    - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
+      Hint: Intro Copy
+      Value: Making the Site node and key Page Items
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
       Hint: Browser Title
       Value: Content Tree Setup
@@ -17,7 +40,43 @@ Languages:
       Value: 20200811T172006Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e3f0ab51-7f12-440f-afbb-cf50ec2f1418"
+      Value: "95ed9015-9c37-48a3-8af8-e31ed633629e"
+    - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
+      Hint: Copy
+      Value: |
+        <h3>Create the Site Node</h3>
+        <p>The <code>/sitecore/content</code> node and the SXA "tenant" node have both been modified to support an insert option named "<strong>Scaffold Site</strong>" This is a Branch Template that will create the <strong>Site </strong>node, complete with&nbsp;<strong>Navigation</strong>, <strong>Widgets</strong> and <strong>Labels </strong>folders.</p>
+        <ul>
+            <li>Decide if you want your Site below the Content node, or within a Tenant</li>
+            <li>Create the Tenant as necessary by right-click-Inserting on the Content node.</li>
+            <li>Create the Site by right-clicking on the parent Item and selecting "Scaffold Site".</li>
+            <li>Your Site Item's name should be simple and intuitive. You'll use it as a Project Folder name in the Content Tree, reference it in Config files, and declare an MVC Area.</li>
+        </ul>
+        <h3>Create Project Page Templates</h3>
+        <ul>
+            <li>Under the Templates/Project Folder, create a new Folder named after your Site.</li>
+            <li>In general, Project Templates should be organized into folders based on Zodiac canonical types: Pages, Subcontent, Widgets, Labels, and Navigation as necessary.</li>
+            <li>To get started, you should create two Page Templates: Home Page and Content Page.&nbsp;</li>
+            <li>The Home Page Template should inherit from /sitecore/templates/Foundation/Zodiac/Pages/Abstract/Landing Page</li>
+            <li>The Content Page Template should inherit from&nbsp;/sitecore/templates/Foundation/Zodiac/Pages/Abstract/Page</li>
+            <li>Create and configure basic Standard Values for both Page Templates.</li>
+        </ul>
+        <p>The Standard Values needs to be filled out just far enough to allow you to create Items based on these Templates and preferably to be able to have basic Presentation Details so you can verify the site is running correctly.&nbsp;</p>
+        <h3>Create the Home Page</h3>
+        <p>Under your Site Item in /sitecore/content, create the Home Page for your based on the Template you created above. If the name for the Item is lowercased after creation, and a "subcontent" folder appears below the page Item, the installation is successful. If not, check your Home Page inherits from the correct Zodiac base template. Note the name of your home page. You'll need it when configuring the site configuration file in the next step.</p>
+        <h3>Create the 404 Page</h3>
+        <p>Under the Home Page, create a new Content Page based on the recently created template. Name it "Not Found". If the name for the item is changed to "not-found" after creation, and a "subcontent" folder appears below the page item, the installation is successful. If not, check your template inheritance. Note the ID of your not-found Item, you'll need it when configuring the site configuration file in the next step.</p>
+        <h3>Publish Everything</h3>
+        <p>In order to test your new Site, you need to make sure everything is published:</p>
+        <ul>
+            <li>Your Page Templates</li>
+            <li>Your Layout Items (if you created new ones for use on this Site)</li>
+            <li>Your Site scaffold</li>
+            <li>Your Home Page</li>
+            <li>Your Not Found Page</li>
+        </ul>
+        <p><a href="~/link.aspx?_id=871FEEF850524A6EA9D6BB919DC5199D&amp;_z=z">The next step takes place in Visual Studio.</a></p>
+        <p>&nbsp;</p>
     - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
       Hint: Heading
       Value: Content Tree Setup
@@ -30,4 +89,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200922T175429Z
+      Value: 20201106T204414Z

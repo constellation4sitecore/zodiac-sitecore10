@@ -4,6 +4,10 @@ Parent: "87f208ca-597d-4b6e-979e-836b4e643442"
 Template: "3c8f34cc-2c10-4c2d-b7cc-74ca2f4fb341"
 Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/_subcontent"
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -14,11 +18,11 @@ Languages:
       Value: 20200811T171820Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4f38ed6a-6a55-47c0-886b-19ea302ce681"
+      Value: "55e3b674-f0b1-4832-8836-86ad82cf42b4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200811T171820Z
+      Value: 20201106T204340Z

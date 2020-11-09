@@ -1,0 +1,38 @@
+---
+ID: "4d80fa6c-8e20-4551-aad1-e1d3dd369ff8"
+Parent: "23abedbd-062e-4a0a-8de8-d3c3f3ff9416"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/things-you-need-to-configure/_subcontent/Link Provider Settings"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>In a multi-language, multi-site installation, it is wise to have each site have their own unique <strong>LinkProvider </strong>settings. This ensures that your language embedding strategy and your Item name-to-URL strategy does not affect other sites on the installation, including the Sitecore system sites like Shell.</p>
+        <p>Zodiac ships with a switching <strong>LinkManager </strong>that allows you to specify a <strong>LinkProvider </strong>(and its settings) on a site-by-site basis. The example site config file described above has instructions on how to add these settings to your Sitecore configuration.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Link Provider Settings
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201102T155042Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30471e73-be9c-48cd-975a-dce86f8fabd4"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201102T160448Z

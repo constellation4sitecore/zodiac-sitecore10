@@ -1,0 +1,45 @@
+---
+ID: "adfb98e6-fd5e-4573-834d-3a1a97b2e7f0"
+Parent: "23abedbd-062e-4a0a-8de8-d3c3f3ff9416"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/things-you-need-to-configure/_subcontent/Creating the Site Node"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>The <code>/sitecore/content</code> node and the SXA "tenant" node have both been modified to support an insert option named "<strong>Scaffold Site</strong>" This is a Branch Template that will create the <strong>Site </strong>node, as well as a <strong>Navigation</strong>, <strong>Widgets</strong> and <strong>Labels </strong>folders.</p>
+        <p>It is up to the Developer to create Project-specific folders and key items based on the needs of the Site:</p>
+        <ul>
+            <li>Home Page should be based on a Project-level template.</li>
+            <li>Appropriate Label folders and Label Group Items should be created for the Features the new Site will use.</li>
+            <li>Appropriate Widget folders should be created for the Features the new Site will use.</li>
+            <li>Folders for Site-specific navigation and Navigation Menu Items need to be created for the site.</li>
+            <li>Security Roles and Permissions should also be configured according to taste.</li>
+        </ul>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Creating the Site Node
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201102T153122Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "50a19dff-a57c-4c45-89f7-10548a1fcf60"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201102T154730Z
