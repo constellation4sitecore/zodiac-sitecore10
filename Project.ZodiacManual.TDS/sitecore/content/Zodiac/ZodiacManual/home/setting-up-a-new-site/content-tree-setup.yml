@@ -25,7 +25,65 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
+              uid="{CDE79889-596C-4DF3-AB34-EE3D8267B091}"
+              p:after="p[@uid='{E941B0CF-5A49-49F6-B29B-D9B3BEA2D675}']"
+              s:ds="{456DE8DC-D9BC-4761-A8DF-4C2FF6C5E842}"
+              s:id="{C52BD435-3CB6-4851-A77E-22875C6226A7}"
+              s:ph="/Rows/AuxiliaryComponents-{64728665-9771-43EB-94C0-F206121AC1AD}-0" />
+            <r
+              uid="{0B9EA68B-612A-488F-8B98-F4A50EADA986}"
+              p:after="r[@uid='{CDE79889-596C-4DF3-AB34-EE3D8267B091}']"
+              s:ds="{C275C8B1-8FA4-4B96-843A-F9AF662B8CED}"
+              s:id="{5B77B275-CCC9-4627-80FC-4F57E9D1DE34}"
+              s:ph="/Rows/ContentSections-{64728665-9771-43EB-94C0-F206121AC1AD}-0" />
+            <r
+              uid="{CB5A3DC1-1743-4344-9313-CDD6594F5140}"
+              p:after="r[@uid='{0B9EA68B-612A-488F-8B98-F4A50EADA986}']"
+              s:ds="{9B9721B0-B058-49BF-9F9B-17CF7BD10F84}"
+              s:id="{C52BD435-3CB6-4851-A77E-22875C6226A7}"
+              s:ph="/Rows/AuxiliaryComponents-{C245836B-4A7A-4333-A40A-54703AD73A55}-0" />
+            <r
+              uid="{9B7051F8-B5B8-4D46-A1D0-EC78A05CF951}"
+              p:after="r[@uid='{CB5A3DC1-1743-4344-9313-CDD6594F5140}']"
+              s:ds="{DEE31C77-2B40-4862-880F-671B8A2E6DA0}"
+              s:id="{5B77B275-CCC9-4627-80FC-4F57E9D1DE34}"
+              s:ph="/Rows/ContentSections-{C245836B-4A7A-4333-A40A-54703AD73A55}-0" />
+            <r
               uid="{E8A1B66F-9D6B-42A3-A77B-61B67EC50607}"
+              s:ph="Rows" />
+            <r
+              uid="{64728665-9771-43EB-94C0-F206121AC1AD}"
+              p:after="r[@uid='{E8A1B66F-9D6B-42A3-A77B-61B67EC50607}']"
+              s:id="{D42EC9EB-E081-446C-B29F-36F6C01D24EC}"
+              s:ph="Rows" />
+            <r
+              uid="{58E43276-7F8B-4299-9478-D747ABAEAEFF}"
+              p:after="r[@uid='{64728665-9771-43EB-94C0-F206121AC1AD}']"
+              s:ds="{0C8F4B77-F332-4C0B-B13A-967BA7331A69}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{E36062AE-3368-40AD-A463-454386DDB170}"
+              p:after="r[@uid='{58E43276-7F8B-4299-9478-D747ABAEAEFF}']"
+              s:ds="{5BC3A88C-3DD1-4C79-BE27-ED63A135E028}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{F16E87C1-3FBE-4AAB-829E-A6CB31547A11}"
+              p:after="r[@uid='{E36062AE-3368-40AD-A463-454386DDB170}']"
+              s:ds="{03C8EC82-A6EE-4AC5-A83D-237B3996945A}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{C245836B-4A7A-4333-A40A-54703AD73A55}"
+              p:after="r[@uid='{F16E87C1-3FBE-4AAB-829E-A6CB31547A11}']"
+              s:id="{D42EC9EB-E081-446C-B29F-36F6C01D24EC}"
+              s:ph="Rows" />
+            <r
+              uid="{1B0E947F-1754-46FB-9A1A-DD57EB7B9C15}"
+              p:after="*[1=2]"
+              s:ds="{2036A3FE-F2F8-490D-8580-A13432C9086A}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
               s:ph="Rows" />
           </d>
         </r>
@@ -40,7 +98,7 @@ Languages:
       Value: 20200811T172006Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "95ed9015-9c37-48a3-8af8-e31ed633629e"
+      Value: "349ddd0a-d2e0-4834-9647-1cb28f6ae236"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: |
@@ -50,33 +108,8 @@ Languages:
             <li>Decide if you want your Site below the Content node, or within a Tenant</li>
             <li>Create the Tenant as necessary by right-click-Inserting on the Content node.</li>
             <li>Create the Site by right-clicking on the parent Item and selecting "Scaffold Site".</li>
-            <li>Your Site Item's name should be simple and intuitive. You'll use it as a Project Folder name in the Content Tree, reference it in Config files, and declare an MVC Area.</li>
+            <li>Your Site Item's name should be simple and intuitive. You'll use it as a Project Folder name in the Content Tree, reference it in Config files, and declare an MVC Area.&nbsp;</li>
         </ul>
-        <h3>Create Project Page Templates</h3>
-        <ul>
-            <li>Under the Templates/Project Folder, create a new Folder named after your Site.</li>
-            <li>In general, Project Templates should be organized into folders based on Zodiac canonical types: Pages, Subcontent, Widgets, Labels, and Navigation as necessary.</li>
-            <li>To get started, you should create two Page Templates: Home Page and Content Page.&nbsp;</li>
-            <li>The Home Page Template should inherit from /sitecore/templates/Foundation/Zodiac/Pages/Abstract/Landing Page</li>
-            <li>The Content Page Template should inherit from&nbsp;/sitecore/templates/Foundation/Zodiac/Pages/Abstract/Page</li>
-            <li>Create and configure basic Standard Values for both Page Templates.</li>
-        </ul>
-        <p>The Standard Values needs to be filled out just far enough to allow you to create Items based on these Templates and preferably to be able to have basic Presentation Details so you can verify the site is running correctly.&nbsp;</p>
-        <h3>Create the Home Page</h3>
-        <p>Under your Site Item in /sitecore/content, create the Home Page for your based on the Template you created above. If the name for the Item is lowercased after creation, and a "subcontent" folder appears below the page Item, the installation is successful. If not, check your Home Page inherits from the correct Zodiac base template. Note the name of your home page. You'll need it when configuring the site configuration file in the next step.</p>
-        <h3>Create the 404 Page</h3>
-        <p>Under the Home Page, create a new Content Page based on the recently created template. Name it "Not Found". If the name for the item is changed to "not-found" after creation, and a "subcontent" folder appears below the page item, the installation is successful. If not, check your template inheritance. Note the ID of your not-found Item, you'll need it when configuring the site configuration file in the next step.</p>
-        <h3>Publish Everything</h3>
-        <p>In order to test your new Site, you need to make sure everything is published:</p>
-        <ul>
-            <li>Your Page Templates</li>
-            <li>Your Layout Items (if you created new ones for use on this Site)</li>
-            <li>Your Site scaffold</li>
-            <li>Your Home Page</li>
-            <li>Your Not Found Page</li>
-        </ul>
-        <p><a href="~/link.aspx?_id=871FEEF850524A6EA9D6BB919DC5199D&amp;_z=z">The next step takes place in Visual Studio.</a></p>
-        <p>&nbsp;</p>
     - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
       Hint: Heading
       Value: Content Tree Setup
@@ -89,4 +122,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201106T204414Z
+      Value: 20201111T144855Z

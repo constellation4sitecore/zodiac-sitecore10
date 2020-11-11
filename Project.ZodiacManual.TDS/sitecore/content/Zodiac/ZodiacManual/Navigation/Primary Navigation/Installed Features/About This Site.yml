@@ -18,15 +18,14 @@ Languages:
       Value: 20201001T142718Z
     - ID: "343b5d00-6e10-4863-840b-cee38447b2f1"
       Hint: Link
-      Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{53C21447-2238-4B79-AD4A-1E47EAA3F4A3}" />
+      Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "553298b2-cb0b-4ae9-902b-15b03d30bc15"
+      Value: "6a08a74d-a772-4adc-bc79-d455a292a252"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201001T142920Z
+      Value: 20201111T191149Z

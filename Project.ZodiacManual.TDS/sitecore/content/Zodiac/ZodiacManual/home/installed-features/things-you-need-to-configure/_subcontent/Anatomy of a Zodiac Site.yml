@@ -24,23 +24,25 @@ Languages:
             <li>Site-specific Labels should exist in a _labels folder that is a child of the Site Node.</li>
             <li>"Shared" datasource components (Widgets) should be stored in a "Widgets" folder that is an immediate child of the Site Node.</li>
         </ul>
-        <p>The example screenshot provides demonstrates how these components should look in the Content Tree. Note that Label and Widget Items are organized by Feature.</p>
+        <p>The example screenshot demonstrates how these components should look in the Content Tree. Note that Label and Widget Items are organized by Feature.</p>
+        <p>This manual provides you with step-by-step guidance on how to create a new Site within a Zodiac installation.</p>
     - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
       Hint: Heading
-      Value: Anatomy of a Zodiac Site
+      Value: Adding a Site to Zodiac
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20201020T154141Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "944e3909-1731-40a2-892a-b1ee1aad8399"
+      Value: "852a4fd1-4b72-4e27-aafa-d4eced685873"
     - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
       Hint: Trailing Link
-      Value: 
+      Value: |
+        <link linktype="internal" text="Creating a New Site in Zodiac" querystring="" target="" id="{87F208CA-597D-4B6E-979E-836B4E643442}" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201020T160236Z
+      Value: 20201111T185025Z

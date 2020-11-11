@@ -1,0 +1,44 @@
+---
+ID: "87b35674-2b33-43ae-8bb4-b2c4d9dfd82f"
+Parent: "9e05384a-518f-4115-a1f0-980581437b6c"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/visual-studio-setup/_subcontent/Create the Site Configuration File"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>The Site Config file "wires up" a given hostname to a specific point on the Sitecore content tree as well as defines key site-context behaviors such as 404 page handling, URL management, and sitemap.xml responses.</p>
+        <p>The document is divided into multiple sections:</p>
+        <ul>
+            <li>"Evergreen" facts that apply no matter what environment Sitecore is running in.</li>
+            <li>"Environment Specific" facts like Hostname and Target Hostname.</li>
+            <li>"Feature Specific" facts like 404 pages, Link Provider definition, Language support and Sitemap.xml configuration.</li>
+        </ul>
+        <p>Assuming you started from the provided example file, there are plentiful comments within the document to assist in filling it out correctly.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Edit the Site Configuration File
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201109T160223Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "910841a7-a49b-4d21-991f-8b624342f76c"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201109T185531Z

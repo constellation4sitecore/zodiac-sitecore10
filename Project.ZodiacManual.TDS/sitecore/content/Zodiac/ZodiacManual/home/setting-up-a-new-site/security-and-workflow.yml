@@ -13,6 +13,102 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{25189D20-C6F1-48D6-A6FA-F64E967606C8}"
+              p:after="p[@uid='{E941B0CF-5A49-49F6-B29B-D9B3BEA2D675}']"
+              s:ds="{FCC66176-1BF3-44CD-B133-EA7A3B20C2D6}"
+              s:id="{C52BD435-3CB6-4851-A77E-22875C6226A7}"
+              s:ph="/Rows/AuxiliaryComponents-{ABBFD9D0-C0D9-49F8-B0E7-BA253375F676}-0" />
+            <r
+              uid="{5209AD65-E3CC-42F3-B5DF-2979DF4BCE2A}"
+              p:after="r[@uid='{25189D20-C6F1-48D6-A6FA-F64E967606C8}']"
+              s:ds="{BCA0162F-D6B1-4B90-803D-4DD720C6EB88}"
+              s:id="{5B77B275-CCC9-4627-80FC-4F57E9D1DE34}"
+              s:ph="/Rows/ContentSections-{ABBFD9D0-C0D9-49F8-B0E7-BA253375F676}-0" />
+            <r
+              uid="{E8A1B66F-9D6B-42A3-A77B-61B67EC50607}"
+              s:ph="Rows" />
+            <r
+              uid="{3BF836F0-61DE-4366-B099-4731132C7E29}"
+              p:after="r[@uid='{E8A1B66F-9D6B-42A3-A77B-61B67EC50607}']"
+              s:ds="{4668D3A2-331C-43E8-B59B-7DFD20C7E5F9}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{210BCAFE-71E9-41B4-96A1-4DEE3DF60862}"
+              p:after="r[@uid='{3BF836F0-61DE-4366-B099-4731132C7E29}']"
+              s:ds="{2A37C83B-98A6-4775-B1F4-220C07938C5E}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{A4426489-F0FA-4DC8-82B2-4D03079EBA29}"
+              p:after="r[@uid='{210BCAFE-71E9-41B4-96A1-4DEE3DF60862}']"
+              s:ds="{DDA63201-B435-475D-B4BE-48CAA648053F}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{074B9A5F-71AD-44CC-A7DB-1AA8B8B123C4}"
+              p:after="r[@uid='{A4426489-F0FA-4DC8-82B2-4D03079EBA29}']"
+              s:ds="{F59D61A2-799F-466E-9C8B-CE1ED22AAB77}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{31E0D903-22EF-47B6-92F9-6F32A89323C9}"
+              p:after="r[@uid='{074B9A5F-71AD-44CC-A7DB-1AA8B8B123C4}']"
+              s:ds="{BEB564C9-D910-415F-80C1-C54506B62275}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{0210457C-6501-4BB3-9E3C-286E94FC8242}"
+              p:after="r[@uid='{31E0D903-22EF-47B6-92F9-6F32A89323C9}']"
+              s:ds="{C50CB2DD-4363-46D9-A069-D93A7F2D6B60}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{BA695259-EDDF-47A0-ABDA-F89AAD0346BC}"
+              p:after="r[@uid='{0210457C-6501-4BB3-9E3C-286E94FC8242}']"
+              s:ds="{F10B79D8-E710-41E9-A70F-30BBF0DDEA83}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{0A947D91-8380-4AC4-A62C-FC6749EA5F5F}"
+              p:after="r[@uid='{BA695259-EDDF-47A0-ABDA-F89AAD0346BC}']"
+              s:ds="{DED8E4CA-5075-4A8D-A4A2-E7C4F8B85AEA}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{95F56EE9-2634-444A-89DC-69F4D3446AB8}"
+              p:after="r[@uid='{0A947D91-8380-4AC4-A62C-FC6749EA5F5F}']"
+              s:ds="{4A55BA2A-1132-454A-9C9B-B62C931BE680}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+            <r
+              uid="{ABBFD9D0-C0D9-49F8-B0E7-BA253375F676}"
+              p:after="r[@uid='{95F56EE9-2634-444A-89DC-69F4D3446AB8}']"
+              s:id="{D42EC9EB-E081-446C-B29F-36F6C01D24EC}"
+              s:ph="Rows" />
+            <r
+              uid="{E93EF3B0-BAEC-483D-9CC9-860A01E18895}"
+              p:after="*[1=2]"
+              s:ds="{1791AAF2-5DF8-4BDD-8753-13A4145EE329}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
+          </d>
+        </r>
+    - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
+      Hint: Intro Copy
+      Value: "A Granular, Scalable Approach to Mulit-Site"
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
       Hint: Browser Title
       Value: Security and Workflow
@@ -21,7 +117,10 @@ Languages:
       Value: 20200811T172047Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cd6e396e-9564-4e88-b37c-ec14e24ddf14"
+      Value: "1587090e-545b-40fb-8178-dec1c7bdf7b1"
+    - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
+      Hint: Copy
+      Value: "<p>Content Author Security and Workflow are probably the most commonly neglected components in Sitecore installations. They are either ignored entirely, or not approached with the system's internal features front-of-mind. This is not helped by the fact that the example workflow that ships with Sitecore itself does not follow rules that are implicit in the design of the software. In this section, we'll implement the most basic of workflows and reveal a strategy for limiting access to Sitecore features, Languages, and Site Items that will never let you down.</p>"
     - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
       Hint: Heading
       Value: Security and Workflow
@@ -34,4 +133,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201106T204340Z
+      Value: 20201111T181943Z

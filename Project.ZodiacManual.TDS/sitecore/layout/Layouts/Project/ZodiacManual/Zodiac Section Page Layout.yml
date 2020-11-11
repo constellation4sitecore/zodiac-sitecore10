@@ -1,8 +1,8 @@
 ---
-ID: "29339939-4c31-4dda-8f64-0a3204e4f0aa"
+ID: "0b001561-f0d1-4448-a782-c2cc76d41927"
 Parent: "f0c5c48d-8a65-4928-a0aa-e5bf48b49ca1"
 Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
-Path: /sitecore/layout/Layouts/Project/ZodiacManual/Full Width Layout
+Path: /sitecore/layout/Layouts/Project/ZodiacManual/Zodiac Section Page Layout
 DB: master
 SharedFields:
 - ID: "70dc08d9-cda2-4f04-aa35-c11fd7138066"
@@ -10,7 +10,7 @@ SharedFields:
   Value: ZodiacManual
 - ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
   Hint: Path
-  Value: /Areas/ZodiacManual/Views/Shared/FullWidthLayout.cshtml
+  Value: /Areas/ZodiacManual/Views/Shared/SectionPageLayout.cshtml
 Languages:
 - Language: en
   Versions:
@@ -29,11 +29,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5d9c07ea-93d1-4cec-806c-4f1e1a7fcbcf"
+      Value: "3ebd0e42-80fd-46a8-b9de-39ee9187a541"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200923T174342Z
+      Value: 20201111T151112Z

@@ -1,0 +1,40 @@
+---
+ID: "03c8ec82-a6ee-4ac5-a83d-237b3996945a"
+Parent: "72f80480-48c8-4fc3-80fb-ee4254a178c8"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/content-tree-setup/_subcontent/Create the Home Page"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Under your Site Item in <code>/sitecore/content</code>, create the Home Page for your based on the Template you created above.
+        </p>
+        <blockquote>If the name for the Item is lowercased after creation, and a "subcontent" folder appears below the page Item, the installation is successful. If not, check your Home Page inherits from the correct Zodiac base template. </blockquote>
+        <p>Note the name of your home page. You'll need it when configuring the site configuration file in the next step.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Create the Site's Home Page
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T142106Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "052c773a-8567-49c7-80fe-40078a63a0e6"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T150628Z

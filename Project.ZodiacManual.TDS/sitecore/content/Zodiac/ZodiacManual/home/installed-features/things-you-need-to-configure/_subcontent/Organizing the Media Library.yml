@@ -15,14 +15,13 @@ Languages:
     - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
       Hint: Copy
       Value: |
-        <p>Because most page fragments are Feature-level Datasource Items, any Image fields on these Items needs to have a fixed, site-independent folder in the media library to serve as the base location for related Images. There are benefits to this approach:</p>
+        <p>Because most page fragments are Feature-level Data Source Items, any Image fields on these Items needs to have a fixed, site-independent folder in the media library to serve as the base location for related Images. There are benefits to this approach:</p>
         <ul>
             <li>In a multi-site scenario, you know that all images in the folder are compatible with the Feature's output.</li>
             <li>You can tighten security in the Media Library to prevent users from uploading large amounts of unorganized files.</li>
             <li>You can favor a page-first approach to Media, insisting that an image need not be uploaded to Sitecore until it is determined that it absolutely, positively, needs to appear on a given page.</li>
         </ul>
-        <p>To help guide content authors into the correct organization of images within a given Feature's image folder, create sub-folders named after sites. This should help the content author realize that they should upload images into the appropriate site folder for better classification.</p>
-        <p>You can also use Site-based security to ensure that content authors cannot upload to, or even read from, site-level folders that they do not have access to.</p>
+        <p><a href="~/link.aspx?_id=87F208CA597D4B6E979E836B4E643442&amp;_z=z">Setting up a New Site</a> includes instructions on configuring the Media Library for Multi-Site use, including adjusting security to provide or prevent cross-site media use.</p>
     - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
       Hint: Heading
       Value: Organizing the Media Library
@@ -31,7 +30,7 @@ Languages:
       Value: 20201102T181723Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ec14345b-e15c-4aca-8940-a6d7686506b1"
+      Value: "6b132232-22d0-4fbb-a4f1-70569507d8c4"
     - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
       Hint: Trailing Link
       Value: 
@@ -41,4 +40,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201102T182909Z
+      Value: 20201111T185025Z

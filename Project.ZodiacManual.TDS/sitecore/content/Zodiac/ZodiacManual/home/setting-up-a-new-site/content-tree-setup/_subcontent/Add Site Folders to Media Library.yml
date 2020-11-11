@@ -1,0 +1,39 @@
+---
+ID: "c275c8b1-8fa4-4b96-843a-f9af662b8ced"
+Parent: "72f80480-48c8-4fc3-80fb-ee4254a178c8"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/content-tree-setup/_subcontent/Add Site Folders to Media Library"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>In Zodiac, any Feature-level Template that has an Image field should have a same-named folder below <code>/Images</code> in the Media Library. This ensures that all compatible images for the given Feature end up in the same place within the Media Library.</p>
+        <p>Obviously in a multi-site install this introduces a complication because a given Feature can be used on many sites. To help content authors categorize images effectively, each of these Image folders should have one sub-folder for each Site in Sitecore that utilizes that feature.</p>
+        <p>Later, we'll look at using Security to help limit the visibility of these Site level folders, but for now, visit each of the Feature level folders in the Media Library and add an additional folder below them for your new Site.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Add Site Folders to Media Library
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T143807Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "517f099e-833b-4eda-8f10-875901d97015"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T144200Z

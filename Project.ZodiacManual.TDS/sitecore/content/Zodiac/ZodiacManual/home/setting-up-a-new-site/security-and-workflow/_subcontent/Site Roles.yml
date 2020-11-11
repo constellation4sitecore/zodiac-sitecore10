@@ -1,0 +1,96 @@
+---
+ID: "f10b79d8-e710-41e9-a70f-30bbf0ddea83"
+Parent: "99b22d19-3907-40d5-9254-a77a3070a88a"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/security-and-workflow/_subcontent/Site Roles"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Zodiac usually supports three stacked Roles for each Site in the installation. In order for them to work as described, you need to make an adjustment to the <code>/sitecore/Content</code> node's security settings. Unprotect the Item and Add a Security Setting for <strong>sitecore/Everyone</strong>:</p>
+        <ul>
+            <li>Inherits Descendants (Disable)</li>
+        </ul>
+        <p>This prevents any authenticated users from reading anything below <code>/sitecore/content</code> without explicit permission. Don't forget to set <strong>sitecore/Everyone (Read)</strong> permissions on any global folders you have immediately below <code>/sitecore/content</code>.</p>
+        <h4>[SiteName] Site Reader</h4>
+        <p>Allows Content Authors to see the Site node and its descendants in the Content Tree. This is the base role for all Content Authors for a given Site. This role is also useful if you want Content Authors on other Sites to be able to reference Content on this site, but not edit it.</p>
+        <p>On the Site Root Node:</p>
+        <ul>
+            <li>Read (Item, Descendants, Inherit, Inherit Descendants)</li>
+        </ul>
+        <h4>[SiteName] Site Editor</h4>
+        <p>Allows Content Authors to edit Pages in Experience Editor, including creating new pages and data source objects for any on-page Renderings.</p>
+        <ul>
+            <li>Is a Member of <strong>[SiteName] Site Reader</strong></li>
+        </ul>
+        <p>On the Site's Home page Item:</p>
+        <ul>
+            <li>Edit (Item, Descendants, Inherit, Inherit Descendants)&nbsp;</li>
+            <li>Delete (Descendants, Inherit, Inherit Descendants) - Be careful here, make sure your users cannot delete the home page.</li>
+            <li>Create (Item, Descendants, Inherit, Inherit Descendants)</li>
+            <li>Rename (Descendants, Inherit, Inherit Descendants) - without this right, your content authors cannot adjust Page URLs.</li>
+        </ul>
+        <p>On the Site's /Widgets folder:</p>
+        <ul>
+            <li>Edit (Item, Descendants, Inherit, Inherit Descendants)</li>
+            <li>Delete (Descendants, Inherit, Inherit Descendants) - Be careful here, make sure your users cannot delete the Widget folder.</li>
+            <li>Create (Item, Descendants, Inherit, Inherit Descendants)</li>
+            <li>Rename (Descendants, Inherit, Inherit Descendants)</li>
+        </ul>
+        <p>If you are going to restrict access to Media Items by site, you also need to set the following on any Site folders in the Media Library:</p>
+        <ul>
+            <li>Edit (Descendants, Inherit, Inherit Descendants)&nbsp;- Don't let the user edit the Folder item.</li>
+            <li>Delete (Descendants, Inherit, Inherit Descendants) - Be careful here, make sure your users cannot delete the Site folder.</li>
+            <li>Create (Item, Descendants, Inherit, Inherit Descendants)</li>
+            <li>Rename (Descendants, Inherit, Inherit Descendants)</li>
+            <li>For the Sitecore/Everyone Role, set (Inherits, Item) to Deny.</li>
+        </ul>
+        <h4>[Sitename] Site Owner</h4>
+        <p>Allows Content Authors access to edit static Navigation and any Site-specific Label Groups.</p>
+        <ul>
+            <li>Is a Member of<strong> [SiteName] Site Editor</strong></li>
+        </ul>
+        <p>Inside the Site's <code>/Navigation</code> folder, on each Navigation Menu defined set the following security:</p>
+        <ul>
+            <li>Edit (Item, Descendants, Inherit, Inherit Descendants)</li>
+            <li>Delete (Descendants, Inherit, Inherit Descendants) - Be careful here, make sure your users cannot delete the Navigation Menu</li>
+            <li>Create (Descendants, Inherit, Inherit Descendants)</li>
+            <li>Rename (Descendants, Inherit, Inherit Descendants)</li>
+        </ul>
+        <p>On the Site's <code>/Labels</code> folder:</p>
+        <ul>
+            <li>Edit (Item, Descendants, Inherit, Inherit Descendants)</li>
+        </ul>
+        <p>Always set your Site Owner permissions at a point where the Content Author will not be able to delete or rename something that the system expects to exist for the site to function properly:</p>
+        <ul>
+            <li>Label Group folders and Items (these may be representing JSON endpoints)</li>
+            <li>Navigation Menus in the Navigation folder (don't let the Content Author delete the Primary Navigation for the site!)</li>
+            <li>The Widgets folder and any sub-folders which may be serving as explicit Data Source Locations for Renderings.</li>
+        </ul>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Site Roles
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T170732Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1c0e6a7-7d3b-421b-9130-343a208cd293"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T181552Z

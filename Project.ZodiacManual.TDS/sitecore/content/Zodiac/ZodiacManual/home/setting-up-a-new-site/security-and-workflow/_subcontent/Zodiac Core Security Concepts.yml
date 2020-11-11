@@ -1,0 +1,53 @@
+---
+ID: "f59d61a2-799f-466e-9c8b-ce1ed22aab77"
+Parent: "99b22d19-3907-40d5-9254-a77a3070a88a"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/security-and-workflow/_subcontent/Zodiac Core Security Concepts"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>In order to support multi-site installations with a (potentially) large number of distributed content authors. Sitecore Security can be broken down into the following core features:</p>
+        <ul>
+            <li>Authorizing access to Sitecore Features (Publishing, Editing, Templates, Layouts, Settings, Rules and Security)</li>
+            <li>Authorizing access to edit Items of a particular Template type</li>
+            <li>Authorizing access to specific Fields on content Items</li>
+            <li>Authorizing access to specific Languages (Read/Edit)</li>
+            <li>Authorizing access to specific parts of the Content Tree</li>
+            <li>Authorizing access to Items in a given Workflow State</li>
+            <li>Authorizing the ability to execute a given Workflow Action</li>
+        </ul>
+        <p>Zodiac divides the above into a few easier to understand groups:</p>
+        <ul>
+            <li><strong>Sitecore Client </strong>Roles</li>
+            <li><strong>Workflow</strong> Roles</li>
+            <li><strong>Language</strong> Roles</li>
+            <li><strong>Site </strong>Roles</li>
+            <li><strong>Field and Template </strong>Roles (seldom used)</li></ul>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Zodiac Core Security Concepts
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T155702Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "47cb7626-a03b-4117-bac4-64b70a11ff5a"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T161043Z

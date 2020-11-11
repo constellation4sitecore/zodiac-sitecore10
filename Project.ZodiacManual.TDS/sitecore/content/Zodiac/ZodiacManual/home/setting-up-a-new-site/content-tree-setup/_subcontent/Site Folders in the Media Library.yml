@@ -1,8 +1,8 @@
 ---
-ID: "404a4acd-980d-4eec-90af-c95d538bfa6f"
-Parent: "23abedbd-062e-4a0a-8de8-d3c3f3ff9416"
+ID: "456de8dc-d9bc-4761-a8df-4c2ff6c5e842"
+Parent: "72f80480-48c8-4fc3-80fb-ee4254a178c8"
 Template: "547a79db-25a0-414d-ab7a-589e0e7d7511"
-Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/things-you-need-to-configure/_subcontent/Minimum Site Structure"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/content-tree-setup/_subcontent/Site Folders in the Media Library"
 DB: master
 Languages:
 - Language: en
@@ -14,13 +14,13 @@ Languages:
       Value: <r />
     - ID: "0b674bf0-d756-48a7-a363-53f5ad334857"
       Hint: Caption
-      Value: <p>A minimal Zodiac Site.</p>
+      Value: "<p>Because Features are higher-level citizens than Sites (Projects) the same hierarchy should apply to the Media Library</p>"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20201020T155614Z
+      Value: 20201111T144428Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "239f3f57-9ff9-4a52-a771-7e99d9d2afcb"
+      Value: "2b54120a-0a3c-4152-96f6-038299818f98"
     - ID: "9f337325-e776-41d5-9a15-ff017e501d5e"
       Hint: View Full Size In Modal
       Type: Checkbox
@@ -31,11 +31,11 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201111T185025Z
+      Value: 20201111T144601Z
     - ID: "f4c8fdba-d80f-4612-b1c7-4a9a9c7c0bfd"
       Hint: Full Size Image
       Value: |
-        <image mediaid="{BDFA95D2-BDF9-48B8-AB76-8225F32B72D1}" />
+        <image mediaid="{BCC98383-0CA5-4333-82A1-9D9302D9D8E1}" />
     - ID: "fb51681e-4d1e-4eb8-b3ce-f78af3d5013f"
       Hint: Heading
-      Value: Example Minimum Site Structure
+      Value: Site Folders in the Media Library

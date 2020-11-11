@@ -15,14 +15,14 @@ Languages:
     - ID: "343b5d00-6e10-4863-840b-cee38447b2f1"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{ECA2A40B-8AE3-4595-84B8-535A0124D513}" />
+        <link id="{ECA2A40B-8AE3-4595-84B8-535A0124D513}" querystring="" linktype="internal" text="" anchor="" url="/Zodiac/ZodiacManual/home/installed-features/turn-key-seo-features" title="" class="" target="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "acb29f76-55b2-4999-b33a-ab8002607027"
+      Value: "0f38b92c-97da-4efe-a7ef-3feac30b8521"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201001T142758Z
+      Value: 20201111T185425Z

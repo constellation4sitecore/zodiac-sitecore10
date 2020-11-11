@@ -25,8 +25,14 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{E42E6B3C-B44E-4222-85AF-8846220FDBFE}"
+              uid="{1BE6C363-6EEF-480A-B88C-9A7A5A46E7F3}"
               p:after="p[@uid='{E941B0CF-5A49-49F6-B29B-D9B3BEA2D675}']"
+              s:ds="{6AB18BC0-81A9-45B4-B144-BA4B15A8787D}"
+              s:id="{C52BD435-3CB6-4851-A77E-22875C6226A7}"
+              s:ph="/Rows/AuxiliaryComponents-{564E23F2-0D2A-4EAD-8B13-2A7D44CDB180}-0" />
+            <r
+              uid="{E42E6B3C-B44E-4222-85AF-8846220FDBFE}"
+              p:after="r[@uid='{1BE6C363-6EEF-480A-B88C-9A7A5A46E7F3}']"
               s:ds="{A07500C0-B876-4869-AB22-D64B64DCDDD1}"
               s:id="{C52BD435-3CB6-4851-A77E-22875C6226A7}"
               s:ph="/Rows/AuxiliaryComponents-{B30323D9-5D01-4349-B2F8-5EB9B7CE25FA}-0" />
@@ -86,8 +92,14 @@ Languages:
               s:ph="Rows" />
             <r
               uid="{564E23F2-0D2A-4EAD-8B13-2A7D44CDB180}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{B30323D9-5D01-4349-B2F8-5EB9B7CE25FA}']"
               s:id="{D42EC9EB-E081-446C-B29F-36F6C01D24EC}"
+              s:ph="Rows" />
+            <r
+              uid="{16BE3F3A-A2D2-4E58-AFED-02EE6DD8B615}"
+              p:after="*[1=2]"
+              s:ds="{90979AB9-C4BD-40D6-B7BE-9B1ACB1C44F3}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
               s:ph="Rows" />
           </d>
         </r>
@@ -102,7 +114,7 @@ Languages:
       Value: 20200811T172328Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c3ea2efa-6e54-4ba3-ae36-831f7289318b"
+      Value: "58fe2d08-77c8-473a-a5cc-34dc424870a2"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: |
@@ -129,4 +141,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201109T190539Z
+      Value: 20201111T140408Z

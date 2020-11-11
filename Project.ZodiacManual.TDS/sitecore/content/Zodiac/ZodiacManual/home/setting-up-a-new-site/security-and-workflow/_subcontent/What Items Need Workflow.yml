@@ -1,0 +1,47 @@
+---
+ID: "2a37c83b-98a6-4775-b1f4-220c07938c5e"
+Parent: "99b22d19-3907-40d5-9254-a77a3070a88a"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/security-and-workflow/_subcontent/What Items Need Workflow"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>In Zodiac, the following Types of Items&nbsp;<em>must</em>&nbsp;go through workflow:</p>
+        <ul>
+            <li>Pages</li>
+            <li>Subcontent</li>
+            <li>Widgets</li>
+        </ul>
+        <p>Almost anything that is visible and editable in the Experience Editor should go through Workflow.</p>
+        <ul>
+            <li>If you have extensive trans-site or meta-Items that are outside the Zodiac core concepts but are key information to your site, such as Products, Profiles, or Services they should&nbsp;<em>also</em>&nbsp;go through workflow.</li>
+            <li>If you import content from a 3rd party system and allow content authors to adjust this content, that content should go through workflow.</li>
+        </ul>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: "What Items Need Workflow?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T153214Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9482a777-71d1-4292-baab-a9c5481b334e"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T153756Z

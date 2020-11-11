@@ -1,8 +1,8 @@
 ---
-ID: "404a4acd-980d-4eec-90af-c95d538bfa6f"
-Parent: "23abedbd-062e-4a0a-8de8-d3c3f3ff9416"
+ID: "8b69c164-c1d0-4fc7-8788-43f49f1fe6bc"
+Parent: "9e05384a-518f-4115-a1f0-980581437b6c"
 Template: "547a79db-25a0-414d-ab7a-589e0e7d7511"
-Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/things-you-need-to-configure/_subcontent/Minimum Site Structure"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/visual-studio-setup/_subcontent/Example Site Configuration File"
 DB: master
 Languages:
 - Language: en
@@ -14,13 +14,13 @@ Languages:
       Value: <r />
     - ID: "0b674bf0-d756-48a7-a363-53f5ad334857"
       Hint: Caption
-      Value: <p>A minimal Zodiac Site.</p>
+      Value: <p>After copying the example project folder, your solution should resemble this one.</p>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20201020T155614Z
+      Value: 20201109T182208Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "239f3f57-9ff9-4a52-a771-7e99d9d2afcb"
+      Value: "f0158a29-17d5-44bf-a26a-ef92a016d3d4"
     - ID: "9f337325-e776-41d5-9a15-ff017e501d5e"
       Hint: View Full Size In Modal
       Type: Checkbox
@@ -31,11 +31,11 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201111T185025Z
+      Value: 20201109T182319Z
     - ID: "f4c8fdba-d80f-4612-b1c7-4a9a9c7c0bfd"
       Hint: Full Size Image
       Value: |
-        <image mediaid="{BDFA95D2-BDF9-48B8-AB76-8225F32B72D1}" />
+        <image mediaid="{B0173667-DCEC-4869-92CA-904D3267B302}" />
     - ID: "fb51681e-4d1e-4eb8-b3ce-f78af3d5013f"
       Hint: Heading
-      Value: Example Minimum Site Structure
+      Value: Example Site Configuration File

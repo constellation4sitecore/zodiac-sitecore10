@@ -448,6 +448,7 @@
     <Content Include="Areas\Feature_Navigation\Views\SectionCards.cshtml" />
     <Content Include="App_Data\packages\Zodiac-Project-Scaffolding.zip" />
     <Content Include="Areas\MySiteCom\Views\web.config" />
+    <Content Include="Areas\MySiteCom\Views\Shared\MySiteComDefaultLayout.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
@@ -462,7 +463,6 @@
   <ItemGroup>
     <Folder Include="Areas\MySiteCom\Controllers\" />
     <Folder Include="Areas\MySiteCom\Data\" />
-    <Folder Include="Areas\MySiteCom\Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Feature.Content\Feature.Content.csproj">

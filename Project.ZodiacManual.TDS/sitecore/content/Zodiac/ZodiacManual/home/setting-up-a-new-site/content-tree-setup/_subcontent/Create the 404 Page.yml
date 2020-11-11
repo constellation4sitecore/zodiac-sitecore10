@@ -1,8 +1,8 @@
 ---
-ID: "4614b551-6122-4378-8699-2321362744da"
-Parent: "23abedbd-062e-4a0a-8de8-d3c3f3ff9416"
+ID: "dee31c77-2b40-4862-880f-671b8a2e6da0"
+Parent: "72f80480-48c8-4fc3-80fb-ee4254a178c8"
 Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
-Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/things-you-need-to-configure/_subcontent/Create a 404 Page as Early as Possible"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/content-tree-setup/_subcontent/Create the 404 Page"
 DB: master
 Languages:
 - Language: en
@@ -15,16 +15,16 @@ Languages:
     - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
       Hint: Copy
       Value: |
-        <p>Zodiac has robust, Site-specific 404 handling built in. It will return the correct 404 Response Header while also showing a native Sitecore Item that looks like it <i>belongs</i>&nbsp;on your Site. Each Site needs to have a 404 page identified. Instructions for setup are included in <a href="~/link.aspx?_id=87F208CA597D4B6E979E836B4E643442&amp;_z=z">Setting Up a New Site</a>.</p>
+        <p>Under the Home Page, create a new Content Page based on the recently created template. Name it "Not Found". If the name for the item is changed to "not-found" after creation, and a "subcontent" folder appears below the page item, the installation is successful. If not, check your template inheritance. Note the ID of your not-found Item, you'll need it when configuring the site configuration file in the next step.</p>
     - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
       Hint: Heading
-      Value: 404 Error Handling
+      Value: Create the Site's 404 Page
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20201102T155410Z
+      Value: 20201111T142637Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0f76fea8-6f3d-45d2-b17b-2926e6a68715"
+      Value: "8cc096ec-1965-4114-b105-06e4abeb46b1"
     - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
       Hint: Trailing Link
       Value: 
@@ -34,4 +34,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201111T185025Z
+      Value: 20201111T150628Z

@@ -1,8 +1,8 @@
 ---
-ID: "404a4acd-980d-4eec-90af-c95d538bfa6f"
-Parent: "23abedbd-062e-4a0a-8de8-d3c3f3ff9416"
+ID: "fcc66176-1bf3-44cd-b133-ea7a3b20c2d6"
+Parent: "99b22d19-3907-40d5-9254-a77a3070a88a"
 Template: "547a79db-25a0-414d-ab7a-589e0e7d7511"
-Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/things-you-need-to-configure/_subcontent/Minimum Site Structure"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/security-and-workflow/_subcontent/User Roles"
 DB: master
 Languages:
 - Language: en
@@ -14,13 +14,14 @@ Languages:
       Value: <r />
     - ID: "0b674bf0-d756-48a7-a363-53f5ad334857"
       Hint: Caption
-      Value: <p>A minimal Zodiac Site.</p>
+      Value: |
+        <p>Here we're showing an excerpt from the Add Roles panel of the User Editor to demonstrate which roles need to be manually added for the typical Content Author. Note that there's no need to add "Sitecore Client" because it is included in all other stock Sitecore roles.</p>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20201020T155614Z
+      Value: 20201111T180916Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "239f3f57-9ff9-4a52-a771-7e99d9d2afcb"
+      Value: "17d90e31-9072-4460-b187-3e79bbb2da22"
     - ID: "9f337325-e776-41d5-9a15-ff017e501d5e"
       Hint: View Full Size In Modal
       Type: Checkbox
@@ -31,11 +32,11 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201111T185025Z
+      Value: 20201111T181112Z
     - ID: "f4c8fdba-d80f-4612-b1c7-4a9a9c7c0bfd"
       Hint: Full Size Image
       Value: |
-        <image mediaid="{BDFA95D2-BDF9-48B8-AB76-8225F32B72D1}" />
+        <image mediaid="{0428366F-6EA5-442D-BE57-8A70BAFF5393}" />
     - ID: "fb51681e-4d1e-4eb8-b3ce-f78af3d5013f"
       Hint: Heading
-      Value: Example Minimum Site Structure
+      Value: User Roles

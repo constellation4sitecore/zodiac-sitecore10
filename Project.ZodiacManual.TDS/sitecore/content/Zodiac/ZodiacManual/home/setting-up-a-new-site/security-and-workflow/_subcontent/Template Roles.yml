@@ -1,0 +1,48 @@
+---
+ID: "4a55ba2a-1132-454a-9c9b-b62c931be680"
+Parent: "99b22d19-3907-40d5-9254-a77a3070a88a"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/security-and-workflow/_subcontent/Template Roles"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>If you need to restrict fields on a given Item to a discrete group of Content Authors, create a dedicated Template Role for this security and assign the appropriate Field Read/Field Write permissions to that role. When assigning security restrictions to the Field Definition, don't forget to Deny Inheritance for Sitecore/Everyone, which will then require a user to belong to your Template Role in order to access the field.</p>
+        <p>Limiting access to a particular Field on an Item that a Content Author can otherwise edit is a code smell and should be avoided if at all possible.</p>
+        <h3>Template Roles Scenario II - Authors responsible for a single Content Type</h3>
+        <p>A rare cross-cutting concern involves content authors that are responsible for a specific type of content that might exist on more than one site. Usually this is resolved by creating a centralized repository for this kind of content external to any of the consuming sites, however, in the case of distributed authorship, it may become a requirement that a user be able to edit specific content on a site they otherwise can only read.</p>
+        <ul>
+            <li>Create a Template Role for this scenario.</li>
+            <li>Set the appropriate Write access on the Standard Values of the Template in question. these rights will be copied to any Items that use this Template, assuming no local Security settings exist.</li>
+            <li>Assign the Template Role to the author in question.</li>
+            <li>Assign the author in question Site Reader roles for any Sites that utilize the Template covered by their Role.</li>
+        </ul>
+        <p>This particular scenario saves developers from having to explicitly set local permissions on arbitrary Items in different Sites.</p>
+        <p>Use this concept sparingly. It is generally a sign of a bad architecture decision.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Template Roles
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T174847Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bd632ebd-afdd-4d5a-83ea-270ad839ca0b"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T175821Z

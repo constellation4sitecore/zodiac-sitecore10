@@ -1,0 +1,47 @@
+---
+ID: "2036a3fe-f2f8-490d-8580-a13432c9086a"
+Parent: "72f80480-48c8-4fc3-80fb-ee4254a178c8"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/content-tree-setup/_subcontent/Publish Everything"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>In order to test your new Site, you need to make sure everything is published:</p>
+        <ul>
+            <li>Page Templates</li>
+            <li>Media Library folders</li>
+            <li>Layout Items</li>
+            <li>Your Site scaffold</li>
+            <li>Your Home Page</li>
+            <li>Your Not Found Page</li>
+        </ul>
+        <p>After publishing finishes, flip over to Visual Studio.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Publish Everything
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T142525Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3b89084f-5303-4b95-9373-cbcac159296a"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link linktype="internal" text="Next: Visual Studio Solution Setup" querystring="" target="" id="{871FEEF8-5052-4A6E-A9D6-BB919DC5199D}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T183534Z

@@ -1,0 +1,53 @@
+---
+ID: "c50cb2dd-4363-46d9-a069-d93a7f2d6b60"
+Parent: "99b22d19-3907-40d5-9254-a77a3070a88a"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/security-and-workflow/_subcontent/Minimum Workflow Roles"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Zodiac installations usually feature two Workflow Roles per defined Workflow. In most cases, there is only one Workflow defined in Zodiac, and therefore usually only two Workflow Roles:</p>
+        <h4>Workflow Editor</h4>
+        <p>This Role has the following Rights defined on the appropriate <code>sitecore/System/Workflow/[Workflow Name]</code> Item:</p>
+        <ul>
+            <li>Read (item, descendants, inherit, inherit descendants)</li>
+            <li>Workflow State Write (item, descendants, inherit, inherit descendants)</li>
+            <li>Workflow State Delete(item, descendants, inherit, inherit descendants)</li>
+        </ul>
+        <h4>Workflow Approver</h4>
+        <p>This Role has the following Rights defined on the appropriate sitecore/System/Workflow/[Workflow Name] Item:</p>
+        <ul>
+            <li>Read (item, descendants, inherit, inherit descendants)</li>
+            <li>Workflow State Write (item, descendants, inherit, inherit descendants)</li>
+            <li>Workflow State Delete (item, descendants, inherit, inherit descendants)</li>
+            <li>Workflow Command Execute&nbsp;(item, descendants, inherit, inherit descendants)</li>
+        </ul>
+        <p>The <strong>Workflow Approver</strong> role can be a member of the <strong>Workflow Editor</strong> role, but in practice it's better to keep these separate, because you may want to enable specific <em>Workflow Command Execute</em> rights on the Workflow Editor that are different from the Workflow Approver role.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Minimum Workflow Roles
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T162151Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "df4d4166-1e8d-4ddd-b09c-cd199b5507b4"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T163049Z

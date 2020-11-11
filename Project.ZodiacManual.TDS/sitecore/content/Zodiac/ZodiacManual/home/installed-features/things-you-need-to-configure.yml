@@ -45,20 +45,8 @@ Languages:
               s:id="{D42EC9EB-E081-446C-B29F-36F6C01D24EC}"
               s:ph="Rows" />
             <r
-              uid="{858F4675-0CE1-4E11-A8BE-B75DAE9B183F}"
-              p:after="r[@uid='{6AFD798C-4B3A-4219-95A8-1D77749DEF44}']"
-              s:ds="{ADFB98E6-FD5E-4573-834D-3A1A97B2E7F0}"
-              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
-              s:ph="Rows" />
-            <r
-              uid="{30F15D0E-C352-48FF-BB39-DD2EE0FA5D8E}"
-              p:after="r[@uid='{858F4675-0CE1-4E11-A8BE-B75DAE9B183F}']"
-              s:ds="{3734B5BB-77E9-4CC0-8FA1-99ABEEA89B27}"
-              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
-              s:ph="Rows" />
-            <r
               uid="{79053113-DC56-4A41-8638-13CF52CF8DFC}"
-              p:after="r[@uid='{30F15D0E-C352-48FF-BB39-DD2EE0FA5D8E}']"
+              p:after="r[@uid='{6AFD798C-4B3A-4219-95A8-1D77749DEF44}']"
               s:ds="{4D80FA6C-8E20-4551-AAD1-E1D3DD369FF8}"
               s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
               s:ph="Rows" />
@@ -93,23 +81,21 @@ Languages:
       Value: 20201001T142812Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "60846d78-5cf2-4274-bdf5-f06f1ac47729"
+      Value: "c74f65d0-f32f-489e-9296-d2201c6d6d3c"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: |
         <p>Because Zodiac doesn't know about your Project Layer, a few things need to be set up during your project build to get the most out of Zodiac, all of these are Site-specific:</p>
         <ul>
-            <li>Content Tree Site Node (Scaffolding)</li>
-            <li>Site Config (including hostnames)</li>
-            <li>LinkProvider settings</li>
-            <li>404 Page ID</li>
+            <li>Project-Specific Page Templates</li>
+            <li>Project-Specific Layouts &amp; Sublayouts</li>
+            <li>Project-Specific Media Library folders</li>
+            <li>Project-Specific Site Config (hostnames, URL generation, etc...)</li>
+            <li>Site Specific 404 Pages</li>
             <li>Custom Sitemap.XML generation (if necessary)</li>
-            <li>Media Library Site folders beneath Feature folders.</li>
             <li>Static Navigation scaffolding for the new Site.</li>
-            <li>Placeholder Settings, and MVC Area folder on disk</li>
-            <li>Site Layout files and Layout Definition Items.</li>
+            <li>Placeholder Settings</li>
         </ul>
-        <p>Mercifully most of these facts are configurable in one XML Config document.</p>
     - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
       Hint: Heading
       Value: Things You Need to Configure
@@ -122,4 +108,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201102T182801Z
+      Value: 20201111T185025Z

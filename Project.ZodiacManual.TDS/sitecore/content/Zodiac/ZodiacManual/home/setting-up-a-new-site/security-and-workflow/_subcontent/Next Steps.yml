@@ -1,0 +1,37 @@
+---
+ID: "1791aaf2-5df8-4bdd-8753-13a4145ee329"
+Parent: "99b22d19-3907-40d5-9254-a77a3070a88a"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/security-and-workflow/_subcontent/Next Steps"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: "<p>At this point your new Site should be ready for active development. You've configured Sitecore to respond to the Site, stubbed out the necessary Zodiac Site architecture, set Workflow and Permissions and configured your Visual Studio solution for site-specific Layouts, Sublayouts, and Rendering Views.</p><p>Before further development, you may want to familiarize yourself with Zodiac's out-of-the-box Features, which were designed to handle common implementation scenarios as well as cut down on the development workload.</p>"
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Next Steps
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T181619Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3aeffd4e-621c-48b8-92f1-e863c34c816e"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link linktype="internal" text="Zodiac Features" querystring="" target="_blank" id="{CB4D634A-409F-4E32-99DB-E51DD3675116}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T181943Z

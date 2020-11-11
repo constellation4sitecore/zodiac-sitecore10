@@ -1,0 +1,45 @@
+---
+ID: "bca0162f-d6b1-4b90-803d-4dd720c6eb88"
+Parent: "99b22d19-3907-40d5-9254-a77a3070a88a"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/security-and-workflow/_subcontent/Assigning Users to Roles"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Zodiac Security philosophy is to have extremely verbose Role settings at the User level. Users will typically belong to 5 to 7 discrete Roles from a variety of the groups described in this document:</p>
+        <ul>
+            <li>Multiple Sitecore Client roles to enable appropriate functionality</li>
+            <li>One Workflow Role for each Workflow that the user participates in</li>
+            <li>One Site Role for each Site that the user is responsible for</li>
+            <li>One Language Role for each Language the user is responsible for</li>
+            <li>Occasionally, a Template role</li>
+        </ul>
+        <p>The Screenshot included here demonstrates an archetypical Zodiac Content Author.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Assigning Users to Roles
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T175936Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "680b3c5a-8e93-497c-8efd-f31c6afca8d0"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T181137Z

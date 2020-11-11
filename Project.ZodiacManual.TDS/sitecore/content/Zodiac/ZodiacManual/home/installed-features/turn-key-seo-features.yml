@@ -2,7 +2,7 @@
 ID: "eca2a40b-8ae3-4595-84b8-535a0124d513"
 Parent: "cb4d634a-409f-4e32-99db-e51dd3675116"
 Template: "9f2e6785-ae61-4ae4-837e-ffed3b217200"
-Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/low-hanging-fruit"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/installed-features/turn-key-seo-features"
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
@@ -70,26 +70,26 @@ Languages:
       Value: Things most public websites need, but don't ship with Sitecore out of the box.
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
       Hint: Browser Title
-      Value: Low Hanging Fruit
+      Value: "Turn-Key SEO Features"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20201001T142658Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f5d7ec75-64b1-4e3e-a865-697897088c05"
+      Value: "948d0682-db1c-4f16-a799-fe186624237b"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
-      Value: <p>Zodiac includes a number of small necessities that just don't seem to make the official feature list. They are often excluded because they are so obviously required, or because they are so rarely managed or encountered during website use or maintenance.</p>
+      Value: "<p>Zodiac includes a number of small necessities that just don't seem to make a project's official feature list, but are essential for modern SEO and Digital Marketing - These features also tend to be challenging to execute well in Sitecore. Zodiac's core SEO features require no developer intervention to produce viable robots.txt, sitemap.xml and 301 redirects for each site in your installation. Robust metadata support and 404 error handling is also provided with minimal developer intervention.</p>"
     - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
       Hint: Heading
-      Value: Low Hanging Fruit
+      Value: "Turn-Key SEO Features"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
-      Value: Low Hanging Fruit
+      Value: "Turn-Key SEO Features"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201014T143917Z
+      Value: 20201111T190112Z

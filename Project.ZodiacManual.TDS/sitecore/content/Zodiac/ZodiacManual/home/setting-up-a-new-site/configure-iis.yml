@@ -27,6 +27,12 @@ Languages:
             <r
               uid="{E8A1B66F-9D6B-42A3-A77B-61B67EC50607}"
               s:ph="Rows" />
+            <r
+              uid="{FD5DE431-B533-4662-87DB-0559F38DA7BA}"
+              p:after="*[1=2]"
+              s:ds="{77F3E020-B1F2-4338-8B3F-39D6CA8C4877}"
+              s:id="{6E0ABACE-DDE6-45B8-8681-CA8354A5D90D}"
+              s:ph="Rows" />
           </d>
         </r>
     - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
@@ -40,7 +46,7 @@ Languages:
       Value: 20201105T193047Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "db158c45-45d2-4058-9515-d91cd47b8426"
+      Value: "1041315d-e4b3-4137-823c-78319db62449"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: |
@@ -60,11 +66,6 @@ Languages:
         </ul>
         <h3>Using Docker Containers?</h3>
         <p>If you're using Docker Containers for development, the process for binding the new hostname and the ports in play may be different. Refer to the Sitecore documentation.</p>
-        <h3>Test your Configuration</h3>
-        <ul>
-            <li>Try loading your new hostname as follows: <a rel="noopener noreferrer" href="http://new-hostname.sc.dev" target="_blank"></a><a href="http://new-hostname.sc.dev" target="_blank">http://new-hostname.sc.dev</a>&nbsp;Assuming you have not deleted it, the default Sitecore home page should load.</li>
-            <li>You're <a href="~/link.aspx?_id=3DEB18F7A0524054A62DE15F40ACC82B&amp;_z=z">ready for the next step</a>.</li>
-        </ul>
     - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
       Hint: Heading
       Value: Configure IIS
@@ -77,4 +78,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201106T204340Z
+      Value: 20201111T183325Z

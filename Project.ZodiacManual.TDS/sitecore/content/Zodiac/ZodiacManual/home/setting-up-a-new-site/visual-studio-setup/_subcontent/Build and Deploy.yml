@@ -1,0 +1,41 @@
+---
+ID: "90979ab9-c4bd-40d6-b7be-9b1acb1c44f3"
+Parent: "9e05384a-518f-4115-a1f0-980581437b6c"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/visual-studio-setup/_subcontent/Build and Deploy"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>You should now have enough on disk to wire Sitecore to the new hostname. Build your Solution and deploy it to your local install.</p>
+        <p>Assuming you published your Sitecore components in the last step, you should now be able to supply your new hostname to the browser and get a response that displays the layout we stubbed out above. If you get a Layout Not Found error, the Layout Definition in Sitecore may need its path adjusted.</p>
+        <p>Assuming your request was successful, congratulations, your Site is now ready for development.</p>
+        <p>There are still a number of <a href="~/link.aspx?_id=B6107493EC6D44C69CA390451FD27565&amp;_z=z">Sitecore tasks we need to perform before we can let content authors into the system</a>.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Build and Deploy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T135845Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27ea435b-a197-4b3d-8695-5a5e3f01775d"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link linktype="internal" text="Next: Security and Workflow Setup" querystring="" target="" id="{B6107493-EC6D-44C6-9CA3-90451FD27565}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T183651Z

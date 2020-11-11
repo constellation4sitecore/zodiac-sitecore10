@@ -1,0 +1,49 @@
+---
+ID: "171bd37c-186b-4196-8a0a-eeadfa359b18"
+Parent: "9e05384a-518f-4115-a1f0-980581437b6c"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/visual-studio-setup/_subcontent/Stub Out the Site Layout"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>When setting up the Content Tree we asked you to stub out a Layout Definition Item. Now we'll create the <code>cshtml</code> file on disk for it to connect to so we can get some feedback when we validate the site configuration.</p>
+        <p>The Zodiac preference is to keep Layouts and Sublayouts (View Renderings) discrete from Views that serve Controller Renderings. This is because any non Layout/Sublayout Views in a Site's MVC Area are explicit overrides of Helix Feature output and need to be obviously identifiable as such.</p>
+        <p>Layouts and Sublayouts for a site should be stored in <code>/Areas/[SiteName]/Views/Shared</code>.</p>
+        <p>Layouts should have obvious names that help identify their use cases:</p>
+        <ul>
+            <li>Default</li>
+            <li>JSON</li>
+            <li>Home Page etc...</li>
+        </ul>
+        <p>Layouts should be prefixed with the Site name to ensure legibility when viewing Presentation Details from the Content Editor.</p>
+        <p>Layout and Sublayout names should be suffixed with "Layout" or "Sublayout" to clearly identify their purpose on disk and in the Renderings folder in the Content Tree.</p>
+        <p>Create a basic CSHTML file at this location: <code>Website/Areas/[SiteName]/Views/Shared/[Sitename]DefaultLayout.cshtml</code></p>
+        <p>Put something in the file so that you can see if your test requests are successful.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Stub Out the Site Layout
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201109T160340Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d8e1a8e-69c8-487b-b05c-f1c19da5147c"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T141550Z

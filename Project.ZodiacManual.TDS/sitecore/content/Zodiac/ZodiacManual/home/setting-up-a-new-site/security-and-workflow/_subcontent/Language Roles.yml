@@ -1,0 +1,53 @@
+---
+ID: "ded8e4ca-5075-4a8d-a4a2-e7c4f8b85aea"
+Parent: "99b22d19-3907-40d5-9254-a77a3070a88a"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/security-and-workflow/_subcontent/Language Roles"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Sitecore Language Items have two unique Security settings:</p>
+        <ul>
+            <li>Language Read</li>
+            <li>Language Write</li>
+        </ul>
+        <p>If you have a multi-lingual Sitecore installation and you need to limit an Author's ability to edit content in a given language, you should create a pair of Language roles for each Language in your installation. Example:</p>
+        <ul>
+            <li><strong>en-US Language Read</strong></li>
+            <li><strong>en-US Language Write</strong> (inherits from Read)</li>
+        </ul>
+        <p>These Roles should have the appropriate Language Read/Language Write security settings defined on the target Language.</p>
+        <p>You then must assign the appropriate level Role to each of your Users to ensure they only have access to the Languages that are appropriate to them.</p>
+        <p>In order for your new Language-based security to stick, you need to modify the security on <code>/sitecore/System/Languages</code>:</p>
+        <ul>
+            <li>Remove the <strong>Sitecore/Everyone</strong> Role from the Security Settings.</li>
+        </ul>
+        <p>Note that this means&nbsp;<em>no content author</em>&nbsp;will be able to see or modify&nbsp;<em>any</em>&nbsp;content until you assign them a Language Write role.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Language Roles
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T174219Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6ee7314b-d58f-4282-9c40-a448022f0f3e"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T175821Z

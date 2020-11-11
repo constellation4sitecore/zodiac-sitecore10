@@ -1,0 +1,50 @@
+---
+ID: "4668d3a2-331c-43e8-b59b-7dfd20c7e5f9"
+Parent: "99b22d19-3907-40d5-9254-a77a3070a88a"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/setting-up-a-new-site/security-and-workflow/_subcontent/The Minimum Workflow Requirement"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p><strong>Workflow is not optional. </strong>Internally, Sitecore uses Workflow to determine if a given content Item is publishable. If you're using Workflow correctly, you'll never have an issue with a Content Author or Developer hitting the "publish everything" button in Sitecore and accidentally sending in-progress content to the public. Additionally, establishing Publish on Approve workflow actions or scheduled background publish jobs becomes incredibly straightforward and reliable.</p>
+        <p><strong>The Bare Minimum:</strong></p>
+        <ul>
+            <li>Draft Workflow State</li>
+            <li>Publishable Workflow State (final)</li>
+        </ul>
+        <p>Item start in "Draft" and are moved to "Publishable" via a Workflow command. For organizations that have one or two Content Authors (extremely common) you don't even have to worry about approval chains, just put a single Workflow Command on "Draft" that allows content authors to move the Item to the final workflow state.</p>
+        <p><strong>Recommended Elaboration:</strong></p>
+        <ul>
+            <li>Add an Auto Publish Action to the Publishable Workflow State</li>
+        </ul>
+        <p>Auto Publish on final workflow helps the content author by reducing the number of things they need to do for content to go live.</p>
+        <h4>Start your Project with the Above Workflow</h4>
+        <p>Most new Sites go through an intense content entry phase where complex workflow introduces a barrier to getting the content in on time. Resist the temptation to flesh out your workflow needs until after the majority of content entry for the site is completed. You can always add steps later.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: The Minimum Workflow Requirement
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T152038Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b52696d7-6ffe-4d02-89a7-50c530509e95"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T153242Z
