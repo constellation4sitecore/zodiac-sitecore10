@@ -1,0 +1,51 @@
+---
+ID: "de8e4f46-9cc1-4982-8557-eb77b66d0d52"
+Parent: "5d80ef3a-1f61-41ef-9615-912e8188d20d"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/information-architecture/three-core-content-types/_subcontent/Widgets"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Like Subcontent, Widgets represent optional page components. The significant difference is that Widget Items are intended to be shared across various pages on a website. The Archetypical use case for a Widget would be for a small Ad that links through to a seasonal discount page. The Ad might appear on many pages of the site, and thus the Data Source for the Ad Rendering would not be located in <code>./_subcontent</code>, but in a more central location.</p>
+        <p>A Widget:</p>
+        <ul>
+            <li>Represents a fragment of an HTML page</li>
+            <li>Is Optional, the page will appear whole without it</li>
+            <li>May have multiple visual styles (Compatible Renderings)</li>
+            <li>Is explicitly the Datasource of a Rendering</li>
+            <li>Does not exist until a Rendering that requires it is added to the Page</li>
+            <li>Is intentionally shareable, located in a centralized repository to ease re-use.</li>
+        </ul>
+        <p>All Widgets for a given site should live in <code>/sitecore/content/[Tenant Name]/[Site Name]/Widgets/[Feature Name]</code> Organizing Widgets by Feature keeps the collection sorted into "compatible" Data Sources. Generally the Feature folder allows Content Authors to create additional folders as needed to organize Widgets by subject matter as necessary.</p>
+        <p>To flag to Zodiac that a given Item Template is a Widget type, the Template should inherit from&nbsp;<code>/sitecore/templates/Foundation/Constellation/Datasources/Widget Datasource</code>.&nbsp;</p>
+        <p>To configure a Rendering to create and allow the use of Widget Items as Datasources, the Rendering Definitions "Datasource Location" field should be set to&nbsp;<code>.ancestor-or-self::*[templateName="Site"]/Widgets/Feature Name</code>.</p>
+        <p>The above Query ensures that a given Feature's renderings will look for and create Widgets in the context Site's Widget folder.</p>
+        <p>Although seldom used, Zodiac is compatible with the concept of globally-reusable Widgets that are used across sites. The challenges associated with this are typically with HTML framework incompatibilities between sites.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Widgets
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T205523Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "212bffb6-9d2a-48fd-8ec5-aec1468b5375"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T210506Z

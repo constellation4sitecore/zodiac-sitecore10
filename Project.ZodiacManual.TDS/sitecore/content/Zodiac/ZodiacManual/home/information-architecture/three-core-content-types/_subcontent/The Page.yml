@@ -1,0 +1,55 @@
+---
+ID: "11784d45-bce5-4806-8a98-6a406363f918"
+Parent: "5d80ef3a-1f61-41ef-9615-912e8188d20d"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/information-architecture/three-core-content-types/_subcontent/The Page"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Zodiac generally assumes that you're using Sitecore to display a website. As such, the Page is one of the core content types that has a specific meaning in Zodiac.</p>
+        <p>Pages:</p>
+        <ul>
+            <li>Must have Presentation Details</li>
+            <li>Must be edited in Experience Editor</li>
+            <li>Must have URL-Friendly names</li>
+            <li>Must have a text value that works in a Browser Tab</li>
+            <li>Can provide search engine crawlers with directives</li>
+            <li>Can show up in sitemap.xml</li>
+            <li>Can show up in breadcrumbs</li>
+            <li>Can show up in dynamically generated navigation</li>
+            <li>Can be referenced by a hyperlink in Rich Text fields</li>
+            <li>Can be referenced in statically defined navigation</li>
+            <li>Is composed of Page Fragments that are unique to the given URL (Subcontent) or shared across many URLs (Widgets)</li>
+        </ul>
+        <p>In Zodiac you specify to the System that a given Item is a <strong>Page </strong>by descending from <code>/sitecore/templates/Foundation/Zodiac/Pages/Abstract/Page</code></p>
+        <p>To help with automatic navigation generation there are additional Page Template variants provided in Zodiac:</p>
+        <p><strong>Landing Page</strong> descends from Page and indicates the "top" of a section of a website. Using this Template makes it easy to tell dynamic navigation when to stop interrogating ancestors and start rendering siblings.</p>
+        <p><strong>List Page </strong>descends from Page and indicates the "top" of a silo of like pages (an article archive, for example). Using this Template makes it easy to build complex navigation UI for Items that might be organized into non-page folders or Item Buckets.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: The Page
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T200506Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "26296273-4984-44c4-84d4-be87c5c5e46a"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T202942Z

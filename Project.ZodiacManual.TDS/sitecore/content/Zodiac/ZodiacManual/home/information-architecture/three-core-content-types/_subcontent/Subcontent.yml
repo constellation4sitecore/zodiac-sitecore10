@@ -1,0 +1,51 @@
+---
+ID: "1d040b33-90d8-41f2-849c-89b0b91f7481"
+Parent: "5d80ef3a-1f61-41ef-9615-912e8188d20d"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/information-architecture/three-core-content-types/_subcontent/Subcontent"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>Modern content management systems allow for content authors to "design" pages. As such, User Experience designers build page designs that can be adjusted as needed to better support content. Pages have a combination of "mandatory" components (like titles, header images, etc) and "optional" components that can be added to the page to provide a unique user experience, highlight a specific point, or provide more sophisticated experience as necessary.</p>
+        <p>Subcontent is the term Zodiac uses for one of these optional components.</p>
+        <p>Subcontent:</p>
+        <ul>
+            <li>Represents a fragment of an HTML page</li>
+            <li>Is Optional, the page will appear whole without it</li>
+            <li>May have multiple visual styles (Compatible Renderings)</li>
+            <li>Is explicitly the Datasource of a Rendering</li>
+            <li>Does not exist until a Rendering that requires it is added to the Page</li>
+            <li>Is <strong>Unique on the site, and appears only on one Page</strong></li>
+        </ul>
+        <p>Subcontent Items are conveniently kept near their hosting page in a "subcontent" folder. This folder is automatically managed via an Item Saved rule that fires for all Zodiac <strong>Pages</strong>.</p>
+        <p>To flag to Zodiac that a given Item Template is a Subcontent type, the Template should inherit from <code>/sitecore/templates/Foundation/Constellation/Datasources/Subcontent Datasource</code>.&nbsp;</p>
+        <p>To configure a Rendering to create and allow the use of Subcontent Items as Datasources, the Rendering Definitions "Datasource Location" field should be set to <code>./_subcontent</code>.</p>
+        <p>&nbsp;</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Subcontent
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T204509Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "804c2f4d-688a-4e2a-b082-28721d1192f5"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201111T205511Z
