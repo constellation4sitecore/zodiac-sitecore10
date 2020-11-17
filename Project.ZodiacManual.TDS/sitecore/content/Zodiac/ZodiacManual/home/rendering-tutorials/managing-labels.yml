@@ -100,6 +100,9 @@ Languages:
               s:ph="Rows" />
           </d>
         </r>
+    - ID: "15097791-7ceb-48d4-96eb-09c45a76185e"
+      Hint: Meta Description
+      Value: "Ensure your solution is multi-lingual and content author friendly from Day One."
     - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
       Hint: Intro Copy
       Value: "Ensure your solution is multi-lingual and content author friendly from Day One."
@@ -111,25 +114,12 @@ Languages:
       Value: 20201001T135600Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f09740a4-00c7-4e83-a98f-e14139cf5c1d"
+      Value: "c969192a-f339-4e99-95ac-e03169347e5f"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: |
         <p>Labels are those little snippets of text that are used to provide instruction to site visitors but are not a part of the primary content. Labels are button text, navigation hints, product information terms and other single-word or short sentence phrases that appear on multiple pages of the site.</p>
-        <p>Traditionally Sitecore developers use name-value pairs or the Sitecore Dictionary feature to manage these translatable text snippets. Both of these approaches have downsides:</p>
-        <ul>
-            <li>Name Value Pairs necessitate an Item for each pair, and the Item Name cannot always be a valid "key" for your translated text. This results in adding a lot of extra "meta" facts to Sitecore without providing a ton of value for the content author.</li>
-            <li>Dictionaries are notoriously difficult to manage for both content authors as well as programmers. They also do not integrate well into content author security or workflow schemes.</li>
-        </ul>
-        <p>The <strong>Foundation.Labels</strong> package included with Zodiac solves these problems and provides additional useful functionality:</p>
-        <ul>
-            <li>Label entries are grouped according to the Helix Feature component they support in a single Item.</li>
-            <li>Labels can be unique to each Site in your installation.</li>
-            <li>Labels can also be globally available for all Sites in your installation. (You can mix &amp; match strategies)</li>
-            <li>Because Labels are stored with Sites, they can be secured with the same Site settings and they can go through workflow.</li>
-            <li>Zodiac contains a few shims that make getting the Labels for a given Feature painless.</li>
-            <li>Labels can be exposed as editable via Experience Editor or not, according to the Architect's choice.</li>
-        </ul>
+        <p>Zodiac ships with a non-Dictionary approach to Labels that provides better performance, compile-time checking, and more Helix-centric approach to managing this approach. <a href="~/link.aspx?_id=979DF566D23240D882F58BC312D94663&amp;_z=z" target="_blank">Read more about the philosophy.</a></p>
     - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
       Hint: Heading
       Value: Managing Labels
@@ -142,4 +132,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201006T141420Z
+      Value: 20201117T214705Z

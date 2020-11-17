@@ -1,13 +1,13 @@
 ---
-ID: "83765cb7-b837-48ea-8e7b-d2e92bc6f755"
-Parent: "631b2cd4-fdd6-4e8c-8543-ea9ae55ce84c"
+ID: "9385d791-ae8c-4d31-836d-6fc78210beb7"
+Parent: "d303ca33-030b-47b0-88d4-d9c4ff02b3d7"
 Template: "38212b66-f3c1-46fc-9a32-e04f4337bf8f"
-Path: /sitecore/content/Zodiac/ZodiacManual/Navigation/Primary Navigation/Rendering Tutorials/Build a List Rendering
+Path: "/sitecore/content/Zodiac/ZodiacManual/Navigation/Primary Navigation/Installed Features/Turn-Key SEO Features"
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 150
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -15,22 +15,18 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200818T181259Z
+      Value: 20201001T142718Z
     - ID: "343b5d00-6e10-4863-840b-cee38447b2f1"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{F59DB851-1A39-42DC-85FC-5F65EB102F29}" />
-    - ID: "894e0985-dc34-4a16-80d6-5739e02a7fb3"
-      Hint: Use This Display Name
-      Type: Checkbox
-      Value: 1
+        <link id="{ECA2A40B-8AE3-4595-84B8-535A0124D513}" querystring="" linktype="internal" text="" anchor="" url="/Zodiac/ZodiacManual/home/installed-features/turn-key-seo-features" title="" class="" target="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c1d2d979-ae7e-4753-982d-17d84b95d553"
+      Value: "a7ad379c-3444-40a1-8b66-1555f3d30d19"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201001T135435Z
+      Value: 20201117T230201Z

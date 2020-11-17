@@ -17,19 +17,19 @@ Languages:
       Value: |
         <p>If you have an AJAX component on a Sitecore-hosted webpage and need to load some Labels, you can make an asynchronous call and retrieve a Label model as JSON.</p>
         <ul>
-            <li>The Relative URL must start with "/labels"</li>
-            <li>The Relative URL must contain the path to the actual Label Item in Sitecore following the /_labels root item.</li>
+            <li>The Relative URL must start with <code>/labels</code></li>
+            <li>The Relative URL must contain the path to the actual Label Item in Sitecore following the <code>/_labels</code> root item.</li>
             <li>If you're including Feature folders in your Label folders, include them in the URL.</li>
         </ul>
-        <p>Example 1 (site-defined Label Item):</p>
+        <h4>Example 1 (site-defined Label Item):</h4>
         <ul>
-            <li>Sitecore path: <strong>/sitecore/content/zodiac/zodiacmanual/_labels/content/image-with-caption-labels</strong></li>
-            <li>REST URL: <strong>/labels/content/image-with-caption-labels</strong></li>
+            <li>Sitecore path: <code>/sitecore/content/zodiac/zodiacmanual/_labels/content/image-with-caption-labels</code></li>
+            <li>REST URL: <code>/labels/content/image-with-caption-labels</code></li>
         </ul>
-        <p>Example 2 (globally-defined Label Item):</p>
+        <h4>Example 2 (globally-defined Label Item):</h4>
         <ul>
-            <li>Sitecore path: <strong>/sitecore/content/_labels/content/image-with-caption-labels</strong></li>
-            <li>REST URL: <strong>/labels/content/image-with-caption-labels</strong></li>
+            <li>Sitecore path: <code>/sitecore/content/_labels/content/image-with-caption-labels</code></li>
+            <li>REST URL: <code>/labels/content/image-with-caption-labels</code></li>
         </ul>
         <p>Note that the REST URLs are identical. When requested, Sitecore will attempt to use Site-specific Labels first. If no such Item exists at that URL, it will attempt to use an Item from the global Labels collection. It is therefore best practice to always create a global Labels Item for each Feature's Labels, and only supply an "override" at the Site level if it is necessary.</p>
     - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
@@ -40,7 +40,7 @@ Languages:
       Value: 20201006T140723Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3dc17787-1975-484f-9dc3-265fcc3a8952"
+      Value: "13075a51-9190-4bbb-9b2c-3733fa7a4b79"
     - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
       Hint: Trailing Link
       Value: 
@@ -50,4 +50,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201006T142248Z
+      Value: 20201112T153535Z

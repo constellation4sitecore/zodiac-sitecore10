@@ -1,8 +1,8 @@
 ---
-ID: "7eaa6a11-a381-4f8b-8056-2fd0465f8b17"
-Parent: "2c3ed8c3-7e91-447c-8ed0-691b70cf8de2"
+ID: "5d7e6529-54ee-407a-bcc8-67d404eb4f47"
+Parent: "585505f7-f0a7-4eb5-962d-e9321c9c30f3"
 Template: "38212b66-f3c1-46fc-9a32-e04f4337bf8f"
-Path: /sitecore/content/Zodiac/ZodiacManual/Navigation/Primary Navigation/Zodiac Fundamentals/Visual Studio Organization
+Path: /sitecore/content/Zodiac/ZodiacManual/Navigation/Primary Navigation/Your First Rendering
 DB: master
 Languages:
 - Language: en
@@ -11,18 +11,18 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20201001T141726Z
+      Value: 20201117T215205Z
     - ID: "343b5d00-6e10-4863-840b-cee38447b2f1"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{1E7CA0BF-33E8-44A9-A533-26648D69462D}" />
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{4BFF6D8B-A9EC-4B4D-849B-3F26B8C87CD3}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "04c4e978-261c-43c8-8122-b8ecb1b81f49"
+      Value: "bee52856-a88e-4bef-8651-4bac112fb438"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201001T141743Z
+      Value: 20201117T215232Z

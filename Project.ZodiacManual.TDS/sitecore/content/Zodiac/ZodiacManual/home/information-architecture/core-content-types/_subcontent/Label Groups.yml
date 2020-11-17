@@ -2,7 +2,7 @@
 ID: "ac298e2a-6fa4-481c-99a0-34be676e42ed"
 Parent: "5d80ef3a-1f61-41ef-9615-912e8188d20d"
 Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
-Path: "/sitecore/content/Zodiac/ZodiacManual/home/information-architecture/three-core-content-types/_subcontent/Label Groups"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/information-architecture/core-content-types/_subcontent/Label Groups"
 DB: master
 Languages:
 - Language: en
@@ -16,7 +16,7 @@ Languages:
       Hint: Copy
       Value: |
         <p>"Labels" are the little bits of "static" text that appear scattered throughout a website to aid the visitor in navigating the page. "Read More", "Return to Top", "Contact Us", and "Close" are good examples of Labels.</p>
-        <p>Zodiac ships with a Label framework that groups functionally related Labels into single Sitecore Items for improved database access, editing, and delivery. This strategy is far superior to the Sitecore "Dictionary" concept traditionally used for these kinds of pieces of text. Labels is a big enough topic to merit<a href="~/link.aspx?_id=3EE4CB9DECC24E6A8522668EE74AEBB6&amp;_z=z"> its own page</a>.</p>
+        <p>Zodiac ships with a Label framework that groups functionally related Labels into single Sitecore Items for improved database access, editing, and delivery. This strategy is far superior to the Sitecore "Dictionary" concept traditionally used for these kinds of pieces of text. Labels is a big enough topic to merit<a href="~/link.aspx?_id=979DF566D23240D882F58BC312D94663&amp;_z=z"> its own page</a>.</p>
     - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
       Hint: Heading
       Value: Label Groups
@@ -25,15 +25,15 @@ Languages:
       Value: 20201111T210847Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "52e5ff24-7ab9-443c-a97f-73a5cb21722c"
+      Value: "daa47b4c-3204-49ae-a5cc-42153a669a39"
     - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
       Hint: Trailing Link
       Value: |
-        <link linktype="internal" text="How to Manage Labels" querystring="" target="" id="{3EE4CB9D-ECC2-4E6A-8522-668EE74AEBB6}" />
+        <link linktype="internal" text="More about Labels" querystring="" target="" id="{979DF566-D232-40D8-82F5-8BC312D94663}" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201111T211239Z
+      Value: 20201112T141048Z

@@ -312,9 +312,12 @@ Languages:
               s:ph="Rows" />
           </d>
         </r>
+    - ID: "15097791-7ceb-48d4-96eb-09c45a76185e"
+      Hint: Meta Description
+      Value: Creating an optional page component with a dedicated Data Source.
     - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
       Hint: Intro Copy
-      Value: An exercise to familiarize programmers with a typical Zodiac development task
+      Value: Creating an optional page component with a dedicated Data Source.
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
       Hint: Browser Title
       Value: Your First Rendering
@@ -323,7 +326,7 @@ Languages:
       Value: 20200811T173158Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1abd6d4a-62bd-44f8-85fe-82e1773394e0"
+      Value: "fd5d994f-f03e-4185-bc8f-b881c2d470f8"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: |
@@ -340,4 +343,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200930T200437Z
+      Value: 20201117T214649Z

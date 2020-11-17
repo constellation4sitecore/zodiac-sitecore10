@@ -22,7 +22,7 @@ Languages:
             <li>Label Models behave like any <strong>ViewModel </strong>that is passed to Constellation's <strong>ModelMapper.</strong></li>
             <li>Your Feature must Reference<strong> Foundation.Labels</strong>.</li>
             <li>Name your Label Model after the Rendering Controller/View that will consume it.</li>
-            <li>Instead of ending the name of the Label Model class with "Model" as is typical for Rendering datasources, end it with "Labels"</li>
+            <li>Instead of ending the name of the Label Model class with <code>Model</code> as is typical for Rendering datasources, end it with <code>Labels</code></li>
             <li>Your Label Model class must implement the <strong>Foundationl.Labels.LabelAttribute</strong>. This attribute allows you to associate your Label Model with the appropriate Data Template.</li>
         </ul>
         <h4>Example:</h4>
@@ -30,10 +30,9 @@ Languages:
             <li><strong>Feature.Content</strong> has a Rendering named Image with Caption.</li>
             <li>The Rendering's <strong>ViewModel </strong>is named: <strong>ImageWithCaptionModel</strong>.</li>
             <li>The Rendering's <strong>LabelModel </strong>is named: <strong>ImageWithCaptionLabels</strong>.</li>
-            <li><strong>ImageWithCaptionLabels </strong>implements a class-level Attribute <strong>[Label("{05D33548-D7A2-43D7-8214-01A97D178E7A}")]</strong></li>
-            <li>All of <strong>ImageWithCaptionLabels </strong>properties are implemented with the <strong>[RawValueOnly]&nbsp;</strong>attribute to prevent them from being exposed in Experience Editor.</li>
+            <li><strong>ImageWithCaptionLabels </strong>implements a class-level Attribute <code>[Label("{05D33548-D7A2-43D7-8214-01A97D178E7A}")]</code></li>
+            <li>All of <strong>ImageWithCaptionLabels </strong>properties are implemented with the <code>[RawValueOnly]</code> attribute to prevent them from being exposed in Experience Editor.</li>
         </ul>
-        <p>&nbsp;</p>
     - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
       Hint: Heading
       Value: Programming Label Group View Models
@@ -42,7 +41,7 @@ Languages:
       Value: 20201005T173726Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c727518d-65fd-4dc9-9021-b1cfcd38e5f9"
+      Value: "d028ee4e-6109-4358-a1bf-20b46da7ed78"
     - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
       Hint: Trailing Link
       Value: 
@@ -52,4 +51,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201005T175621Z
+      Value: 20201112T153039Z

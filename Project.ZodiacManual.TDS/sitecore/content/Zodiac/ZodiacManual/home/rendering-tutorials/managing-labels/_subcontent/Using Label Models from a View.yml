@@ -30,10 +30,10 @@ Languages:
       Hint: Header Text
       Value: |
         <p>The easiest way to get labels for your view is to have your View descend from a class that will grab them automatically for you.</p>
-        <p><strong>EditorCompatibleView&lt;TModel, TLabels&gt;</strong> provides the developer with a way to specify the Labels object type they want via the <strong>@inherits</strong> declaration. The Labels object is exposed through a dedicated property "<strong>Labels</strong>" that will be of the type <strong>TLabels</strong> specified in the <strong>@inherits</strong> declaration.</p>
+        <p><code>EditorCompatibleView&lt;TModel, TLabels&gt;</code> provides the developer with a way to specify the Labels object type they want via the <code>@inherits</code> declaration. The Labels object is exposed through a dedicated property <code>this.Labels</code> that will be of the type <code>TLabels</code> specified in the <code>@inherits</code> declaration.</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "011e9b60-0dbc-4b65-a693-45738b353c44"
+      Value: "52307486-caec-4239-95da-05cbbd622a09"
     - ID: "b594de98-237f-4066-b26d-b73949c78345"
       Hint: Heading
       Value: Using Label Models from a View
@@ -43,8 +43,7 @@ Languages:
         sitecore\rcabral
     - ID: "c8f2152f-c43b-4ca7-be84-68ba46b70b83"
       Hint: Footer Text
-      Value: |
-        <p>Accessing Label values is as easy as accessing Model properties, just using the View Property "<strong>Labels</strong>" instead of "<strong>Model</strong>".</p>
+      Value: <p>Accessing Label values is as easy as accessing Model properties, just using the View Property <code>Labels</code> instead of <code>Model</code>.</p>
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201006T131909Z
+      Value: 20201112T153319Z

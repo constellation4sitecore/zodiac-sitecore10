@@ -1,13 +1,9 @@
 ---
-ID: "2dda218c-4601-48bd-90ec-97eedb881871"
-Parent: "2c3ed8c3-7e91-447c-8ed0-691b70cf8de2"
+ID: "6bba7dfc-eb06-4340-9860-71d8c059cbfa"
+Parent: "3cb1905f-cbf4-4f4b-9c72-4f10996a7732"
 Template: "38212b66-f3c1-46fc-9a32-e04f4337bf8f"
-Path: /sitecore/content/Zodiac/ZodiacManual/Navigation/Primary Navigation/Zodiac Fundamentals/HTML is not DRY
+Path: /sitecore/content/Zodiac/ZodiacManual/Navigation/Primary Navigation/Information Architecture/Core Content Types
 DB: master
-SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -15,18 +11,18 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20201001T141748Z
+      Value: 20201001T140315Z
     - ID: "343b5d00-6e10-4863-840b-cee38447b2f1"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{460302BE-3C9C-4E54-AC89-420DCF680B11}" />
+        <link id="{3ADF5DE2-E728-4553-8C8A-21B372A5058F}" querystring="" target="" text="" anchor="" title="" class="" url="/Zodiac/ZodiacManual/home/information-architecture/core-content-types" linktype="internal" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6e2d65e2-db7e-4090-b709-b906009a4c4e"
+      Value: "86d92595-5af6-44d1-91d1-12428b90cf02"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201001T141802Z
+      Value: 20201112T140834Z

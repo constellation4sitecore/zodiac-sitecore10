@@ -1,9 +1,9 @@
 ﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.ContentSectionModel>
-<h3 class="mt-3 mb-3">@Model.Heading</h3>
+<h2>@Model.Heading</h2>
 <div class="rich-text">@Model.Copy</div>
 @if (this.IsEditing || !string.IsNullOrEmpty(Model.TrailingLinkUrl))
 {
-	<div>
+	<div class="mb-4">
 		@Model.TrailingLink
 	</div>
 }

@@ -106,9 +106,12 @@ Languages:
               s:ph="Rows" />
           </d>
         </r>
+    - ID: "15097791-7ceb-48d4-96eb-09c45a76185e"
+      Hint: Meta Description
+      Value: A granular, scalable approach to Sitecore's flexible security system.
     - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
       Hint: Intro Copy
-      Value: "A Granular, Scalable Approach to Mulit-Site"
+      Value: A granular, scalable approach to Sitecore's flexible security system.
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
       Hint: Browser Title
       Value: Security and Workflow
@@ -117,7 +120,7 @@ Languages:
       Value: 20200811T172047Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1587090e-545b-40fb-8178-dec1c7bdf7b1"
+      Value: "8d6396b4-a31f-431f-b60b-e66f0ab90cc0"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: "<p>Content Author Security and Workflow are probably the most commonly neglected components in Sitecore installations. They are either ignored entirely, or not approached with the system's internal features front-of-mind. This is not helped by the fact that the example workflow that ships with Sitecore itself does not follow rules that are implicit in the design of the software. In this section, we'll implement the most basic of workflows and reveal a strategy for limiting access to Sitecore features, Languages, and Site Items that will never let you down.</p>"
@@ -133,4 +136,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201111T181943Z
+      Value: 20201117T213651Z

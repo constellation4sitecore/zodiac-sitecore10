@@ -15,7 +15,7 @@ Languages:
     - ID: "0b674bf0-d756-48a7-a363-53f5ad334857"
       Hint: Caption
       Value: |
-        <p>For the best content author experience, set valid values on all Template fields. The values should be obvious placeholder content and should be neutral enough that the values will work on multiple unrelated websites.&nbsp; Heading values should always be "$name" to encourage content authors to name their DataSource Items in a meaningful manner. "Greek" text should be used in all text fields to demonstrate the acceptable content length of those fields.</p>
+        <p>For the best content author experience, set valid values on all Template fields. The values should be obvious placeholder content and should be neutral enough that the values will work on multiple unrelated websites.&nbsp; Heading values should always be <code>$name</code> to encourage content authors to name their DataSource Items in a meaningful manner. "Greek" text should be used in all text fields to demonstrate the acceptable content length of those fields.</p>
         <p>Rich Text field values should&nbsp;<em>always</em>&nbsp;include dummy text in wrapping paragraph tags to ensure that the dummy text styles correctly when the content is loaded into the site.&nbsp;</p>
         <p>General Link fields should exercise all options that a given View could be expected to manage including URL, Text and Target. a conspicuous but external link such as https://google.com is an excellent safe default.</p>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
@@ -23,7 +23,7 @@ Languages:
       Value: 20200930T184209Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a6457edb-f008-4430-8b2d-95f260dfee5d"
+      Value: "eab9ea77-5d12-4188-a419-b91dac62fd06"
     - ID: "9f337325-e776-41d5-9a15-ff017e501d5e"
       Hint: View Full Size In Modal
       Type: Checkbox
@@ -34,7 +34,7 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200930T184812Z
+      Value: 20201112T155827Z
     - ID: "f4c8fdba-d80f-4612-b1c7-4a9a9c7c0bfd"
       Hint: Full Size Image
       Value: |

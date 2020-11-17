@@ -2,7 +2,7 @@
 ID: "5d80ef3a-1f61-41ef-9615-912e8188d20d"
 Parent: "3adf5de2-e728-4553-8c8a-21b372a5058f"
 Template: "3c8f34cc-2c10-4c2d-b7cc-74ca2f4fb341"
-Path: "/sitecore/content/Zodiac/ZodiacManual/home/information-architecture/three-core-content-types/_subcontent"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/information-architecture/core-content-types/_subcontent"
 DB: master
 Languages:
 - Language: en

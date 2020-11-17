@@ -17,12 +17,13 @@ Languages:
       Value: |
         <p>Your new Label Items should exist in at least one location in the content tree, but can exist in multiple locations (one Item per Site). </p>
         <ul>
-            <li>An Item must exist under <strong>/sitecore/content/_labels/</strong></li>
-            <li>You may have site-specific versions of your Labels Item under <strong>{site root path}/_labels</strong></li>
-            <li>You can choose whether to group your Label Items by Feature name (recommended) or not by adjusting a config setting in <strong>Foundation.Labels.config</strong>.</li>
+            <li>An Item must exist under <code>/sitecore/content/_labels/</code></li>
+            <li>You may have site-specific versions of your Labels Item under <code>{site root path}/_labels</code></li>
+            <li>You can choose whether to group your Label Items by Feature name (recommended) or not by adjusting a config setting in <code>Foundation.Labels.config</code>.</li>
             <li>Your Label Group item should be named identically to its Template name for legibility.</li>
         </ul>
-        <p>Because Label Items can be accessed via a REST call, their names must be URL compatible. Items in both global and site-specific Labels folders will automatically be renamed to URL-compatible variations.</p><p>It is best practice to always create a global Label Item as soon as you are done defining its Template. I recommend having Site-level Label items as well to allow each Site to have internal consistency. If a Site uses a given Feature module, it should have a Label Item for it.</p>
+        <p>Because Label Items can be accessed via a REST call, their names must be URL compatible. Items in both global and site-specific Labels folders will automatically be renamed to URL-compatible variations.</p>
+        <p>It is best practice to always create a global Label Item as soon as you are done defining its Template. I recommend having Site-level Label items as well to allow each Site to have internal consistency. If a Site uses a given Feature module, it should have a Label Item for it.</p>
     - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
       Hint: Heading
       Value: Content Tree Location
@@ -31,7 +32,7 @@ Languages:
       Value: 20201005T164924Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1be383aa-f357-4753-9878-67a66ff73a8a"
+      Value: "524cd339-ca72-4d04-af2d-a1da0bf6507a"
     - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
       Hint: Trailing Link
       Value: 
@@ -41,4 +42,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201006T142700Z
+      Value: 20201112T153039Z

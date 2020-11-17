@@ -1,0 +1,52 @@
+---
+ID: "bd377679-daa1-4c71-a86a-d3d1fe54408c"
+Parent: "e30eff5a-ee60-4b3d-83f5-4c7b2957a2ec"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/information-architecture/the-label-system/_subcontent/A Helix-Compatible Label System"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: |
+        <p>The&nbsp;<strong>Foundation.Labels</strong>&nbsp;package included with Zodiac solves these problems</p>
+        <ul>
+            <li>Labels are defined in Data Templates, which means Field Names are the immutable "Key" half of the translatable Name-Value Pair.</li>
+            <li>Each Feature should have a Label Group Data Template that covers any static, translatable text that the Feature needs. (Common Closure).</li>
+            <li>Because Label Groups are Templates, they support Standard Values which immediately provides safe, global defaults for label text that are easy to revert if corrupted.</li>
+        </ul>
+        <p>Additionally, Foundation Labels offers advanced multi-site functionality</p>
+        <ul>
+            <li>Labels can be globally managed by Feature, but each Site can override Labels on a Feature-by-Feature need.</li>
+            <li>Developers access Labels by requesting a Label Group object by C# Class name. Label "Keys" are Label Group class properties and are thus Intellisense compatible to reduce runtime bugs.</li>
+            <li>Labels can be exposed as editable via Experience Editor or not, according to the Developer's choice.</li>
+            <li>Although it's rare, Label Group properties can support the full suite of Sitecore fields. If you need a "translatable" Image, Foundation.Labels can support it.</li>
+            <li>Label Groups are automatically available as JSON via a simple REST-based API for rich client applications.</li>
+        </ul>
+        <p>This manual includes instructions and guidelines to help you successfully implement Label Groups.</p>
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: "A Helix-Compatible Approach"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201112T150018Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9614cc82-f26a-4860-90fb-8dc3dab2f9c9"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link linktype="internal" text="How to Implement Label Groups" querystring="" target="" id="{3EE4CB9D-ECC2-4E6A-8522-668EE74AEBB6}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201112T152556Z

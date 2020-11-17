@@ -14,13 +14,13 @@ Languages:
       Value: <r />
     - ID: "0b674bf0-d756-48a7-a363-53f5ad334857"
       Hint: Caption
-      Value: <p>Create the CallToActionCardController in the Feature.Content project.</p>
+      Value: <p>Create the <code>CallToActionCardController</code> in the <code>Feature.Content project.</code></p>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200930T125851Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "923311bb-3778-4c65-aa5f-356101668bd8"
+      Value: "9ede5835-e4d0-403e-8800-072ba2511936"
     - ID: "9f337325-e776-41d5-9a15-ff017e501d5e"
       Hint: View Full Size In Modal
       Type: Checkbox
@@ -31,7 +31,7 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200930T131132Z
+      Value: 20201112T154100Z
     - ID: "f4c8fdba-d80f-4612-b1c7-4a9a9c7c0bfd"
       Hint: Full Size Image
       Value: |

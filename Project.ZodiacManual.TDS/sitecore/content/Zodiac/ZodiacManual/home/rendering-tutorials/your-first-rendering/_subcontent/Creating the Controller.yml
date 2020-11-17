@@ -15,13 +15,13 @@ Languages:
     - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
       Hint: Copy
       Value: |
-        <p>After you've gotten the model, go to the <strong>Controllers </strong>folder within the <strong>Feature.Content</strong> project and create a new <strong>CallToActionCardController</strong>.</p>
+        <p>After you've gotten the model, go to the <code>/Controllers </code>folder within the <code>Feature.Content</code> project and create a new <code>CallToActionCardController</code>.</p>
         <p>When asked to <strong>Add New</strong> from the Visual Studio menu, save time by choosing "<strong>class</strong>" from the list.</p>
-        <p>Your new Controller should descend from <strong>DatasourceRenderingController&lt;CallToActionModel&gt;</strong>.</p>
+        <p>Your new Controller should descend from <code>DatasourceRenderingController&lt;CallToActionModel&gt;</code>.</p>
         <p>When prompted by Visual Studio (red underline) <strong>Add Missing Members</strong> to complete your Controller.</p>
         <p>That's it! You now have a controller that will:</p>
         <ul>
-            <li>Take the Rendering Datasource Item and convert it to a <strong>CallToActionCardModel</strong>.</li>
+            <li>Take the Rendering Datasource Item and convert it to a <code>CallToActionCardModel</code>.</li>
             <li>Pass the Model to the best View to render the content given the Request's context.</li>
         </ul>
         <p>The View rendered will depend on whether the Context Site has a distinct View file for the given Rendering Definition. If there is no Site-level (Project-level) override, the View rendered will be the View defined under the Feature's Area. We'll discuss this further when we create the View.</p>
@@ -33,7 +33,7 @@ Languages:
       Value: 20200928T151143Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "aa777835-2fd1-49d6-9f0a-a701af0d7dd6"
+      Value: "6b318bb6-5837-48ff-b5e9-17b88d1e0cc3"
     - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
       Hint: Trailing Link
       Value: 
@@ -43,4 +43,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200930T132100Z
+      Value: 20201112T154100Z

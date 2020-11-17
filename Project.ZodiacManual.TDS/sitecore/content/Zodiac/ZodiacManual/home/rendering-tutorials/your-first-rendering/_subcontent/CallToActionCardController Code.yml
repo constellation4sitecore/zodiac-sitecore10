@@ -37,7 +37,7 @@ Languages:
       Value: "<p>Controllers for Renderings that have a single, explicit Datasource Item assigned are incredibly easy to build in Zodiac. If ASP.NET MVC supported Generic Controllers, we wouldn't even need this class definition, but alas, here it is:</p>"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "87d33a88-9163-4bae-849c-524d93fa47ac"
+      Value: "2eb8b22c-4285-4da0-af90-abe8175678e2"
     - ID: "b594de98-237f-4066-b26d-b73949c78345"
       Hint: Heading
       Value: Example Controller Code
@@ -48,7 +48,7 @@ Languages:
     - ID: "c8f2152f-c43b-4ca7-be84-68ba46b70b83"
       Hint: Footer Text
       Value: |
-        <p>Zodiac and Constellation have another commonly implemented base Controller class for scenarios where the programmer has to do some work assembling the model: <strong>ConventionController</strong>. We'll cover that in another tutorial. In general, you should use DatasourceRenderingController&lt;T&gt; if:</p>
+        <p>Zodiac and Constellation have another commonly implemented base Controller class for scenarios where the programmer has to do some work assembling the model: <code>ConventionController</code>. We'll cover that in another tutorial. In general, you should use <code>DatasourceRenderingController&lt;T&gt;</code> if:</p>
         <ul>
             <li>You are rendering data from a single Item</li>
             <li>The user explicitly specifies the Rendering's Datasource</li>
@@ -57,4 +57,4 @@ Languages:
         </ul>
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200930T132824Z
+      Value: 20201112T154357Z

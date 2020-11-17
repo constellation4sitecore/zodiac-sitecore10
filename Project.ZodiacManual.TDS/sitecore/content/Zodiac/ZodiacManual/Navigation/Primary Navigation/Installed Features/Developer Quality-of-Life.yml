@@ -4,6 +4,10 @@ Parent: "d303ca33-030b-47b0-88d4-d9c4ff02b3d7"
 Template: "38212b66-f3c1-46fc-9a32-e04f4337bf8f"
 Path: "/sitecore/content/Zodiac/ZodiacManual/Navigation/Primary Navigation/Installed Features/Developer Quality-of-Life"
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -18,11 +22,11 @@ Languages:
         <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{6F7987B0-439F-4DDD-BDA9-F83867E055CE}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3b37d212-6524-45c4-ab28-7e1bc6e068cf"
+      Value: "39e40db3-4e17-4fac-b107-18ed7fe2bd4c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201001T142743Z
+      Value: 20201117T230201Z

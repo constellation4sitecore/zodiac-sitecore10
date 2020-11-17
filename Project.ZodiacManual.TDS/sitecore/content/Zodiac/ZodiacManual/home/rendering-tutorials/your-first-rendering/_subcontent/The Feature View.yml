@@ -15,16 +15,15 @@ Languages:
     - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
       Hint: Copy
       Value: |
-        <p>In Visual Studio, find the "Website" project within your Zodiac Solution. Locate the <strong>Feature_Content</strong> MVC Area. Note that it&nbsp;<em>only</em>&nbsp;contains a <strong>View </strong>folder - This is an important Zodiac development standard. The only code in the Website project should be View code.&nbsp;</p>
-        <p>Create the <strong>CallToActionCard </strong>View under <strong>Feature_Content/Views</strong>.</p>
-        <p>When the View dialog opens:</p>
+        <p>In Visual Studio, find the <code>Website</code> project within your Zodiac Solution. Locate the <code>/Feature_Content</code> MVC Area. Note that it&nbsp;<em>only</em>&nbsp;contains a <strong>View </strong>folder - This is an important Zodiac development standard. The only code in the Website project should be View code.&nbsp;</p>
+        <p>Create the <code>CallToActionCard</code> View under <code>/Feature_Content/Views</code>.</p>
+        <p>When the <strong>Add View</strong> dialog opens:</p>
         <ul>
             <li>Key in the View Name - Make note of it, because we'll need it for the Rendering name later.</li>
             <li>Ensure that you have de-selected the "Use a Layout Page" checkbox.</li>
             <li>Leave the Template field as "Empty (without model)"</li>
             <li>Tick "Create as a Partial View"</li>
         </ul>
-        <p>&nbsp;</p>
     - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
       Hint: Heading
       Value: Creating the Feature View
@@ -33,7 +32,7 @@ Languages:
       Value: 20200930T143409Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4b3cba18-f7d0-451c-bf48-9d57b1c5c12e"
+      Value: "afde5394-0fa7-4292-9b78-7c82a4e2e79b"
     - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
       Hint: Trailing Link
       Value: 
@@ -43,4 +42,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200930T160518Z
+      Value: 20201112T154357Z

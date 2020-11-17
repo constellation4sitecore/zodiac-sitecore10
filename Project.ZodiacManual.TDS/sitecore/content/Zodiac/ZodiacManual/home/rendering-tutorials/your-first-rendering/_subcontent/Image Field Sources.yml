@@ -15,15 +15,15 @@ Languages:
     - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
       Hint: Copy
       Value: |
-        <p>Keep your Media Library in sync with your Helix architecture. Create a Feature folder below <strong>/Images</strong> and <strong>/Files</strong>. Create an additional layer of folders one for each Feature module in your solution. For a given Feature module, you should also create a folder for each Data Template in the Feature that has at least one Image or File field. If the Data Template has more than one Image field, consider creating discrete Folders for each Field. Assign the lowest possible folder in this stack as your Image Field's Source value.&nbsp;</p>
-        <p>In our example, the field Source is: <strong>/media-library/Images/Content/Call to Action Card</strong></p>
+        <p>Keep your Media Library in sync with your Helix architecture. Create a Feature folder below <code>/Images</code> and <code>/Files</code>. Create an additional layer of folders one for each Feature module in your solution. For a given Feature module, you should also create a folder for each Data Template in the Feature that has at least one Image or File field. If the Data Template has more than one Image field, consider creating discrete Folders for each Field. Assign the lowest possible folder in this stack as your Image Field's Source value.&nbsp;</p>
+        <p>In our example, the field Source is: <code>/media-library/Images/Content/Call to Action Card</code></p>
         <p>This approach guarantees that the users will have an inventory of images that were specifically uploaded to support a given Image field on a given Item type.</p>
         <p>If your solution has multiple sites that all use the same Feature, below the Image Source folder, create folders for each Site in your installation. (See example image.) Content Authors then have a logical way to self-organize content by Site.</p>
         <p>Note that there is a default "placeholder" style image within the Feature folder in the example. This should be the Standard Value for the image field that uses this folder.</p>
         <p>For <strong>General Link Fields</strong>:</p>
         <ul>
-            <li>If the installation is single-site, set the <strong>Source </strong>value to the Home node of the site.</li>
-            <li>For multi-site, a safe Source value is <strong>/sitecore/content </strong>which will point the user in the right direction when linking to in-system pages.</li>
+            <li>If the installation is single-site, set the <strong>Source</strong> value to the Home node of the site.</li>
+            <li>For multi-site, a safe Source value is <code>/sitecore/content</code> which will point the user in the right direction when linking to in-system pages.</li>
         </ul>
     - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
       Hint: Heading
@@ -33,7 +33,7 @@ Languages:
       Value: 20200930T183055Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "936ac90b-7982-44ff-a706-ec3046c20688"
+      Value: "3dcd7cbe-2029-4678-87a5-644685fc1bbd"
     - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
       Hint: Trailing Link
       Value: 
@@ -43,4 +43,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200930T184955Z
+      Value: 20201112T155827Z

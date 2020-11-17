@@ -39,7 +39,7 @@ Languages:
       Value: "Once completed, your <b>CallToActionCardModel </b>should resemble ours:"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8795f693-ada1-4baf-9e3d-272d904b9ef4"
+      Value: "06811b7d-c50b-4b1a-b766-d4075d51a459"
     - ID: "b594de98-237f-4066-b26d-b73949c78345"
       Hint: Heading
       Value: Example Model Code
@@ -50,7 +50,7 @@ Languages:
     - ID: "c8f2152f-c43b-4ca7-be84-68ba46b70b83"
       Hint: Footer Text
       Value: |
-        <p><b>ViewModels </b>that display Item data are usually processed with Constellation's ModelMapper. The ModelMapping syntax offers a very wide range of choice for how Item field values are processed into your ViewModel's properties. We strongly recommend <a href="https://constellation4sitecore.com/foundation/modelmapping/" target="_blank">reviewing the manual.</a></p>
+        <p><code>ViewModels </code>that display Item data are usually processed with Constellation's ModelMapper. The ModelMapping syntax offers a very wide range of choice for how Item field values are processed into your ViewModel's properties. We strongly recommend <a rel="noopener noreferrer" href="https://constellation4sitecore.com/foundation/modelmapping/" target="_blank">reviewing the manual.</a></p>
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200928T203546Z
+      Value: 20201112T154100Z

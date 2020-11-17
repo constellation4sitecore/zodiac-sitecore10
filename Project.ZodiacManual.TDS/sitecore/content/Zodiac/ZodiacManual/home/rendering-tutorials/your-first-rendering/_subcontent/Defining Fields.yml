@@ -14,20 +14,20 @@ Languages:
       Value: <r />
     - ID: "0b674bf0-d756-48a7-a363-53f5ad334857"
       Hint: Caption
-      Value: <p>Note that Field Names are natural language, not C# compatible names.</p>
+      Value: "<p>Note that Field Names are natural language, not C# compatible names. ModelMapper is capable of doing the conversion internally by removing spaces and Title-Casing your Field Names.</p>"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200930T171334Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ea4bfa5f-626f-4763-b39e-458fda885a87"
+      Value: "e1cba886-1cfe-4c9e-b8ce-0d267ad34d2e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200930T171612Z
+      Value: 20201112T155607Z
     - ID: "f4c8fdba-d80f-4612-b1c7-4a9a9c7c0bfd"
       Hint: Full Size Image
       Value: |

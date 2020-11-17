@@ -30,17 +30,29 @@ Languages:
               <p:d />
             </p>
             <r
-              uid="{BF901591-7568-4840-A333-FBD2E85606DC}"
+              uid="{3647A320-89F5-47FE-89A5-096598141362}"
               p:after="p[@uid='{29B9300C-7937-46CC-A268-4BA772E4A687}']"
+              s:ds="{C564D633-BEC6-45DF-998D-9E0CBD49119A}"
+              s:id="{EFC4EB21-2906-439F-AB26-8369E2101D2D}"
+              s:ph="/Rows/RightColumn-{37C0941B-CF37-4081-8196-FD57611F0CD5}-0" />
+            <r
+              uid="{E94B5C05-B516-4114-83BE-49C419485117}"
+              p:after="r[@uid='{3647A320-89F5-47FE-89A5-096598141362}']"
+              s:ds="{AC199112-EFA9-4DB3-95EC-491C0F252CF2}"
+              s:id="{EFC4EB21-2906-439F-AB26-8369E2101D2D}"
+              s:ph="/Rows/LeftColumn-{37C0941B-CF37-4081-8196-FD57611F0CD5}-0" />
+            <r
+              uid="{BF901591-7568-4840-A333-FBD2E85606DC}"
+              p:after="r[@uid='{E94B5C05-B516-4114-83BE-49C419485117}']"
               s:ds="{47A2C1BE-268C-402A-B9E7-9AB26D8E376B}"
               s:id="{EFC4EB21-2906-439F-AB26-8369E2101D2D}"
-              s:ph="/Rows/RightColumn-{D5465918-CF70-4C04-8DB3-466EF388B7C2}-0" />
+              s:ph="/Rows/LeftColumn-{D5465918-CF70-4C04-8DB3-466EF388B7C2}-0" />
             <r
               uid="{1E4113E5-AA21-49F8-A500-5997698AEF02}"
               p:after="r[@uid='{BF901591-7568-4840-A333-FBD2E85606DC}']"
               s:ds="{20E6B8A8-986C-4DAF-BE25-F87A1E8BF0A4}"
               s:id="{EFC4EB21-2906-439F-AB26-8369E2101D2D}"
-              s:ph="/Rows/LeftColumn-{D5465918-CF70-4C04-8DB3-466EF388B7C2}-0" />
+              s:ph="/Rows/RightColumn-{D5465918-CF70-4C04-8DB3-466EF388B7C2}-0" />
             <r
               uid="{BDC3CF45-7C0C-42C0-8578-2F2E192FBB85}"
               p:after="r[@uid='{1E4113E5-AA21-49F8-A500-5997698AEF02}']"
@@ -70,6 +82,11 @@ Languages:
               s:ph="Rows" />
             <r
               uid="{D5465918-CF70-4C04-8DB3-466EF388B7C2}"
+              p:after="r[@uid='{E8A1B66F-9D6B-42A3-A77B-61B67EC50607}']"
+              s:id="{EF18114E-DB65-4272-B0AC-627FB66BC7C8}"
+              s:ph="Rows" />
+            <r
+              uid="{37C0941B-CF37-4081-8196-FD57611F0CD5}"
               p:after="*[1=2]"
               s:id="{EF18114E-DB65-4272-B0AC-627FB66BC7C8}"
               s:ph="Rows" />
@@ -84,9 +101,15 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200811T171650Z
+    - ID: "3ce399c9-4d08-4f67-a41e-8151fa4f622a"
+      Hint: Meta Publisher
+      Value: Verndale
+    - ID: "40bb97f7-4966-4eb6-808c-75af454af247"
+      Hint: Meta Author
+      Value: Richard J. Cabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "265455ab-455b-4eb7-b301-a8c81689661f"
+      Value: "5e4cb41d-36b3-4c0f-9400-a8f5006ff0b7"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: |
@@ -107,10 +130,14 @@ Languages:
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Home
+    - ID: "aadca14b-9b41-4311-a4bc-7d8c395fcf19"
+      Hint: Inherit Author and Publisher
+      Type: Checkbox
+      Value: 0
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201001T153715Z
+      Value: 20201117T225529Z

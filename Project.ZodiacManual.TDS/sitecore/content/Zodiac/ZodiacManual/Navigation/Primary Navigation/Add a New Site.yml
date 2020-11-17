@@ -1,13 +1,9 @@
 ---
-ID: "911058fa-8fbe-4ae9-859d-c42221247014"
-Parent: "d303ca33-030b-47b0-88d4-d9c4ff02b3d7"
+ID: "44913d46-6cd7-443d-a206-05f8fdba6c6a"
+Parent: "585505f7-f0a7-4eb5-962d-e9321c9c30f3"
 Template: "38212b66-f3c1-46fc-9a32-e04f4337bf8f"
-Path: /sitecore/content/Zodiac/ZodiacManual/Navigation/Primary Navigation/Installed Features/About This Site
+Path: /sitecore/content/Zodiac/ZodiacManual/Navigation/Primary Navigation/Add a New Site
 DB: master
-SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -15,17 +11,18 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20201001T142718Z
+      Value: 20201117T215134Z
     - ID: "343b5d00-6e10-4863-840b-cee38447b2f1"
       Hint: Link
-      Value: 
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{87F208CA-597D-4B6E-979E-836B4E643442}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6a08a74d-a772-4adc-bc79-d455a292a252"
+      Value: "9f477e5c-f210-4f8b-a00b-ebd73ea6ad6e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201111T191149Z
+      Value: 20201117T215146Z

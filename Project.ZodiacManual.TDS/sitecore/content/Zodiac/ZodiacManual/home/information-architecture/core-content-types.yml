@@ -2,7 +2,7 @@
 ID: "3adf5de2-e728-4553-8c8a-21b372a5058f"
 Parent: "d11cf038-96b2-441e-ab3a-3d21b86d9754"
 Template: "9f2e6785-ae61-4ae4-837e-ffed3b217200"
-Path: "/sitecore/content/Zodiac/ZodiacManual/home/information-architecture/three-core-content-types"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/information-architecture/core-content-types"
 DB: master
 Languages:
 - Language: en
@@ -55,6 +55,9 @@ Languages:
               s:ph="Rows" />
           </d>
         </r>
+    - ID: "15097791-7ceb-48d4-96eb-09c45a76185e"
+      Hint: Meta Description
+      Value: "A Page-oriented approach to organizing Content."
     - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
       Hint: Intro Copy
       Value: In a world where everything is an Item, it's necessary for developers to have a semantic framework that allows them to visualize common problems when it comes to web page design and generation.
@@ -66,7 +69,7 @@ Languages:
       Value: 20201001T140345Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c14525c5-2d2b-4520-90ae-edb681c4f33c"
+      Value: "708cccfd-e376-48f3-adb1-ad9394382baf"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: |
@@ -84,4 +87,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201111T211239Z
+      Value: 20201117T213115Z

@@ -35,9 +35,12 @@ Languages:
               s:ph="Rows" />
           </d>
         </r>
+    - ID: "15097791-7ceb-48d4-96eb-09c45a76185e"
+      Hint: Meta Description
+      Value: Make sure requests are going to be passed to Sitecore
     - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
       Hint: Intro Copy
-      Value: <p>Make sure requests are going to be passed to Sitecore</p>
+      Value: Make sure requests are going to be passed to Sitecore
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
       Hint: Browser Title
       Value: Configure IIS
@@ -46,7 +49,7 @@ Languages:
       Value: 20201105T193047Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1041315d-e4b3-4137-823c-78319db62449"
+      Value: "a6a25bfb-1b1b-48ab-9562-ec07bb15ae40"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: |
@@ -78,4 +81,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201111T183325Z
+      Value: 20201117T213538Z

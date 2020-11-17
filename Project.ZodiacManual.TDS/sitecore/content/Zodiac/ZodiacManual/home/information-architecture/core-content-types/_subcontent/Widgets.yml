@@ -2,7 +2,7 @@
 ID: "de8e4f46-9cc1-4982-8557-eb77b66d0d52"
 Parent: "5d80ef3a-1f61-41ef-9615-912e8188d20d"
 Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
-Path: "/sitecore/content/Zodiac/ZodiacManual/home/information-architecture/three-core-content-types/_subcontent/Widgets"
+Path: "/sitecore/content/Zodiac/ZodiacManual/home/information-architecture/core-content-types/_subcontent/Widgets"
 DB: master
 Languages:
 - Language: en

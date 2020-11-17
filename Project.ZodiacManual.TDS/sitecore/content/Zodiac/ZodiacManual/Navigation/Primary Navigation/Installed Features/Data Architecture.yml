@@ -4,6 +4,10 @@ Parent: "d303ca33-030b-47b0-88d4-d9c4ff02b3d7"
 Template: "38212b66-f3c1-46fc-9a32-e04f4337bf8f"
 Path: /sitecore/content/Zodiac/ZodiacManual/Navigation/Primary Navigation/Installed Features/Data Architecture
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -18,11 +22,11 @@ Languages:
         <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{6030E881-0DE7-4B75-B881-EFE25248855A}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "82814193-c544-4ff5-9e5a-af14365be85b"
+      Value: "24ad88f5-553e-4b83-b73e-39f631bb09e1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201001T142730Z
+      Value: 20201117T230201Z

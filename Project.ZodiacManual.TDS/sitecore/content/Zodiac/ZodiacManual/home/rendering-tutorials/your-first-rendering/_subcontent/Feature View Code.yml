@@ -30,12 +30,12 @@ Languages:
     - ID: "2b1180a9-ae15-4fa5-bac0-0657f91e3d03"
       Hint: Header Text
       Value: |
-        <p>All Zodiac views should inherit from <strong>EditorCompatibleView&lt;TModel&gt;</strong>. This provides access to the <strong>Context.PageMode</strong> for the Request and allows you to change what's visible on the view depending on whether the current request is for a published page, for an Experience Editor preview, or whether the content author is attempting to edit the page.</p>
-        <p>General best practice is to ensure that when <strong>this.IsEditing</strong> is true, all Editor compatible fields are displayed, even if they are empty, to allow the Content Author to access them.</p>
+        <p>All Zodiac views should inherit from <code>EditorCompatibleView&lt;TModel&gt;</code>. This provides access to the <code>Context.PageMode</code> for the Request and allows you to change what's visible on the view depending on whether the current request is for a published page, for an Experience Editor preview, or whether the content author is attempting to edit the page.</p>
+        <p>General best practice is to ensure that when <code>this.IsEditing</code> is true, all Editor compatible fields are displayed, even if they are empty, to allow the Content Author to access them.</p>
         <p>The code below is typical for Zodiac Views based on a single DataSource Item. where all fields are mandatory.</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "59c1fda1-927d-4375-a4dc-925fa2400afa"
+      Value: "7b206c1d-e610-4da0-b85a-ed535c130e17"
     - ID: "b594de98-237f-4066-b26d-b73949c78345"
       Hint: Heading
       Value: Feature View Code
@@ -48,4 +48,4 @@ Languages:
       Value: "<p>With the Feature View built, let's add a Project-level override by creating a View specific to the ZodiacManual site....</p>"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200930T155838Z
+      Value: 20201112T154452Z

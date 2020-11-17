@@ -45,7 +45,7 @@ Languages:
       Value: "<p>The ZodiacManual website uses Bootstrap 4.5 as an HTML framework. Your websites may use a different framework, or 100% custom HTML. our Feature View was necessarily generic to allow you to customize it to fit the majority of your Sitecore installation's websites. However, to make this Call to Action Card work correctly in Zodiac, we need to generate some very specific HTML:</p>"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "618c0ccc-1298-46ed-8e16-b10bce8b1742"
+      Value: "9b22f995-592a-4b75-ba51-fd2351c0ce55"
     - ID: "b594de98-237f-4066-b26d-b73949c78345"
       Hint: Heading
       Value: Project View Code
@@ -56,10 +56,10 @@ Languages:
     - ID: "c8f2152f-c43b-4ca7-be84-68ba46b70b83"
       Hint: Footer Text
       Value: |
-        <p>We've chosen to create a Responsive image on this card to demonstrate a key function of the ImageModel object that ships with ModelMapper. The <strong>GetCustomHeightImageSrc()</strong> Method (and its siblings) allow your View to request a different <strong>MediaItem</strong> Url from Sitecore without having to invoke key Sitecore API objects. This keeps code legible and ensures that your programmers are not violating context language, database, search index, or security rules in their code, a #1 source of runtime errors.</p>
-        <p>To demonstrate how to write ExperienceEditor friendly Views, our <strong>ZodiacManual </strong>View makes the <strong>ButtonLink </strong>property optional - the button only appears on the published site if a URL has been set by the Content Author. We use the <strong>IsEditing </strong>check to ensure that the button is always visible when necessary in Experience Editor.</p>
-        <p>Note that on the Feature View, we chose to use <strong>Model.ButtonLink.Rendered</strong> to have Sitecore's <strong>FieldRenderer </strong>produce the HTML for the &lt;a/&gt; element. Here we are specifically controlling the markup by accessing the <strong>GeneralLinkModel</strong>'s properties individually. The need to do this depends upon a balance of Experience Editor support needs and the fragility/consistency of your HTML. Here we need to add a CSS Class to the anchor element, something that the default Feature View does not have and should not know about.&nbsp;</p>
-        <p>Note that if you choose to weld down your HTML for <strong>ImageModels </strong>and <strong>GeneralLinkModels </strong>as we've done here, you are responsible for providing Custom Experience Buttons for the Rendering to allow content authors to manage these fields while in Experience Editor.</p>
+        <p>We've chosen to create a Responsive image on this card to demonstrate a key function of the <code>ImageModel</code> object that ships with ModelMapper. The <code>GetCustomHeightImageSrc()</code> Method (and its siblings) allow your View to request a different <strong>MediaItem</strong> Url from Sitecore without having to invoke key Sitecore API objects. This keeps code legible and ensures that your programmers are not violating context language, database, search index, or security rules in their code, a #1 source of runtime errors.</p>
+        <p>To demonstrate how to write ExperienceEditor friendly Views, our <strong>ZodiacManual </strong>View makes the <code>ButtonLink</code> property optional - the button only appears on the published site if a URL has been set by the Content Author. We use the <code>IsEditing</code> check to ensure that the button is always visible when necessary in Experience Editor.</p>
+        <p>Previously on the Feature-level View, we chose to use <code>Model.ButtonLink.Rendered</code> to have Sitecore's <code>FieldRenderer</code> produce the HTML for the &lt;a/&gt; element, but on this Project-level override we are specifically controlling the markup by accessing the <code>GeneralLinkModel</code>'s properties individually. The need to do this depends upon a balance of Experience Editor support needs and the fragility/consistency of your HTML. Here we need to add a CSS Class to the anchor element, something that the default Feature View does not have and should not know about.&nbsp;</p>
+        <p>Note that if you choose to weld down your HTML for <code>ImageModels</code> and <code>GeneralLinkModels</code> as we've done here, you are responsible for providing Custom Experience Buttons for the Rendering to allow content authors to manage these fields while in Experience Editor.</p>
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200930T162918Z
+      Value: 20201112T155452Z

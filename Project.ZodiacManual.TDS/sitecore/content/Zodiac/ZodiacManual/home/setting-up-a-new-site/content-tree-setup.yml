@@ -87,6 +87,9 @@ Languages:
               s:ph="Rows" />
           </d>
         </r>
+    - ID: "15097791-7ceb-48d4-96eb-09c45a76185e"
+      Hint: Meta Description
+      Value: Making the Site node and key Page Items
     - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
       Hint: Intro Copy
       Value: Making the Site node and key Page Items
@@ -98,7 +101,7 @@ Languages:
       Value: 20200811T172006Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "349ddd0a-d2e0-4834-9647-1cb28f6ae236"
+      Value: "2ba9ce8d-0789-44ff-87ef-d4a538824f91"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: |
@@ -122,4 +125,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201111T144855Z
+      Value: 20201117T213600Z

@@ -15,14 +15,14 @@ Languages:
     - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
       Hint: Copy
       Value: |
-        <p>Because Label fields are meant to be one-or-few-word statements, Label fields are typically Single Line Text fields.</p>
         <ul>
             <li>Field Names should be the English equivalent of the word or words that need translating.</li>
-            <li>If the primary language of your Sitecore installation is not English, use whatever language you typically use for Template and Field names.</li>
+            <li><span style="white-space: pre;">	</span><em>If the primary language of your Sitecore installation is not English, use whatever language you typically use for Template and Field names.</em></li>
             <li>Field Names should be human-legible. Use spaces and title case.</li>
-            <li>Commonly Labels do not go through workflow, therefore the "unversioned" flag can be checked for your Fields.</li>
-            <li>Avoid using Rich Text for Label Fields. If your content requires Rich Text then it probably should be classified as a Label.</li>
+            <li>Label Fields are typically of the Single-Line Text type.&nbsp;</li>
+            <li>Avoid using Rich Text for Label Fields. If your content requires Rich Text then it probably should be classified as a <a href="~/link.aspx?_id=3ADF5DE2E72845538C8A21B372A5058F&amp;_z=z" target="_blank">Widget</a>.</li>
             <li>Although it is possible to have Images as Label Fields, this practice should be avoided as Accessibility Guidelines recommend against text embedded in images.</li>
+            <li>In Zodiac Labels usually do not need an approval process. You may want to tick the "unversioned" flag on Label Group Fields to prevent excessive Version creep.</li>
             <li>For ease of use, Provide Standard Values for all Field labels in all Languages that are commonly used in your system.</li>
         </ul>
     - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
@@ -33,7 +33,7 @@ Languages:
       Value: 20201005T172421Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a63b6fbc-3f1e-40cf-baa4-ad47c5f29411"
+      Value: "7c93af74-8b96-4fdb-a82a-5f5440a7098d"
     - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
       Hint: Trailing Link
       Value: 
@@ -43,4 +43,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201005T173126Z
+      Value: 20201112T152422Z

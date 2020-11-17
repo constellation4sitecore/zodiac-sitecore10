@@ -5,6 +5,10 @@ Template: "9f2e6785-ae61-4ae4-837e-ffed3b217200"
 Path: "/sitecore/content/Zodiac/ZodiacManual/home/rendering-tutorials/build-a-list-rendering"
 DB: master
 SharedFields:
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Type: checkbox
+  Value: 1
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
@@ -13,6 +17,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
+      Hint: Intro Copy
+      Value: TO BE CONTINUED....
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
       Hint: Browser Title
       Value: Build a List Rendering
@@ -21,7 +28,7 @@ Languages:
       Value: 20200811T173434Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9d45063c-2cda-4d16-a592-e16027deca12"
+      Value: "c141fa94-f86e-42fb-98ed-9b9fd184c7b7"
     - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
       Hint: Heading
       Value: Build a List Rendering
@@ -34,4 +41,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200924T132821Z
+      Value: 20201117T215013Z

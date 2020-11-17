@@ -4,11 +4,43 @@ Parent: "8cab87ad-8291-4fd3-bd77-ee0d7b653f54"
 Template: "a6dbf438-1236-4182-bf61-fac8a221f81f"
 Path: "/sitecore/content/Zodiac/ZodiacManual/home/not-found"
 DB: master
+SharedFields:
+- ID: "3b9653e9-cf7f-47ff-8ba3-2f38d7577195"
+  Hint: Search Engine can Cache Page
+  Type: Checkbox
+  Value: 0
+- ID: "724e54af-d355-4946-9bb4-6d4dba14a105"
+  Hint: Search Engine can Snippet Page
+  Type: Checkbox
+  Value: 0
+- ID: "7da2649e-2a47-4afe-b5d7-c3d7aaba258e"
+  Hint: Search Engine Follows Links
+  Type: Checkbox
+  Value: 0
+- ID: "876f445a-2967-4b95-8d0c-0b656f668b60"
+  Hint: Search Engine Indexes Images
+  Type: Checkbox
+  Value: 0
+- ID: "aeea733f-9cdc-4024-8103-7f57846ae6d9"
+  Hint: Include in Sitemap
+  Type: Checkbox
+  Value: 0
+- ID: "c454d2d8-d2e8-4755-8c64-682f73a44fac"
+  Hint: Allow ODP Snippet
+  Type: Checkbox
+  Value: 0
+- ID: "ed14e473-2eff-493e-bfb3-946eb8d170a8"
+  Hint: Search Engine Indexes Page
+  Type: Checkbox
+  Value: 0
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "15097791-7ceb-48d4-96eb-09c45a76185e"
+      Hint: Meta Description
+      Value: Not found
     - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
       Hint: Intro Copy
       Value: Sorry we couldn't find your page
@@ -20,7 +52,7 @@ Languages:
       Value: 20200811T171658Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d246d4a7-d522-43bb-bb51-21f7d6356b1a"
+      Value: "60065fdf-360e-4ffb-a76f-1ad1543d4739"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: The page you're looking for does not exist on this server.
@@ -36,4 +68,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200818T173823Z
+      Value: 20201117T213834Z

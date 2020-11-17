@@ -65,6 +65,9 @@ Languages:
               s:ph="Rows" />
           </d>
         </r>
+    - ID: "15097791-7ceb-48d4-96eb-09c45a76185e"
+      Hint: Meta Description
+      Value: Things most public websites need, but don't ship with Sitecore out of the box.
     - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
       Hint: Intro Copy
       Value: Things most public websites need, but don't ship with Sitecore out of the box.
@@ -76,7 +79,7 @@ Languages:
       Value: 20201001T142658Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "948d0682-db1c-4f16-a799-fe186624237b"
+      Value: "3014a04c-d385-4595-b795-5854e47e3c9c"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: "<p>Zodiac includes a number of small necessities that just don't seem to make a project's official feature list, but are essential for modern SEO and Digital Marketing - These features also tend to be challenging to execute well in Sitecore. Zodiac's core SEO features require no developer intervention to produce viable robots.txt, sitemap.xml and 301 redirects for each site in your installation. Robust metadata support and 404 error handling is also provided with minimal developer intervention.</p>"
@@ -92,4 +95,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201111T190112Z
+      Value: 20201117T214312Z

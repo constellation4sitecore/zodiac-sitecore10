@@ -15,18 +15,18 @@ Languages:
     - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
       Hint: Copy
       Value: |
-        <p>Label Data Templates should be created as siblings of the Datasource Templates the labels will decorate.</p>
+        <p>Label Group Data Templates should be created as siblings of the Datasource Templates the labels will decorate.</p>
         <ul>
             <li>Store your Label Templates in the Feature that will use them.</li>
             <li>Store your Label Templates "next to" any Datasource Templates that Renderings will use simultaneously.</li>
-            <li>Label Templates should&nbsp; have a Base Template of <strong>Foundation/Zodiac/Labels/Label Group</strong>.</li>
+            <li>Label Templates should&nbsp; have a Base Template of <code>Foundation/Zodiac/Labels/Label Group</code>.</li>
         </ul>
         <h4>Example:</h4>
         <ul>
-            <li><strong>Feature.Content </strong>has a Rendering called "<strong>Image with Caption</strong>"</li>
-            <li>The Datasource Template is stored in "<strong>templates/Feature/Content</strong>.</li>
-            <li>The Datasource Template is named "<strong>Image with Caption</strong>"</li>
-            <li>The Label Template is named "<strong>Image with Caption Labels</strong>"</li>
+            <li><strong>Feature.Content</strong> has a Rendering called "<strong>Image with Caption</strong>"</li>
+            <li>The Datasource Template is stored in <code>templates/Feature/Content</code>.</li>
+            <li>The Datasource Template is named <strong>Image with Caption</strong></li>
+            <li>The Label Template is named <strong>Image with Caption Labels</strong></li>
         </ul>
     - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
       Hint: Heading
@@ -36,7 +36,7 @@ Languages:
       Value: 20201005T162619Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c3fe1beb-f38c-4a63-84ab-a5c3f638f597"
+      Value: "ebc42704-4b4a-46ba-896b-53c47a999f6d"
     - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
       Hint: Trailing Link
       Value: 
@@ -46,4 +46,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201005T164357Z
+      Value: 20201112T152422Z

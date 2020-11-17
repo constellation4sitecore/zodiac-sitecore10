@@ -1,0 +1,37 @@
+---
+ID: "c564d633-bec6-45df-998d-9e0cbd49119a"
+Parent: "6f63f40c-260a-4a58-99c7-53113845eba1"
+Template: "7bca1a6d-2e40-4265-8575-abce3705555c"
+Path: /sitecore/content/Zodiac/ZodiacManual/home/_subcontent/Installed Features
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
+      Hint: Copy
+      Value: "<p>Zodiac comes with ready-to-roll functionality and a pile of developer tools, all of which are fully documented and tested in the wild.</p>"
+    - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
+      Hint: Heading
+      Value: Installed Features
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201117T225428Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "24cfacf7-ed69-4a39-9306-3443c1da46ec"
+    - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
+      Hint: Trailing Link
+      Value: |
+        <link linktype="internal" text="What's in the Box" querystring="" target="" id="{CB4D634A-409F-4E32-99DB-E51DD3675116}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201117T225529Z

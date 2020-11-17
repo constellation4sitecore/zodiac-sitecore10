@@ -15,9 +15,9 @@ Languages:
     - ID: "0616d4fc-880f-4cc1-a359-4ccc88fc37ec"
       Hint: Copy
       Value: |
-        <p>In Visual Studio, navigate to the "<strong>Website</strong>" project, and find the MVC Area for <strong>ZodiacManual</strong>. You'll notice that it has a <strong>Views </strong>folder, but within that folder are additional folders that correspond to the names of Feature modules. Putting a view in one of these Feature folders allows for the context Site to override the default HTML rendered and instead render the View that is specific to the current Project.</p>
-        <p>Create a new <strong>CallToActionCard </strong>View in the <strong>ZodiacManual/Views/Content</strong> folder.&nbsp; Follow the same guidance for the Feature View above.</p>
-        <p>Alternatively, you can copy the View you created earlier in the <strong>Feature_Content</strong> MVC area.</p>
+        <p>In Visual Studio, navigate to the <code>Website</code> project, and find the MVC Area for <code>/ZodiacManual</code>. You'll notice that it has a <code>/Views</code> folder, but within that folder are additional folders that correspond to the names of Feature modules. Putting a view in one of these Feature folders allows for the context Site to override the default HTML rendered and instead render the View that is specific to the current Project.</p>
+        <p>Create a new <code>CallToActionCard</code> View in the <code>/ZodiacManual/Views/Content</code> folder.&nbsp; Follow the same guidance for the Feature View above.</p>
+        <p>Alternatively, you can copy the View you created earlier in the <code>/Feature_Content</code> MVC area.</p>
         <p>Note that the new View and the Feature View must have exactly the same name.</p>
     - ID: "19411c92-adbe-4f6b-93a2-ffc01d5b45ca"
       Hint: Heading
@@ -27,7 +27,7 @@ Languages:
       Value: 20200930T155943Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6b214cea-cd00-469b-860c-04af986479e0"
+      Value: "1daaacd9-3c41-450d-a700-44f5a72564ec"
     - ID: "a2645c0c-2cea-4c66-a09b-31f6e6271a7a"
       Hint: Trailing Link
       Value: 
@@ -37,4 +37,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200930T160922Z
+      Value: 20201112T154637Z
