@@ -1,4 +1,4 @@
-# Zodiac for Sitecore 10
+# Install Zodiac for Sitecore 10
 ## A starter kit for Sitecore implementation projects.
 ## [Sponsored by Verndale](https://www.verndale.com)
 # What's in the Box
@@ -125,24 +125,19 @@ Access the /sitecore login page and authenticate. Run a Full Site publish and th
 ___IMPORTANT: Rebuilding the Indexes makes sure your otherwise "new" Sitecore installation is fully primed. Buckets and Content Search will not function until you have rebuilt the Indexes.
 
 
-## Step 11: Configure Sitecore to load the Example Site
-If you are using one of the solutions that includes the Example Site, you need to adjust the configuration files so that Sitecore will resolve the site properly.
+## Step 11: Configure TDS to talk to your installation
 
-Assuming you want the example site to be the "default" site for your install, you need to add the hostname you supplied in the install to your site config. 
 
-In the "Website" project in Visual Studio:
-- Open the following file: Website/App_Config/Include/Project/ExampleSite/_SiteDefinition.local.config
-- Adjust the "hostName" and "targetHostName" attribute values to match your install's hostname.
+## Step 12: Use TDS to push the Zodiac Manual into Sitecore
 
-Note that if you want the example site, but you don't want it to be the "primary" site on your install, you can always add another hostname to your IIS website bindings. The above instructions still apply.
+## Step 13: Verify Zodiac is installed into Sitecore and Publish it.
 
-## Step 12: Deploy and Publish!
-- With the "Website" project selected in Solution Explorer, hit the "publish" button in the One-Click Publish toolbar.
-- Log into Sitecore Desktop.
-- Run a Full Publish (Smart or Republish)
-- Using your selected hostname, visit the front end. You should see the Example Site home page.
+## Step 14: Configure IIS and Sitecore to respond to a discrete hostname for the Zodiac Manual site.
 
-## Step 13: Season to Taste
+## Step 15: Read the Manual
+
+
+## Step 15: Season to Taste
 At this point you should have a running installation using Zodiac (with Constellation) as the backbone. You can now start development of your solution!
 
 For details on how to use various features of this installation, visit https://constellation4sitecore.com/ the official documentation site for Constellation and Zodiac.
