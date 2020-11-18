@@ -24,8 +24,10 @@ Features include:
 - Drop-in solution for ensuring a Sitecore Package.Zip file is installed in a given instance
 - A framework for creating dynamic robots.txt and sitemap.xml responses for each site in the installation
 
+
 # Installation
 There are several options, depending upon what you want to do. In all cases, you need a target Sitecore 10 installation! so...
+
 
 ## Step 1: Compatibility Check!
 ### Workstation Assumptions:
@@ -37,17 +39,20 @@ There are several options, depending upon what you want to do. In all cases, you
 
 ___If your machine does not meet these minimums, you will likely experience resource-related problems that are virtually impossible to troubleshoot.___
 
+
 ### Development Enviornment Assumptions:
 - For Sitecore 10, you must have the .NET Framework SDK version 4.8 installed.
 - This solution was tested on Visual Studio 2019 v16.6.5. 
 - You must run Visual Studio in "as Administrator" mode to ensure you have sufficient local privileges.
 - Your NuGet feeds should include the Sitecore package feeds. You can get the feed links here: https://sitecore.myget.org/gallery/sc-packages 
 
+
 ## Step 2: Install Sitecore 10
 Since these instructions are intended for developers expecting to use Zodiac for development, we assume you are installing a "Standalone" local instance of Sitecore on your personal development machine.
 
 - Follow the instructions on https://dev.sitecore.net/
 - Note the hostname and the installation folder of your new install, you'll need these facts later.
+
 
 ## Step 3: Verify Sitecore 10 is Installed Correctly
 It is essential that you have a "stock" copy of Sitecore running before proceeding.
@@ -64,33 +69,34 @@ It is essential that you have a "stock" copy of Sitecore running before proceedi
 
 If the answer to anything above is "no", stop now and address these problems. 
 
-___Continuing will not fix those issues and will make validating Zodiac's install impossible.___
+___IMPORTANT: Zodiac will not be stable if Sitecore is not stable. Fix any install issues now.___
 
-## Step 4: Choose the Repository you want to Fork/Clone:
-Currently there are 3 options:
+- Run a full Site Publish
+- Rebuild all Indexes
 
-- https://github.com/sitecorerick/zodiac-sitecore10 Just the solution with no examples, no site, no Items. Use this if you know what you're doing, or you want to deviate from some Zodiac conventions. 
-- https://github.com/sitecorerick/zodiac-sitecore10-example The above solution, adds rendering code and Sitecore packages to populate the install with a fully working example site.
-- https://github.com/sitecorerick/zodiac-sitecore10-example-tds Includes all of the above, and also TDS projects for populating/maintaining the Items associated with the example site.
+___IMPORTANT: Rebuilding the Indexes makes sure your otherwise "new" Sitecore installation is fully primed. Buckets and Content Search will not function until you have rebuilt the Indexes. Zodiac REQUIRES these Indexes to be built and available.___
 
-Go ahead & set up a Working Copy on your local machine. We recommend creating a new Branch based on the "master" branch of whichever repository you choose.
+
+## Step 4: Clone or Fork the Repository:
+- https://github.com/constellation4sitecore/zodiac-sitecore10.git
+
+Go ahead & set up a Working Copy on your local machine. We recommend creating a new Branch based on the "master" branch of the repo.
+
 
 ## Step 5: Load the Solution in Visual Studio
-The three repositories mentioned above are linked to each other. In your working copy, you will find up to three *.sln files. Make sure you load the Solution file that matches your Repository name. You can delete the others.
-For completeness, you should be loading one of the following:
 - Zodiac-Sitecore10.sln
-- Zodiac-Sitecore10-Example.sln
-- Zodiac-Sitecore10-Example-TDS.sln
 
 Assuming Visual Studio fires up and everything looks OK, click on the Solution in Solution Explorer and choose "Restore NuGet Packages".
 After NuGet Packages have been restored, run a Solution Build. Verify that the solution does build. _Building will not deploy, and you should *not* deploy at this stage._
 
+___IMPORTANT: Do not perform a TDS sync at this time, Just run the Build to verify all your Nuget packages installed.___
+
 ## Step 6: AppSettings.Config
 In the "Website" project there is an AppSettings.Config file located at /App_Config/AppSettings.config. You ___must___ manually copy this file into your local installation. It contains essential pre-Sitecore config patch settings that must be set to parse the config files correctly.
 
-        Example = C:\Inetpub\wwwroot\examplesite\App_Config\AppSettings.config
+        Example = C:\Inetpub\wwwroot\zodiac.local.sc\App_Config\AppSettings.config
 
-___After Deployment, your install will not start without this file.___
+___IMPORTANT: After Deployment, your install will not start unless this file exists at the above location.___
 
 
 ## Step 7: Configure Visual Studio Publishing
@@ -99,16 +105,27 @@ ___After Deployment, your install will not start without this file.___
 - In the (now visible) "Publish" toolbar, there should be a "Debug" target selected. Click the cog/gear icon to edit the publishing profile. 
 - Within the "Publish" panel that is now exposed, ensure the "Target Location" matches the location of your IIS Web App's root. (Use the Configure link to change it.)
 
-        Example Target Location = "C:\inetpub\wwwroot\examplesite.verndale-local.com"
+        Example Target Location = "C:\inetpub\wwwroot\zodiac.local.sc"
 
 ## Step 8: Deploy!
 With the "Website" project selected in Solution Explorer, hit the "publish" button in the One-Click Publish toolbar.
 
-## Step 9: Log into Sitecore
-___Important!___ After Visual Studio deploys your solution for the first time, you _must_ run Sitecore immediately. This will install a number of prerequisite Items that allow you to start development.
+___IMPORTANT: Do not perform a TDS sync at this time, Just run the Publish to push your code to your Sitecore installation___
 
 
-## Step 11: (for Example Site builds only) Configure Sitecore to load the Example Site
+## Step 9: Run Sitecore
+Access your Sitecore installation in a browser, but don't log into Sitecore yet. You should get the default "Sitecore Girl" page.
+
+___IMPORTANT: After Visual Studio deploys your solution for the first time, you _must_ run Sitecore immediately. This will install a number of prerequisite Items that allow you to start development.___
+
+
+## Step 10: Log into Sitecore
+Access the /sitecore login page and authenticate. Run a Full Site publish and then Rebuild all Indexes.
+
+___IMPORTANT: Rebuilding the Indexes makes sure your otherwise "new" Sitecore installation is fully primed. Buckets and Content Search will not function until you have rebuilt the Indexes.
+
+
+## Step 11: Configure Sitecore to load the Example Site
 If you are using one of the solutions that includes the Example Site, you need to adjust the configuration files so that Sitecore will resolve the site properly.
 
 Assuming you want the example site to be the "default" site for your install, you need to add the hostname you supplied in the install to your site config. 
@@ -119,7 +136,7 @@ In the "Website" project in Visual Studio:
 
 Note that if you want the example site, but you don't want it to be the "primary" site on your install, you can always add another hostname to your IIS website bindings. The above instructions still apply.
 
-## Step 12: (for Example Site builds only) Deploy and Publish!
+## Step 12: Deploy and Publish!
 - With the "Website" project selected in Solution Explorer, hit the "publish" button in the One-Click Publish toolbar.
 - Log into Sitecore Desktop.
 - Run a Full Publish (Smart or Republish)
@@ -141,6 +158,7 @@ A big thank you to [Verndale](https://www.verndale.com) for providing the time t
 - Joe Fusco
 - Deepthi Katta
 - Richard Leiva
+- Ozell McBride
 - Santiago Morla
 - Mike Reynolds
 - Liz Spranzani
