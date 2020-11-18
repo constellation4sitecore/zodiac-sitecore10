@@ -180,8 +180,8 @@ If you get a Layout Not Found or other unexpected response, check that the corre
 ## Step 15: Read the Manual
 Zodiac's Manual helps you understand the architecture philosophies of Zodiac and teaches you how to begin designing Items and building Renderings. There are step-by-step instructions for creating a new Site, a new Rendering, and new Label Groups. Use the Manual Site in Sitecore to see how Zodiac is supposed to be used.
 
-## Step 15: Season to Taste
-At this point you should have a running installation using Zodiac (with Constellation) as the backbone. You can now start development of your solution!
+## Step 16: Start Development
+At this point you should have a running installation using Zodiac (with Constellation) as the backbone. Congratulations, your project is underway!
 
 For details on how to use various features of this installation, visit https://constellation4sitecore.com/ the official documentation site for Constellation and Zodiac.
 
