@@ -125,12 +125,12 @@
 		<linkManager defaultProvider="sitecore">
 			<providers>
 				<!-- Link Provider settings for the projectName -->
-				<add name="exampleProviderName" type="Sitecore.Links.LinkProvider, Sitecore.Kernel" addAspxExtension="false" alwaysIncludeServerUrl="false" encodeNames="true" languageEmbedding="always" languageLocation="filePath" lowercaseUrls="true" shortenUrls="true" useDisplayName="false" />
+				<add name="projectNameProvider" type="Sitecore.Links.LinkProvider, Sitecore.Kernel" addAspxExtension="false" alwaysIncludeServerUrl="false" encodeNames="true" languageEmbedding="always" languageLocation="filePath" lowercaseUrls="true" shortenUrls="true" useDisplayName="false" />
 			</providers>
 		</linkManager>
 		<sites>
 			<site name="projectName">
-				<patch:attribute name="linkProvider">exampleProviderName</patch:attribute>
+				<patch:attribute name="linkProvider">projectNameProvider</patch:attribute>
 			</site>
 		</sites>
 
