@@ -148,8 +148,37 @@ Select any TDS project in the solution, right-click and choose "Install TDS Conn
 
 ## Step 14: Configure IIS and Sitecore to respond to a discrete hostname for the Zodiac Manual site.
 
-## Step 15: Read the Manual
+### If you want Zodiac Manual to be the Default Site
+- In your Visual Studio solution, Open: Website/App_Config/Include/Project/ZodiacManual/ZodiacManual.Site.config
+- Find the \<patch:attribute name="hostName"\> element and modify the inner text to match your installation's hostname (ex: zodiac.local.sc)
+- Find the \<patch:attribute name="targetHostName"\> element and modify the inner text to match your installation's hostname (ex: zodiac.local.sc)
+- Select the Website Project in the Solution Explorer
+- Right-click and choose *Clean*
+- Re-Select the Website Project and Publish it via WebDeploy.
+- In your browser, navigate to your local website. The "Sitecore Girl" page should be replaced with the Zodiac Manual home page.
 
+### If you want Zodiac Manual to be a discrete hostname on your install
+- In your Visual Studio solution, Open: Website/App_Config/Include/Project/ZodiacManual/ZodiacManual.Site.config
+- Find the \<patch:attribute name="hostName"\> element and modify the inner text to match your desired hostname (ex: zodiacmanual.local.sc)
+- Find the \<patch:attribute name="targetHostName"\> element and modify the inner text to match your desired hostname (ex: zodiacmanual.local.sc)
+- Select the Website Project in the Solution Explorer
+- Right-click and choose *Clean*
+- Re-Select the Website Project and Publish it via WebDeploy.
+- In Windows, open the IIS mangement console.
+- Open your Sitecore install's Website by selecting it in the Sites folder on the left-hand panel of the console..
+- Select Edit \>\> Bindings from the right-hand panel
+- Add a new Binding for your desired hostname (ex: zodiacmanual.local.sc)
+
+We strongly recommend using SSL and assigning the binding to both port 443 (SSL) and 80 (regular HTTP) You may need to create a new local self-signed cert for this hostname in order to complete the binding process. [Here's a quick tip on how to do this with Powershell.](https://dotnetcodetips.com/Tip/90/Create-a-self-signed-certificate-with-PowerShell-New-SelfSignedCertificate-or-Makecertexe)
+
+- Save the new bindings and close the IIS console.
+- In your browser, navigate to the hostname you just configured (ex: https://zodiacmanual.local.sc)
+- The Zodiac Manual home page should load.
+
+If you get a Layout Not Found or other unexpected response, check that the correct ZodiacManual.Site.Config is deployed and that your Zodiac Manual content Items are published!
+
+## Step 15: Read the Manual
+Zodiac's Manual helps you understand the architecture philosophies of Zodiac and teaches you how to begin designing Items and building Renderings. There are step-by-step instructions for creating a new Site, a new Rendering, and new Label Groups. Use the Manual Site in Sitecore to see how Zodiac is supposed to be used.
 
 ## Step 15: Season to Taste
 At this point you should have a running installation using Zodiac (with Constellation) as the backbone. You can now start development of your solution!
