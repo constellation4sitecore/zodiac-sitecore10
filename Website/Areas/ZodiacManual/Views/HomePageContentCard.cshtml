@@ -4,5 +4,7 @@
 		<h5 class="card-title">@Model.Heading</h5>
 		<div class="card-text">@Model.Copy</div>
 	</div>
-	<div class="card-footer">@Model.TrailingLink</div>
+	<div class="card-footer">
+		<a href="@Model.TrailingLink.Url" target="@Model.TrailingLink.Target">@Model.TrailingLink.Text</a>
+	</div>
 </div>

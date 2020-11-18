@@ -4,6 +4,6 @@
 @if (this.IsEditing || !string.IsNullOrEmpty(Model.TrailingLink.Url))
 {
 	<div>
-		<a class="class=btn btn-primary" href="@Model.TrailingLink.Url" target="@Model.TrailingLink.Target">@Model.TrailingLink.Text</a>
+		<a href="@Model.TrailingLink.Url" target="@Model.TrailingLink.Target">@Model.TrailingLink.Text</a>
 	</div>
 }

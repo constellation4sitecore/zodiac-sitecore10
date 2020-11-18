@@ -1,4 +1,4 @@
-﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<IEnumerable<Feature.Navigation.Models.SectionCardModel>>
+﻿@inherits Foundation.Labels.EditorCompatibleView<IEnumerable<Feature.Navigation.Models.SectionCardModel>, Feature.Navigation.Models.SectionCardLabels>
 
 <div class="row row-cols-3">
 
@@ -10,7 +10,7 @@
 					<h5 class="card-title">@card.NavigationTitle</h5>
 					<p class="card-text">@card.MetaDescription</p>
 				</div>
-				<div class="card-footer"><a href="@card.Url">Read More</a></div>
+				<div class="card-footer"><a href="@card.Url">@Labels.ReadMore</a></div>
 			</div>
 		</div>
 	}

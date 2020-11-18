@@ -267,6 +267,7 @@
     <Compile Include="Controllers\SectionCardsController.cs" />
     <Compile Include="Controllers\SectionNavigationController.cs" />
     <Compile Include="ModelBuilders\PrimaryNavigationModelBuilder.cs" />
+    <Compile Include="Models\SectionCardLabels.cs" />
     <Compile Include="Models\SectionCardModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\SectionCardRepository.cs" />
@@ -279,6 +280,11 @@
   <ItemGroup>
     <Content Include="Constellation.License.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Foundation.Labels\Foundation.Labels.csproj">
+      <Project>{74f50da4-2216-4f95-811a-361709ce5c1c}</Project>
+      <Name>Foundation.Labels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

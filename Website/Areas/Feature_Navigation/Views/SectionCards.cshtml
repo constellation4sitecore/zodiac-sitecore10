@@ -1,4 +1,4 @@
-﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<IEnumerable<Feature.Navigation.Models.SectionCardModel>>
+﻿@inherits Foundation.Labels.EditorCompatibleView<IEnumerable<Feature.Navigation.Models.SectionCardModel>, Feature.Navigation.Models.SectionCardLabels>
 
 <div>
 	@foreach (var card in Model)
@@ -6,7 +6,7 @@
 	<div>
 		<h5>@card.NavigationTitle</h5>
 		<p>@card.MetaDescription</p>
-		<a href="@card.Url">Read More</a>
+		<a href="@card.Url">@Labels.ReadMore</a>
 	</div>
 	}
 </div>
