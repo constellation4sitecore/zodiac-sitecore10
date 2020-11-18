@@ -351,7 +351,6 @@
     <None Include="App_Config\Include\Foundation\_Put_Foundation_Config_Patches_Here.txt" />
     <Content Include="App_Config\Include\Project\ZodiacManual\ZodiacManual.Site.config" />
     <Content Include="App_Config\Include\Project\_ZodiacScaffolding\Install-Zodiac-Project-Scaffolding.config" />
-    <None Include="App_Config\Include\Project\mysitecom\mysitecom.Site.config" />
     <None Include="App_Config\Include\Project\_Put_Tenant_and_Site_Config_Patches_Here.txt" />
     <Content Include="App_Config\Include\Project\_ZodiacScaffolding\_This_Folder_Must_Be_First.txt" />
     <Content Include="App_Data\packages\_Package_Files_for_Install_on_Startup_Go_Here.txt" />
@@ -373,7 +372,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Feature_Content\Feature_ContentAreaRegistration.cs" />
     <Compile Include="Areas\Feature_Navigation\Feature_NavigationAreaRegistration.cs" />
-    <Compile Include="Areas\MySiteCom\MySiteComAreaRegistration.cs" />
     <Compile Include="Areas\ZodiacManual\ZodiacManualAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -447,8 +445,6 @@
     <Content Include="Areas\ZodiacManual\Views\Shared\CardDeck6x6.cshtml" />
     <Content Include="Areas\Feature_Navigation\Views\SectionCards.cshtml" />
     <Content Include="App_Data\packages\Zodiac-Project-Scaffolding.zip" />
-    <Content Include="Areas\MySiteCom\Views\web.config" />
-    <Content Include="Areas\MySiteCom\Views\Shared\MySiteComDefaultLayout.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
@@ -460,10 +456,7 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Areas\MySiteCom\Controllers\" />
-    <Folder Include="Areas\MySiteCom\Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Feature.Content\Feature.Content.csproj">
       <Project>{f3f7cd87-6087-47e6-80a1-4d0bfc5f4164}</Project>
