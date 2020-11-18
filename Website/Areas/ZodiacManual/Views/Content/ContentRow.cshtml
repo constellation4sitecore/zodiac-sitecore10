@@ -4,10 +4,10 @@
 	<div class="col-12">
 		<h2>@Model.Heading</h2>
 		<div class="rich-text">@Model.Copy</div>
-		@if (this.IsEditing || !string.IsNullOrEmpty(Model.TrailingLinkUrl))
+		@if (this.IsEditing || !string.IsNullOrEmpty(Model.TrailingLink.Url))
 		{
 			<div class="mb-4">
-				@Model.TrailingLink
+				<a class="class=btn btn-primary" href="@Model.TrailingLink.Url" target="@Model.TrailingLink.Target">@Model.TrailingLink.Text</a>
 			</div>
 		}
 	</div>

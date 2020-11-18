@@ -1,4 +1,4 @@
-﻿using Constellation.Foundation.ModelMapping.MappingAttributes;
+﻿using Constellation.Foundation.ModelMapping.FieldModels;
 using System.Web;
 
 namespace Feature.Content.Models
@@ -9,13 +9,6 @@ namespace Feature.Content.Models
 
 		public HtmlString Copy { get; set; }
 
-		[FieldRendererParams("class=btn btn-primary")]
-		public HtmlString TrailingLink { get; set; }
-
-		public string TrailingLinkUrl { get; set; }
-
-		public string TrailingLinkText { get; set; }
-
-		public string TrailingLinkTarget { get; set; }
+		public GeneralLinkModel TrailingLink { get; set; }
 	}
 }
