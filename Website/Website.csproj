@@ -59,8 +59,8 @@
     <Reference Include="Constellation.Feature.PageTagging.SitemapXml, Version=10.0.3.25319, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Feature.PageTagging.SitemapXml.10.0.3.25319\lib\net48\Constellation.Feature.PageTagging.SitemapXml.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Feature.Redirects, Version=10.0.2.25226, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.Redirects.10.0.2.25226\lib\net48\Constellation.Feature.Redirects.dll</HintPath>
+    <Reference Include="Constellation.Feature.Redirects, Version=10.0.3.29515, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Feature.Redirects.10.0.3.29515\lib\net48\Constellation.Feature.Redirects.dll</HintPath>
     </Reference>
     <Reference Include="Constellation.Feature.UrlFriendlyPageNames, Version=10.0.1.28935, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Feature.UrlFriendlyPageNames.10.0.1.28935\lib\net48\Constellation.Feature.UrlFriendlyPageNames.dll</HintPath>
