@@ -274,15 +274,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="App_Config\Include\Feature\Constellation.Feature.Navigation.config" />
-    <None Include="App_Config\Include\Foundation\Constellation.Foundation.ModelMapper.config" />
-    <None Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.config" />
-    <None Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.Patterns.config" />
-    <None Include="App_Data\packages\Constellation-Feature-Navigation-Items.zip" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\packages\PutPackagesHere.txt" />
     <Content Include="Constellation.License.txt" />
   </ItemGroup>
   <ItemGroup>

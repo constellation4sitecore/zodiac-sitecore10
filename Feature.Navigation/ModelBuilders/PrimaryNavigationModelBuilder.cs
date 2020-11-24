@@ -45,7 +45,7 @@ namespace Feature.Navigation.ModelBuilders
 			{
 				model = Repository.GetNavigation(datasource, contextItem);
 
-				Cache.Add(key, model, DateTime.Now.AddMinutes(60));
+				Cache.Add(key, model, DateTime.Now.AddMinutes(Sitecore.Configuration.Settings.Caching.HtmlLifetime.TotalMinutes));
 			}
 
 			return model;
