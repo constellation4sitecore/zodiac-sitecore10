@@ -17,7 +17,7 @@
 		<source media="(min-width: 676px)" srcset="@Model.FullSizeImage.GetCustomHeightImageSrc(387)" />
 		<source media="(min-width: 992px)" srcset="@Model.FullSizeImage.GetCustomHeightImageSrc(161)" />
 		<source media="(min-width: 1200px)" srcset="@Model.FullSizeImage.GetCustomHeightImageSrc(195)" />
-		<img class="card-img-top" src="@Model.FullSizeImage.GetCustomHeightImageSrc(195)" alt="@Model.FullSizeImage.Alt" />
+		<img class="card-img-top" src="@Model.FullSizeImage.GetCustomHeightImageSrc(195)" alt="@Model.FullSizeImage.Alt" loading="lazy" />
 	</picture>
 	
 
@@ -58,7 +58,7 @@
 				</div>
 				<div class="modal-body">
 					<a href="@Model.FullSizeImage.Src" target="_blank" title="@Labels.ViewImageInNewTab">
-						<img src="@Model.FullSizeImage.Src" class="img-fluid" alt="@Model.FullSizeImage.Alt" />
+						<img src="@Model.FullSizeImage.Src" class="img-fluid" alt="@Model.FullSizeImage.Alt" loading="lazy" />
 					</a>
 					@if (!string.IsNullOrEmpty(Model.Caption.ToString()))
 					{
