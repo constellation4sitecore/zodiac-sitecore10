@@ -31,7 +31,7 @@ SharedFields:
   Value: ./_subcontent
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: ContentSection
+  Value: 
 - ID: "f3e7e552-d7c8-469b-a150-69e4e14ab35c"
   Hint: ClearOnIndexUpdate
   Type: Checkbox
@@ -54,11 +54,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b328dbdc-2493-4088-9d24-8bf827d8083e"
+      Value: "870a7fff-05a7-42d9-8fa2-04ce34e63870"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200928T141540Z
+      Value: 20201118T025912Z

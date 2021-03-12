@@ -1,0 +1,24 @@
+---
+ID: "a577c9cd-16e3-432b-a7f3-c88ca35aef39"
+Parent: "d87cc0ac-9f4b-4c2e-8173-0d072ca17f98"
+Template: "83436a80-9ee3-4c30-a062-358321c3dbf3"
+Path: "/sitecore/content/Zodiac/ZodiacManual/_labels/navigation/section-card-labels"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201118T211924Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bbaba4e4-db48-4925-9b84-3b751a4a5f49"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201118T211924Z

@@ -1,14 +1,17 @@
 ---
-ID: "32c2212f-c38b-4808-a32e-0fe67a8ceea4"
-Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
-Template: "215f8c54-68b3-4481-a20b-a5716f06081f"
-Path: /sitecore/content/Zodiac
+ID: "83436a80-9ee3-4c30-a062-358321c3dbf3"
+Parent: "41f32d7a-e1bb-45f3-afe9-09b438ed4b6f"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/Navigation/Section Card Labels
 DB: master
 SharedFields:
-- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
-  Hint: __Security
-  Value: |
-    ar|sitecore\Zodiac Manual Site Owner|pe|+item:read|^*|pd|+item:read|^*|
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{A6CB9B31-57DA-484F-93CE-2613D5CD2156}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{915DD1F5-DF90-4746-ADCF-6136955BA23A}"
 Languages:
 - Language: en
   Versions:
@@ -16,7 +19,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200811T165912Z
+      Value: 20201118T211703Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -27,11 +30,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "208a9705-432b-4818-908a-b313237899cd"
+      Value: "d4317bf9-608e-4935-8314-e8cebe3db764"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210203T170429Z
+      Value: 20201118T211823Z

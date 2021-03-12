@@ -8,6 +8,10 @@ SharedFields:
 - ID: "6fd695e7-7f6d-4ca5-8b49-a829e5950ae9"
   Hint: __Subitems Sorting
   Value: "{C1FF011E-B02A-44E3-8444-9FC89CFC28CE}"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Zodiac Manual Site Owner|pe|+item:write|^*|pd|+item:write|^*|
 Languages:
 - Language: en
   Versions:
@@ -74,7 +78,7 @@ Languages:
             <r
               uid="{0F7CF671-AA08-4876-A469-D1D4F340DAAA}"
               p:after="r[@uid='{F5935F10-2435-47C6-8E57-78E5A36F39CF}']"
-              s:ds="{B7857BBB-DE4D-4B6E-BD4D-19741943D479}"
+              s:ds=""
               s:id="{C52BD435-3CB6-4851-A77E-22875C6226A7}"
               s:ph="/Rows/AuxiliaryComponents-{CDBE78D9-005E-41A5-AAB7-FECBB742296A}-0" />
             <r
@@ -97,7 +101,7 @@ Languages:
       Value: Program and launch Sitecore faster than you've ever thought possible.
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
       Hint: Browser Title
-      Value: Home
+      Value: Zodiac Manual
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200811T171650Z
@@ -109,7 +113,7 @@ Languages:
       Value: Richard J. Cabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5e4cb41d-36b3-4c0f-9400-a8f5006ff0b7"
+      Value: "89de27ac-5a98-44bb-bb19-55fbf418b0e7"
     - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
       Hint: Copy
       Value: |
@@ -140,4 +144,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201117T225529Z
+      Value: 20210203T170459Z

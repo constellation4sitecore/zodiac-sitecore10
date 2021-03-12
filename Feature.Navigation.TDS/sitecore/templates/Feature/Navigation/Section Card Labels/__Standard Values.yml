@@ -1,0 +1,28 @@
+---
+ID: "915dd1f5-df90-4746-adcf-6136955ba23a"
+Parent: "83436a80-9ee3-4c30-a062-358321c3dbf3"
+Template: "83436a80-9ee3-4c30-a062-358321c3dbf3"
+Path: /sitecore/templates/Feature/Navigation/Section Card Labels/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "d88abe53-a82c-469f-8c48-64117b12b418"
+    Hint: Read More
+    Value: Read More
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201118T211823Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d2881a01-de9d-4a9e-a12e-603ed4a9f5cd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201118T211827Z

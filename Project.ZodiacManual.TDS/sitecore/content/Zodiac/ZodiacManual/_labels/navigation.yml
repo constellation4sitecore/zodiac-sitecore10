@@ -1,0 +1,24 @@
+---
+ID: "d87cc0ac-9f4b-4c2e-8173-0d072ca17f98"
+Parent: "eabb0dd4-82f7-48fe-b732-bf5fb9400ac3"
+Template: "86dabd3c-f970-4155-a3d3-a5c401cc5f06"
+Path: /sitecore/content/Zodiac/ZodiacManual/_labels/navigation
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201118T211915Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e9a4498b-4b22-4481-b056-1e3a05e0d6ea"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201118T211915Z

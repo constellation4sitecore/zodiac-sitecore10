@@ -1,0 +1,28 @@
+---
+ID: "0fd02924-1e8d-4595-8a65-dbb139395dab"
+Parent: "423b409f-ea3c-4bb0-b2d8-bd0397327c2b"
+Template: "05d33548-d7a2-43d7-8214-01a97d178e7a"
+Path: "/sitecore/content/_labels/content/image-with-caption-labels"
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "5e63d0a8-0b6f-4dc7-a284-01270089627b"
+    Hint: Expand
+    Value: Expand
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T203726Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5973cb3f-1fdf-43d6-ae23-ceb0756da65f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201002T165121Z

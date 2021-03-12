@@ -17,9 +17,12 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "15097791-7ceb-48d4-96eb-09c45a76185e"
+      Hint: Meta Description
+      Value: "Addressing some of the special concerns of a context-sensitive primary navigation"
     - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
       Hint: Intro Copy
-      Value: TO BE CONTINUED....
+      Value: While Constellation.Feature.Navigation does most of the heavy lifting for static site menus, a Primary Navigation that features context highlighting poses a few interesting challenges.
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
       Hint: Browser Title
       Value: Primary Navigation
@@ -28,7 +31,11 @@ Languages:
       Value: 20200811T173211Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "921a9a6e-85c3-429d-9d7e-f4b986c3adb9"
+      Value: "0ec618dd-9514-4edf-8161-3a435da3aaaf"
+    - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
+      Hint: Copy
+      Value: |
+        <p>The uppermost menus on most websites are built using Constellation's DeclaredNavigationRepository. your Navigation Rendering's Data Source is a Navigation Menu Item in your site's /Navigation folder, as described in the <a rel="noopener noreferrer" href="https://constellation4sitecore.com/feature/navigation/creating-a-declared-navigation-rendering/" target="_blank">Constellation documentation</a>.&nbsp;</p>
     - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
       Hint: Heading
       Value: Primary Navigation
@@ -41,4 +48,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201117T215021Z
+      Value: 20201124T163546Z
