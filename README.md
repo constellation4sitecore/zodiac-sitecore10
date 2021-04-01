@@ -130,7 +130,7 @@ In Visual Studio, expand the /_TDS solution folder and edit the TdsGlobal.config
 
         Example = https://zodiac.local.sc
         
-Select any TDS project in the solution, right-click and choose "Install TDS Connector".
+Select any TDS project in the solution, right-click and choose "Install Sitecore Connector".
 
 ## Step 12: Use TDS to push all Zodiac Manual Features and Content into Sitecore
 - Select the Solution object in Solution Explorer
