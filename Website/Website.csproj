@@ -62,9 +62,6 @@
     <Reference Include="Constellation.Feature.Redirects, Version=10.0.3.29515, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Feature.Redirects.10.0.3.29515\lib\net48\Constellation.Feature.Redirects.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Feature.UrlFriendlyPageNames, Version=10.0.1.28935, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.UrlFriendlyPageNames.10.0.1.28935\lib\net48\Constellation.Feature.UrlFriendlyPageNames.dll</HintPath>
-    </Reference>
     <Reference Include="Constellation.Foundation.Caching, Version=10.0.1.23545, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Caching.10.0.1.23545\lib\net48\Constellation.Foundation.Caching.dll</HintPath>
     </Reference>
@@ -100,6 +97,9 @@
     </Reference>
     <Reference Include="Constellation.Foundation.SitemapXml, Version=10.0.4.24634, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.SitemapXml.10.0.4.24634\lib\net48\Constellation.Foundation.SitemapXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Constellation.Foundation.UrlFriendlyPageNames, Version=10.1.0.22028, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.UrlFriendlyPageNames.10.1.0.22028\lib\net48\Constellation.Foundation.UrlFriendlyPageNames.dll</HintPath>
     </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.4.9.5, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
       <HintPath>..\packages\HtmlAgilityPack.1.4.9.5\lib\Net45\HtmlAgilityPack.dll</HintPath>
@@ -331,7 +331,6 @@
     <None Include="App_Config\DefaultSettingOverrides\_Change_Global_Settings_Here.txt" />
     <None Include="App_Config\Helix\_Do_Not_Modify_These_Config_Files.txt" />
     <Content Include="App_Config\Include\Feature\Constellation.Feature.PageTagging.SitemapXml.config" />
-    <Content Include="App_Config\Include\Feature\Constellation.Feature.UrlFriendlyPageNames.config" />
     <Content Include="App_Config\Include\Feature\Constellation.Feature.Navigation.config" />
     <Content Include="App_Config\Include\Feature\Constellation.Feature.PageTagging.config" />
     <Content Include="App_Config\Include\Feature\Constellation.Feature.ItemSorting.config" />
@@ -348,6 +347,7 @@
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.config" />
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.ModelMapper.config" />
     <Content Include="App_Config\Include\Foundation\Foundation.Labels.config" />
+    <Content Include="App_Config\Include\Foundation\Constellation.Foundation.UrlFriendlyPageNames.config" />
     <None Include="App_Config\Include\Foundation\_Put_Foundation_Config_Patches_Here.txt" />
     <Content Include="App_Config\Include\Project\ZodiacManual\ZodiacManual.Site.config" />
     <Content Include="App_Config\Include\Project\_ZodiacScaffolding\Install-Zodiac-Project-Scaffolding.config" />
@@ -366,6 +366,15 @@
     <Content Include="sitecore modules\Shell\Redirect\Import.xaml.xml" />
     <Content Include="sitecore modules\Shell\Redirect\NewRedirect.xaml.xml" />
     <Content Include="sitecore modules\Shell\Redirect\RedirectManager.aspx" />
+    <Content Include="static\css\main.15e8ba2f.chunk.css" />
+    <Content Include="static\favicon.ico" />
+    <Content Include="static\js\2.d9d63c39.chunk.js" />
+    <Content Include="static\js\2.d9d63c39.chunk.js.LICENSE.txt" />
+    <Content Include="static\js\3.3945e79e.chunk.js" />
+    <Content Include="static\js\main.0e50af13.chunk.js" />
+    <Content Include="static\js\runtime-main.feedfe22.js" />
+    <Content Include="static\logo192.png" />
+    <Content Include="static\logo512.png" />
     <Content Include="Zodiac.License.txt" />
     <Content Include="Global.asax" />
   </ItemGroup>
@@ -411,7 +420,6 @@
     <Content Include="App_Data\packages\Helix-Prerequisite-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Foundation-Datasources-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-PageTagging-SitemapXml-Items.zip" />
-    <Content Include="App_Data\packages\Constellation-Feature-UrlFriendlyPageNames-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-Navigation-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-PageTagging-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-ItemSorting-Items.zip" />
@@ -446,9 +454,18 @@
     <Content Include="Areas\ZodiacManual\Views\Shared\CardDeck6x6.cshtml" />
     <Content Include="Areas\Feature_Navigation\Views\SectionCards.cshtml" />
     <Content Include="App_Data\packages\Zodiac-Project-Scaffolding.zip" />
+    <Content Include="Areas\ZodiacManual\Views\Shared\HassanLayout.cshtml" />
+    <Content Include="App_Data\packages\Constellation-Foundation-UrlFriendlyPageNames-10.1.zip" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
+    <Content Include="static\css\main.15e8ba2f.chunk.css.map" />
+    <Content Include="static\js\2.d9d63c39.chunk.js.map" />
+    <Content Include="static\js\3.3945e79e.chunk.js.map" />
+    <Content Include="static\js\main.0e50af13.chunk.js.map" />
+    <Content Include="static\js\runtime-main.feedfe22.js.map" />
+    <Content Include="static\asset-manifest.json" />
+    <Content Include="static\manifest.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -459,10 +476,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\Feature.Content\Feature.Content.csproj">
-      <Project>{f3f7cd87-6087-47e6-80a1-4d0bfc5f4164}</Project>
-      <Name>Feature.Content</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Feature.Navigation\Feature.Navigation.csproj">
       <Project>{8c29d5eb-84de-40b2-9343-a0d4950ecf61}</Project>
       <Name>Feature.Navigation</Name>
