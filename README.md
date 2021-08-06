@@ -126,11 +126,16 @@ ___IMPORTANT: Rebuilding the Indexes makes sure your otherwise "new" Sitecore in
 
 
 ## Step 11: Configure TDS to talk to your installation
-In Visual Studio, expand the /_TDS solution folder and edit the TdsGlobal.config Alter the value of the \<SitecoreWebUrl /> element to match the hostname for your local installation.
+In Visual Studio, expand the /_TDS solution folder and edit the TdsGlobal.config
+- Alter the value of the \<SitecoreWebUrl /> element to match the hostname for your local installation.
 
         Example = https://zodiac.local.sc
+
+- Alter the value of the \<SitecoreDeployFolder /> element to match the target location of your local installation.
+
+        Example = C:\inetpub\wwwroot\zodiac.local.sc
         
-Select any TDS project in the solution, right-click and choose "Install TDS Connector".
+Select any TDS project in the solution, right-click and choose "Install Sitecore Connector".
 
 ## Step 12: Use TDS to push all Zodiac Manual Features and Content into Sitecore
 - Select the Solution object in Solution Explorer
