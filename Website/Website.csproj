@@ -62,9 +62,6 @@
     <Reference Include="Constellation.Feature.Redirects, Version=10.1.0.19177, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Feature.Redirects.10.1.0.19177\lib\net48\Constellation.Feature.Redirects.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Feature.UrlFriendlyPageNames, Version=10.1.0.19242, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.UrlFriendlyPageNames.10.1.0.19242\lib\net48\Constellation.Feature.UrlFriendlyPageNames.dll</HintPath>
-    </Reference>
     <Reference Include="Constellation.Foundation.Caching, Version=10.1.0.26213, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Caching.10.1.0.26213\lib\net48\Constellation.Foundation.Caching.dll</HintPath>
     </Reference>
@@ -100,6 +97,9 @@
     </Reference>
     <Reference Include="Constellation.Foundation.SitemapXml, Version=10.1.0.26945, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.SitemapXml.10.1.0.26945\lib\net48\Constellation.Foundation.SitemapXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Constellation.Foundation.UrlFriendlyPageNames, Version=10.1.0.22028, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.UrlFriendlyPageNames.10.1.0.22028\lib\net48\Constellation.Foundation.UrlFriendlyPageNames.dll</HintPath>
     </Reference>
     <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
       <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
@@ -580,7 +580,6 @@
     <None Include="App_Config\Helix\_Do_Not_Modify_These_Config_Files.txt" />
     <Content Include="App_Config\Include\Feature\Constellation.Feature.ItemSorting.config" />
     <Content Include="App_Config\Include\Feature\Constellation.Feature.Navigation.config" />
-    <Content Include="App_Config\Include\Feature\Constellation.Feature.UrlFriendlyPageNames.config" />
     <Content Include="App_Config\Include\Feature\Constellation.Feature.PageAnalyticsScripts.config" />
     <Content Include="App_Config\Include\Feature\Constellation.Feature.PageTagging.config" />
     <Content Include="App_Config\Include\Feature\Constellation.Feature.Redirects.config" />
@@ -596,6 +595,7 @@
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Caching.config" />
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.config" />
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.Patterns.config" />
+    <Content Include="App_Config\Include\Foundation\Constellation.Foundation.UrlFriendlyPageNames.config" />
     <None Include="App_Config\Include\Foundation\_Put_Foundation_Config_Patches_Here.txt" />
     <Content Include="App_Config\Include\Project\ZodiacManual\ZodiacManual.Site.config" />
     <Content Include="App_Config\Include\Project\_ZodiacScaffolding\Install-Zodiac-Project-Scaffolding.config" />
@@ -688,12 +688,12 @@
     <Content Include="App_Data\packages\Zodiac-Project-Scaffolding.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-ItemSorting-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-Navigation-Items.zip" />
-    <Content Include="App_Data\packages\Constellation-Feature-UrlFriendlyPageNames-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Foundation-Datasources-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-PageAnalyticsScripts-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-PageTagging-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-Redirects-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-PageTagging-SitemapXml-Items.zip" />
+    <Content Include="App_Data\packages\Constellation-Foundation-UrlFriendlyPageNames-10.1.zip" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
