@@ -77,6 +77,9 @@
     <Reference Include="Constellation.Foundation.Globalization, Version=10.1.0.26806, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Globalization.10.1.0.26806\lib\net48\Constellation.Foundation.Globalization.dll</HintPath>
     </Reference>
+    <Reference Include="Constellation.Foundation.Labels, Version=10.1.1.18713, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.Labels.10.1.1.18713\lib\net48\Constellation.Foundation.Labels.dll</HintPath>
+    </Reference>
     <Reference Include="Constellation.Foundation.Linking, Version=10.1.0.26886, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Linking.10.1.0.26886\lib\net48\Constellation.Foundation.Linking.dll</HintPath>
     </Reference>
@@ -585,7 +588,6 @@
     <Content Include="App_Config\Include\Feature\Constellation.Feature.Redirects.config" />
     <Content Include="App_Config\Include\Feature\Constellation.Feature.PageTagging.SitemapXml.config" />
     <None Include="App_Config\Include\Feature\_Put_Feature_Config_Patches_Here.txt" />
-    <Content Include="App_Config\Include\Foundation\Foundation.Labels.config" />
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Linking.config" />
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.ModelMapper.config" />
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.PackageVerification.config.example" />
@@ -596,6 +598,7 @@
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.config" />
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.Patterns.config" />
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.UrlFriendlyPageNames.config" />
+    <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Labels.config" />
     <None Include="App_Config\Include\Foundation\_Put_Foundation_Config_Patches_Here.txt" />
     <Content Include="App_Config\Include\Project\ZodiacManual\ZodiacManual.Site.config" />
     <Content Include="App_Config\Include\Project\_ZodiacScaffolding\Install-Zodiac-Project-Scaffolding.config" />
@@ -694,6 +697,7 @@
     <Content Include="App_Data\packages\Constellation-Feature-Redirects-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-PageTagging-SitemapXml-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Foundation-UrlFriendlyPageNames-10.1.zip" />
+    <Content Include="App_Data\packages\Constellation-Foundation-Labels-10.1.zip" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
@@ -714,10 +718,6 @@
     <ProjectReference Include="..\Feature.Navigation\Feature.Navigation.csproj">
       <Project>{8c29d5eb-84de-40b2-9343-a0d4950ecf61}</Project>
       <Name>Feature.Navigation</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Foundation.Labels\Foundation.Labels.csproj">
-      <Project>{74f50da4-2216-4f95-811a-361709ce5c1c}</Project>
-      <Name>Foundation.Labels</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

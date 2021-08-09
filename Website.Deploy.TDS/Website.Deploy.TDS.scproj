@@ -42,9 +42,6 @@
     <ProjectReference Include="..\Feature.Navigation.TDS\Feature.Navigation.TDS.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\Foundation.Labels.TDS\Foundation.Labels.TDS.scproj">
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="..\Foundation.Navigation.TDS\Foundation.Navigation.TDS.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
@@ -62,9 +59,6 @@
   <ItemGroup>
     <BundledProject Include="..\Feature.Navigation.TDS\Feature.Navigation.TDS.scproj">
       <ProjectId>{234efcce-24ae-40fb-855a-dc7717f21c72}</ProjectId>
-    </BundledProject>
-    <BundledProject Include="..\Foundation.Labels.TDS\Foundation.Labels.TDS.scproj">
-      <ProjectId>{b3451f02-1453-41ad-8f1d-ac43b815342e}</ProjectId>
     </BundledProject>
     <BundledProject Include="..\Foundation.Navigation.TDS\Foundation.Navigation.TDS.scproj">
       <ProjectId>{750a592e-0b90-46ff-b9d8-0a56a380f2ca}</ProjectId>

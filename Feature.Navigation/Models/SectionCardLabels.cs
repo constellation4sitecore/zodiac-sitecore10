@@ -1,5 +1,5 @@
-﻿using Constellation.Foundation.ModelMapping.MappingAttributes;
-using Foundation.Labels;
+﻿using Constellation.Foundation.Labels;
+using Constellation.Foundation.ModelMapping.MappingAttributes;
 
 namespace Feature.Navigation.Models
 {
