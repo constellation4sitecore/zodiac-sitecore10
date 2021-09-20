@@ -601,7 +601,7 @@
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Labels.config" />
     <None Include="App_Config\Include\Foundation\_Put_Foundation_Config_Patches_Here.txt" />
     <Content Include="App_Config\Include\Project\ZodiacManual\ZodiacManual.Site.config" />
-    <Content Include="App_Config\Include\Project\_ZodiacScaffolding\Install-Zodiac-Project-Scaffolding.config" />
+    <Content Include="App_Config\Include\Project\_ZodiacScaffolding\Disable-Robots-Outside-Production.config" />
     <None Include="App_Config\Include\Project\_Put_Tenant_and_Site_Config_Patches_Here.txt" />
     <Content Include="App_Config\Include\Project\_ZodiacScaffolding\_This_Folder_Must_Be_First.txt" />
     <Content Include="App_Data\packages\PutPackagesHere.txt" />
@@ -657,6 +657,7 @@
     <Content Include="App_Config\DefaultSettingOverrides\Change.Mail.Settings.qacm.config" />
     <Content Include="App_Config\DefaultSettingOverrides\Change.Mail.Settings.qacd.config" />
     <Content Include="App_Config\Layers.config" />
+    <Content Include="App_Config\Include\Project\_ZodiacScaffolding\Install-Zodiac-Project-Scaffolding.config" />
     <None Include="App_Config\Sitecore.config" />
     <None Include="App_Config\ConnectionStrings.config" />
     <Content Include="App_Data\packages\Helix-Prerequisite-Items.zip" />

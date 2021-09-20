@@ -147,12 +147,26 @@
 			</site>
 		</sites>
 
-		<!--
-		SITEMAP XML CRAWLER TO USE
+
+		<constellation>
+			<robotsTxt>
+				<!--
+				ROBOTS TXT RULES FOR SITE
+				
+				Replace "projectName" with the name of your site node.
+				-->
+				<siteRules env:require="ProdCD">
+					<projectName>
+						<allow>/</allow>
+						<disallow>/login</disallow>
+					</projectName>
+				</siteRules>
+			</robotsTxt>
+			<!--
+			SITEMAP XML CRAWLER TO USE
 
 			Allows you to specify the crawler class(es) used for this particular site.
-		-->
-		<constellation>
+			-->
 			<sitemapXml>
 				<crawlers>
 					<site name="projectName">
