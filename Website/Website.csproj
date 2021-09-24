@@ -77,8 +77,8 @@
     <Reference Include="Constellation.Foundation.Globalization, Version=10.1.0.26806, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Globalization.10.1.0.26806\lib\net48\Constellation.Foundation.Globalization.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.Labels, Version=10.1.2.19471, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.Labels.10.1.2.19471\lib\net48\Constellation.Foundation.Labels.dll</HintPath>
+    <Reference Include="Constellation.Foundation.Labels, Version=10.1.3.23485, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.Labels.10.1.3.23485\lib\net48\Constellation.Foundation.Labels.dll</HintPath>
     </Reference>
     <Reference Include="Constellation.Foundation.Linking, Version=10.1.0.26886, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Linking.10.1.0.26886\lib\net48\Constellation.Foundation.Linking.dll</HintPath>
