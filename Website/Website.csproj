@@ -607,6 +607,7 @@
     <Content Include="App_Config\Include\Feature\Constellation.Feature.PageTagging.config" />
     <Content Include="App_Config\Include\Feature\Constellation.Feature.PageTagging.SitemapXml.config" />
     <Content Include="App_Config\Include\Feature\Constellation.Feature.Redirects.config" />
+    <Content Include="App_Config\Include\Feature\Feature.Alerts.config" />
     <None Include="App_Config\Include\Feature\_Put_Feature_Config_Patches_Here.txt" />
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Caching.config" />
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Datasources.config" />
@@ -642,6 +643,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Feature_Alerts\Feature_AlertsAreaRegistration.cs" />
     <Compile Include="Areas\Feature_Content\Feature_ContentAreaRegistration.cs" />
     <Compile Include="Areas\Feature_Mastheads\Feature_MastheadsAreaRegistration.cs" />
     <Compile Include="Areas\Feature_Navigation\Feature_NavigationAreaRegistration.cs" />
@@ -729,6 +731,8 @@
     <Content Include="Areas\Feature_Mastheads\Views\MastheadWithMediaRight.cshtml" />
     <Content Include="Areas\Feature_Mastheads\Views\SimpleMasthead.cshtml" />
     <Content Include="Areas\Feature_Mastheads\Views\CenteredSimpleMasthead.cshtml" />
+    <Content Include="Areas\Feature_Alerts\Views\web.config" />
+    <Content Include="Areas\Feature_Alerts\Views\AlertGroup.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
@@ -742,6 +746,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\Feature.Alerts\Feature.Alerts.csproj">
+      <Project>{9ba8a002-121d-4b55-9ae6-9ede07c2c5aa}</Project>
+      <Name>Feature.Alerts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Feature.Content\Feature.Content.csproj">
       <Project>{f3f7cd87-6087-47e6-80a1-4d0bfc5f4164}</Project>
       <Name>Feature.Content</Name>

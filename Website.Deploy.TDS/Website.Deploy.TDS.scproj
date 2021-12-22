@@ -39,6 +39,12 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Feature.Alerts.TDS\Feature.Alerts.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.Mastheads.Core.TDS\Feature.Mastheads.Core.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="..\Feature.Mastheads.TDS\Feature.Mastheads.TDS.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
@@ -63,6 +69,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <BundledProject Include="..\Feature.Alerts.TDS\Feature.Alerts.TDS.scproj">
+      <ProjectId>{f118f49f-786f-4f0c-8eeb-630867fd659a}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.Mastheads.Core.TDS\Feature.Mastheads.Core.TDS.scproj">
+      <ProjectId>{00052b49-32e4-475a-b695-28d6e0380ab3}</ProjectId>
+    </BundledProject>
     <BundledProject Include="..\Feature.Mastheads.TDS\Feature.Mastheads.TDS.scproj">
       <ProjectId>{66731899-27e8-48e9-9747-eb3daeb0d1e1}</ProjectId>
     </BundledProject>

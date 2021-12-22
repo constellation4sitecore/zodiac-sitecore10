@@ -1,0 +1,33 @@
+---
+ID: "b11e61ab-952f-4971-bd8a-76095af6da48"
+Parent: "5df140ef-ab41-41c2-bb28-bbee7b6d08a4"
+Template: "69c12a70-4892-41c0-a4a7-16e206a12f1c"
+Path: /sitecore/content/_alerts/Alert Archive
+DB: master
+SharedFields:
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Store reusable alerts here until they need to be active.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210813T135752Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ae4a4ec9-3dc1-4a84-8612-19ece321b46e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210813T190352Z

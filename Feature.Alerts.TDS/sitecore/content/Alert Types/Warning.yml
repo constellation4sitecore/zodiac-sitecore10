@@ -1,0 +1,34 @@
+---
+ID: "4f200807-ff78-4b1f-ac6a-ce923f9e90ac"
+Parent: "9d3cfd9b-ba52-4322-9143-27662283ac9a"
+Template: "fb6b2842-119a-405d-971d-6ce291436123"
+Path: /sitecore/content/Alert Types/Warning
+DB: master
+SharedFields:
+- ID: "0b240ee2-e680-4ed2-9d18-825bda30b2cb"
+  Hint: Data Id
+  Value: warning
+- ID: "105b3dc1-98e8-4273-83e8-e3a4c2b9ec81"
+  Hint: Css Class
+  Value: "alert--warning"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211222T162134Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "25d76f2d-9ff7-4d55-b221-475ecdadc836"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211222T162219Z

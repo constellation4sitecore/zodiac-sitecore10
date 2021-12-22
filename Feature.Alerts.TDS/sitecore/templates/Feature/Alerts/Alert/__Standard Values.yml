@@ -1,0 +1,46 @@
+---
+ID: "0824dbd9-33e0-456a-8adf-b7299c068c94"
+Parent: "85438301-9bb9-46cc-b9d3-28e3850727ff"
+Template: "85438301-9bb9-46cc-b9d3-28e3850727ff"
+Path: /sitecore/templates/Feature/Alerts/Alert/__Standard Values
+DB: master
+SharedFields:
+- ID: "065e5781-4227-471b-9df1-43db940e28ea"
+  Hint: Alert Type
+  Value: "{4615B112-728B-48C8-8B9F-B16CECA9D685}"
+- ID: "a17aa4ba-01d1-4ee0-b4c3-6eafc4a2ee19"
+  Hint: Can Be Dismissed
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210811T201136Z
+    - ID: "45e4a1e7-02de-4fd3-a02b-f527e0b713d9"
+      Hint: Heading
+      Value: $name
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "86da015e-1ac1-4d75-92fa-cfc5b1363a8b"
+      Hint: Message
+      Value: <p> Fusce interdum consectetur eleifend. Pellentesque nec nibh vulputate, dignissim urna eget, rutrum urna.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f8b17336-0f17-4f2b-8ca3-199531a6f2f9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211222T171630Z

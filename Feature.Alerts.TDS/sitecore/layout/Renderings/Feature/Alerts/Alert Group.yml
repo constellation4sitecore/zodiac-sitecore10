@@ -1,0 +1,73 @@
+---
+ID: "a748d2d1-ade6-464a-a8c5-a49db19ad739"
+Parent: "9541d857-0759-4e95-9e90-8888dbdc6e8d"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Feature/Alerts/Alert Group
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/about.png
+- ID: "0e54a8dc-72ad-4372-a7c7-bb4773fad44d"
+  Hint: VaryByUser
+  Type: Checkbox
+  Value: 1
+- ID: "1c0af338-70a8-455f-8366-173135e03be6"
+  Hint: Placeholder
+  Value: AlertGroup
+- ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
+  Hint: Editable
+  Type: Checkbox
+  Value: 0
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Type: Checkbox
+  Value: 1
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: Index
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: AlertGroup
+- ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
+  Hint: Enable Datasource Query
+  Type: Checkbox
+  Value: 0
+- ID: "f3e7e552-d7c8-469b-a150-69e4e14ab35c"
+  Hint: ClearOnIndexUpdate
+  Type: Checkbox
+  Value: 1
+- ID: "fc5c3451-dfde-4778-9901-5d0b1da1e212"
+  Hint: Area
+  Value: Feature_Alerts
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210813T191233Z
+    - ID: "3008735d-b41c-4b56-986c-f4513218eb65"
+      Hint: Description
+      Value: |
+        <p>The Alert Group Rendering should be bound to a placeholder on the Layout named AlertGroup.</p>
+        <p>This rendering is not intended to be editable via Experience Editor, and should be a "fixed" component to the page. Adding and Removing Alerts is done by adding Items to the Alert folders at the site and global level. Alerts appear on all pages of a given site, or globally if it's a global alert. Ability to roll up or dismiss an alert is controlled by each Alert Item independently.</p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5c386c23-e1b2-4f05-a5ca-c32c945ff6c9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211222T185326Z

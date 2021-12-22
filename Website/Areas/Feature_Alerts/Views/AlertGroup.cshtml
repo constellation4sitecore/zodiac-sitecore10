@@ -1,0 +1,32 @@
+﻿@using Feature.Alerts.Models
+@inherits Constellation.Foundation.Labels.EditorCompatibleView<IEnumerable<Feature.Alerts.Models.AlertModel>, AlertLabels>
+
+
+@foreach (AlertModel alert in Model)
+{
+	<div class="alert @alert.AlertType.CssClass" data-module="alert" data-id="@alert.AlertType.DataId" data-cookie-name="reusable">
+		<div class="container">
+			<div class="alert__header">
+				<h2 class="alert__heading">@alert.Heading</h2>
+				<button type="button" class="alert__toggle" aria-expanded="false">
+					<span class="alert__hide">@Labels.Hide</span>
+					<span class="alert__show">@Labels.Show</span>
+					<svg viewBox="0 0 320 320">
+						<use xlink:href="#arrow-up"/>
+					</svg>
+				</button>
+				<button type="button" class="alert__close">
+					@Labels.Close
+					<svg viewBox="0 0 320 320">
+						<use xlink:href="#close"/>
+					</svg>
+				</button>
+			</div>
+			<div class="alert__content" tabindex="-1">
+				<div class="rtf">
+					@alert.Message
+				</div>
+			</div>
+		</div>
+	</div>
+}
