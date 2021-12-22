@@ -1,0 +1,22 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.AccordionTabModel>
+<div class="accordion__item">
+	<button class="accordion__item-trigger" aria-expanded="true">
+		<h3>@Model.Heading</h3>
+		<span class="accordion__item-icon">
+			<svg viewBox="0 0 14 2" class="accordion__item-icon-minus">
+				<use xlink:href="#minus" />
+			</svg>
+			<svg viewBox="0 0 14 14" class="accordion__item-icon-plus">
+				<use xlink:href="#plus" />
+			</svg>
+		</span>
+	</button>
+	<div role="region" class="accordion__item-panel">
+		<div class="accordion__item-content">
+			<h4 class="accordion__item-heading">@Model.Heading</h4>
+			<div class="rtf">
+				@Model.Copy
+			</div>
+		</div>
+	</div>
+</div>

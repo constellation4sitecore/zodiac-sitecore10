@@ -733,6 +733,8 @@
     <Content Include="Areas\Feature_Mastheads\Views\CenteredSimpleMasthead.cshtml" />
     <Content Include="Areas\Feature_Alerts\Views\web.config" />
     <Content Include="Areas\Feature_Alerts\Views\AlertGroup.cshtml" />
+    <Content Include="Areas\Feature_Content\Views\AccordionContainer.cshtml" />
+    <Content Include="Areas\Feature_Content\Views\AccordionTab.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />

@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: applications/32x32/folder_blue.png
+  Value: applications/32x32/folder.png
 Languages:
 - Language: en
   Versions:
@@ -26,11 +26,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5023abab-16f2-4acd-8bcc-343eccbe7921"
+      Value: "0086d298-3433-4dc7-98b2-30f9480c52b3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200917T170845Z
+      Value: 20211222T201047Z
