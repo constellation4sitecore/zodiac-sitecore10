@@ -1,0 +1,28 @@
+---
+ID: "9c42f121-301e-4eba-90f9-2728440dfbd5"
+Parent: "e0908610-5a61-43d1-a535-db7bf8443ca5"
+Template: "55c8cedd-722e-4a38-abe2-ae613c67e79c"
+Path: /sitecore/content/Video Providers/Vimeo
+DB: master
+SharedFields:
+- ID: "4a491450-7092-4060-9c0f-dd5c60e92ad1"
+  Hint: Provider ID
+  Value: vimeo
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211124T204942Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "019b6985-72ca-4d28-946c-0b2ceed82560"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211124T204947Z

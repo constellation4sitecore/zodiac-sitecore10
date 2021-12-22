@@ -1,0 +1,40 @@
+---
+ID: "0ca78e89-dd5d-4129-a9ae-7e5fabbbe3ed"
+Parent: "9b88066d-1c67-4234-8b25-21b293fcbd70"
+Template: "9b88066d-1c67-4234-8b25-21b293fcbd70"
+Path: /sitecore/templates/Feature/Mastheads/Masthead Media/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211124T203128Z
+    - ID: "2f6d632c-7395-4bd4-b26a-c3d6fcadbbb2"
+      Hint: Masthead Background
+      Value: |
+        <image mediaid="{A8DD2D27-A264-4F81-9034-7EABD78C8366}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c0487568-637c-4205-a151-153332dd6f74"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211222T144240Z
+    - ID: "db61e1c5-8713-441a-80ab-f30e00c24589"
+      Hint: Masthead Image
+      Value: |
+        <image mediaid="{C65149AD-E260-4913-A4DE-2F0A16FEAF31}" />

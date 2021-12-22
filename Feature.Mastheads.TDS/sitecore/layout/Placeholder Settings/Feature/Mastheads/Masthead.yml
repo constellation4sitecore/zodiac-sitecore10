@@ -1,0 +1,48 @@
+---
+ID: "1b06a5bb-240b-4ec6-b6a4-e289d34f1a9b"
+Parent: "8d68d08c-6c4c-485c-82f4-e89feb850cef"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Feature/Mastheads/Masthead
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: 
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {FE639020-4A46-4264-8AC3-07B270D6BC3F}
+    {5D380FB3-92A6-4D60-8AED-515F2C9399C4}
+    {9A7E6C25-372E-4824-AB7F-9B93A45F2729}
+    {F703ED99-818A-49E0-815F-FE28424DF576}
+Languages:
+- Language: en
+  Fields:
+  - ID: "87871ff5-1965-46d6-884f-01d6a0b9c4c1"
+    Hint: Description
+    Value: Add a Masthead placeholder to your site's Layout, and add the Masthead Template to your Pages' Base Templates to support a variety of Masthead banner options. Add this Placeholder Setting to your Page's Standard Values for the Masthead placeholder to activate Masthead editing.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T164611Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0829e0d6-266e-4269-b25d-2fad2887fdff"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211222T145143Z

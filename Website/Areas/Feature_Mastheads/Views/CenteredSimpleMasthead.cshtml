@@ -1,0 +1,23 @@
+﻿@using Sitecore.Mvc
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Mastheads.Models.MastheadModel>
+
+<div class="masthead  masthead--simple">
+	<div class="masthead__inner container  masthead__inner--text-position-center">
+		<div class="masthead__content">
+			<h1 class="masthead__heading">@Model.Heading</h1>
+			@if (IsEditing || Model.Subheading.ToString().Length > 0)
+			{
+				<h2 class="masthead__subheading">@Model.Subheading</h2>
+			}
+			@if (IsEditing || Model.IntroText.ToString().Length > 0)
+			{
+				<div class="masthead__copy rtf">
+					@Model.IntroText
+				</div>
+			}
+			<div class="masthead__actions">
+				@Html.Sitecore().DynamicPlaceholder("MastheadActions")
+			</div>
+		</div>
+	</div>
+</div>

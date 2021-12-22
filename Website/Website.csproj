@@ -643,6 +643,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Feature_Content\Feature_ContentAreaRegistration.cs" />
+    <Compile Include="Areas\Feature_Mastheads\Feature_MastheadsAreaRegistration.cs" />
     <Compile Include="Areas\Feature_Navigation\Feature_NavigationAreaRegistration.cs" />
     <Compile Include="Areas\ZodiacManual\ZodiacManualAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
@@ -719,6 +720,15 @@
     <Content Include="App_Data\packages\Constellation-Foundation-Datasources-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Foundation-Labels.zip" />
     <Content Include="App_Data\packages\Constellation-Foundation-UrlFriendlyPageNames-10.1.zip" />
+    <Content Include="Areas\Feature_Mastheads\Views\web.config" />
+    <Content Include="Areas\Feature_Mastheads\Views\MastheadActions.cshtml" />
+    <Content Include="Areas\Feature_Mastheads\Views\MastheadImage.cshtml" />
+    <Content Include="Areas\Feature_Mastheads\Views\MastheadVideo.cshtml" />
+    <Content Include="Areas\Feature_Mastheads\Views\MastheadWithBackground.cshtml" />
+    <Content Include="Areas\Feature_Mastheads\Views\MastheadWithMediaLeft.cshtml" />
+    <Content Include="Areas\Feature_Mastheads\Views\MastheadWithMediaRight.cshtml" />
+    <Content Include="Areas\Feature_Mastheads\Views\SimpleMasthead.cshtml" />
+    <Content Include="Areas\Feature_Mastheads\Views\CenteredSimpleMasthead.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
@@ -736,9 +746,17 @@
       <Project>{f3f7cd87-6087-47e6-80a1-4d0bfc5f4164}</Project>
       <Name>Feature.Content</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Feature.Mastheads\Feature.Mastheads.csproj">
+      <Project>{85acc20f-a206-4767-aff4-e4f694d57f2d}</Project>
+      <Name>Feature.Mastheads</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Feature.Navigation\Feature.Navigation.csproj">
       <Project>{8c29d5eb-84de-40b2-9343-a0d4950ecf61}</Project>
       <Name>Feature.Navigation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Foundation.Videos\Foundation.Videos.csproj">
+      <Project>{f4db1858-fafb-4684-9c6c-953de23f4070}</Project>
+      <Name>Foundation.Videos</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
