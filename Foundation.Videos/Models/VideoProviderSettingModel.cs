@@ -1,17 +1,13 @@
 ﻿using Constellation.Foundation.ModelMapping.MappingAttributes;
-using Sitecore.Data;
 
-namespace Feature.Mastheads.Models
+namespace Foundation.Videos.Models
 {
-	public class VideoProviderSetting
+	public class VideoProviderSettingModel
 	{
-		public ID ID { get; set; }
-
-		public string Name { get; set; }
-
 		public string DisplayName { get; set; }
 
 		[RawValueOnly]
+		// ReSharper disable once InconsistentNaming
 		public string ProviderID { get; set; }
 	}
 }

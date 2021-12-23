@@ -260,7 +260,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\AccordionTabActionsController.cs" />
     <Compile Include="Controllers\AccordionContainerController.cs" />
+    <Compile Include="Controllers\AccordionTabConentController.cs" />
+    <Compile Include="Controllers\AccordionTabMediaController.cs" />
     <Compile Include="Controllers\AccordionTabController.cs" />
     <Compile Include="Controllers\CodeBlockController.cs" />
     <Compile Include="Controllers\ContentSectionController.cs" />
@@ -273,6 +276,8 @@
     <Compile Include="Models\ContextContentModel.cs" />
     <Compile Include="Models\ImageWithCaptionLabels.cs" />
     <Compile Include="Models\ImageWithCaptionModel.cs" />
+    <Compile Include="Models\AccordionTabMediaModel.cs" />
+    <Compile Include="Models\AccordionTabActionsModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -281,6 +286,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Constellation.License.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Foundation.Videos\Foundation.Videos.csproj">
+      <Project>{f4db1858-fafb-4684-9c6c-953de23f4070}</Project>
+      <Name>Foundation.Videos</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

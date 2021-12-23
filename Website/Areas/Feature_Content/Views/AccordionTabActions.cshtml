@@ -1,0 +1,34 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.AccordionTabActionsModel>
+
+@{
+	var renderPrimary = !Model.PrimaryLink.Url.IsNullOrEmpty();
+	var renderSecondary = !Model.SecondaryLink.Url.IsNullOrEmpty();
+}
+
+@if (IsEditing || renderPrimary || renderSecondary)
+{
+<div class="buttons-row">
+	@if (IsEditing)
+	{
+		@Model.PrimaryLink.Rendered
+		@Model.SecondaryLink.Rendered
+	}
+	else
+	{
+		if (renderPrimary)
+		{
+			<a href="@Model.PrimaryLink.Url" title="@Model.PrimaryLink.Title" target="@Model.PrimaryLink.Target" class="btn btn--primary">
+				@Model.PrimaryLink.Text
+			</a>
+		}
+
+		if (renderSecondary)
+		{
+			<a href="@Model.SecondaryLink.Url" title="@Model.SecondaryLink.Title" target="@Model.SecondaryLink.Target" class="btn btn--primary">
+				@Model.SecondaryLink.Text
+			</a>
+		}
+	}
+</div>
+}
+

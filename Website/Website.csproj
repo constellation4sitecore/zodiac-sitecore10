@@ -735,6 +735,10 @@
     <Content Include="Areas\Feature_Alerts\Views\AlertGroup.cshtml" />
     <Content Include="Areas\Feature_Content\Views\AccordionContainer.cshtml" />
     <Content Include="Areas\Feature_Content\Views\AccordionTab.cshtml" />
+    <Content Include="Areas\Feature_Content\Views\AccordionTabVideo.cshtml" />
+    <Content Include="Areas\Feature_Content\Views\AccordionTabActions.cshtml" />
+    <Content Include="Areas\Feature_Content\Views\AccordionTabContent.cshtml" />
+    <Content Include="Areas\Feature_Content\Views\AccordionTabImage.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />

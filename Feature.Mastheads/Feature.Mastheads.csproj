@@ -281,8 +281,6 @@
     <Compile Include="Models\MastheadMediaModel.cs" />
     <Compile Include="Models\MastheadModel.cs" />
     <Compile Include="Models\MastheadWithBackgroundModel.cs" />
-    <Compile Include="Models\VideoProviderSetting.cs" />
-    <Compile Include="Models\VideoProviderSettingModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -292,6 +290,11 @@
   <ItemGroup>
     <Content Include="Constellation.License.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Foundation.Videos\Foundation.Videos.csproj">
+      <Project>{f4db1858-fafb-4684-9c6c-953de23f4070}</Project>
+      <Name>Foundation.Videos</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

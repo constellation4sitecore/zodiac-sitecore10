@@ -1,0 +1,15 @@
+﻿@using System.Web.Mvc
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.AccordionTabMediaModel>
+	
+@if (IsEditing)
+{
+	@Model.TabImage.Rendered
+}
+else
+{
+	<picture>
+		<source media="(max-width: 767px)" srcset="@Model.TabImage.GetCustomWidthImageSrc(767)">
+		<source media="(max-width: 1279px)" srcset="@Model.TabImage.GetCustomWidthImageSrc(1279)">
+		<img src="@Model.TabImage.GetCustomWidthImageSrc(760)" alt="@Model.TabImage.Alt" loading="lazy">
+	</picture>
+}

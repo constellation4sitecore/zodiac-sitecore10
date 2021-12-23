@@ -2,13 +2,11 @@
 using Constellation.Foundation.ModelMapping.MappingAttributes;
 using Foundation.Videos.Models;
 
-namespace Feature.Mastheads.Models
+namespace Feature.Content.Models
 {
-	public class MastheadMediaModel
+	public class AccordionTabMediaModel
 	{
-		public ImageModel MastheadBackground { get; set; }
-
-		public ImageModel MastheadImage { get; set; }
+		public ImageModel TabImage { get; set; }
 
 		[RawValueOnly]
 		// ReSharper disable once InconsistentNaming
