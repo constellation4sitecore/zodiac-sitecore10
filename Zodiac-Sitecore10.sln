@@ -51,6 +51,18 @@ Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Feature.Alerts.TDS", "Featu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Alerts", "Feature.Alerts\Feature.Alerts.csproj", "{9BA8A002-121D-4B55-9AE6-9EDE07C2C5AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.RelatedContent", "Feature.RelatedContent\Feature.RelatedContent.csproj", "{04F313D0-6DBA-449E-AFB6-955CB267C93C}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Feature.RelatedContent.TDS", "Feature.RelatedContent.TDS\Feature.RelatedContent.TDS.scproj", "{FAFBA83A-B471-41EB-BA92-068F8E59A7CB}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Feature.RelatedContent.Core.TDS", "Feature.RelatedContent.Core.TDS\Feature.RelatedContent.Core.TDS.scproj", "{DE8A2712-9BFE-415E-B85E-CFDA3B96CFD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.PrimaryContent", "Feature.PrimaryContent\Feature.PrimaryContent.csproj", "{A37ACE0F-827E-4EAF-B35E-6515633226F7}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Feature.PrimaryContent.TDS", "Feature.PrimaryContent.TDS\Feature.PrimaryContent.TDS.scproj", "{07B9C80D-8904-4335-A835-7E29C21FF47C}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Feature.PrimaryContent.Core.TDS", "Feature.PrimaryContent.Core.TDS\Feature.PrimaryContent.Core.TDS.scproj", "{944E7A75-C39D-4253-835A-E64EB07949D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +153,38 @@ Global
 		{9BA8A002-121D-4B55-9AE6-9EDE07C2C5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BA8A002-121D-4B55-9AE6-9EDE07C2C5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BA8A002-121D-4B55-9AE6-9EDE07C2C5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F313D0-6DBA-449E-AFB6-955CB267C93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F313D0-6DBA-449E-AFB6-955CB267C93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F313D0-6DBA-449E-AFB6-955CB267C93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F313D0-6DBA-449E-AFB6-955CB267C93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAFBA83A-B471-41EB-BA92-068F8E59A7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFBA83A-B471-41EB-BA92-068F8E59A7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFBA83A-B471-41EB-BA92-068F8E59A7CB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FAFBA83A-B471-41EB-BA92-068F8E59A7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFBA83A-B471-41EB-BA92-068F8E59A7CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAFBA83A-B471-41EB-BA92-068F8E59A7CB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DE8A2712-9BFE-415E-B85E-CFDA3B96CFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8A2712-9BFE-415E-B85E-CFDA3B96CFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8A2712-9BFE-415E-B85E-CFDA3B96CFD8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DE8A2712-9BFE-415E-B85E-CFDA3B96CFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8A2712-9BFE-415E-B85E-CFDA3B96CFD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8A2712-9BFE-415E-B85E-CFDA3B96CFD8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A37ACE0F-827E-4EAF-B35E-6515633226F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37ACE0F-827E-4EAF-B35E-6515633226F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37ACE0F-827E-4EAF-B35E-6515633226F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37ACE0F-827E-4EAF-B35E-6515633226F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B9C80D-8904-4335-A835-7E29C21FF47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B9C80D-8904-4335-A835-7E29C21FF47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B9C80D-8904-4335-A835-7E29C21FF47C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{07B9C80D-8904-4335-A835-7E29C21FF47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B9C80D-8904-4335-A835-7E29C21FF47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B9C80D-8904-4335-A835-7E29C21FF47C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{944E7A75-C39D-4253-835A-E64EB07949D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944E7A75-C39D-4253-835A-E64EB07949D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944E7A75-C39D-4253-835A-E64EB07949D9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{944E7A75-C39D-4253-835A-E64EB07949D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944E7A75-C39D-4253-835A-E64EB07949D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944E7A75-C39D-4253-835A-E64EB07949D9}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,9 +204,15 @@ Global
 		{00052B49-32E4-475A-B695-28D6E0380AB3} = {CFC78933-2CC2-4234-AFDF-D8816722EE42}
 		{F118F49F-786F-4F0C-8EEB-630867FD659A} = {CFC78933-2CC2-4234-AFDF-D8816722EE42}
 		{9BA8A002-121D-4B55-9AE6-9EDE07C2C5AA} = {CFC78933-2CC2-4234-AFDF-D8816722EE42}
+		{04F313D0-6DBA-449E-AFB6-955CB267C93C} = {CFC78933-2CC2-4234-AFDF-D8816722EE42}
+		{FAFBA83A-B471-41EB-BA92-068F8E59A7CB} = {CFC78933-2CC2-4234-AFDF-D8816722EE42}
+		{DE8A2712-9BFE-415E-B85E-CFDA3B96CFD8} = {CFC78933-2CC2-4234-AFDF-D8816722EE42}
+		{A37ACE0F-827E-4EAF-B35E-6515633226F7} = {CFC78933-2CC2-4234-AFDF-D8816722EE42}
+		{07B9C80D-8904-4335-A835-7E29C21FF47C} = {CFC78933-2CC2-4234-AFDF-D8816722EE42}
+		{944E7A75-C39D-4253-835A-E64EB07949D9} = {CFC78933-2CC2-4234-AFDF-D8816722EE42}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {231E78D9-CED2-42AC-8E3E-61525B8B4550}
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {231E78D9-CED2-42AC-8E3E-61525B8B4550}
 	EndGlobalSection
 EndGlobal

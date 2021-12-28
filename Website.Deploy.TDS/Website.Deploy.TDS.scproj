@@ -42,6 +42,9 @@
     <ProjectReference Include="..\Feature.Alerts.TDS\Feature.Alerts.TDS.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\Feature.Content.TDS\Feature.Content.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="..\Feature.Mastheads.Core.TDS\Feature.Mastheads.Core.TDS.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
@@ -49,6 +52,9 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\Feature.Navigation.TDS\Feature.Navigation.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.RelatedContent.TDS\Feature.RelatedContent.TDS.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\Foundation.Navigation.TDS\Foundation.Navigation.TDS.scproj">
@@ -72,6 +78,9 @@
     <BundledProject Include="..\Feature.Alerts.TDS\Feature.Alerts.TDS.scproj">
       <ProjectId>{f118f49f-786f-4f0c-8eeb-630867fd659a}</ProjectId>
     </BundledProject>
+    <BundledProject Include="..\Feature.Content.TDS\Feature.Content.TDS.scproj">
+      <ProjectId>{59f7229d-faae-47a7-8222-334a764c20b0}</ProjectId>
+    </BundledProject>
     <BundledProject Include="..\Feature.Mastheads.Core.TDS\Feature.Mastheads.Core.TDS.scproj">
       <ProjectId>{00052b49-32e4-475a-b695-28d6e0380ab3}</ProjectId>
     </BundledProject>
@@ -80,6 +89,9 @@
     </BundledProject>
     <BundledProject Include="..\Feature.Navigation.TDS\Feature.Navigation.TDS.scproj">
       <ProjectId>{234efcce-24ae-40fb-855a-dc7717f21c72}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.RelatedContent.TDS\Feature.RelatedContent.TDS.scproj">
+      <ProjectId>{fafba83a-b471-41eb-ba92-068f8e59a7cb}</ProjectId>
     </BundledProject>
     <BundledProject Include="..\Foundation.Navigation.TDS\Foundation.Navigation.TDS.scproj">
       <ProjectId>{750a592e-0b90-46ff-b9d8-0a56a380f2ca}</ProjectId>

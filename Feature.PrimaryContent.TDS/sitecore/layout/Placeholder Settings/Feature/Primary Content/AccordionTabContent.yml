@@ -1,0 +1,48 @@
+---
+ID: "ed253ee3-b6ec-46be-98de-f0ed31f109e1"
+Parent: "63450743-4a82-4864-9923-644c2ecf8752"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Feature/Primary Content/AccordionTabContent
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: AccordionTabContent
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {2E264BCA-1311-4AF3-A6DF-2AFDBF08D063}
+    {5BD63520-9D7D-4F3F-9B61-02B472A3F7CD}
+    {437D65D6-2C2F-45AC-AE09-BF277D170F48}
+    {7AEB62CA-2B8D-43BF-9391-72836227E1B5}
+Languages:
+- Language: en
+  Fields:
+  - ID: "87871ff5-1965-46d6-884f-01d6a0b9c4c1"
+    Hint: Description
+    Value: Content that can be inserted into an Accordion Tab after its original rich text field.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211223T185413Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30ba27b3-d685-4346-838e-d06da727dead"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211228T140222Z

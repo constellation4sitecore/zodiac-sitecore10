@@ -1,0 +1,97 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>07b9c80d-8904-4335-a835-7e29c21ff47c</ProjectGuid>
+    <SourceWebPhysicalPath>
+    </SourceWebPhysicalPath>
+    <SourceWebProject>
+    </SourceWebProject>
+    <SourceWebVirtualPath>
+    </SourceWebVirtualPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <CompactSitecoreItemsInProjectFile>True</CompactSitecoreItemsInProjectFile>
+    <AssemblyName>Feature.PrimaryContent.TDS</AssemblyName>
+    <Name>Feature.PrimaryContent.TDS</Name>
+    <RootNamespace>Feature.PrimaryContent.TDS</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <SitecoreItem Include="sitecore\layout.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Placeholder Settings.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Placeholder Settings\Feature.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Placeholder Settings\Feature\Primary Content.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Placeholder Settings\Feature\Primary Content\AccordionTabContent.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Placeholder Settings\Feature\Primary Content\AccordionTabs.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Placeholder Settings\Feature\Primary Content\Rows.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Primary Content.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Primary Content\Accordion Container.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Primary Content\Accordion Tab Actions.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Primary Content\Accordion Tab Content.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Primary Content\Accordion Tab Image.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Primary Content\Accordion Tab Video.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Primary Content\Accordion Tab.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\media library.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\Images.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\Images\Primary Content.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\Images\Primary Content\Accordion Tab.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\Images\Primary Content\Accordion Tab\FPO Accordion Tab.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\Images\Primary Content\Rendering Thumbnails.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\Images\Primary Content\Rendering Thumbnails\Accordion Container.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\Images\Primary Content\Rendering Thumbnails\Accordion Tab Actions.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\Images\Primary Content\Rendering Thumbnails\Accordion Tab Content.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\Images\Primary Content\Rendering Thumbnails\Accordion Tab Image.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\Images\Primary Content\Rendering Thumbnails\Accordion Tab Video.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\media library\Images\Primary Content\Rendering Thumbnails\Accordion Tab.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Container.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Container\__Standard Values.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Container\Content.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Container\Content\Heading.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Container\Content\Intro Text.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Tab Actions.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Tab Actions\__Standard Values.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Tab Actions\Content.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Tab Actions\Content\Primary Link.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Tab Actions\Content\Secondary Link.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Tab Content.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Tab Content\__Standard Values.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Tab Content\Content.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Tab Content\Content\Copy.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Tab.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Tab\__Standard Values.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Tab\Content.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Tab\Content\Copy.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\Accordion Tab\Content\Heading.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\AccordionTabMedia.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\AccordionTabMedia\__Standard Values.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\AccordionTabMedia\Content.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\AccordionTabMedia\Content\Tab Image.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\AccordionTabMedia\Content\Video ID.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Primary Content\AccordionTabMedia\Content\Video Provider.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+</Project>

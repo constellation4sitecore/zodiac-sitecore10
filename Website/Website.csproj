@@ -647,6 +647,8 @@
     <Compile Include="Areas\Feature_Content\Feature_ContentAreaRegistration.cs" />
     <Compile Include="Areas\Feature_Mastheads\Feature_MastheadsAreaRegistration.cs" />
     <Compile Include="Areas\Feature_Navigation\Feature_NavigationAreaRegistration.cs" />
+    <Compile Include="Areas\Feature_PrimaryContent\Feature_PrimaryContentAreaRegistration.cs" />
+    <Compile Include="Areas\Feature_RelatedContent\Feature_RelatedContentAreaRegistration.cs" />
     <Compile Include="Areas\ZodiacManual\ZodiacManualAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -733,12 +735,15 @@
     <Content Include="Areas\Feature_Mastheads\Views\CenteredSimpleMasthead.cshtml" />
     <Content Include="Areas\Feature_Alerts\Views\web.config" />
     <Content Include="Areas\Feature_Alerts\Views\AlertGroup.cshtml" />
-    <Content Include="Areas\Feature_Content\Views\AccordionContainer.cshtml" />
-    <Content Include="Areas\Feature_Content\Views\AccordionTab.cshtml" />
-    <Content Include="Areas\Feature_Content\Views\AccordionTabVideo.cshtml" />
-    <Content Include="Areas\Feature_Content\Views\AccordionTabActions.cshtml" />
-    <Content Include="Areas\Feature_Content\Views\AccordionTabContent.cshtml" />
-    <Content Include="Areas\Feature_Content\Views\AccordionTabImage.cshtml" />
+    <Content Include="Areas\Feature_PrimaryContent\Views\AccordionContainer.cshtml" />
+    <Content Include="Areas\Feature_PrimaryContent\Views\AccordionTab.cshtml" />
+    <Content Include="Areas\Feature_PrimaryContent\Views\AccordionTabVideo.cshtml" />
+    <Content Include="Areas\Feature_PrimaryContent\Views\AccordionTabActions.cshtml" />
+    <Content Include="Areas\Feature_PrimaryContent\Views\AccordionTabContent.cshtml" />
+    <Content Include="Areas\Feature_PrimaryContent\Views\AccordionTabImage.cshtml" />
+    <Content Include="Areas\Feature_RelatedContent\Views\CallToActionRowWithBackgroundImage.cshtml" />
+    <Content Include="Areas\Feature_RelatedContent\Views\web.config" />
+    <Content Include="Areas\Feature_PrimaryContent\Views\web.config" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
@@ -767,6 +772,14 @@
     <ProjectReference Include="..\Feature.Navigation\Feature.Navigation.csproj">
       <Project>{8c29d5eb-84de-40b2-9343-a0d4950ecf61}</Project>
       <Name>Feature.Navigation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.PrimaryContent\Feature.PrimaryContent.csproj">
+      <Project>{a37ace0f-827e-4eaf-b35e-6515633226f7}</Project>
+      <Name>Feature.PrimaryContent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.RelatedContent\Feature.RelatedContent.csproj">
+      <Project>{04f313d0-6dba-449e-afb6-955cb267c93c}</Project>
+      <Name>Feature.RelatedContent</Name>
     </ProjectReference>
     <ProjectReference Include="..\Foundation.Videos\Foundation.Videos.csproj">
       <Project>{f4db1858-fafb-4684-9c6c-953de23f4070}</Project>

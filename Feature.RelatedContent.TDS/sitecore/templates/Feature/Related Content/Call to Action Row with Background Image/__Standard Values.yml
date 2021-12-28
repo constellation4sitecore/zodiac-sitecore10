@@ -1,0 +1,42 @@
+---
+ID: "352e69fa-ea8e-49da-9470-ab63d556e9e1"
+Parent: "10daaaa5-aab3-4e58-b01a-2cbb635f7e0e"
+Template: "10daaaa5-aab3-4e58-b01a-2cbb635f7e0e"
+Path: /sitecore/templates/Feature/Related Content/Call to Action Row with Background Image/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211227T170558Z
+    - ID: "4f3c11dd-a45b-4bea-8e4a-74fffabb9a19"
+      Hint: Row Background Image
+      Value: |
+        <image mediaid="{942F44A1-723C-4662-B4A8-868E50433C97}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "72e70c97-d020-4b56-8316-09f31e6c7878"
+      Hint: Heading
+      Value: $name
+    - ID: "83f73d0e-dbd6-4e80-91b9-e9082c13b548"
+      Hint: Copy
+      Value: <p>Mauris eu fringilla mauris. Suspendisse sodales sem lorem, ut pulvinar lectus hendrerit vitae. Phasellus a tincidunt sapien. Cras eu euismod nisl. Proin a pharetra lorem. </p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ce8739f7-34d9-473f-96ac-1cf4e5d732ef"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211227T172435Z

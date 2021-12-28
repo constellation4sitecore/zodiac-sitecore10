@@ -260,24 +260,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\AccordionTabActionsController.cs" />
-    <Compile Include="Controllers\AccordionContainerController.cs" />
-    <Compile Include="Controllers\AccordionTabConentController.cs" />
-    <Compile Include="Controllers\AccordionTabMediaController.cs" />
-    <Compile Include="Controllers\AccordionTabController.cs" />
     <Compile Include="Controllers\CodeBlockController.cs" />
     <Compile Include="Controllers\ContentSectionController.cs" />
     <Compile Include="Controllers\ContextContentController.cs" />
     <Compile Include="Controllers\ImageWithCaptionController.cs" />
-    <Compile Include="Models\AccordionContainerModel.cs" />
-    <Compile Include="Models\AccordionTabModel.cs" />
     <Compile Include="Models\CodeBlockModel.cs" />
     <Compile Include="Models\ContentSectionModel.cs" />
     <Compile Include="Models\ContextContentModel.cs" />
     <Compile Include="Models\ImageWithCaptionLabels.cs" />
     <Compile Include="Models\ImageWithCaptionModel.cs" />
-    <Compile Include="Models\AccordionTabMediaModel.cs" />
-    <Compile Include="Models\AccordionTabActionsModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
