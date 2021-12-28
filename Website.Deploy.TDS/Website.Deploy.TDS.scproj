@@ -54,6 +54,15 @@
     <ProjectReference Include="..\Feature.Navigation.TDS\Feature.Navigation.TDS.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\Feature.PrimaryContent.Core.TDS\Feature.PrimaryContent.Core.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.PrimaryContent.TDS\Feature.PrimaryContent.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.RelatedContent.Core.TDS\Feature.RelatedContent.Core.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="..\Feature.RelatedContent.TDS\Feature.RelatedContent.TDS.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
@@ -89,6 +98,15 @@
     </BundledProject>
     <BundledProject Include="..\Feature.Navigation.TDS\Feature.Navigation.TDS.scproj">
       <ProjectId>{234efcce-24ae-40fb-855a-dc7717f21c72}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.PrimaryContent.Core.TDS\Feature.PrimaryContent.Core.TDS.scproj">
+      <ProjectId>{944e7a75-c39d-4253-835a-e64eb07949d9}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.PrimaryContent.TDS\Feature.PrimaryContent.TDS.scproj">
+      <ProjectId>{07b9c80d-8904-4335-a835-7e29c21ff47c}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.RelatedContent.Core.TDS\Feature.RelatedContent.Core.TDS.scproj">
+      <ProjectId>{de8a2712-9bfe-415e-b85e-cfda3b96cfd8}</ProjectId>
     </BundledProject>
     <BundledProject Include="..\Feature.RelatedContent.TDS\Feature.RelatedContent.TDS.scproj">
       <ProjectId>{fafba83a-b471-41eb-ba92-068f8e59a7cb}</ProjectId>

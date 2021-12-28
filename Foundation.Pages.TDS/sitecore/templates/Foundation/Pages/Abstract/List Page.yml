@@ -1,20 +1,16 @@
 ---
-ID: "25ccd301-4685-406a-b3b4-4e3a7d133d51"
-Parent: "4333c964-4f47-4438-a0df-e86596522f01"
+ID: "746318e3-511c-4bd7-8401-3cf4a88119d9"
+Parent: "da6b4cca-4336-49fe-86cd-c2e5fd46ce3d"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Foundation/Zodiac/Navigation/Navigation Folder
+Path: /sitecore/templates/Foundation/Pages/Abstract/List Page
 DB: master
 SharedFields:
-- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
-  Hint: __Icon
-  Value: applications/32x32/folder_green.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
-  Value: "{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}"
-- ID: "f7d48a55-2158-4f02-9356-756654404f73"
-  Hint: __Standard values
-  Value: "{062BC34D-7BB2-4B86-8CEC-16E7089FAED7}"
+  Value: |
+    {206DFB88-8DFC-4257-83DA-795E51DA9AC5}
+    {A676B5B3-8A32-4620-8626-7C38B806EB79}
 Languages:
 - Language: en
   Versions:
@@ -22,7 +18,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200812T130951Z
+      Value: 20200811T143259Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -33,11 +29,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ec8e0bb9-6755-47b5-be3b-4bf9f552c1d5"
+      Value: "06cfcb3d-ca77-48e3-a7a8-0609db8beb91"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200812T131007Z
+      Value: 20200811T143356Z

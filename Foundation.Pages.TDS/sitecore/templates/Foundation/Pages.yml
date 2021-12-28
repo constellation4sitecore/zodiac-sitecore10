@@ -1,13 +1,13 @@
 ---
-ID: "6c5e611a-f21a-456e-a71d-2384541f378e"
+ID: "76c252db-6e64-4eec-9ceb-9b9577733081"
 Parent: "b26bd035-8d0a-4df3-8f67-2de3c7fdd74a"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Foundation/Zodiac
+Path: /sitecore/templates/Foundation/Pages
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Applications/32x32/folder_blue.png
+  Value: applications/32x32/folder.png
 Languages:
 - Language: en
   Versions:
@@ -15,7 +15,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200811T142240Z
+      Value: 20200811T142817Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -26,11 +26,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8000a922-a200-4bb9-ac22-ed5387dd1b1a"
+      Value: "e7d7b5e4-2aa9-43b8-aec9-6b2b1a3c0d77"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200811T142655Z
+      Value: 20211228T152241Z
