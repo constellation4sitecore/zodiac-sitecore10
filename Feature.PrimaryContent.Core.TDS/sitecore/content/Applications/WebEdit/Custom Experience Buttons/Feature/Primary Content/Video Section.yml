@@ -1,0 +1,49 @@
+---
+ID: "d9146cee-7a47-4405-b19e-b5cbbe2108c7"
+Parent: "2f79efa7-b133-4ede-8e9b-fdcc32a6de3d"
+Template: "1ab4f9ad-b004-413c-8924-3e07143a614b"
+Path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/Feature/Primary Content/Video Section
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/edit.png
+- ID: "4431914a-c40b-437c-8add-d2ed12cc8cc3"
+  Hint: Icon
+  Value: office/32x32/edit.png
+- ID: "cf738220-908d-4c3f-9482-32e625daf13c"
+  Hint: Fields
+  Value: Heading|Caption|Section Image|Video ID|Video Provider
+Languages:
+- Language: en
+  Fields:
+  - ID: "108d3a63-baaa-4560-86d8-3a112ed84717"
+    Hint: Header
+    Value: Edit Fields
+  - ID: "5f0812af-d370-4292-afee-f26a39b7406d"
+    Hint: Tooltip
+    Value: Edit Fields
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180815T144932Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f1c15d0e-7b2e-4ee5-89d9-e1ac7f8daa0b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211229T184223Z

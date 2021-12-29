@@ -1,0 +1,15 @@
+﻿@using Sitecore.Mvc
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.VideoSectionModel>
+<figure data-module="fullWidthVideo" data-play-button-label="Play video" data-video-id="Sn7l3UDPV0M" data-video-title="@Model.Heading" class="full-width-video">
+	<div class="full-width-video__wrapper">
+		<img src="@Model.SectionImage.Src" alt="@Model.SectionImage.Alt" class="full-width-video__media" />
+		<div class="full-width-video__overlay">
+			<h2 class="full-width-video__heading">
+				@Model.Heading
+			</h2>
+		</div>
+	</div>
+	<figcaption>
+		<p class="full-width-video__caption">@Model.Caption</p>
+	</figcaption>
+</figure>

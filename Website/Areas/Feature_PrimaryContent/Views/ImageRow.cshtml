@@ -1,0 +1,12 @@
+﻿@using Sitecore.Mvc
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.ImageSectionModel>
+<section class="full-width-image">
+	<header><h2 class="full-width-image__header">@Model.Heading</h2></header>
+	<figure class="full-width-image__figure">
+		<div class="full-width-image__wrapper">
+			<img alt="@Model.SectionImage.Alt" class="full-width-image__image" src="@Model.SectionImage.Src"/>
+		</div>
+
+		<figcaption class="full-width-image__caption">@Model.Caption</figcaption>
+	</figure>
+</section>

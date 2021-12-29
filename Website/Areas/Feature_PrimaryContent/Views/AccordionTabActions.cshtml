@@ -1,4 +1,4 @@
-﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.AccordionTabActionsModel>
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.ContentSectionActionsModel>
 
 @{
 	var renderPrimary = !Model.PrimaryLink.Url.IsNullOrEmpty();
@@ -7,7 +7,7 @@
 
 @if (IsEditing || renderPrimary || renderSecondary)
 {
-<div class="buttons-row">
+<aside class="buttons-row">
 	@if (IsEditing)
 	{
 		@Model.PrimaryLink.Rendered
@@ -29,6 +29,6 @@
 			</a>
 		}
 	}
-</div>
+</aside>
 }
 

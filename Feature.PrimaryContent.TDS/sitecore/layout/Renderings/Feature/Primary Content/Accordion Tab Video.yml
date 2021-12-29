@@ -10,7 +10,7 @@ SharedFields:
   Value: office/32x32/clapperboard.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/Primary Content/AccordionTabMedia
+  Value: /sitecore/templates/Feature/Primary Content/Content Section Media
 - ID: "1c0af338-70a8-455f-8366-173135e03be6"
   Hint: Placeholder
   Value: AccordionTabContent
@@ -22,6 +22,10 @@ SharedFields:
   Hint: VaryByData
   Type: Checkbox
   Value: 1
+- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
+  Hint: Page Editor Buttons
+  Type: Treelist
+  Value: "{703757B4-CA5D-47B6-9DC3-328382D6E32B}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: ./_subcontent
@@ -32,9 +36,13 @@ SharedFields:
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
   Value: Index
+- ID: "e441abe7-2ca3-4640-ae26-3789967925d7"
+  Hint: Compatible Renderings
+  Type: Treelist
+  Value: "{2E264BCA-1311-4AF3-A6DF-2AFDBF08D063}"
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: AccordionTabVideo
+  Value: ContentSectionMedia
 - ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
   Hint: Enable Datasource Query
   Type: Checkbox
@@ -45,7 +53,7 @@ SharedFields:
   Value: 1
 - ID: "fc5c3451-dfde-4778-9901-5d0b1da1e212"
   Hint: Area
-  Value: Feature_Content
+  Value: Feature_PrimaryContent
 Languages:
 - Language: en
   Versions:
@@ -64,11 +72,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "deb46d36-5deb-4029-896f-e2a9bcb50717"
+      Value: "3a91064f-ccf8-4acd-bf62-941e6bca5be3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211228T140526Z
+      Value: 20211228T180348Z

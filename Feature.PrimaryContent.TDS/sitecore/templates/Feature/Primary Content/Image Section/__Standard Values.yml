@@ -1,0 +1,42 @@
+---
+ID: "533450c5-5a8a-400e-ab91-3371e38cb53e"
+Parent: "5884f309-f2ca-4396-82d9-02468a924510"
+Template: "5884f309-f2ca-4396-82d9-02468a924510"
+Path: /sitecore/templates/Feature/Primary Content/Image Section/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "08187f50-8025-4163-8e75-d56541114301"
+      Hint: Caption
+      Value: Vestibulum sollicitudin egestas ante id porttitor. Ut auctor nisl non risus congue commodo. Pellentesque non viverra enim, id lacinia diam.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211229T152246Z
+    - ID: "267fd591-952f-453c-985e-65e3f90b8a59"
+      Hint: Heading
+      Value: $name
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3e24a4ce-8803-453a-bdad-36fc4a8d8f63"
+    - ID: "aed1fa02-ce1b-452a-8cf9-04b9fb109ea9"
+      Hint: Section Image
+      Value: |
+        <image mediaid="{84EAF4D7-59B1-4C89-B98A-D8DDAD87F10B}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211229T152423Z

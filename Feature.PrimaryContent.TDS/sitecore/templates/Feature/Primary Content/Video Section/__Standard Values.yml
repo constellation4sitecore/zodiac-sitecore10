@@ -1,0 +1,38 @@
+---
+ID: "240c8b61-3e1a-4d4d-9fe3-6c4f15ca92fe"
+Parent: "3af58655-f5eb-41f0-b20c-91a099fe30fd"
+Template: "3af58655-f5eb-41f0-b20c-91a099fe30fd"
+Path: /sitecore/templates/Feature/Primary Content/Video Section/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211229T181922Z
+    - ID: "35d6ac75-9db8-46bd-be8e-013a6c66a43f"
+      Hint: Caption
+      Value: Vestibulum sollicitudin egestas ante id porttitor. Ut auctor nisl non risus congue commodo. Pellentesque non viverra enim, id lacinia diam.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "678db941-8861-4a50-b0c9-e11e7d93941f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211229T182023Z
+    - ID: "ec374585-f2ef-4ecb-9496-24de7fdc4851"
+      Hint: Heading
+      Value: $name

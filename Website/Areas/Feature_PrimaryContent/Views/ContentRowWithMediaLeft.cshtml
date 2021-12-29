@@ -1,0 +1,16 @@
+﻿@using Sitecore.Mvc
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.ContentSectionModel>
+<section class="content-row content-row--media-align-left ">
+	<figure class="content-row__media">@Html.Sitecore().DynamicPlaceholder("ContentSectionMedia")</figure>
+	<div class="content-row__content">
+		<header>
+			<h2 class="content-row__headline">@Model.Heading</h2>
+			@if (IsEditing || !Model.Subheading.ToString().IsNullOrEmpty())
+			{
+				<h3 class="content-row__subhead">@Model.Subheading</h3>
+			}
+		</header>
+		<div class="content-row__description rtf">@Model.Copy</div>
+		@Html.Sitecore().DynamicPlaceholder("ContentSectionActions")
+	</div>
+</section>

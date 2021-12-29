@@ -1,0 +1,43 @@
+---
+ID: "4f61b077-b603-4f6c-b96b-dc46c9a88352"
+Parent: "283c8bd9-0f2b-4e71-bbcf-dae14ed8879c"
+Template: "283c8bd9-0f2b-4e71-bbcf-dae14ed8879c"
+Path: /sitecore/templates/Feature/Primary Content/Content Section/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "083437a1-f162-42a0-90f3-4b00239f2700"
+      Hint: Subheading
+      Value: Fusce ac Metus sit Amet Ipsum Semper
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211222T200052Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "7c4b6efb-f374-4915-936c-b931332c6101"
+      Hint: Heading
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1db2f1eb-74f0-4d94-b12b-90c069198bde"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211228T191646Z
+    - ID: "fded5813-deda-4380-99b7-a6e9dd666524"
+      Hint: Copy
+      Value: |
+        <p>Fasellus pondimentum neque vitae ante imperdiet suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Curabitur in vestibulum ante. Vestibulum vehicula, augue a lacinia congue, eros enim iaculis justo, eu ullamcorper lacus dui et felis. Sed id felis varius, laoreet neque sit amet, euismod nulla. </p>
+        <p>Nunc maximus fermentum turpis in pulvinar. Etiam egestas lobortis egestas. Aenean commodo felis augue, vestibulum lobortis tortor ullamcorper efficitur. Maecenas faucibus sapien eu nibh auctor auctor. Pellentesque sodales elementum orci, quis aliquam odio consectetur at. Phasellus quis bibendum mi. In vehicula ut lectus ac eleifend. Etiam condimentum tempor velit, eu varius nisl fringilla vel.</p>

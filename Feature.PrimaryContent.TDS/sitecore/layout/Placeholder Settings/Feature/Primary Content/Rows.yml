@@ -11,7 +11,13 @@ SharedFields:
 - ID: "e391b526-d0c5-439d-803e-17512eae6222"
   Hint: Allowed Controls
   Type: TreelistEx
-  Value: "{A0B73393-DF6C-4E42-831F-CFDAB6FBC320}"
+  Value: |
+    {A0B73393-DF6C-4E42-831F-CFDAB6FBC320}
+    {84A46E07-1413-4F15-B36E-0E933E7A3D4B}
+    {ECDFED8A-5C4C-49F9-AF52-2CF84AE0D60C}
+    {F5FCD8AB-EF52-4010-AEFF-20C0C869209E}
+    {A37DF9B3-E9F8-4395-A38F-62F83FDC045B}
+    {2AB83B5A-D513-4948-A4ED-D9FB74B57F1D}
 Languages:
 - Language: en
   Versions:
@@ -30,11 +36,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d61a86be-871c-448e-adff-ab73a203f9a0"
+      Value: "bdcdd3fb-0b98-41fd-92eb-8218452ba0da"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211228T140256Z
+      Value: 20211229T185601Z

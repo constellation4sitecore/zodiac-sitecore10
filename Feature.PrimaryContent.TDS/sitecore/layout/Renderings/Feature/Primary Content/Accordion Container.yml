@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: office/32x32/fit_to_height.png
+  Value: office/32x32/layout_horizontal.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Feature/Primary Content/Accordion Container
@@ -22,6 +22,10 @@ SharedFields:
   Hint: VaryByData
   Type: Checkbox
   Value: 1
+- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
+  Hint: Page Editor Buttons
+  Type: Treelist
+  Value: "{B7398B19-71FE-45EC-A5B1-CABDC4DB46CF}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: ./_subcontent
@@ -41,7 +45,7 @@ SharedFields:
   Value: 0
 - ID: "fc5c3451-dfde-4778-9901-5d0b1da1e212"
   Hint: Area
-  Value: Feature_Content
+  Value: Feature_PrimaryContent
 Languages:
 - Language: en
   Versions:
@@ -60,11 +64,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f96cf1e0-c410-4289-8541-1bfdabe05a27"
+      Value: "483bd03e-6012-4aed-b6ca-17da5c5b7b98"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211228T140507Z
+      Value: 20211229T154934Z

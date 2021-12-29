@@ -1,10 +1,10 @@
-﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.AccordionTabMediaModel>
-	
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.ContentSectionMediaModel>
+
 <div class="video" data-module="@Model.VideoProvider.ProviderID" data-video-id="@Model.VideoID">
 	<picture class="video__poster">
-		<source media="(max-width: 767px)" srcset="@Model.TabImage.GetCustomWidthImageSrc(767)">
-		<source media="(max-width: 1279px)" srcset="@Model.TabImage.GetCustomWidthImageSrc(1279)">
-		<img src="@Model.TabImage.GetCustomWidthImageSrc(760)" alt="@Model.TabImage.Alt" loading="lazy">
+		<source media="(max-width: 767px)" srcset="@Model.SectionImage.GetCustomWidthImageSrc(767)">
+		<source media="(max-width: 1279px)" srcset="@Model.SectionImage.GetCustomWidthImageSrc(1279)">
+		<img src="@Model.SectionImage.GetCustomWidthImageSrc(760)" alt="@Model.SectionImage.Alt" loading="lazy">
 	</picture>
 	<svg viewBox="0 0 495 495">
 		<use xlink:href="#play" />

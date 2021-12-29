@@ -1,16 +1,16 @@
 ﻿@using Sitecore.Mvc
 @inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.AccordionContainerModel>
-<div class="accordion container" data-module="accordion">
-	<div class="accordion__header">
+<section class="accordion container" data-module="accordion">
+	<header class="accordion__header">
 		<h2 class="accordion__title">@Model.Heading</h2>
-		@if (Model.IntroText.ToString().Length > 0)
+		@if (Model.Introduction.ToString().Length > 0)
 		{
 			<div class="accordion__description rtf">
-				@Model.IntroText
+				@Model.Introduction
 			</div>
 		}
-	</div>
+	</header>
 	<div class="accordion__items">
 		@Html.Sitecore().DynamicPlaceholder("AccordionTabs")
 	</div>
-</div>
+</section>

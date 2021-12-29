@@ -274,14 +274,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AccordionContainerController.cs" />
-    <Compile Include="Controllers\AccordionTabActionsController.cs" />
-    <Compile Include="Controllers\AccordionTabConentController.cs" />
-    <Compile Include="Controllers\AccordionTabController.cs" />
-    <Compile Include="Controllers\AccordionTabMediaController.cs" />
+    <Compile Include="Controllers\ContentSectionActionsController.cs" />
+    <Compile Include="Controllers\AdditionalContentController.cs" />
+    <Compile Include="Controllers\ContentSectionController.cs" />
+    <Compile Include="Controllers\ContentSectionMediaController.cs" />
+    <Compile Include="Controllers\VideoSectionController.cs" />
+    <Compile Include="Controllers\ImageSectionController.cs" />
     <Compile Include="Models\AccordionContainerModel.cs" />
-    <Compile Include="Models\AccordionTabActionsModel.cs" />
-    <Compile Include="Models\AccordionTabMediaModel.cs" />
-    <Compile Include="Models\AccordionTabModel.cs" />
+    <Compile Include="Models\ContentSectionActionsModel.cs" />
+    <Compile Include="Models\ContentSectionMediaModel.cs" />
+    <Compile Include="Models\ContentSectionModel.cs" />
+    <Compile Include="Models\VideoSectionModel.cs" />
+    <Compile Include="Models\ImageSectionModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
