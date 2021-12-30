@@ -650,6 +650,7 @@
     <Compile Include="Areas\Feature_PrimaryContent\Feature_PrimaryContentAreaRegistration.cs" />
     <Compile Include="Areas\Feature_RelatedContent\Feature_RelatedContentAreaRegistration.cs" />
     <Compile Include="Areas\Feature_Testimonials\Feature_TestimonialsAreaRegistration.cs" />
+    <Compile Include="Areas\Feature_Timeline\Feature_TimelineAreaRegistration.cs" />
     <Compile Include="Areas\ZodiacManual\ZodiacManualAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -756,6 +757,9 @@
     <Content Include="Areas\Feature_Testimonials\Views\web.config" />
     <Content Include="Areas\Feature_Testimonials\Views\TestimonialCarouselCard.cshtml" />
     <Content Include="Areas\Feature_Testimonials\Views\TestimonialsCarousel.cshtml" />
+    <Content Include="Areas\Feature_Timeline\Views\web.config" />
+    <Content Include="Areas\Feature_Timeline\Views\TimelineContainer.cshtml" />
+    <Content Include="Areas\Feature_Timeline\Views\TimelineMilestone.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
@@ -796,6 +800,10 @@
     <ProjectReference Include="..\Feature.Testimonials\Feature.Testimonials.csproj">
       <Project>{423e077f-c559-4379-a2ec-41977206e174}</Project>
       <Name>Feature.Testimonials</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.Timeline\Feature.Timeline.csproj">
+      <Project>{c5b5e56c-ec94-4e73-8d62-1472766f08b4}</Project>
+      <Name>Feature.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="..\Foundation.Videos\Foundation.Videos.csproj">
       <Project>{f4db1858-fafb-4684-9c6c-953de23f4070}</Project>

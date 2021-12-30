@@ -1,0 +1,24 @@
+﻿@using Sitecore.Mvc
+@inherits Constellation.Foundation.Labels.EditorCompatibleView<Feature.Timeline.Models.TimelineMilestoneModel, Feature.Timeline.Models.TimelineLabels>
+<div class="swiper-slide">
+	<div class="animated-carousel-card" data-module="cardCarousel" data-show-more-label="@Labels.ShowMore" data-show-less-label="@Labels.ShowLess">
+		<div class="animated-carousel-card__image">
+			<picture>
+				<img src="@Model.MilestoneImage.Src" alt="@Model.MilestoneImage.Alt" loading="lazy">
+			</picture>
+		</div>
+
+		<div class="animated-carousel-card__content">
+			<p class="animated-carousel-card__subheader">@Model.MilestoneDate</p>
+			<h3 class="animated-carousel-card__header">@Model.Heading</h3>
+			<div class="animated-carousel-card__description rtf">
+				@Model.Copy
+			</div>
+			<div class="animated-carousel-card__action">
+				<button type="button" class="btn btn--primary btn--outline btn--small">
+					@Labels.ShowMore
+				</button>
+			</div>
+		</div>
+	</div>
+</div>

@@ -72,6 +72,12 @@
     <ProjectReference Include="..\Feature.Testimonials.TDS\Feature.Testimonials.TDS.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\Feature.Timeline.Core.TDS\Feature.Timeline.Core.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.Timeline.TDS\Feature.Timeline.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="..\Foundation.Navigation.TDS\Foundation.Navigation.TDS.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
@@ -122,6 +128,12 @@
     </BundledProject>
     <BundledProject Include="..\Feature.Testimonials.TDS\Feature.Testimonials.TDS.scproj">
       <ProjectId>{aa2847fd-0ecd-4e92-9f38-ad3990761926}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.Timeline.Core.TDS\Feature.Timeline.Core.TDS.scproj">
+      <ProjectId>{bdeebbd7-403c-48c5-b2cb-3a1360a82862}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.Timeline.TDS\Feature.Timeline.TDS.scproj">
+      <ProjectId>{c4701ef2-cbd4-4b58-87e9-d466cfbf1e4b}</ProjectId>
     </BundledProject>
     <BundledProject Include="..\Foundation.Navigation.TDS\Foundation.Navigation.TDS.scproj">
       <ProjectId>{750a592e-0b90-46ff-b9d8-0a56a380f2ca}</ProjectId>

@@ -1,0 +1,45 @@
+---
+ID: "8d337aa2-6c81-4d13-b8ee-f8e369913fa5"
+Parent: "e4ec8070-9ebd-4f1a-9dc8-6096d821d5db"
+Template: "e4ec8070-9ebd-4f1a-9dc8-6096d821d5db"
+Path: /sitecore/templates/Feature/Timeline/Timeline Milestone/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b1fd5e4-7bb6-4e5e-bc29-6c7cca7100d6"
+      Hint: Milestone Image
+      Value: |
+        <image mediaid="{BF60A746-3525-4CED-A564-AF25B43C448A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211230T173900Z
+    - ID: "283ccd45-015a-4c8b-9d24-ee956a684fff"
+      Hint: Copy
+      Value: <p>Aliquam vestibulum est sit amet urna imperdiet, quis elementum nisi hendrerit. Etiam posuere mauris viverra tortor volutpat, vitae facilisis ante placerat. Etiam auctor dolor a ligula consectetur, vitae condimentum felis faucibus. Integer lacinia massa interdum, maximus eros nec, rhoncus eros.</p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fda542fb-75b5-43c5-8655-08c747bd94c2"
+    - ID: "9c8d470f-f9be-434c-b8f8-7d6af74d51a8"
+      Hint: Heading
+      Value: $name
+    - ID: "b754a7d7-80c3-480f-b7f0-6660a7675e05"
+      Hint: Milestone Date
+      Value: "2019-2021"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T174008Z

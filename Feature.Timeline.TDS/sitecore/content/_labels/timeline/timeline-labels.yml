@@ -1,0 +1,24 @@
+---
+ID: "3851448e-cebf-4518-ade5-6fbc619cd434"
+Parent: "65be94ee-0a0c-4f6e-afe2-4f2ac6087e79"
+Template: "f82bbf8b-3eae-4698-8cc4-9591f9b90050"
+Path: "/sitecore/content/_labels/timeline/timeline-labels"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211230T161437Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "efa53ddf-49e5-4c90-91e8-a4b908e0320f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T161437Z

@@ -1,0 +1,15 @@
+﻿@using Sitecore.Mvc
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Timeline.Models.TimelineContainerModel>
+<section class="animated-card-carousel" data-module="animatedCardCarousel" data-autoplay-timeout="7000">
+	<div class="container">
+		<h2 class="animated-card-carousel__header">@Model.Heading</h2>
+
+		<div class="swiper-container">
+			<!-- Additional required wrapper -->
+			<div class="swiper-wrapper">
+				@Html.Sitecore().DynamicPlaceholder("TimelineMilestones")
+			</div>
+		</div>
+	</div>
+</section>
+

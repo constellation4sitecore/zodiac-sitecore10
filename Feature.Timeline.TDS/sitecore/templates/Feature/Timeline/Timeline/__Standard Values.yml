@@ -1,0 +1,35 @@
+---
+ID: "faeed1ae-0790-4e6c-901c-b6b0b1e82f08"
+Parent: "3be33e86-cef8-40fe-934b-c2d337b1558c"
+Template: "3be33e86-cef8-40fe-934b-c2d337b1558c"
+Path: /sitecore/templates/Feature/Timeline/Timeline/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211230T160110Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3ed7f0cc-84cb-48ff-89a8-0fdcc450452c"
+    - ID: "acd906e1-93be-4fc6-bcbf-40d12519aa2a"
+      Hint: Heading
+      Value: $name
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T160115Z
