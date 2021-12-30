@@ -1,0 +1,22 @@
+﻿@using Sitecore.Mvc
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Testimonials.Models.TestimonialCarouselModel>
+<section class="testimonials container" data-module="testimonials">
+	<header>
+		<h2 class="testimonials__heading">
+			@Model.Heading
+		</h2>
+		@if (Model.Intro.ToString().Length > 0)
+		{
+			<div class="testimonials__copy rtf">
+				@Model.Intro
+			</div>
+		}
+	</header>
+	<div class="testimonials__slider">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				@Html.Sitecore().DynamicPlaceholder("TestimonialCarouselCards")
+			</div>
+		</div>
+	</div>
+</section>

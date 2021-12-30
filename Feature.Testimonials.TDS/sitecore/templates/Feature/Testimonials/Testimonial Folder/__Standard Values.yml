@@ -1,0 +1,39 @@
+---
+ID: "9c4b9747-bfff-4274-8086-6e2f9d7f75a3"
+Parent: "1732b5f6-1b9e-4f5f-8f31-4eeed65e2829"
+Template: "1732b5f6-1b9e-4f5f-8f31-4eeed65e2829"
+Path: /sitecore/templates/Feature/Testimonials/Testimonial Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {1732B5F6-1B9E-4F5F-8F31-4EEED65E2829}
+    {D3CF5B2A-9E9D-4A08-BAA0-E7DC50E8D6A8}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210805T171749Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "603b0398-372e-4ed4-979b-17bcab1d4573"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210805T171820Z

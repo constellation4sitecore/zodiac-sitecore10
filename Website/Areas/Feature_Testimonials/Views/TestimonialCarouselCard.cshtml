@@ -1,0 +1,21 @@
+﻿@using System.Web.Mvc
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Testimonials.Models.TestimonialCarouselCardModel>
+<div class="swiper-slide">
+	<article class="testimonials-card testimonials-card--with-image">
+		<img class="testimonials-card__photo" src="@Model.Thumbnail.GetCustomWidthImageSrc(80)" height="80" width="80" alt="@Model.FullName" loading="lazy" />
+		<header>
+			<h3 class="testimonials-card__name">
+				@Model.FullName
+			</h3>
+			@if (this.IsEditing || Model.Title.ToString().Length > 0)
+			{
+				<h4 class="testimonials-card__position">
+					@Model.Title
+				</h4>
+			}
+		</header>
+		<div class="testimonials-card__quote rtf">
+			@Model.Quote
+		</div>
+	</article>
+</div>

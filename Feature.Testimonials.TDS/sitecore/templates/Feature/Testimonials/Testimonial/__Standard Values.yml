@@ -1,0 +1,46 @@
+---
+ID: "d5c8834e-fba4-4801-aac7-da02f88881fb"
+Parent: "d3cf5b2a-9e9d-4a08-baa0-e7dc50e8d6a8"
+Template: "d3cf5b2a-9e9d-4a08-baa0-e7dc50e8d6a8"
+Path: /sitecore/templates/Feature/Testimonials/Testimonial/__Standard Values
+DB: master
+SharedFields:
+- ID: "89b06752-7ad7-439a-8dbc-56ec150d7523"
+  Hint: Thumbnail
+  Value: |
+    <image mediaid="{33D7A8C1-6106-47A1-A7CD-E9D689963F20}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "191ae223-feb9-4068-a5ba-fc163cbcebd5"
+      Hint: Title
+      Value: Lorem Ipsum
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210805T171206Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1a8f47a3-37b4-4f83-8f0b-05e6bf78a929"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "cb7d1e3b-7d24-441f-a79b-e5c559dbfcc0"
+      Hint: Quote
+      Value: <p>Nulla porta leo sed varius dignissim. Maecenas enim nisi, bibendum ut posuere sed, hendrerit sed neque. Ut lobortis mi ac dui blandit consectetur. Donec ligula odio, egestas nec velit et, sollicitudin molestie elit. Aenean dapibus eget quam non placerat. Proin ut tempus eros. Fusce quis odio quis ante tempus lacinia viverra non risus.</p>
+    - ID: "d63aa828-7f34-469d-afe9-13dde709ac69"
+      Hint: Full Name
+      Value: $name
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210805T171621Z

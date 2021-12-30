@@ -1,0 +1,40 @@
+---
+ID: "d3c92e6b-f6ac-4e67-8995-7125bbeed2bf"
+Parent: "5b08c93b-f48c-4bc1-b40d-72f4094ea137"
+Template: "5b08c93b-f48c-4bc1-b40d-72f4094ea137"
+Path: /sitecore/templates/Feature/Testimonials/Testimonial Carousel/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1d631840-345e-4dde-b053-9099ea076eee"
+      Hint: Heading
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210805T172442Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "7e1999c0-c7ed-419b-8aaa-49711ef95684"
+      Hint: Intro Text
+      Value: |
+        <p>Nulla facilisis, orci eget euismod efficitur, odio purus semper turpis, sed blandit sem diam id sem. Ut ornare dui neque, nec aliquam metus elementum quis. Suspendisse mattis blandit leo, ut gravida est commodo sed.
+        </p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "43a925b0-c3aa-45a8-9b52-658162d35dc9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210805T182326Z
