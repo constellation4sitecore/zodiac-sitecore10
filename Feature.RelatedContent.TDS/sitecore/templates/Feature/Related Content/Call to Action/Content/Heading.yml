@@ -1,17 +1,16 @@
 ---
-ID: "a9420cae-e53d-49b6-838d-92c83c8f6316"
-Parent: "17686ed3-428c-4712-88ae-65c8381b27c4"
-Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
-Path: /sitecore/layout/Placeholder Settings/Feature/Testimonials/TestimonialCarouselCards
+ID: "72e70c97-d020-4b56-8316-09f31e6c7878"
+Parent: "4452dafa-c822-48a2-863d-9ebc79c6449f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Related Content/Call to Action/Content/Heading
 DB: master
 SharedFields:
-- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
-  Hint: Placeholder Key
-  Value: TestimonialCarouselCards
-- ID: "e391b526-d0c5-439d-803e-17512eae6222"
-  Hint: Allowed Controls
-  Type: TreelistEx
-  Value: "{1D1A1C34-852D-461A-8D0C-39DBAF848934}"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -19,7 +18,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210805T185916Z
+      Value: 20211227T170554Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -30,11 +29,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d605b1ca-6b49-48e8-9f8c-f9399a14a5da"
+      Value: "46375023-9b2c-41b7-97fc-5b83dd81e05a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211230T135828Z
+      Value: 20211230T193253Z

@@ -760,6 +760,9 @@
     <Content Include="Areas\Feature_Timeline\Views\web.config" />
     <Content Include="Areas\Feature_Timeline\Views\TimelineContainer.cshtml" />
     <Content Include="Areas\Feature_Timeline\Views\TimelineMilestone.cshtml" />
+    <Content Include="Areas\Feature_RelatedContent\Views\CallToActionRowWithImage.cshtml" />
+    <Content Include="Areas\Feature_RelatedContent\Views\CallToActionRowWithBackground.cshtml" />
+    <Content Include="Areas\Feature_RelatedContent\Views\CallToActionRowWithBackgroundAndImage.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />

@@ -1,19 +1,19 @@
 ---
-ID: "4f3c11dd-a45b-4bea-8e4a-74fffabb9a19"
+ID: "fdc924b1-13f3-4e8d-a2fc-010313598f01"
 Parent: "4452dafa-c822-48a2-863d-9ebc79c6449f"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Related Content/Call to Action Row with Background Image/Content/Row Background Image
+Path: /sitecore/templates/Feature/Related Content/Call to Action/Content/Thumbnail Image
 DB: master
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: /sitecore/media library/Images/Related Content/Row Background Image
+  Value: /sitecore/media library/Images/Related Content/Thumbnail Image
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Image
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 400
+  Value: 500
 Languages:
 - Language: en
   Versions:
@@ -21,7 +21,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211227T170554Z
+      Value: 20211230T185158Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -32,11 +32,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "13d319d9-f538-40a6-a332-99979f850c63"
+      Value: "c8dce0cd-11df-45da-8001-80b262dbde97"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211227T172723Z
+      Value: 20211230T193253Z

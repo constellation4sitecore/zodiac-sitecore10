@@ -273,7 +273,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\CallToActionRowWithBackgroundImageModel.cs" />
+    <Compile Include="Controllers\CallToActionController.cs" />
+    <Compile Include="Models\CallToActionModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -283,8 +284,6 @@
   <ItemGroup>
     <Content Include="Constellation.License.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

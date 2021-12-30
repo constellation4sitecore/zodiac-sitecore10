@@ -2,7 +2,7 @@
 ID: "4dfa4b10-e9aa-452b-859e-6e1fb42ef051"
 Parent: "4452dafa-c822-48a2-863d-9ebc79c6449f"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Related Content/Call to Action Row with Background Image/Content/Link
+Path: /sitecore/templates/Feature/Related Content/Call to Action/Content/Link
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -29,11 +29,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cc75d4e9-9ed9-471e-b4e8-1abb318ac924"
+      Value: "fe9e2394-9566-467e-a342-6dacdf9f2d5c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211227T170554Z
+      Value: 20211230T193253Z

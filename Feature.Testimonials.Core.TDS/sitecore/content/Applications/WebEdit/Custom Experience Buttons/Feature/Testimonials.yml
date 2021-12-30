@@ -5,6 +5,9 @@ Template: "1ab4f9ad-b004-413c-8924-3e07143a614b"
 Path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/Feature/Testimonials
 DB: core
 SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/edit.png
 - ID: "4431914a-c40b-437c-8add-d2ed12cc8cc3"
   Hint: Icon
   Value: Office/32x32/notebook.png
@@ -16,10 +19,10 @@ Languages:
   Fields:
   - ID: "108d3a63-baaa-4560-86d8-3a112ed84717"
     Hint: Header
-    Value: Testimonials
+    Value: Edit Fields
   - ID: "5f0812af-d370-4292-afee-f26a39b7406d"
     Hint: Tooltip
-    Value: Edit the Accordion's Fields
+    Value: Edit Fields
   Versions:
   - Version: 1
     Fields:
@@ -36,11 +39,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d7f6fa5f-be78-4afb-aba2-964883d42277"
+      Value: "b9170783-ed67-4a5f-ba3b-cf6b8fb66a90"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210805T185128Z
+      Value: 20211230T165527Z

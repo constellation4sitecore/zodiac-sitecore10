@@ -2,7 +2,7 @@
 ID: "942f44a1-723c-4662-b4a8-868e50433c97"
 Parent: "2610f137-734b-4b7f-9482-8a84c440c94f"
 Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
-Path: /sitecore/media library/Images/Related Content/Row Background Image/FPO Row Background Image
+Path: /sitecore/media library/Images/Related Content/Background Image/FPO Background Image
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
@@ -51,11 +51,11 @@ Languages:
       Value: For Placement Only
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7dc67884-f520-4168-a673-8c82112ecf31"
+      Value: "14d733f7-1dea-4d38-b1ae-2693ee56e6c2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211227T172357Z
+      Value: 20211230T185251Z

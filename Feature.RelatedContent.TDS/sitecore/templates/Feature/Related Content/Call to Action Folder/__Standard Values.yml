@@ -1,9 +1,16 @@
 ---
-ID: "2610f137-734b-4b7f-9482-8a84c440c94f"
-Parent: "1802b051-c3eb-407d-abfa-9330008432b6"
-Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
-Path: /sitecore/media library/Images/Related Content/Row Background Image
+ID: "417d07d7-31fd-4065-9a3b-f194f257a3c9"
+Parent: "54b361ca-2f69-4e49-86ca-609ac0a214dc"
+Template: "54b361ca-2f69-4e49-86ca-609ac0a214dc"
+Path: /sitecore/templates/Feature/Related Content/Call to Action Folder/__Standard Values
 DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {10DAAAA5-AAB3-4E58-B01A-2CBB635F7E0E}
+    {54B361CA-2F69-4E49-86CA-609AC0A214DC}
 Languages:
 - Language: en
   Versions:
@@ -11,7 +18,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211227T170738Z
+      Value: 20211230T193338Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -22,11 +29,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "438473ca-0d71-4a9c-ba26-3ce297263eb3"
+      Value: "534c3da3-bdf3-4a00-9591-3b7e33ac0cd5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211227T170756Z
+      Value: 20211230T193357Z

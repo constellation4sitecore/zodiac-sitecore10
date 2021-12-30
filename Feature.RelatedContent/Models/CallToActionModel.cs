@@ -3,7 +3,7 @@ using System.Web;
 
 namespace Feature.RelatedContent.Models
 {
-	public class CallToActionRowWithBackgroundImageModel
+	public class CallToActionModel
 	{
 		public HtmlString Heading { get; set; }
 
@@ -11,6 +11,8 @@ namespace Feature.RelatedContent.Models
 
 		public GeneralLinkModel Link { get; set; }
 
-		public ImageModel RowBackgroundImage { get; set; }
+		public ImageModel BackgroundImage { get; set; }
+
+		public ImageModel ThumbnailImage { get; set; }
 	}
 }

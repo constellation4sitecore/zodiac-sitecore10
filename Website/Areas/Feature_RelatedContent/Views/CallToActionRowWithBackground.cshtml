@@ -1,0 +1,15 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.RelatedContent.Models.CallToActionModel>
+<aside class="cta-row cta-row--with-background container">
+	<div class="cta-row__inner">
+		<div class="cta-row__content">
+			<h2 class="cta-row__title">@Model.Heading</h2>
+			<div class="cta-row__description rtf">"@Model.Copy</div>
+			<a href="@Model.Link.Url" target="@Model.Link.Target" title="@Model.Link.Title" class="btn btn--primary">@Model.Link.Text</a>
+		</div>
+		<picture class="cta-row__background">
+			<source media="(max-width: 767px)" srcset="@Model.BackgroundImage.GetCustomWidthImageSrc(727)">
+			<source media="(max-width: 1023px)" srcset="@Model.BackgroundImage.GetCustomWidthImageSrc(983)">
+			<img src="@Model.BackgroundImage.GetCustomWidthImageSrc(1552)" alt="Image Description" loading="lazy">
+		</picture>
+	</div>
+</aside>
