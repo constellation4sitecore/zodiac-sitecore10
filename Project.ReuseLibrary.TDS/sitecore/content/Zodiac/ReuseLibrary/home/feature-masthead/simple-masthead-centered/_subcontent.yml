@@ -1,0 +1,24 @@
+---
+ID: "053796f2-b2e9-49bb-9d7f-f48e5db84438"
+Parent: "ec52f2a5-d208-4e81-936b-850df9a4aefa"
+Template: "3c8f34cc-2c10-4c2d-b7cc-74ca2f4fb341"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-masthead/simple-masthead-centered/_subcontent"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220119T183626Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1f2a58b0-e9d5-480d-8c23-f1adf7ad3178"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220119T183626Z

@@ -1,0 +1,29 @@
+---
+ID: "52d922e1-9552-4f6f-8fd4-5e8a92d8028c"
+Parent: "b6c763c3-eb98-4a5a-9234-9b11f070dced"
+Template: "86dabd3c-f970-4155-a3d3-a5c401cc5f06"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/_labels/feature-name"
+DB: master
+BranchID: "39c7c993-d6fa-4001-985c-fbc4f453d4dd"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{53B174C7-646C-4EF0-A7F8-046CD973F797}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220119T170228Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b539eb4b-981f-43b1-8cc4-17cffcb22580"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220119T170228Z

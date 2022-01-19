@@ -37,7 +37,6 @@ SharedFields:
   Hint: Compatible Renderings
   Type: Treelist
   Value: |
-    {F703ED99-818A-49E0-815F-FE28424DF576}
     {9A7E6C25-372E-4824-AB7F-9B93A45F2729}
     {FE639020-4A46-4264-8AC3-07B270D6BC3F}
     {856716EE-B455-4EF9-A3D7-BC60D33701CA}
@@ -69,11 +68,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "94bbe1b1-c23e-4e10-a4ba-f8ac5acae4b2"
+      Value: "26e4b3e1-5aeb-4d85-9900-a73a9fb7d413"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211222T143123Z
+      Value: 20220119T190806Z

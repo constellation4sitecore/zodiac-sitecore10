@@ -1,5 +1,6 @@
 ﻿using Constellation.Foundation.ModelMapping.FieldModels;
 using Constellation.Foundation.ModelMapping.MappingAttributes;
+using Foundation.Videos.Models;
 using System.Web;
 
 namespace Feature.Mastheads.Models

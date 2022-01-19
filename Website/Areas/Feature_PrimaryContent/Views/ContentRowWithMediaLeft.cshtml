@@ -1,5 +1,5 @@
 ﻿@using Sitecore.Mvc
-@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.ContentSectionModel>
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.ContentRowModel>
 <section class="content-row content-row--media-align-left ">
 	<figure class="content-row__media">@Html.Sitecore().DynamicPlaceholder("ContentSectionMedia")</figure>
 	<div class="content-row__content">
@@ -11,6 +11,6 @@
 			}
 		</header>
 		<div class="content-row__description rtf">@Model.Copy</div>
-		@Html.Sitecore().DynamicPlaceholder("ContentSectionActions")
+		@Html.Sitecore().DynamicPlaceholder("ContentRowActions")
 	</div>
 </section>

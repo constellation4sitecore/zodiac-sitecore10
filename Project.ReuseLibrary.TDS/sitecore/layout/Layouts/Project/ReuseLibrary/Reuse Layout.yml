@@ -1,0 +1,39 @@
+---
+ID: "46716dc9-675f-47ed-93a5-83c3a3cd0a7b"
+Parent: "43a3d783-46f7-47a5-9b5b-4b304780f3fc"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Project/ReuseLibrary/Reuse Layout
+DB: master
+SharedFields:
+- ID: "70dc08d9-cda2-4f04-aa35-c11fd7138066"
+  Hint: Area
+  Value: ReuseLibrary
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /Areas/ReuseLibrary/Views/Shared/ReuseLayout.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220119T170633Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2656d19e-3149-4bb0-ae6e-fe23b9676679"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220119T170704Z

@@ -274,18 +274,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AccordionContainerController.cs" />
-    <Compile Include="Controllers\ContentSectionActionsController.cs" />
+    <Compile Include="Controllers\ContentRowActionsController.cs" />
     <Compile Include="Controllers\AdditionalContentController.cs" />
-    <Compile Include="Controllers\ContentSectionController.cs" />
-    <Compile Include="Controllers\ContentSectionMediaController.cs" />
-    <Compile Include="Controllers\VideoSectionController.cs" />
-    <Compile Include="Controllers\ImageSectionController.cs" />
+    <Compile Include="Controllers\ContentRowController.cs" />
+    <Compile Include="Controllers\ContentRowMediaController.cs" />
+    <Compile Include="Controllers\VideoRowController.cs" />
+    <Compile Include="Controllers\ImageRowController.cs" />
     <Compile Include="Models\AccordionContainerModel.cs" />
-    <Compile Include="Models\ContentSectionActionsModel.cs" />
-    <Compile Include="Models\ContentSectionMediaModel.cs" />
-    <Compile Include="Models\ContentSectionModel.cs" />
-    <Compile Include="Models\VideoSectionModel.cs" />
-    <Compile Include="Models\ImageSectionModel.cs" />
+    <Compile Include="Models\ContentRowActionsModel.cs" />
+    <Compile Include="Models\ContentRowMediaModel.cs" />
+    <Compile Include="Models\ContentRowModel.cs" />
+    <Compile Include="Models\VideoRowModel.cs" />
+    <Compile Include="Models\ImageRowModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -32,11 +32,7 @@ SharedFields:
 - ID: "e441abe7-2ca3-4640-ae26-3789967925d7"
   Hint: Compatible Renderings
   Type: Treelist
-  Value: |
-    {5D380FB3-92A6-4D60-8AED-515F2C9399C4}
-    {9A7E6C25-372E-4824-AB7F-9B93A45F2729}
-    {FE639020-4A46-4264-8AC3-07B270D6BC3F}
-    {856716EE-B455-4EF9-A3D7-BC60D33701CA}
+  Value: 
 - ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
   Hint: Enable Datasource Query
   Type: Checkbox
@@ -62,11 +58,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cdc80a55-6273-4d1e-b8e5-94011e0ece4d"
+      Value: "3bb7880b-f3c3-4226-8c6d-5824e687a2a7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211222T143118Z
+      Value: 20220119T190818Z

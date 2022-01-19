@@ -1,0 +1,67 @@
+---
+ID: "01828a60-b884-4109-b20c-af879550730e"
+Parent: "ccc93eeb-3bdd-4088-b804-3458f4b46b69"
+Template: "ccc93eeb-3bdd-4088-b804-3458f4b46b69"
+Path: /sitecore/templates/Project/Reuse Library/Pages/Content Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{CCC93EEB-3BDD-4088-B804-3458F4B46B69}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{46716DC9-675F-47ED-93A5-83C3A3CD0A7B}">
+        <p
+          uid="{DBB11D62-D304-45FE-9929-F2F088FD5A9C}"
+          key="Masthead"
+          md="{1B06A5BB-240B-4EC6-B6A4-E289D34F1A9B}" />
+        <p
+          uid="{AFDEE78F-F6CC-404D-958C-CDCF97B7839C}"
+          key="MastheadMedia"
+          md="{606D0235-2C4A-409D-AA27-DD769EE72DE9}" />
+        <p
+          uid="{8FE752CA-206F-4314-B4A0-FA8243A01EA2}"
+          key="MastheadActions"
+          md="{DFDD2596-7DDB-4F2F-8BB1-6309FC0D85A0}" />
+        <p
+          uid="{0D5486D7-2F6D-4D06-80EF-E3F2970B1C65}"
+          key="Rows"
+          md="{AF31A2F9-BEDE-4F5C-A437-E0DB2267D284}" />
+        <p
+          uid="{D222364F-1ABF-45C5-A4E0-C5313BE7B45C}"
+          key="ContentRowActions"
+          md="{F44A148B-25CD-45F3-9DF9-C3526F1B0E00}" />
+        <p
+          uid="{E8952B59-C8C0-47CC-8B38-2CDB6DB7A9D8}"
+          key="ContentRowMedia"
+          md="{676DF51F-0F5B-4082-BCA0-EDBEA6FD15BF}" />
+        <r
+          id="{FE639020-4A46-4264-8AC3-07B270D6BC3F}"
+          ph="Masthead"
+          uid="{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220119T170534Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5c447522-ef15-459e-a553-fcdf55ad5ad5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220119T183402Z

@@ -1,0 +1,29 @@
+---
+ID: "fa3b9bff-8b00-4b8f-923a-3b4368615a43"
+Parent: "b15dcb34-6d47-45e1-8420-70c6c87cc3df"
+Template: "25ccd301-4685-406a-b3b4-4e3a7d133d51"
+Path: /sitecore/content/Zodiac/ReuseLibrary/Navigation/Footer
+DB: master
+BranchID: "39c7c993-d6fa-4001-985c-fbc4f453d4dd"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{CC64C184-899C-4186-B039-3B6AF4C74E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220119T170228Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "356d61f4-adfa-48ed-81a1-ad819f8a48ab"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220119T170228Z

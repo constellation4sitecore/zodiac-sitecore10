@@ -5,7 +5,7 @@ using Feature.PrimaryContent.Models;
 
 namespace Feature.PrimaryContent.Controllers
 {
-	public class AdditionalContentController : DatasourceRenderingController<ContentSectionModel>
+	public class AdditionalContentController : DatasourceRenderingController<ContentRowModel>
 	{
 		public AdditionalContentController(IViewPathResolver viewPathResolver, IModelMapper modelMapper) : base(viewPathResolver, modelMapper)
 		{

@@ -1,0 +1,35 @@
+---
+ID: "0dbca913-69b1-4713-8309-79b7451d98f2"
+Parent: "289d5cc3-3d42-4ae8-8f46-8d3363acd5e6"
+Template: "537b2be7-2262-4f02-b656-3da2481e0fb6"
+Path: /sitecore/content/Zodiac/ReuseLibrary/home/_subcontent/Masthead Actions
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "16165772-8956-46bf-ad8e-be327c0d84bb"
+      Hint: Secondary Link
+      Value: |
+        <link linktype="internal" text="Second Link" querystring="" target="" id="{49218935-0552-459A-BAB1-8FEB2EECEB5C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220119T173856Z
+    - ID: "598b6c37-4c09-421e-a40c-5781de286af0"
+      Hint: Primary Link
+      Value: |
+        <link linktype="internal" text="First Link" querystring="" target="" id="{49218935-0552-459A-BAB1-8FEB2EECEB5C}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e6d9f5ea-5116-4f45-ac43-09f580006852"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220119T175204Z

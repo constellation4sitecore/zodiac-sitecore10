@@ -1,0 +1,24 @@
+---
+ID: "63cb1dbf-fdd7-42d1-950a-75eceb98d7a7"
+Parent: "b56e8000-1e84-4a5c-91c2-5b8b01b6261f"
+Template: "9b88066d-1c67-4234-8b25-21b293fcbd70"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-masthead/masthead-with-background/_subcontent/Masthead with Background"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220119T190521Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "746d9e38-f11a-4e59-abbe-c5cc13119247"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220119T190521Z

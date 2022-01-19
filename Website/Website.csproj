@@ -623,10 +623,30 @@
     <None Include="App_Config\Include\Foundation\_Put_Foundation_Config_Patches_Here.txt" />
     <Content Include="App_Config\Include\Project\ZodiacManual\ZodiacManual.Site.config" />
     <Content Include="App_Config\Include\Project\_ZodiacScaffolding\Disable-Robots-Outside-Production.config" />
+    <Content Include="App_Config\Include\Project\ReuseLibrary\ReuseLibrary.Site.config" />
     <None Include="App_Config\Include\Project\_Put_Tenant_and_Site_Config_Patches_Here.txt" />
     <Content Include="App_Config\Include\Project\_ZodiacScaffolding\_This_Folder_Must_Be_First.txt" />
     <Content Include="App_Data\packages\PutPackagesHere.txt" />
     <Content Include="App_Data\packages\_Package_Files_for_Install_on_Startup_Go_Here.txt" />
+    <Content Include="Areas\ReuseLibrary\Content\Images\logo-verndale.png" />
+    <Content Include="Areas\ReuseLibrary\Content\Images\svgsheet.svg" />
+    <Content Include="Areas\ReuseLibrary\Content\Images\texture.png" />
+    <Content Include="Areas\ReuseLibrary\Content\styles.css" />
+    <Content Include="Areas\ReuseLibrary\Scripts\0.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\10.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\11.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\12.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\13.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\14.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\3.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\4.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\5.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\6.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\7.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\8.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\9.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\main.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\vendors~main.bundle.js" />
     <Content Include="Areas\ZodiacManual\Scripts\highlight.pack.js" />
     <Content Include="Areas\ZodiacManual\styles\solarized-dark.css" />
     <Content Include="Areas\ZodiacManual\styles\vs.css" />
@@ -651,6 +671,7 @@
     <Compile Include="Areas\Feature_RelatedContent\Feature_RelatedContentAreaRegistration.cs" />
     <Compile Include="Areas\Feature_Testimonials\Feature_TestimonialsAreaRegistration.cs" />
     <Compile Include="Areas\Feature_Timeline\Feature_TimelineAreaRegistration.cs" />
+    <Compile Include="Areas\ReuseLibrary\ReuseLibraryAreaRegistration.cs" />
     <Compile Include="Areas\ZodiacManual\ZodiacManualAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -763,6 +784,24 @@
     <Content Include="Areas\Feature_RelatedContent\Views\CallToActionRowWithImage.cshtml" />
     <Content Include="Areas\Feature_RelatedContent\Views\CallToActionRowWithBackground.cshtml" />
     <Content Include="Areas\Feature_RelatedContent\Views\CallToActionRowWithBackgroundAndImage.cshtml" />
+    <Content Include="Areas\ReuseLibrary\Views\Shared\ReuseLayout.cshtml" />
+    <Content Include="Areas\ReuseLibrary\Views\web.config" />
+    <Content Include="Areas\ReuseLibrary\Content\maps\styles.css.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\0.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\10.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\11.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\12.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\13.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\14.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\3.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\4.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\5.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\6.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\7.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\8.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\9.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\main.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\vendors~main.bundle.js.map" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
@@ -774,7 +813,9 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Areas\ZodiacManual\Content\" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Feature.Alerts\Feature.Alerts.csproj">
       <Project>{9ba8a002-121d-4b55-9ae6-9ede07c2c5aa}</Project>

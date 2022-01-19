@@ -4,7 +4,7 @@
 <div class="masthead masthead--background-media">
 	<div class="masthead__inner container">
 		<div class="masthead__media">
-			@if (Model.VideoID.IsNullOrEmpty())
+			@if (string.IsNullOrEmpty(Model.VideoID))
 			{
 				<picture>
 					<source media="(max-width: 767px)" srcset="@Model.MastheadBackground.GetCustomWidthImageSrc(767)">
