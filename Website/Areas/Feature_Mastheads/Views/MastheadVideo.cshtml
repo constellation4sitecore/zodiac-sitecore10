@@ -1,13 +1,21 @@
 ﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Mastheads.Models.MastheadMediaModel>
-	
-<div class="video" data-module="@Model.VideoProvider.ProviderID" data-video-id="@Model.VideoID">
+@{
+	var providerID = string.Empty;
+
+	if (Model.VideoProvider != null)
+	{
+		providerID = Model.VideoProvider.ProviderID;
+	}
+}
+
+<div class="video" data-module="video" data-video-player="@providerID" data-video-id="@Model.VideoID" data-vieo-auto-play="false">
+	<div class="video-background"></div>
 	<picture class="video__poster">
 		<source media="(max-width: 767px)" srcset="@Model.MastheadImage.GetCustomWidthImageSrc(767)">
 		<source media="(max-width: 1279px)" srcset="@Model.MastheadImage.GetCustomWidthImageSrc(1279)">
 		<img src="@Model.MastheadImage.GetCustomWidthImageSrc(760)" alt="@Model.MastheadImage.Alt" loading="lazy">
 	</picture>
 	<svg viewBox="0 0 495 495">
-		<use xlink:href="#play" />
+		<use xlink:href="#play"/>
 	</svg>
-	<script src="https://player.vimeo.com/api/player.js"></script>
 </div>
