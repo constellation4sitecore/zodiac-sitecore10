@@ -1,0 +1,24 @@
+---
+ID: "b02c1653-be36-4d06-853f-1df2cdb23e9c"
+Parent: "03413a50-4e56-44fe-9fcb-a1bdff7d1b49"
+Template: "537b2be7-2262-4f02-b656-3da2481e0fb6"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-masthead/masthead-with-vimeo-video-right/_subcontent/Masthead Actions"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220128T151711Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d9f829e4-ed66-49db-9124-f25d1a00a489"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220128T151711Z

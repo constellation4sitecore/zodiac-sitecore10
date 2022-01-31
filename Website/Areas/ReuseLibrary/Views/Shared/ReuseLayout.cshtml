@@ -1,14 +1,36 @@
-﻿@using Sitecore.Mvc
+﻿@using Constellation.Feature.PageTagging.Models
+@using Constellation.Foundation.ModelMapping
+@using Sitecore.Links
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sitecore.Sites
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+	Layout = null;
+	var viewModel = MappingContext.Current.MapItemToNew<PageMetadata>(Model.Item);
+
+	// This is here because the default LinkManager config for this site does not force the inclusion of the server and scheme, which we need for Canonicals.
+	var options = LinkManager.GetDefaultUrlBuilderOptions();
+	options.AlwaysIncludeServerUrl = true;
+	options.LanguageEmbedding = LanguageEmbedding.Never;
+	options.LowercaseUrls = true;
+	options.EncodeNames = true;
+	options.Site = SiteContext.Current;
+	var canonical = LinkManager.GetItemUrl(Model.Item, options);
+}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="@Model.Item.Language.Name">
 <head>
 	<meta charset=utf-8>
 	<meta content="IE=edge" http-equiv=X-UA-Compatible>
 	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1, width=device-width, user-scalable=no" />
-	<title>Home page</title>
+	<title>@viewModel.BrowserTitle</title>
+	<link rel="canonical" href="@canonical" />
+	@Html.Sitecore().Placeholder("HtmlHead")
 	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 	<link rel=stylesheet href="/areas/reuselibrary/content/styles.css">
+	@Html.Sitecore().VisitorIdentification()
 </head>
 <body>
 	Header

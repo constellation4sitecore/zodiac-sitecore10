@@ -802,6 +802,10 @@
     <Content Include="Areas\ReuseLibrary\Scripts\9.bundle.js.map" />
     <Content Include="Areas\ReuseLibrary\Scripts\main.bundle.js.map" />
     <Content Include="Areas\ReuseLibrary\Scripts\vendors~main.bundle.js.map" />
+    <Content Include="Areas\Feature_Mastheads\Views\MastheadWithBackgroundLeft.cshtml" />
+    <Content Include="Areas\Feature_Mastheads\Views\MastheadWithBackgroundCenter.cshtml" />
+    <Content Include="Areas\Feature_Mastheads\Views\MastheadWithBackgroundRight.cshtml" />
+    <Content Include="Areas\Feature_Mastheads\Views\MastheadWithMedia.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />

@@ -1,0 +1,62 @@
+---
+ID: "631c1b6b-8b7a-45bc-887f-054e9ba5cb11"
+Parent: "8769eeef-c7ad-48a8-850e-434b4341d1b3"
+Template: "ccc93eeb-3bdd-4088-b804-3458f4b46b69"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-masthead/masthead-with-background-image-left"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}">
+              <p:d />
+            </r>
+            <r
+              uid="{E7A6311F-507A-4D14-988D-14B3716D36A7}"
+              p:after="p[@uid='{E8952B59-C8C0-47CC-8B38-2CDB6DB7A9D8}']"
+              s:ds="{46BEE080-1B6D-4B8A-9D42-D7969E7D0B63}"
+              s:id="{4B5898A0-53C5-4B07-B8AD-F6EA953D3DA5}"
+              s:ph="/Masthead/MastheadActions-{4C97CB04-6631-4446-9F59-A4B31B87CB92}-0" />
+            <r
+              uid="{4C97CB04-6631-4446-9F59-A4B31B87CB92}"
+              p:after="*[1=2]"
+              s:ds="{8A26234B-CA6F-49FB-84C2-834D4CF9E883}"
+              s:id="{F703ED99-818A-49E0-815F-FE28424DF576}"
+              s:ph="Masthead" />
+          </d>
+        </r>
+    - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
+      Hint: Browser Title
+      Value: Masthead with Background Image Left
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220126T175240Z
+    - ID: "79cdbca6-5485-4d4e-a163-6a1681d61c85"
+      Hint: Heading
+      Value: Masthead with Background Image Left
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9a457ca3-2640-4a43-b1d0-fce9daa9d824"
+    - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
+      Hint: Navigation Title
+      Value: Masthead with Background Image Left
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220128T152113Z

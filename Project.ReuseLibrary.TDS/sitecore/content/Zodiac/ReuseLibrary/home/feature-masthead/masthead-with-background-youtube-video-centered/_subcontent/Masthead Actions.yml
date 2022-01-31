@@ -1,0 +1,24 @@
+---
+ID: "43c0d560-5098-4f74-a8e3-c3ffc38ccfba"
+Parent: "761112dd-812f-4650-8312-3cea61b10301"
+Template: "537b2be7-2262-4f02-b656-3da2481e0fb6"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-masthead/masthead-with-background-youtube-video-centered/_subcontent/Masthead Actions"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220128T165714Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cbd62535-e9b0-42ca-8a36-595770e9d0b6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220128T165714Z

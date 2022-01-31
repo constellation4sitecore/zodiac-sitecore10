@@ -1,0 +1,24 @@
+---
+ID: "6a67dcb1-a2d2-4fe9-a96b-d0973fe941b6"
+Parent: "84651a56-d673-4b7a-b50d-b44c22e9c4f3"
+Template: "537b2be7-2262-4f02-b656-3da2481e0fb6"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-masthead/masthead-with-youtube-video-right/_subcontent/Masthead Actions"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220128T151530Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d6a7f8f6-91f0-46d8-ba04-4b5b8c65c196"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220128T151530Z

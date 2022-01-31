@@ -1,0 +1,31 @@
+---
+ID: "3d0f0362-ae9c-4cdf-950d-681c39115481"
+Parent: "7d9985b4-e8d3-4ecf-a738-939db68d143d"
+Template: "9b88066d-1c67-4234-8b25-21b293fcbd70"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-masthead/masthead-with-image-left/_subcontent/Masthead Image"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220128T150406Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6c102543-4919-4620-a7b1-268d61f99b9b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220128T150417Z
+    - ID: "db61e1c5-8713-441a-80ab-f30e00c24589"
+      Hint: Masthead Image
+      Value: |
+        <image mediaid="{C65149AD-E260-4913-A4DE-2F0A16FEAF31}" ></image>

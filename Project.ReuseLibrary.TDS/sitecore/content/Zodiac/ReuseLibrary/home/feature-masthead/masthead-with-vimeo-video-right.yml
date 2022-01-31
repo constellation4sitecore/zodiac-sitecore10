@@ -1,0 +1,67 @@
+---
+ID: "d872d314-de55-40bc-8040-1ceb21be2f7f"
+Parent: "8769eeef-c7ad-48a8-850e-434b4341d1b3"
+Template: "ccc93eeb-3bdd-4088-b804-3458f4b46b69"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-masthead/masthead-with-vimeo-video-right"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}">
+              <p:d />
+            </r>
+            <r
+              uid="{9741497E-BE8C-4055-9EC1-F65D0A9E3DCD}"
+              p:after="p[@uid='{E8952B59-C8C0-47CC-8B38-2CDB6DB7A9D8}']"
+              s:ds="{B02C1653-BE36-4D06-853F-1DF2CDB23E9C}"
+              s:id="{4B5898A0-53C5-4B07-B8AD-F6EA953D3DA5}"
+              s:ph="/Masthead/MastheadActions-{3F3F211F-54F4-48FB-A59B-BBE4521B5B08}-0" />
+            <r
+              uid="{1893D8B2-67E6-4E3A-BA97-4F1F9A7DBBC5}"
+              p:after="r[@uid='{9741497E-BE8C-4055-9EC1-F65D0A9E3DCD}']"
+              s:ds="{DECC7CD5-F8E3-460C-87F6-2FB0E7D5BBBE}"
+              s:id="{EB84E42D-8581-418F-AD1F-2623AFC6970F}"
+              s:ph="/Masthead/MastheadMedia-{3F3F211F-54F4-48FB-A59B-BBE4521B5B08}-0" />
+            <r
+              uid="{3F3F211F-54F4-48FB-A59B-BBE4521B5B08}"
+              p:after="*[1=2]"
+              s:id="{9A7E6C25-372E-4824-AB7F-9B93A45F2729}"
+              s:ph="Masthead" />
+          </d>
+        </r>
+    - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
+      Hint: Browser Title
+      Value: Masthead with Vimeo Video Right
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220126T175049Z
+    - ID: "79cdbca6-5485-4d4e-a163-6a1681d61c85"
+      Hint: Heading
+      Value: Masthead with Vimeo Video Right
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2908cae2-51c4-40f7-bbea-804703ac8394"
+    - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
+      Hint: Navigation Title
+      Value: Masthead with Vimeo Video Right
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220128T151713Z

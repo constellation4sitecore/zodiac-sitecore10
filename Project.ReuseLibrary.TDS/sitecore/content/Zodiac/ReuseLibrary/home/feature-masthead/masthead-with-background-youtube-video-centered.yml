@@ -1,0 +1,62 @@
+---
+ID: "cf40b699-539c-4546-a440-f61eed9a30c7"
+Parent: "8769eeef-c7ad-48a8-850e-434b4341d1b3"
+Template: "ccc93eeb-3bdd-4088-b804-3458f4b46b69"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-masthead/masthead-with-background-youtube-video-centered"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}">
+              <p:d />
+            </r>
+            <r
+              uid="{51067B25-F847-4241-B74D-516FE798CF11}"
+              p:after="p[@uid='{E8952B59-C8C0-47CC-8B38-2CDB6DB7A9D8}']"
+              s:ds="{43C0D560-5098-4F74-A8E3-C3FFC38CCFBA}"
+              s:id="{4B5898A0-53C5-4B07-B8AD-F6EA953D3DA5}"
+              s:ph="/Masthead/MastheadActions-{20623C05-63FE-41CB-8557-2D4A6CD14CA0}-0" />
+            <r
+              uid="{20623C05-63FE-41CB-8557-2D4A6CD14CA0}"
+              p:after="*[1=2]"
+              s:ds="{76E65D3E-769D-4815-8B07-1A5689E8D7F2}"
+              s:id="{EE2F1FE1-A378-48DF-8FE0-B7AABE23A69C}"
+              s:ph="Masthead" />
+          </d>
+        </r>
+    - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
+      Hint: Browser Title
+      Value: Masthead with Background YouTube Video Centered
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220126T175347Z
+    - ID: "79cdbca6-5485-4d4e-a163-6a1681d61c85"
+      Hint: Heading
+      Value: Masthead with Background YouTube Video Centered
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed0e2b98-2987-4104-8c4d-39216688775a"
+    - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
+      Hint: Navigation Title
+      Value: Masthead with Background YouTube Video Centered
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220128T165727Z

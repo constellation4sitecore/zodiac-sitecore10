@@ -1,8 +1,25 @@
 ﻿@using Sitecore.Mvc
 @inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Mastheads.Models.MastheadWithBackgroundModel>
-	
+@{
+	string position;
+	if (this.ViewData["position"] == null)
+	{
+		position = "left";
+
+	}
+	else
+	{
+		position = this.ViewData["position"].ToString();
+	}
+
+	var providerID = string.Empty;
+	if (Model.VideoProvider != null)
+	{
+		providerID = Model.VideoProvider.ProviderID;
+	}
+}
 <div class="masthead masthead--background-media">
-	<div class="masthead__inner container">
+	<div class="masthead__inner container masthead__inner--position-@position">
 		<div class="masthead__media">
 			@if (string.IsNullOrEmpty(Model.VideoID))
 			{
@@ -11,6 +28,21 @@
 					<source media="(max-width: 1279px)" srcset="@Model.MastheadBackground.GetCustomWidthImageSrc(1279)">
 					<img src="@Model.MastheadBackground.GetCustomWidthImageSrc(760)" alt="@Model.MastheadBackground.Alt" loading="lazy">
 				</picture>
+			}
+			else
+			{
+				<div class="video" data-module="video" data-video-player="@providerID" data-video-id="@Model.VideoID" data-video-auto-play="true">
+					<div class="video__background">
+					</div>
+					<picture class="video__poster">
+						<source media="(max-width: 767px)" srcset="@Model.MastheadBackground.GetCustomWidthImageSrc(767)">
+						<source media="(max-width: 1279px)" srcset="@Model.MastheadBackground.GetCustomWidthImageSrc(1279)">
+						<img src="@Model.MastheadBackground.GetCustomWidthImageSrc(760)" alt="@Model.MastheadBackground.Alt" loading="lazy">
+					</picture>
+					<svg viewBox="0 0 495 495" class="video_svg">
+						<use xlink:href="#play" />
+					</svg>
+				</div>
 			}
 		</div>
 		<div class="masthead__content">

@@ -1,0 +1,7 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Mastheads.Models.MastheadWithBackgroundModel>
+
+@{
+	this.ViewData.Add("position", "right");
+}
+
+@{ Html.RenderPartial("/Areas/Feature_Mastheads/Views/MastheadWithBackground.cshtml", this.Model, this.ViewData); }
