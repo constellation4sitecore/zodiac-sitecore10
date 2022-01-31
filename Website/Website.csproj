@@ -806,6 +806,7 @@
     <Content Include="Areas\Feature_Mastheads\Views\MastheadWithBackgroundCenter.cshtml" />
     <Content Include="Areas\Feature_Mastheads\Views\MastheadWithBackgroundRight.cshtml" />
     <Content Include="Areas\Feature_Mastheads\Views\MastheadWithMedia.cshtml" />
+    <Content Include="Areas\Feature_Navigation\Views\Breadcrumbs.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />

@@ -1,0 +1,24 @@
+---
+ID: "73cdec5a-03a3-4566-adeb-8a37c16968f9"
+Parent: "c0418d87-bd30-42a6-a03c-77502f1457f5"
+Template: "0665cfd0-f4d3-43d9-9af9-753342c65382"
+Path: "/sitecore/content/_labels/navigation/breadcrumb-labels"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220131T204125Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "36e070be-d795-4313-86f8-289d7b23bf66"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220131T204125Z
