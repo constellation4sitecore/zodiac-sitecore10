@@ -21,10 +21,6 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}">
-              <p:d />
-            </r>
-            <r
               uid="{9741497E-BE8C-4055-9EC1-F65D0A9E3DCD}"
               p:after="p[@uid='{E8952B59-C8C0-47CC-8B38-2CDB6DB7A9D8}']"
               s:ds="{B02C1653-BE36-4D06-853F-1DF2CDB23E9C}"
@@ -36,6 +32,10 @@ Languages:
               s:ds="{DECC7CD5-F8E3-460C-87F6-2FB0E7D5BBBE}"
               s:id="{EB84E42D-8581-418F-AD1F-2623AFC6970F}"
               s:ph="/Masthead/MastheadMedia-{3F3F211F-54F4-48FB-A59B-BBE4521B5B08}-0" />
+            <r
+              uid="{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}">
+              <p:d />
+            </r>
             <r
               uid="{3F3F211F-54F4-48FB-A59B-BBE4521B5B08}"
               p:after="*[1=2]"
@@ -54,7 +54,7 @@ Languages:
       Value: Masthead with Vimeo Video Right
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2908cae2-51c4-40f7-bbea-804703ac8394"
+      Value: "c6d1e3e0-975a-41d8-8a6c-7ad925282fbe"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Masthead with Vimeo Video Right
@@ -64,4 +64,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220128T151713Z
+      Value: 20220204T171927Z

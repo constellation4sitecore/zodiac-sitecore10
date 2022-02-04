@@ -6,12 +6,12 @@ namespace Feature.Navigation.Controllers
 {
 	public class BreadcrumbsController : ConventionController
 	{
-		public BreadcrumbsController(IViewPathResolver viewPathResolver, BreadcrumbNavigationRepository repository) : base(viewPathResolver)
+		public BreadcrumbsController(IViewPathResolver viewPathResolver, IBreadcrumbNavigationRepository repository) : base(viewPathResolver)
 		{
 			Repository = repository;
 		}
 
-		protected BreadcrumbNavigationRepository Repository { get; }
+		protected IBreadcrumbNavigationRepository Repository { get; }
 
 		protected override object GetModel(Item datasource, Item contextItem)
 		{

@@ -21,10 +21,6 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}">
-              <p:d />
-            </r>
-            <r
               uid="{96DE664E-4C60-4378-9D16-4E9898C9B584}"
               p:after="p[@uid='{E8952B59-C8C0-47CC-8B38-2CDB6DB7A9D8}']"
               s:ds="{AAEFE644-9A99-42A7-8136-9D22EECE627A}"
@@ -36,6 +32,10 @@ Languages:
               s:ds="{3D0F0362-AE9C-4CDF-950D-681C39115481}"
               s:id="{FDEC2897-7874-47C5-A8C0-1FE8E56C84F4}"
               s:ph="/Masthead/MastheadMedia-{58A20EB4-FDFA-49D9-B5BD-957539FE015B}-0" />
+            <r
+              uid="{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}">
+              <p:d />
+            </r>
             <r
               uid="{58A20EB4-FDFA-49D9-B5BD-957539FE015B}"
               p:after="*[1=2]"
@@ -54,7 +54,7 @@ Languages:
       Value: Masthead with Image Left
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7ad5e736-1d31-4eac-ae8f-bfaaa89bea7e"
+      Value: "fcb9a5a2-8489-4356-be35-3c746ebefb46"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Masthead with Image Left
@@ -64,4 +64,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220128T150417Z
+      Value: 20220204T171927Z

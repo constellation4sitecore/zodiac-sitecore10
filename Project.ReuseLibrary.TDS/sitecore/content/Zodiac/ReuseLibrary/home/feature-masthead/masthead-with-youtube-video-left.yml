@@ -21,10 +21,6 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}">
-              <p:d />
-            </r>
-            <r
               uid="{8BCB810B-8E6F-4530-B08E-8DEA88E44146}"
               p:after="p[@uid='{E8952B59-C8C0-47CC-8B38-2CDB6DB7A9D8}']"
               s:ds="{285674EA-346E-461A-865A-C32EE28C5446}"
@@ -36,6 +32,10 @@ Languages:
               s:ds="{195AA24C-2130-4860-9E5B-A2F2EAC295AD}"
               s:id="{EB84E42D-8581-418F-AD1F-2623AFC6970F}"
               s:ph="/Masthead/MastheadMedia-{FF464A0A-3A6F-4F05-8E6F-4565E15A18E4}-0" />
+            <r
+              uid="{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}">
+              <p:d />
+            </r>
             <r
               uid="{FF464A0A-3A6F-4F05-8E6F-4565E15A18E4}"
               p:after="*[1=2]"
@@ -54,7 +54,7 @@ Languages:
       Value: Masthead with YouTube Video Left
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9371a3aa-7749-48d9-9022-2763f9be1874"
+      Value: "de5d305b-7d26-479b-8bad-bc3055a05c17"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Masthead with YouTube Video Left
@@ -64,4 +64,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220128T151441Z
+      Value: 20220204T171926Z
