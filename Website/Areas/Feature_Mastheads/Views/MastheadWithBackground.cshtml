@@ -24,9 +24,18 @@
 			@if (string.IsNullOrEmpty(Model.VideoID))
 			{
 				<picture>
-					<source media="(max-width: 767px)" srcset="@Model.MastheadBackground.GetCustomWidthImageSrc(767)">
-					<source media="(max-width: 1279px)" srcset="@Model.MastheadBackground.GetCustomWidthImageSrc(1279)">
-					<img src="@Model.MastheadBackground.GetCustomWidthImageSrc(760)" alt="@Model.MastheadBackground.Alt" loading="lazy">
+					@if (Model.MastheadBackground.IsContentHubContent)
+					{
+						<source media="(max-width: 767px)" srcset="@Model.MastheadBackground.GetContentHubTransformationSrc("w767")">
+						<source media="(max-width: 1024px)" srcset="@Model.MastheadBackground.GetContentHubTransformationSrc("w1024")">
+						<img src="@Model.MastheadBackground.GetContentHubTransformationSrc("w650")" alt="@Model.MastheadBackground.Alt" loading="lazy">
+					}
+					else
+					{
+						<source media="(max-width: 767px)" srcset="@Model.MastheadBackground.GetCustomWidthImageSrc(767)">
+						<source media="(max-width: 1279px)" srcset="@Model.MastheadBackground.GetCustomWidthImageSrc(1024)">
+						<img src="@Model.MastheadBackground.GetCustomWidthImageSrc(650)" alt="@Model.MastheadBackground.Alt" loading="lazy">
+					}
 				</picture>
 			}
 			else
@@ -34,11 +43,23 @@
 				<div class="video" data-module="video" data-video-player="@providerID" data-video-id="@Model.VideoID" data-video-auto-play="true">
 					<div class="video__background">
 					</div>
-					<picture class="video__poster">
-						<source media="(max-width: 767px)" srcset="@Model.MastheadBackground.GetCustomWidthImageSrc(767)">
-						<source media="(max-width: 1279px)" srcset="@Model.MastheadBackground.GetCustomWidthImageSrc(1279)">
-						<img src="@Model.MastheadBackground.GetCustomWidthImageSrc(760)" alt="@Model.MastheadBackground.Alt" loading="lazy">
-					</picture>
+					@if (!string.IsNullOrEmpty(Model.MastheadBackground.Src))
+					{
+						<picture class="video__poster">
+							@if (Model.MastheadBackground.IsContentHubContent)
+							{
+								<source media="(max-width: 767px)" srcset="@Model.MastheadBackground.GetContentHubTransformationSrc("w767")">
+								<source media="(max-width: 1024px)" srcset="@Model.MastheadBackground.GetContentHubTransformationSrc("w1024")">
+								<img src="@Model.MastheadBackground.GetContentHubTransformationSrc("w650")" alt="@Model.MastheadBackground.Alt" loading="lazy">
+							}
+							else
+							{
+								<source media="(max-width: 767px)" srcset="@Model.MastheadBackground.GetCustomWidthImageSrc(767)">
+								<source media="(max-width: 1279px)" srcset="@Model.MastheadBackground.GetCustomWidthImageSrc(1024)">
+								<img src="@Model.MastheadBackground.GetCustomWidthImageSrc(650)" alt="@Model.MastheadBackground.Alt" loading="lazy">
+							}
+						</picture>
+					}
 					<svg viewBox="0 0 495 495" class="video_svg">
 						<use xlink:href="#play" />
 					</svg>
