@@ -5,17 +5,16 @@ using Sitecore;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Data.Query;
-using Sitecore.Diagnostics;
 using Sitecore.Globalization;
 using Sitecore.Web;
+using System;
 using System.Collections.Generic;
+using System.Configuration;
 
 namespace Feature.Alerts
 {
 	public class AlertRepository : IRepository
 	{
-		private static readonly string AlertPathShort = "./{0}/{1}*";
-
 		private IModelMapper ModelMapper { get; set; }
 
 		public AlertRepository(IModelMapper modelMapper)
@@ -25,35 +24,82 @@ namespace Feature.Alerts
 
 		public IEnumerable<AlertModel> GetAlerts(Database database, Language language, SiteInfo site)
 		{
-			var pathMask = AlertPathShort;
+			var xPath = GetAlertXpathSuffix();
+			var alertItems = new List<Item>();
 
-			var alertRootFolderName = Sitecore.Configuration.Settings.GetSetting(SettingNames.AlertRootFolderName);
+			var contextItem = database.GetItem(Constants.ContentPath, language);
+			AddAlerts(contextItem, xPath, alertItems);
 
-			if (string.IsNullOrEmpty(alertRootFolderName))
+			contextItem = database.GetItem(site.RootPath, language);
+			AddAlerts(contextItem, xPath, alertItems);
+
+			var alerts = new List<AlertModel>();
+
+			/*
+			 * Normally I would use XPATH to get only date relevant Alerts, but the XPATH support for date
+			 * parsing is fairly limited and going to ContentSearch poses similar issues. It would be
+			 * exceptional for there to be more than a few Alerts to process at any one time, therefore
+			 * looping through the Items after retrieving them from Sitecore is reasonable.
+			 *
+			 */
+
+			foreach (var item in alertItems)
 			{
-				Log.Warn($"Feature.Alerts - Missing an XML setting value for {SettingNames.AlertRootFolderName} Alerts cannot be resolved without this value.", typeof(AlertRepository));
-				return null;
+				var alert = ModelMapper.MapItemToNew<AlertModel>(item);
+
+				if (DateTime.Compare(alert.ValidFrom, DateTime.Now) <= 0 && DateTime.Compare(alert.ValidTo, DateTime.Now) > 0)
+				{
+					alerts.Add(alert);
+				}
 			}
 
+			return alerts;
+		}
+
+		public static Item GetAlertFolderForSite(Database database, Language language, SiteInfo site)
+		{
+			var siteRoot = database.GetItem(site.RootPath, language);
+
+			return Query.SelectSingleItem($"./{GetAlertRootFolderName()}", siteRoot);
+		}
+
+		private static string GetActiveAlertFolderName()
+		{
 			var activeAlertFolderName = Sitecore.Configuration.Settings.GetSetting(SettingNames.ActiveAlertFolderName);
 
 			if (string.IsNullOrEmpty(activeAlertFolderName))
 			{
-				Log.Warn($"Feature.Alerts - Missing an XML setting value for {SettingNames.ActiveAlertFolderName} Alerts cannot be resolved without this value.", typeof(AlertRepository));
-				return null;
+				throw new ConfigurationErrorsException($"Feature.Alerts - Missing an XML setting value for {SettingNames.ActiveAlertFolderName} Alerts cannot be resolved without this value.");
 			}
 
-			var xPath = string.Format(pathMask, alertRootFolderName, activeAlertFolderName);
-			var alertItems = new List<Item>();
+			return activeAlertFolderName;
+		}
 
-			var contentItem = database.GetItem(Constants.ContentPath, language);
-			alertItems.AddRange(Query.SelectItems(xPath, contentItem));
+		private static string GetAlertRootFolderName()
+		{
+			var alertRootFolderName = Sitecore.Configuration.Settings.GetSetting(SettingNames.AlertRootFolderName);
 
-			var startItemPath = $"{site.RootPath}";
-			var startItem = database.GetItem(startItemPath, language);
-			alertItems.AddRange(Query.SelectItems(xPath, startItem));
+			if (string.IsNullOrEmpty(alertRootFolderName))
+			{
+				throw new ConfigurationErrorsException($"Feature.Alerts - Missing an XML setting value for {SettingNames.AlertRootFolderName} Alerts cannot be resolved without this value.");
+			}
 
-			return ModelMapper.MapToEnumerableOf<AlertModel>(alertItems);
+			return alertRootFolderName;
+		}
+
+		private static string GetAlertXpathSuffix()
+		{
+			return $"./{GetAlertRootFolderName()}/{GetActiveAlertFolderName()}/*";
+		}
+
+		private void AddAlerts(Item contextItem, string xPath, List<Item> list)
+		{
+			var items = Query.SelectItems(xPath, contextItem);
+
+			if (items != null && items.Length > 0)
+			{
+				list.AddRange(items);
+			}
 		}
 	}
 }

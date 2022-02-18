@@ -37,8 +37,8 @@
     <Reference Include="Constellation.Foundation.Data, Version=10.2.0.28920, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Data.10.2.0.28920\lib\net48\Constellation.Foundation.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.ModelMapping, Version=10.2.1.25406, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.ModelMapping.10.2.1.25406\lib\net48\Constellation.Foundation.ModelMapping.dll</HintPath>
+    <Reference Include="Constellation.Foundation.ModelMapping, Version=10.2.3.22209, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.ModelMapping.10.2.3.22209\lib\net48\Constellation.Foundation.ModelMapping.dll</HintPath>
     </Reference>
     <Reference Include="Constellation.Foundation.Mvc, Version=10.2.0.19468, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Mvc.10.2.0.19468\lib\net48\Constellation.Foundation.Mvc.dll</HintPath>
@@ -276,6 +276,7 @@
     <Compile Include="Controllers\AccordionContainerController.cs" />
     <Compile Include="Controllers\ContentRowActionsController.cs" />
     <Compile Include="Controllers\AdditionalContentController.cs" />
+    <Compile Include="Controllers\AccordionTabController.cs" />
     <Compile Include="Controllers\ContentRowController.cs" />
     <Compile Include="Controllers\ContentRowMediaController.cs" />
     <Compile Include="Controllers\VideoRowController.cs" />
@@ -283,6 +284,7 @@
     <Compile Include="Models\AccordionContainerModel.cs" />
     <Compile Include="Models\ContentRowActionsModel.cs" />
     <Compile Include="Models\ContentRowMediaModel.cs" />
+    <Compile Include="Models\AccordionTabModel.cs" />
     <Compile Include="Models\ContentRowModel.cs" />
     <Compile Include="Models\VideoRowModel.cs" />
     <Compile Include="Models\ImageRowModel.cs" />

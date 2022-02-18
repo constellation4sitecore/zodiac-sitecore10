@@ -1,0 +1,35 @@
+---
+ID: "80e259ec-6e6a-4b7a-989b-98b526f791a9"
+Parent: "737dd0d2-1a13-4566-b7f5-41270766dba7"
+Template: "15d28610-4509-47b8-bbe9-2b06f4165127"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-primary-content/accordion/_subcontent/Basic Accordion Tab"
+DB: master
+SharedFields:
+- ID: "a90eaaaa-c484-4566-82fd-a05e7238ff69"
+  Hint: Expanded
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220218T180308Z
+    - ID: "7c4b6efb-f374-4915-936c-b931332c6101"
+      Hint: Heading
+      Value: Basic Accordion Tab
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b7e02a45-09e0-4dff-b1ea-7652771acbda"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220218T190845Z

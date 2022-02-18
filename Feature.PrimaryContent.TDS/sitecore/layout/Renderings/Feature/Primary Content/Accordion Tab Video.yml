@@ -42,7 +42,7 @@ SharedFields:
   Value: "{2E264BCA-1311-4AF3-A6DF-2AFDBF08D063}"
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: ContentSectionMedia
+  Value: ContentRowMedia
 - ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
   Hint: Enable Datasource Query
   Type: Checkbox
@@ -72,11 +72,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3a91064f-ccf8-4acd-bf62-941e6bca5be3"
+      Value: "87e42f3c-dbda-4d62-a93d-076a28484a4e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211228T180348Z
+      Value: 20220218T180849Z

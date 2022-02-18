@@ -39,8 +39,8 @@
     <SitecoreItem Include="sitecore\content.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
     <SitecoreItem Include="sitecore\content\_alerts.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
     <SitecoreItem Include="sitecore\content\_alerts\_active.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
-    <SitecoreItem Include="sitecore\content\_alerts\_active\Test Alert.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\content\_alerts\Alert Archive.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\content\_alerts\Alert Archive\Alert for All Sites.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\content\_labels.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
     <SitecoreItem Include="sitecore\content\_labels\alerts.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
     <SitecoreItem Include="sitecore\content\_labels\alerts\alert-labels.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
@@ -77,6 +77,9 @@
     <SitecoreItem Include="sitecore\templates\Feature\Alerts\Alert\Content\Heading.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Feature\Alerts\Alert\Content\Load Expanded.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Feature\Alerts\Alert\Content\Message.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Alerts\Alert\Exposure Dates.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Alerts\Alert\Exposure Dates\Valid From.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Feature\Alerts\Alert\Exposure Dates\Valid To.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
 </Project>

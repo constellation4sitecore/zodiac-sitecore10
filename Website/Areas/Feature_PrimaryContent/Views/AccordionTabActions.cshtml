@@ -1,8 +1,8 @@
-﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.ContentSectionActionsModel>
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.ContentRowActionsModel>
 
 @{
-	var renderPrimary = !Model.PrimaryLink.Url.IsNullOrEmpty();
-	var renderSecondary = !Model.SecondaryLink.Url.IsNullOrEmpty();
+	var renderPrimary = Model.PrimaryLink?.Url.Length > 0;
+	var renderSecondary = Model.SecondaryLink?.Url.Length > 0;
 }
 
 @if (IsEditing || renderPrimary || renderSecondary)

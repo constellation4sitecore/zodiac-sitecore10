@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: office/32x32/elements_selection.png
+  Value: office/32x32/tab_pane.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Feature/Primary Content/Content Section
@@ -38,7 +38,7 @@ SharedFields:
   Value: Index
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: ContentSection
+  Value: AccordionTab
 - ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
   Hint: Enable Datasource Query
   Type: Checkbox
@@ -68,11 +68,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "69f44bb9-190e-48c2-8d59-2e0ab51e5814"
+      Value: "e0567478-b8cf-4bfc-863b-f48b5ece1f2b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211228T174859Z
+      Value: 20220218T185650Z

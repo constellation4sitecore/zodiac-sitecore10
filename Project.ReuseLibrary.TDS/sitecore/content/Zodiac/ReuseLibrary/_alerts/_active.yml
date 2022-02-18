@@ -1,0 +1,35 @@
+---
+ID: "7a04d653-b9fd-4dd5-a5af-eb10a2dce5d5"
+Parent: "6e2e4d60-2ebf-46df-b8f0-1346495beda3"
+Template: "69c12a70-4892-41c0-a4a7-16e206a12f1c"
+Path: /sitecore/content/Zodiac/ReuseLibrary/_alerts/_active
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/folder_green.png
+- ID: "6fd695e7-7f6d-4ca5-8b49-a829e5950ae9"
+  Hint: __Subitems Sorting
+  Value: "{C1FF011E-B02A-44E3-8444-9FC89CFC28CE}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Active Alerts
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220217T144222Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "91e16820-f691-425e-9188-e33dbf6af88c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220217T145757Z

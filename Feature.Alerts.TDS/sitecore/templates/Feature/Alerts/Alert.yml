@@ -12,6 +12,9 @@ SharedFields:
   Hint: __Base template
   Type: tree list
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{0824DBD9-33E0-456A-8ADF-B7299C068C94}"
@@ -37,11 +40,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "790a695d-6ac5-4633-ad71-a1466b402d49"
+      Value: "b8f7c011-99c6-47f4-b602-2ae2c9f3c646"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211222T172326Z
+      Value: 20220217T192739Z

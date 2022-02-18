@@ -83,8 +83,8 @@
     <Reference Include="Constellation.Foundation.Linking, Version=10.2.0.30228, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Linking.10.2.0.30228\lib\net48\Constellation.Foundation.Linking.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.ModelMapping, Version=10.2.1.25406, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.ModelMapping.10.2.1.25406\lib\net48\Constellation.Foundation.ModelMapping.dll</HintPath>
+    <Reference Include="Constellation.Foundation.ModelMapping, Version=10.2.3.22209, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.ModelMapping.10.2.3.22209\lib\net48\Constellation.Foundation.ModelMapping.dll</HintPath>
     </Reference>
     <Reference Include="Constellation.Foundation.Mvc, Version=10.2.0.19468, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Mvc.10.2.0.19468\lib\net48\Constellation.Foundation.Mvc.dll</HintPath>
@@ -777,7 +777,7 @@
     <Content Include="Areas\Feature_PrimaryContent\Views\ImageRow.cshtml" />
     <Content Include="Areas\Feature_Testimonials\Views\web.config" />
     <Content Include="Areas\Feature_Testimonials\Views\TestimonialCarouselCard.cshtml" />
-    <Content Include="Areas\Feature_Testimonials\Views\TestimonialsCarousel.cshtml" />
+    <Content Include="Areas\Feature_Testimonials\Views\TestimonialCarousel.cshtml" />
     <Content Include="Areas\Feature_Timeline\Views\web.config" />
     <Content Include="Areas\Feature_Timeline\Views\TimelineContainer.cshtml" />
     <Content Include="Areas\Feature_Timeline\Views\TimelineMilestone.cshtml" />

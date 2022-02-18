@@ -6,7 +6,7 @@
 	<div class="content-row__content">
 		<header>
 			<h2 class="content-row__headline">@Model.Heading</h2>
-			@if (IsEditing || !Model.Subheading.ToString().IsNullOrEmpty())
+			@if (IsEditing || Model.Subheading?.ToString().Length > 0)
 			{
 				<h3 class="content-row__subhead">@Model.Subheading</h3>
 			}

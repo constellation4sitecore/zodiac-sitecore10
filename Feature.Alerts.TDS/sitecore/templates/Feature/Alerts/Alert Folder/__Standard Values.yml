@@ -11,6 +11,12 @@ SharedFields:
   Value: |
     {85438301-9BB9-46CC-B9D3-28E3850727FF}
     {69C12A70-4892-41C0-A4A7-16E206A12F1C}
+- ID: "4c9312a5-2e4e-42f8-ab6f-b8db8b82bf22"
+  Hint: __Controller
+  Value: JsonAlertGroup
+- ID: "9fb734cc-8952-4072-a2d4-40f890e16f56"
+  Hint: __Controller Action
+  Value: Index
 Languages:
 - Language: en
   Versions:
@@ -29,11 +35,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fe3e4203-9274-4230-8df7-45b06546f200"
+      Value: "9c629b7c-81a5-4411-b5e0-4e266738e860"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210813T135722Z
+      Value: 20220218T140752Z

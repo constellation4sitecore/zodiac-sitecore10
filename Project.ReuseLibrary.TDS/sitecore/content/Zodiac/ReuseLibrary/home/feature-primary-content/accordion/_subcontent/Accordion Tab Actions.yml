@@ -1,0 +1,24 @@
+---
+ID: "b33fc9fd-15cb-4856-a929-0a34583ac8f7"
+Parent: "737dd0d2-1a13-4566-b7f5-41270766dba7"
+Template: "35f5fe31-f606-445d-b1b0-d9e78362c870"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-primary-content/accordion/_subcontent/Accordion Tab Actions"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220218T184011Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8b911160-a0a4-4e40-a4c3-886234acc24f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220218T184011Z

@@ -43,8 +43,8 @@
     <Reference Include="Constellation.Foundation.Labels, Version=10.2.0.21918, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Labels.10.2.0.21918\lib\net48\Constellation.Foundation.Labels.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Foundation.ModelMapping, Version=10.2.1.25406, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Foundation.ModelMapping.10.2.1.25406\lib\net48\Constellation.Foundation.ModelMapping.dll</HintPath>
+    <Reference Include="Constellation.Foundation.ModelMapping, Version=10.2.3.22209, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Foundation.ModelMapping.10.2.3.22209\lib\net48\Constellation.Foundation.ModelMapping.dll</HintPath>
     </Reference>
     <Reference Include="Constellation.Foundation.Mvc, Version=10.2.0.19468, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Foundation.Mvc.10.2.0.19468\lib\net48\Constellation.Foundation.Mvc.dll</HintPath>
@@ -286,10 +286,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlertRepository.cs" />
+    <Compile Include="Controllers\JsonAlertGroupController.cs" />
     <Compile Include="Controllers\AlertGroupController.cs" />
     <Compile Include="Models\AlertLabels.cs" />
     <Compile Include="Models\AlertModel.cs" />
     <Compile Include="Models\AlertTypeModel.cs" />
+    <Compile Include="Pipelines\HttpRequest\AlertFolderResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SettingNames.cs" />
   </ItemGroup>

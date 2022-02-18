@@ -38,7 +38,7 @@ SharedFields:
   Value: Index
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: ContentSectionActions
+  Value: ContentRowActions
 - ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
   Hint: Enable Datasource Query
   Type: Checkbox
@@ -68,11 +68,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "196a4f9f-c217-4786-ac3a-5605939a1807"
+      Value: "0618eee8-da97-4b2d-9870-0d6dc357b818"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211228T174737Z
+      Value: 20220218T184046Z

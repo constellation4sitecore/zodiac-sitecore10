@@ -1,8 +1,8 @@
 ﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.ContentRowActionsModel>
 
 @{
-	var renderPrimary = !Model.PrimaryLink.Url.IsNullOrEmpty();
-	var renderSecondary = !Model.SecondaryLink.Url.IsNullOrEmpty();
+	var renderPrimary = !string.IsNullOrEmpty(Model.PrimaryLink.Url);
+	var renderSecondary = !string.IsNullOrEmpty(Model.SecondaryLink.Url);
 }
 
 @if (IsEditing || renderPrimary || renderSecondary)
@@ -19,7 +19,7 @@
 		{
 			<a href="@Model.PrimaryLink.Url" title="@Model.PrimaryLink.Title" target="@Model.PrimaryLink.Target" class="btn btn--primary">
 				@Model.PrimaryLink.Text
-			</a>
+			</a> 
 		}
 
 		if (renderSecondary)

@@ -21,21 +21,21 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{7F87CAB9-28EC-4582-B016-3EEEC321A75B}"
-              p:after="p[@uid='{E8952B59-C8C0-47CC-8B38-2CDB6DB7A9D8}']"
-              s:ds="{F62EABF7-BECB-4946-B0F0-CC24A29FE6C6}"
-              s:id="{4B5898A0-53C5-4B07-B8AD-F6EA953D3DA5}"
-              s:ph="/Masthead/MastheadActions-{9283FE17-2A4E-4249-BD47-ECAF94DCA38B}-0" />
-            <r
               uid="{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}">
               <p:d />
             </r>
             <r
               uid="{9283FE17-2A4E-4249-BD47-ECAF94DCA38B}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{3ED5AB8C-A279-4AE5-BDF6-233123D3EAE2}']"
               s:ds="{051B27F2-F96E-4625-BB80-BE5FB17610C9}"
               s:id="{88B66A66-8712-44ED-A98D-0EFCFD48E4AF}"
               s:ph="Masthead" />
+            <r
+              uid="{7F87CAB9-28EC-4582-B016-3EEEC321A75B}"
+              p:after="*[1=2]"
+              s:ds="{F62EABF7-BECB-4946-B0F0-CC24A29FE6C6}"
+              s:id="{4B5898A0-53C5-4B07-B8AD-F6EA953D3DA5}"
+              s:ph="/Masthead/MastheadActions-{9283FE17-2A4E-4249-BD47-ECAF94DCA38B}-0" />
           </d>
         </r>
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
@@ -49,7 +49,7 @@ Languages:
       Value: Masthead with Background Image Right
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "953881ac-5250-4f7e-94dc-2c711dea9366"
+      Value: "b3b032b5-88b0-4778-948b-5e7defc68562"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Masthead with Background Image Right
@@ -59,4 +59,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220204T171927Z
+      Value: 20220204T184848Z

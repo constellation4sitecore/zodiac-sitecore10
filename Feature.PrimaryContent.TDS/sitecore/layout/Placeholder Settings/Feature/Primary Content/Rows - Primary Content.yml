@@ -1,8 +1,8 @@
 ---
-ID: "d4be4dcb-2c4c-469c-b822-4507e9c82336"
-Parent: "10172255-6dfd-42c9-8e56-6df1a665f065"
+ID: "af31a2f9-bede-4f5c-a437-e0db2267d284"
+Parent: "63450743-4a82-4864-9923-644c2ecf8752"
 Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
-Path: /sitecore/layout/Placeholder Settings/Feature/Related Content/Rows
+Path: "/sitecore/layout/Placeholder Settings/Feature/Primary Content/Rows - Primary Content"
 DB: master
 SharedFields:
 - ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
@@ -12,10 +12,12 @@ SharedFields:
   Hint: Allowed Controls
   Type: TreelistEx
   Value: |
-    {6125E39C-EAF4-41D7-8ED5-83FF6D38679B}
-    {B20DE485-5F17-442D-A0E2-66B55E2FEE17}
-    {0A7DB0F3-9708-490C-8C14-902838E4C434}
-    {B4044B63-B762-4792-894E-CFB8362B0BDD}
+    {A0B73393-DF6C-4E42-831F-CFDAB6FBC320}
+    {84A46E07-1413-4F15-B36E-0E933E7A3D4B}
+    {ECDFED8A-5C4C-49F9-AF52-2CF84AE0D60C}
+    {F5FCD8AB-EF52-4010-AEFF-20C0C869209E}
+    {A37DF9B3-E9F8-4395-A38F-62F83FDC045B}
+    {2AB83B5A-D513-4948-A4ED-D9FB74B57F1D}
 Languages:
 - Language: en
   Versions:
@@ -23,7 +25,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211227T173344Z
+      Value: 20211228T140235Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -34,11 +36,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6f0ea6b7-b29d-431e-af91-636aee163822"
+      Value: "230985db-c5a7-474f-92d4-3ee7fb0a22f7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211230T194328Z
+      Value: 20220204T183953Z

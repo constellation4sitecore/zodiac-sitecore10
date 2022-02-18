@@ -1,7 +1,17 @@
 ﻿@using Sitecore.Mvc
-@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.ContentSectionModel>
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.AccordionTabModel>
+@{
+	var expanded = "false";
+
+	if (Model.Expanded)
+	{
+		expanded = "true";
+	}
+
+}
+
 <article class="accordion__item">
-	<button class="accordion__item-trigger" aria-expanded="true">
+	<button class="accordion__item-trigger" aria-expanded="@expanded">
 		<h3>@Model.Heading</h3>
 		<span class="accordion__item-icon">
 			<svg viewBox="0 0 14 2" class="accordion__item-icon-minus">

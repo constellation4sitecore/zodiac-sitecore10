@@ -9,6 +9,79 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{6E66ACD5-C6F9-4BD8-BAA6-31CB0CA6BC27}"
+              p:after="p[@uid='{3C73BCD4-85D5-4ECF-97BE-596F8B29C0E7}']"
+              s:ds="{D5F6AE72-9411-437E-B65E-7463B1047227}"
+              s:id="{437D65D6-2C2F-45AC-AE09-BF277D170F48}"
+              s:ph="/Rows/AccordionTabs-{ACE2147C-809B-4ACC-9D09-3810C8CDE202}-0/AccordionTabContent-{2C702ED2-A2BB-4702-AC7D-FC42341845E7}-0" />
+            <r
+              uid="{4F319A89-69F8-4BED-949E-D2376EA14118}"
+              p:after="r[@uid='{6E66ACD5-C6F9-4BD8-BAA6-31CB0CA6BC27}']"
+              s:ds="{B33FC9FD-15CB-4856-A929-0A34583AC8F7}"
+              s:id="{7AEB62CA-2B8D-43BF-9391-72836227E1B5}"
+              s:ph="/Rows/AccordionTabs-{ACE2147C-809B-4ACC-9D09-3810C8CDE202}-0/AccordionTabContent-{F1873FDA-0357-4559-A02B-653D11C30C5E}-0" />
+            <r
+              uid="{03E87631-B59F-46A1-B90D-9F2BEE01B471}"
+              p:after="r[@uid='{4F319A89-69F8-4BED-949E-D2376EA14118}']"
+              s:ds="{32D8E495-C21F-462D-82C7-F8486AE9C986}"
+              s:id="{5BD63520-9D7D-4F3F-9B61-02B472A3F7CD}"
+              s:ph="/Rows/AccordionTabs-{ACE2147C-809B-4ACC-9D09-3810C8CDE202}-0/AccordionTabContent-{6758CA04-5488-4A03-BCB4-A0A148DF495B}-0" />
+            <r
+              uid="{D5D41ED0-9DD0-4C45-9DB2-9832DAA98BA4}"
+              p:after="r[@uid='{03E87631-B59F-46A1-B90D-9F2BEE01B471}']"
+              s:ds="{4EA63BC3-9EBC-47E5-A868-39BF1676869E}"
+              s:id="{2E264BCA-1311-4AF3-A6DF-2AFDBF08D063}"
+              s:ph="/Rows/AccordionTabs-{ACE2147C-809B-4ACC-9D09-3810C8CDE202}-0/AccordionTabContent-{F01E3865-B4D2-4A8E-B2C5-061512B1CD29}-0" />
+            <r
+              uid="{C1ED103C-612E-4B85-9C52-D76F245BF35C}"
+              p:after="r[@uid='{D5D41ED0-9DD0-4C45-9DB2-9832DAA98BA4}']"
+              s:ds="{80E259EC-6E6A-4B7A-989B-98B526F791A9}"
+              s:id="{B93DC0FB-1553-473A-A321-931BDCA02F5B}"
+              s:ph="/Rows/AccordionTabs-{ACE2147C-809B-4ACC-9D09-3810C8CDE202}-0" />
+            <r
+              uid="{F01E3865-B4D2-4A8E-B2C5-061512B1CD29}"
+              p:after="r[@uid='{C1ED103C-612E-4B85-9C52-D76F245BF35C}']"
+              s:ds="{33F977A8-EA4A-4D5E-AD4F-C73EB7ED3E1E}"
+              s:id="{B93DC0FB-1553-473A-A321-931BDCA02F5B}"
+              s:ph="/Rows/AccordionTabs-{ACE2147C-809B-4ACC-9D09-3810C8CDE202}-0" />
+            <r
+              uid="{6758CA04-5488-4A03-BCB4-A0A148DF495B}"
+              p:after="r[@uid='{F01E3865-B4D2-4A8E-B2C5-061512B1CD29}']"
+              s:ds="{503334F9-6E5C-479A-8F83-31F853A97CA1}"
+              s:id="{B93DC0FB-1553-473A-A321-931BDCA02F5B}"
+              s:ph="/Rows/AccordionTabs-{ACE2147C-809B-4ACC-9D09-3810C8CDE202}-0" />
+            <r
+              uid="{F1873FDA-0357-4559-A02B-653D11C30C5E}"
+              p:after="r[@uid='{6758CA04-5488-4A03-BCB4-A0A148DF495B}']"
+              s:ds="{E3304396-E0AE-446B-80FA-796C732090CB}"
+              s:id="{B93DC0FB-1553-473A-A321-931BDCA02F5B}"
+              s:ph="/Rows/AccordionTabs-{ACE2147C-809B-4ACC-9D09-3810C8CDE202}-0" />
+            <r
+              uid="{2C702ED2-A2BB-4702-AC7D-FC42341845E7}"
+              p:after="r[@uid='{F1873FDA-0357-4559-A02B-653D11C30C5E}']"
+              s:ds="{D31E8313-DC21-4615-A03B-70BE324B983F}"
+              s:id="{B93DC0FB-1553-473A-A321-931BDCA02F5B}"
+              s:ph="/Rows/AccordionTabs-{ACE2147C-809B-4ACC-9D09-3810C8CDE202}-0" />
+            <r
+              uid="{ACE2147C-809B-4ACC-9D09-3810C8CDE202}"
+              p:after="r[@uid='{2C702ED2-A2BB-4702-AC7D-FC42341845E7}']"
+              s:ds="{8F63936B-10D9-4CF4-A5B0-2A63651C89BE}"
+              s:id="{A0B73393-DF6C-4E42-831F-CFDAB6FBC320}"
+              s:ph="Rows" />
+          </d>
+        </r>
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
       Hint: Browser Title
       Value: Accordion
@@ -20,7 +93,7 @@ Languages:
       Value: Accordion
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "40c76c86-1bb3-4d18-aad1-1937846c277f"
+      Value: "5bcd33dc-66d7-4139-b25c-0fef663d19fa"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Accordion
@@ -30,4 +103,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220119T183549Z
+      Value: 20220218T184705Z

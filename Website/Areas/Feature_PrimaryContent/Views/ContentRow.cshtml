@@ -3,6 +3,10 @@
 
 <section class="content-section-row container">
 	<h2 class='content-section-row__heading'>@Model.Heading</h2>
+	@if (IsEditing || Model.Subheading?.ToString().Length > 0)
+	{
+		<h3 class="content-row__subhead">@Model.Subheading</h3>
+	}
 	<div class='content-section-row__rtf'>@Model.Copy</div>
 	@Html.Sitecore().DynamicPlaceholder("ContentRowActions")
 </section>

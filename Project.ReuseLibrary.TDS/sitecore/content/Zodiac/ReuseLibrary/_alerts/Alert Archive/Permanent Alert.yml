@@ -1,0 +1,36 @@
+---
+ID: "f9614c6d-2f28-4881-8671-a8fc6bd12022"
+Parent: "28baaedb-cb96-4d5e-9222-5caa33343930"
+Template: "85438301-9bb9-46cc-b9d3-28e3850727ff"
+Path: /sitecore/content/Zodiac/ReuseLibrary/_alerts/Alert Archive/Permanent Alert
+DB: master
+SharedFields:
+- ID: "61c81a4e-4b0a-4f81-863a-a0cf54062094"
+  Hint: Load Expanded
+  Type: Checkbox
+  Value: 1
+- ID: "a17aa4ba-01d1-4ee0-b4c3-6eafc4a2ee19"
+  Hint: Can Be Dismissed
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220217T144521Z
+    - ID: "45e4a1e7-02de-4fd3-a02b-f527e0b713d9"
+      Hint: Heading
+      Value: Permanent Alert
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a408da59-1805-4f4a-a683-c8efbab52bcb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220217T190622Z

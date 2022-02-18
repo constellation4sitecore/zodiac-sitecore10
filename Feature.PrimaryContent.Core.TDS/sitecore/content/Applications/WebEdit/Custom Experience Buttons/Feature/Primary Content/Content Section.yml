@@ -13,7 +13,7 @@ SharedFields:
   Value: office/32x32/edit.png
 - ID: "cf738220-908d-4c3f-9482-32e625daf13c"
   Hint: Fields
-  Value: Heading|Intro Text|Copy|Section Image|Video ID|Video Provider|Primary Link|Secondary Link
+  Value: Heading|Intro Text|Copy|Section Image|Video ID|Video Provider|Primary Link|Secondary Link|Expanded
 Languages:
 - Language: en
   Fields:
@@ -39,11 +39,11 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "84f8adb4-7cac-4a53-838a-672d2ea44ab3"
+      Value: "7902ef3f-d9e4-467f-9543-7d2c6808c1fe"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211228T170812Z
+      Value: 20220218T185821Z

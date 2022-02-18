@@ -22,7 +22,7 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{58ECEE50-3E41-4E65-870B-DE24F35444E7}"
-              p:after="p[@uid='{E8952B59-C8C0-47CC-8B38-2CDB6DB7A9D8}']"
+              p:after="*[1=2]"
               s:ds="{8ED95B8B-5279-4047-BCE9-82324BEBE701}"
               s:id="{4B5898A0-53C5-4B07-B8AD-F6EA953D3DA5}"
               s:ph="/Masthead/MastheadActions-{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}-0" />
@@ -39,7 +39,7 @@ Languages:
       Value: Simple Masthead
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0a1f6525-a78b-4069-8770-4d0a07833e0e"
+      Value: "48b46e5d-c79c-4af5-9bb9-afdbef5934c9"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Simple Masthead
@@ -49,4 +49,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220204T171926Z
+      Value: 20220204T184847Z

@@ -1,0 +1,33 @@
+---
+ID: "d7cd6ca7-b29b-4c64-ba3f-9db0f0bdaf49"
+Parent: "49218935-0552-459a-bab1-8feb2eeceb5c"
+Template: "ccc93eeb-3bdd-4088-b804-3458f4b46b69"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-alerts"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
+      Hint: Browser Title
+      Value: "feature-alerts"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220217T144113Z
+    - ID: "79cdbca6-5485-4d4e-a163-6a1681d61c85"
+      Hint: Heading
+      Value: "feature-alerts"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2a22c155-90e1-4bad-b0ac-bf08c9e399e4"
+    - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
+      Hint: Navigation Title
+      Value: "feature-alerts"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220217T144113Z

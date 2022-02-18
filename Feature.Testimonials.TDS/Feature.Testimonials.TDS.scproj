@@ -42,6 +42,7 @@
     <SitecoreItem Include="sitecore\layout\Placeholder Settings.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
     <SitecoreItem Include="sitecore\layout\Placeholder Settings\Feature.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
     <SitecoreItem Include="sitecore\layout\Placeholder Settings\Feature\Testimonials.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Placeholder Settings\Feature\Testimonials\Rows - Testimonials.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\layout\Placeholder Settings\Feature\Testimonials\TestimonialCarouselCards.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
     <SitecoreItem Include="sitecore\layout\Renderings.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
     <SitecoreItem Include="sitecore\layout\Renderings\Feature.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>

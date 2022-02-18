@@ -21,21 +21,21 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{51067B25-F847-4241-B74D-516FE798CF11}"
-              p:after="p[@uid='{E8952B59-C8C0-47CC-8B38-2CDB6DB7A9D8}']"
-              s:ds="{43C0D560-5098-4F74-A8E3-C3FFC38CCFBA}"
-              s:id="{4B5898A0-53C5-4B07-B8AD-F6EA953D3DA5}"
-              s:ph="/Masthead/MastheadActions-{20623C05-63FE-41CB-8557-2D4A6CD14CA0}-0" />
-            <r
               uid="{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}">
               <p:d />
             </r>
             <r
               uid="{20623C05-63FE-41CB-8557-2D4A6CD14CA0}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{3ED5AB8C-A279-4AE5-BDF6-233123D3EAE2}']"
               s:ds="{76E65D3E-769D-4815-8B07-1A5689E8D7F2}"
               s:id="{EE2F1FE1-A378-48DF-8FE0-B7AABE23A69C}"
               s:ph="Masthead" />
+            <r
+              uid="{51067B25-F847-4241-B74D-516FE798CF11}"
+              p:after="*[1=2]"
+              s:ds="{43C0D560-5098-4F74-A8E3-C3FFC38CCFBA}"
+              s:id="{4B5898A0-53C5-4B07-B8AD-F6EA953D3DA5}"
+              s:ph="/Masthead/MastheadActions-{20623C05-63FE-41CB-8557-2D4A6CD14CA0}-0" />
           </d>
         </r>
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
@@ -49,7 +49,7 @@ Languages:
       Value: Masthead with Background YouTube Video Centered
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3e7b21ab-9880-42d9-ba37-238c056b54a2"
+      Value: "99e3ac6c-860e-4a9d-a14e-098ad7a603d4"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Masthead with Background YouTube Video Centered
@@ -59,4 +59,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220204T171927Z
+      Value: 20220204T184848Z

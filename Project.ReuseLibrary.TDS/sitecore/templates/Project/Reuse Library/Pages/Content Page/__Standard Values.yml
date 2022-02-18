@@ -30,10 +30,6 @@ SharedFields:
           key="MastheadActions"
           md="{DFDD2596-7DDB-4F2F-8BB1-6309FC0D85A0}" />
         <p
-          uid="{0D5486D7-2F6D-4D06-80EF-E3F2970B1C65}"
-          key="Rows"
-          md="{AF31A2F9-BEDE-4F5C-A437-E0DB2267D284}" />
-        <p
           uid="{D222364F-1ABF-45C5-A4E0-C5313BE7B45C}"
           key="ContentRowActions"
           md="{F44A148B-25CD-45F3-9DF9-C3526F1B0E00}" />
@@ -41,6 +37,14 @@ SharedFields:
           uid="{E8952B59-C8C0-47CC-8B38-2CDB6DB7A9D8}"
           key="ContentRowMedia"
           md="{676DF51F-0F5B-4082-BCA0-EDBEA6FD15BF}" />
+        <p
+          uid="{3C73BCD4-85D5-4ECF-97BE-596F8B29C0E7}"
+          key="Rows"
+          md="{E3BAD401-401E-4AEE-B36C-DAD8D56D9CC4}" />
+        <r
+          id="{A748D2D1-ADE6-464A-A8C5-A49DB19AD739}"
+          ph="Alerts"
+          uid="{1CCCE395-F757-46F3-8E79-D786F3784A5B}" />
         <r
           ds=""
           id="{F8BA9590-97EB-4E99-8EC4-80AB6D3A34C6}"
@@ -64,11 +68,11 @@ Languages:
       Value: 20220119T170534Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bfc07d49-87c7-4b7a-89b6-97432dc8f2b8"
+      Value: "f5952d24-12d4-46b4-a6cd-18a707c0613b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220204T172904Z
+      Value: 20220217T144809Z
