@@ -1,9 +1,11 @@
 ﻿using Constellation.Foundation.ModelMapping.FieldModels;
 using Sitecore.Data;
+using System;
 using System.Web;
 
 namespace Feature.Content.Models
 {
+	[Obsolete("Use Feature.PrimaryContent.Models.ContentRowMediaModel instead.")]
 	public class ImageWithCaptionModel
 	{
 		public ID ID { get; set; }

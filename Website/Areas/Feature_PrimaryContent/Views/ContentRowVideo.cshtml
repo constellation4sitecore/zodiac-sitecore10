@@ -1,12 +1,24 @@
 ﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.ContentRowMediaModel>
-	
-<div class="video" data-module="@Model.VideoProvider.ProviderID" data-video-id="@Model.VideoID">
-	<div class="video__background"></div>
-	<picture class="video__poster">
-		<source media="(max-width: 767px)" srcset="@Model.SectionImage.GetCustomWidthImageSrc(767)">
-		<source media="(max-width: 1279px)" srcset="@Model.SectionImage.GetCustomWidthImageSrc(1279)">
-		<img src="@Model.SectionImage.GetCustomWidthImageSrc(760)" alt="@Model.SectionImage.Alt" loading="lazy">
-	</picture>
-	<svg viewBox="0 0 495 495"><use xlink:href="#play"/></svg>
-	<script src="https://player.vimeo.com/api/player.js"></script>
-</div>
+
+@if (IsEditing || (!string.IsNullOrEmpty(Model.VideoID) && !string.IsNullOrEmpty(Model.VideoProvider?.ProviderID)))
+{
+	if (IsEditing && string.IsNullOrEmpty(Model.VideoID))
+	{
+		<div class="video"><p>No video specified for playback. Please use the Edit button on the floating toolbar to specify a video.</p></div>
+	}
+	else
+	{
+		<figure class="video" data-module="video" data-video-player="@Model.VideoProvider.ProviderID" data-video-id="@Model.VideoID" data-video-auto-play="false">
+			<div class="video__background">
+			</div>
+			<picture class="video__poster">
+				<source media="(max-width: 767px)" srcset="@Model.SectionImage.GetCustomWidthImageSrc(767)">
+				<source media="(max-width: 1279px)" srcset="@Model.SectionImage.GetCustomWidthImageSrc(1279)">
+				<img src="@Model.SectionImage.GetCustomWidthImageSrc(790)" alt="@Model.SectionImage.Alt" loading="lazy">
+			</picture>
+			<svg viewBox="0 0 495 495" class="video_svg">
+				<use xlink:href="#play" />
+			</svg>
+		</figure>
+	}
+}
