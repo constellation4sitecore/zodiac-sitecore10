@@ -1,0 +1,24 @@
+---
+ID: "9f29053e-1e66-40e1-9e87-8612d4a336df"
+Parent: "b006efe5-b03b-4126-8204-cd9e33502d96"
+Template: "b23d8dcd-3c00-4315-9965-975b9f2e9173"
+Path: "/sitecore/content/_labels/videos/video-labels"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T190428Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a6bedd0-5b0c-405d-92db-f484bcb8a3a5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T192145Z

@@ -1,0 +1,58 @@
+---
+ID: "bb03a25d-586c-4a9b-9a8a-ade67409724f"
+Parent: "8c131e80-d71b-42f7-b748-f8411cfd2350"
+Template: "ccc93eeb-3bdd-4088-b804-3458f4b46b69"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-primary-content/content-row-with-video-left"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{6B328F92-7857-4DAA-B9BC-29C4773F6D7A}"
+              p:after="p[@uid='{3C73BCD4-85D5-4ECF-97BE-596F8B29C0E7}']"
+              s:ds="{9535BC0F-3F94-4973-99F6-F324CB870372}"
+              s:id="{008B4FB9-B1F0-4F29-920D-9E471232F0D6}"
+              s:ph="/Rows/ContentRowMedia-{DAB88D55-7C18-4930-8E75-7CB434B5A83C}-0" />
+            <r
+              uid="{DAB88D55-7C18-4930-8E75-7CB434B5A83C}"
+              p:after="r[@uid='{6B328F92-7857-4DAA-B9BC-29C4773F6D7A}']"
+              s:ds="{774658D5-FFCA-4DC2-AC49-1A235EEBADE4}"
+              s:id="{ECDFED8A-5C4C-49F9-AF52-2CF84AE0D60C}"
+              s:ph="Rows" />
+          </d>
+        </r>
+    - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
+      Hint: Browser Title
+      Value: Content Row with Video Left
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T173438Z
+    - ID: "79cdbca6-5485-4d4e-a163-6a1681d61c85"
+      Hint: Heading
+      Value: Content Row with Video Left
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e0cebff5-6acd-4523-aa98-3cd62fc5ca43"
+    - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
+      Hint: Navigation Title
+      Value: Content Row with Video Left
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T173512Z

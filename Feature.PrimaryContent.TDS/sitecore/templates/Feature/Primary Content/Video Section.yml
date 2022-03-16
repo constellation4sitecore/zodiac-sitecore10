@@ -14,7 +14,7 @@ SharedFields:
   Value: "{43160509-4185-4DFF-9CA9-7862AE31E4F8}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: 
+  Value: "{79A1190C-D3B0-4137-B232-74F9AB45ECC8}"
 Languages:
 - Language: en
   Versions:
@@ -33,11 +33,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c4f0aa33-3035-491e-87d9-10f208eca43d"
+      Value: "4830888e-9103-4d62-8fab-949d624f9c76"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211229T182232Z
+      Value: 20220307T175820Z

@@ -1,5 +1,5 @@
 ---
-ID: "240c8b61-3e1a-4d4d-9fe3-6c4f15ca92fe"
+ID: "79a1190c-d3b0-4137-b232-74f9ab45ecc8"
 Parent: "3af58655-f5eb-41f0-b20c-91a099fe30fd"
 Template: "3af58655-f5eb-41f0-b20c-91a099fe30fd"
 Path: /sitecore/templates/Feature/Primary Content/Video Section/__Standard Values
@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211229T181922Z
+      Value: 20220307T175820Z
     - ID: "35d6ac75-9db8-46bd-be8e-013a6c66a43f"
       Hint: Caption
       Value: Vestibulum sollicitudin egestas ante id porttitor. Ut auctor nisl non risus congue commodo. Pellentesque non viverra enim, id lacinia diam.
@@ -23,16 +23,26 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\rcabral
+    - ID: "7ff3e129-f361-4bf1-9c31-b58112f3aaa0"
+      Hint: Video Provider
+      Value: "{9C42F121-301E-4EBA-90F9-2728440DFBD5}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "678db941-8861-4a50-b0c9-e11e7d93941f"
+      Value: "3f62b744-d253-4e93-b7bc-a296bbd30e68"
+    - ID: "aa89805d-2b78-412d-9742-29235d0ce020"
+      Hint: Section Image
+      Value: |
+        <image mediaid="{84EAF4D7-59B1-4C89-B98A-D8DDAD87F10B}" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211229T182023Z
+      Value: 20220308T140919Z
     - ID: "ec374585-f2ef-4ecb-9496-24de7fdc4851"
       Hint: Heading
       Value: $name
+    - ID: "fd91c4bb-879a-4268-b2fd-23b69dca062f"
+      Hint: Video ID
+      Value: 430133542

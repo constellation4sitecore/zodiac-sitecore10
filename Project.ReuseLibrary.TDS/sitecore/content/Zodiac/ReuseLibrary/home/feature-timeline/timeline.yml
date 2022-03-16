@@ -1,0 +1,52 @@
+---
+ID: "173cd7ef-cd80-4aae-90df-ad18d3fd9e3a"
+Parent: "d5b03746-069d-40f1-827d-a6978451ca2b"
+Template: "ccc93eeb-3bdd-4088-b804-3458f4b46b69"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-timeline/timeline"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{A3564A79-B4B2-423D-82D4-BAEBF520C2D0}"
+              p:after="p[@uid='{3C73BCD4-85D5-4ECF-97BE-596F8B29C0E7}']"
+              s:ds="{E73AB7E7-9482-4BEF-9FEB-4B2B57751EDA}"
+              s:id="{E563070E-C32D-49DF-AB59-BC6688338CFB}"
+              s:ph="Rows" />
+          </d>
+        </r>
+    - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
+      Hint: Browser Title
+      Value: Timeline
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220316T133207Z
+    - ID: "79cdbca6-5485-4d4e-a163-6a1681d61c85"
+      Hint: Heading
+      Value: Timeline
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d9723b83-fc91-4143-9a03-24a1be063a64"
+    - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
+      Hint: Navigation Title
+      Value: Timeline
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220316T133317Z

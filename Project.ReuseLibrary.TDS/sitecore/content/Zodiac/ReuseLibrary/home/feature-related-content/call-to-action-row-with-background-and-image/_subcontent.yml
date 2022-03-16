@@ -1,0 +1,24 @@
+---
+ID: "6f8b1ee5-f67e-443e-96ef-68ea0190833d"
+Parent: "01d19767-4bb9-4a89-b407-9b0ac64d12c2"
+Template: "3c8f34cc-2c10-4c2d-b7cc-74ca2f4fb341"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-related-content/call-to-action-row-with-background-and-image/_subcontent"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220316T133956Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c1c5f74-42de-4c71-a600-6e28173d1e4e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220316T133956Z

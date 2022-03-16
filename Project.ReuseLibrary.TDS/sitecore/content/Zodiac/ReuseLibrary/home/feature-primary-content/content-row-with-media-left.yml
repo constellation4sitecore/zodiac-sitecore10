@@ -21,8 +21,14 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{4EED4A27-67EC-4E90-A7CE-2AD0DA6B027C}"
+              uid="{4D7F9298-8770-400D-8087-2138DD28E9E3}"
               p:after="p[@uid='{3C73BCD4-85D5-4ECF-97BE-596F8B29C0E7}']"
+              s:ds="{C20C01AE-E58D-4C20-907F-E98B24AB9023}"
+              s:id="{FABB2C61-B456-40F7-A111-E0AC01CFBC22}"
+              s:ph="/Rows/ContentRowMedia-{B6549CDF-DFCD-4D7A-8E0F-60D1DB3CDA71}-0" />
+            <r
+              uid="{4EED4A27-67EC-4E90-A7CE-2AD0DA6B027C}"
+              p:after="r[@uid='{4D7F9298-8770-400D-8087-2138DD28E9E3}']"
               s:ds="{D5F98737-D29D-41B3-B62C-302F65B5C0E6}"
               s:id="{5E479D85-CF7A-4E9A-92B0-A496E60D6830}"
               s:ph="/Rows/ContentRowActions-{B6549CDF-DFCD-4D7A-8E0F-60D1DB3CDA71}-0" />
@@ -45,7 +51,7 @@ Languages:
       Value: Content Row with Media Left
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "011097f5-1454-401a-b5e4-c5d03797604c"
+      Value: "5d138b8d-0ea1-40eb-8ca8-2d02691ae9a4"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Content Row with Media Left
@@ -55,4 +61,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220218T174526Z
+      Value: 20220307T171536Z

@@ -1,0 +1,46 @@
+---
+ID: "58cb08c9-34b3-403e-b11b-09effb32faa5"
+Parent: "b23d8dcd-3c00-4315-9965-975b9f2e9173"
+Template: "b23d8dcd-3c00-4315-9965-975b9f2e9173"
+Path: /sitecore/templates/Foundation/Videos/Video Labels/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "31a2c0c7-a283-48b7-b961-06a7b7d91a7f"
+    Hint: Pause
+    Value: Pause
+  - ID: "417d3338-f2fa-4d08-a519-aab5bbc2cb48"
+    Hint: Forward
+    Value: Forward
+  - ID: "42c1edac-d823-4b14-adce-d69f154d4703"
+    Hint: Play Video
+    Value: Play Video
+  - ID: "46cba28a-cb71-48d1-97b0-7448e981f5e4"
+    Hint: Transcript
+    Value: Transcript
+  - ID: "54e960ac-ed2e-40f0-bd47-b04e40b2af98"
+    Hint: Reverse
+    Value: Reverse
+  - ID: "5f1105df-520d-483d-858e-30affd4bb240"
+    Hint: Play
+    Value: Play
+  - ID: "7c407db5-ec37-4334-b185-79ddc726e975"
+    Hint: Stop
+    Value: Stop
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T190326Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dd4bb069-cc20-48d4-a9d0-64c5d69b7cd8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T190344Z

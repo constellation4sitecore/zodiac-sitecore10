@@ -2,13 +2,8 @@
 @inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Mastheads.Models.MastheadModel>
 
 @{
-	string position;
-	if (this.ViewData["position"] == null)
-	{
-		position = "left";
-
-	}
-	else
+	var position = "left";
+	if (this.ViewData["position"] != null)
 	{
 		position = this.ViewData["position"].ToString();
 	}

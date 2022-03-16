@@ -2,7 +2,7 @@
 @using Sitecore.StringExtensions
 @inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.ContentRowModel>
 <section class="content-row content-row--media-align-right ">
-	<div class="content-row__media">@Html.Sitecore().DynamicPlaceholder("ContentSectionMedia")</div>
+	<div class="content-row__media">@Html.Sitecore().DynamicPlaceholder("ContentRowMedia")</div>
 	<div class="content-row__content">
 		<header>
 			<h2 class="content-row__headline">@Model.Heading</h2>

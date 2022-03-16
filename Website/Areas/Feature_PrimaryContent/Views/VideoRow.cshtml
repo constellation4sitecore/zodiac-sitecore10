@@ -1,25 +1,54 @@
-﻿@using Sitecore.Mvc
-@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.PrimaryContent.Models.VideoRowModel>
+﻿@inherits Constellation.Foundation.Labels.EditorCompatibleView<Feature.PrimaryContent.Models.VideoRowModel, Foundation.Videos.Models.VideoLabels>
 
-@if (IsEditing || (!string.IsNullOrEmpty(Model.VideoID) && !string.IsNullOrEmpty(Model.VideoProvider?.ProviderID)))
+@if (IsEditing || (Model.VideoProvider != null && !string.IsNullOrEmpty(Model.VideoID)))
 {
-	if (IsEditing && string.IsNullOrEmpty(Model.VideoID))
-	{
-		<div class="video"><p>No video specified for playback. Please use the Edit button on the floating toolbar to specify a video.</p></div>
-	}
-	else
-	{
-		<figure class="video" data-module="video" data-video-player="@Model.VideoProvider.ProviderID" data-video-id="@Model.VideoID" data-video-auto-play="false">
-			<div class="video__background">
+	<section class="full-width-video" aria-labelledby="fullWidthVideoHeading" data-module="fullWidthVideo">
+		@if (IsEditing && (string.IsNullOrEmpty(Model.VideoID) || Model.VideoProvider == null))
+		{
+			<div class="video">
+				@if (string.IsNullOrEmpty(Model.VideoID))
+				{
+					<p>No video specified for playback. Please use the Edit button on the floating toolbar to supply a video ID.</p>
+				}
+				@if (Model.VideoProvider == null)
+				{
+					<p>No video provider selected. Please use the Edit button on the floating toolbar to specify a video provider.</p>
+				}
 			</div>
-			<picture class="video__poster">
-				<source media="(max-width: 767px)" srcset="@Model.SectionImage.GetCustomWidthImageSrc(767)">
-				<source media="(max-width: 1279px)" srcset="@Model.SectionImage.GetCustomWidthImageSrc(1279)">
-				<img src="@Model.SectionImage.GetCustomWidthImageSrc(790)" alt="@Model.SectionImage.Alt" loading="lazy">
-			</picture>
-			<svg viewBox="0 0 495 495" class="video_svg">
-				<use xlink:href="#play" />
-			</svg>
-		</figure>
-	}
+		}
+		else
+		{
+			<figure class="full-width-video__wrapper">
+				<div class="video" data-module="video" data-video-player="youtube" data-video-id="DSLgAsrcpGQ" data-video-auto-play="false">
+					<div class="video__background">
+					</div>
+
+					@if (!string.IsNullOrEmpty(Model.SectionImage.Src))
+					{
+						<picture class="video__poster">
+							<source media="(max-width: 767px)" srcset="@Model.SectionImage.GetCustomWidthImageSrc(767)">
+							<source media="(max-width: 1279px)" srcset="@Model.SectionImage.GetCustomWidthImageSrc(1279)">
+							<img src="@Model.SectionImage.GetCustomWidthImageSrc(790)" alt="@Model.SectionImage.Alt" loading="lazy">
+						</picture>
+					}
+					<svg viewBox="0 0 495 495" class="video_svg">
+						<use xlink:href="#play" />
+					</svg>
+				</div>
+				<div class="full-width-video__overlay">
+					<button class="full-width-video__play-button">
+						<svg aria-label="@Labels.PlayVideo">
+							<use xlink:href="#play-outline" />
+						</svg>
+					</button>
+					<h2 class="full-width-video__heading" id="fullWidthVideoHeading">
+						@Model.Heading
+					</h2>
+				</div>
+			</figure>
+			<div class="full-width-video__caption rtf">
+				@Model.Caption
+			</div>
+		}
+	</section>
 }

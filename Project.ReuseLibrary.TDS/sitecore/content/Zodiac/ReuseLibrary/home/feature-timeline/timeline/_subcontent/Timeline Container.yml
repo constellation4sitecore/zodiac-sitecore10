@@ -1,0 +1,27 @@
+---
+ID: "e73ab7e7-9482-4bef-9feb-4b2b57751eda"
+Parent: "dc53a6bb-6045-4fb3-b5b4-a982bc14be3b"
+Template: "3be33e86-cef8-40fe-934b-c2d337b1558c"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-timeline/timeline/_subcontent/Timeline Container"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220316T133312Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "abf75a70-32e4-47d2-be97-066f0982d726"
+    - ID: "acd906e1-93be-4fc6-bcbf-40d12519aa2a"
+      Hint: Heading
+      Value: Timeline Container
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220316T133312Z

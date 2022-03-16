@@ -1,4 +1,27 @@
-﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.RelatedContent.Models.CallToActionModel>
+﻿@using Sitecore.StringExtensions
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.RelatedContent.Models.CallToActionModel>
+
+@{
+
+/*
+ *  the variables here must be true by default because this View can be referenced directly by a Rendering called
+ *  "Call to Action with Background and Image", therefore by default it should display the Background and the Image.
+ *  only when referenced by a different view should these parameters be successfully read from ViewData.
+ *
+ *  It's counter-intuitive, but the default value of true is only set if the read from ViewData fails.
+ */
+
+	if (!bool.TryParse(this.ViewData["hasBackground"]?.ToString(), out bool hasBackground))
+	{
+		hasBackground = true;
+	}
+
+	if (!bool.TryParse(this.ViewData["hasImage"]?.ToString(), out bool hasImage))
+	{
+		hasImage = true;
+	}
+}
+
 <aside class="cta-row cta-row--with-background container">
 	<div class="cta-row__inner">
 		<div class="cta-row__content">
@@ -6,15 +29,21 @@
 			<div class="cta-row__description rtf">"@Model.Copy</div>
 			<a href="@Model.Link.Url" target="@Model.Link.Target" title="@Model.Link.Title" class="btn btn--primary">@Model.Link.Text</a>
 		</div>
-		<picture class="cta-row__image">
-			<source media="(max-width: 767px)" srcset="@Model.ThumbnailImage.GetCustomWidthImageSrc(687)">
-			<source media="(max-width: 1023px)" srcset="@Model.ThumbnailImage.GetCustomWidthImageSrc(943)">
-			<img src="@Model.ThumbnailImage.GetCustomWidthImageSrc(384)" alt="@Model.ThumbnailImage.Alt" loading="lazy">
-		</picture>
-		<picture class="cta-row__background">
-			<source media="(max-width: 767px)" srcset="@Model.BackgroundImage.GetCustomWidthImageSrc(727)">
-			<source media="(max-width: 1023px)" srcset="@Model.BackgroundImage.GetCustomWidthImageSrc(983)">
-			<img src="@Model.BackgroundImage.GetCustomWidthImageSrc(1552)" alt="Image Description" loading="lazy">
-		</picture>
+		@if (hasImage && (IsEditing || !string.IsNullOrEmpty(Model.ThumbnailImage.Src)))
+		{
+			<picture class="cta-row__image">
+				<source media="(max-width: 767px)" srcset="@Model.ThumbnailImage.GetCustomWidthImageSrc(687)">
+				<source media="(max-width: 1023px)" srcset="@Model.ThumbnailImage.GetCustomWidthImageSrc(943)">
+				<img src="@Model.ThumbnailImage.GetCustomWidthImageSrc(384)" alt="@Model.ThumbnailImage.Alt" loading="lazy">
+			</picture>
+		}
+		@if (hasBackground && (IsEditing || !string.IsNullOrEmpty(Model.BackgroundImage.Src)))
+		{
+			<picture class="cta-row__background">
+				<source media="(max-width: 767px)" srcset="@Model.BackgroundImage.GetCustomWidthImageSrc(727)">
+				<source media="(max-width: 1023px)" srcset="@Model.BackgroundImage.GetCustomWidthImageSrc(983)">
+				<img src="@Model.BackgroundImage.GetCustomWidthImageSrc(1552)" alt="Image Description" loading="lazy">
+			</picture>
+		}
 	</div>
 </aside>

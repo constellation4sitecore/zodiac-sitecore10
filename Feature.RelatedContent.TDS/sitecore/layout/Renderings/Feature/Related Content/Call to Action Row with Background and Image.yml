@@ -29,6 +29,9 @@ SharedFields:
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: ./_subcontent|/sitecore/content/shared calls to action
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -41,7 +44,6 @@ SharedFields:
   Type: Treelist
   Value: |
     {B20DE485-5F17-442D-A0E2-66B55E2FEE17}
-    {B4044B63-B762-4792-894E-CFB8362B0BDD}
     {6125E39C-EAF4-41D7-8ED5-83FF6D38679B}
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
@@ -75,11 +77,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c2e01cec-4d3e-4c08-990f-7f3420ae8c2b"
+      Value: "03d8fb94-128b-438d-8c43-bd507d17e97f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211230T194827Z
+      Value: 20220316T140325Z
