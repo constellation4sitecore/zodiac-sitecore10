@@ -47,8 +47,8 @@
     <Reference Include="Constellation.Feature.ItemSorting, Version=10.2.0.22163, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Feature.ItemSorting.10.2.0.22163\lib\net48\Constellation.Feature.ItemSorting.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Feature.Navigation, Version=10.2.0.25604, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Constellation.Feature.Navigation.10.2.0.25604\lib\net48\Constellation.Feature.Navigation.dll</HintPath>
+    <Reference Include="Constellation.Feature.Navigation, Version=10.2.1.22896, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Constellation.Feature.Navigation.10.2.1.22896\lib\net48\Constellation.Feature.Navigation.dll</HintPath>
     </Reference>
     <Reference Include="Constellation.Feature.PageAnalyticsScripts, Version=10.2.0.25754, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Constellation.Feature.PageAnalyticsScripts.10.2.0.25754\lib\net48\Constellation.Feature.PageAnalyticsScripts.dll</HintPath>
