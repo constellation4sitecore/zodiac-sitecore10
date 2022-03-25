@@ -26,8 +26,15 @@
 	<div class="cta-row__inner">
 		<div class="cta-row__content">
 			<h2 class="cta-row__title">@Model.Heading</h2>
-			<div class="cta-row__description rtf">"@Model.Copy</div>
-			<a href="@Model.Link.Url" target="@Model.Link.Target" title="@Model.Link.Title" class="btn btn--primary">@Model.Link.Text</a>
+			<div class="cta-row__description rtf">@Model.Copy</div>
+			@if (IsEditing)
+			{
+				@Model.Link.Rendered
+			}
+			else
+			{
+				<a href="@Model.Link.Url" target="@Model.Link.Target" title="@Model.Link.Title" class="btn btn--primary">@Model.Link.Text</a>
+			}
 		</div>
 		@if (hasImage && (IsEditing || !string.IsNullOrEmpty(Model.ThumbnailImage.Src)))
 		{

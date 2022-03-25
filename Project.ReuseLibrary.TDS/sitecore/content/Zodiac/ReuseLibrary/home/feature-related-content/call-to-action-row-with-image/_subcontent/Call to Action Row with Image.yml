@@ -1,0 +1,27 @@
+---
+ID: "e8f99747-ee31-4890-905f-a27b9ab5559a"
+Parent: "2f37659c-a225-4d73-9e54-ad7359406380"
+Template: "10daaaa5-aab3-4e58-b01a-2cbb635f7e0e"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-related-content/call-to-action-row-with-image/_subcontent/Call to Action Row with Image"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220325T130927Z
+    - ID: "72e70c97-d020-4b56-8316-09f31e6c7878"
+      Hint: Heading
+      Value: Call to Action Row with Image
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3af30fcd-8fc7-4af3-973a-3dcd47876624"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220325T130927Z

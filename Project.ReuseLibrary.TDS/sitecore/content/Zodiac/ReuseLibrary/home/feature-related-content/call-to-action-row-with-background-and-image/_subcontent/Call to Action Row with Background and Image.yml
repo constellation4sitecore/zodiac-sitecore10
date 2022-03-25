@@ -1,0 +1,27 @@
+---
+ID: "d5d2373d-ee6d-47dc-bc04-b3d9e88043ee"
+Parent: "6f8b1ee5-f67e-443e-96ef-68ea0190833d"
+Template: "10daaaa5-aab3-4e58-b01a-2cbb635f7e0e"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-related-content/call-to-action-row-with-background-and-image/_subcontent/Call to Action Row with Background and Image"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220325T130949Z
+    - ID: "72e70c97-d020-4b56-8316-09f31e6c7878"
+      Hint: Heading
+      Value: Call to Action Row with Background and Image
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "80175411-1eb5-4273-bf73-02b0d1d81c93"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220325T130949Z

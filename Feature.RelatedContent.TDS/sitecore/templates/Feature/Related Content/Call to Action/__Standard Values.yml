@@ -12,6 +12,10 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20211227T170558Z
+    - ID: "4dfa4b10-e9aa-452b-859e-6e1fb42ef051"
+      Hint: Link
+      Value: |
+        <link text="Lorem Ipsum" linktype="external" url="https://google.com" anchor="" class="btn btn--primary" target="" />
     - ID: "4f3c11dd-a45b-4bea-8e4a-74fffabb9a19"
       Hint: Background Image
       Value: |
@@ -32,14 +36,14 @@ Languages:
       Value: <p>Mauris eu fringilla mauris. Suspendisse sodales sem lorem, ut pulvinar lectus hendrerit vitae. Phasellus a tincidunt sapien. Cras eu euismod nisl. Proin a pharetra lorem. </p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2dbb8a87-a49e-4f39-8aaf-c3733940771c"
+      Value: "f399c6ce-ce11-4b4a-a708-76eb5153cf31"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211230T185714Z
+      Value: 20220325T131253Z
     - ID: "fdc924b1-13f3-4e8d-a2fc-010313598f01"
       Hint: Thumbnail Image
       Value: |

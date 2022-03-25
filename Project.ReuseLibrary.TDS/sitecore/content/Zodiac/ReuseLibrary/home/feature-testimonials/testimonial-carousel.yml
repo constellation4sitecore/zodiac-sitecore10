@@ -21,8 +21,26 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{C42E4A27-B288-4A35-82D6-BDF2B96BB2CA}"
+              uid="{2153A21E-FAB0-4EB5-9850-0B337E5BB360}"
               p:after="p[@uid='{3C73BCD4-85D5-4ECF-97BE-596F8B29C0E7}']"
+              s:ds="{EB31C073-FFBA-4A93-87AC-57866AA76211}"
+              s:id="{1D1A1C34-852D-461A-8D0C-39DBAF848934}"
+              s:ph="/Rows/TestimonialCarouselCards-{C42E4A27-B288-4A35-82D6-BDF2B96BB2CA}-0" />
+            <r
+              uid="{D0D95355-FA41-448A-83FD-A3CD77D6A526}"
+              p:after="r[@uid='{2153A21E-FAB0-4EB5-9850-0B337E5BB360}']"
+              s:ds="{C3616549-004C-4B76-BE82-7D77D6C38A2D}"
+              s:id="{1D1A1C34-852D-461A-8D0C-39DBAF848934}"
+              s:ph="/Rows/TestimonialCarouselCards-{C42E4A27-B288-4A35-82D6-BDF2B96BB2CA}-0" />
+            <r
+              uid="{AE5B3BE1-1C18-4AD0-B79D-9C58429EF403}"
+              p:after="r[@uid='{D0D95355-FA41-448A-83FD-A3CD77D6A526}']"
+              s:ds="{87AE38E2-ED6E-4525-97C9-A2DB2A16BA3E}"
+              s:id="{1D1A1C34-852D-461A-8D0C-39DBAF848934}"
+              s:ph="/Rows/TestimonialCarouselCards-{C42E4A27-B288-4A35-82D6-BDF2B96BB2CA}-0" />
+            <r
+              uid="{C42E4A27-B288-4A35-82D6-BDF2B96BB2CA}"
+              p:after="r[@uid='{AE5B3BE1-1C18-4AD0-B79D-9C58429EF403}']"
               s:ds="{77D47B44-369D-4ACE-84D6-6C17A275811D}"
               s:id="{58618A6D-CF5D-44C2-AB99-89F57D09D44C}"
               s:ph="Rows" />
@@ -39,7 +57,7 @@ Languages:
       Value: Testimonial Carousel
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fbd63799-639f-49a4-a401-1c64de531631"
+      Value: "31a8d2f5-5de3-4a20-bc4e-4f590f0f302d"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Testimonial Carousel
@@ -49,4 +67,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220217T141735Z
+      Value: 20220324T192127Z

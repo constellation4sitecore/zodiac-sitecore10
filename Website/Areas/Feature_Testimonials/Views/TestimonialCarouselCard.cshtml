@@ -2,7 +2,7 @@
 @inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Testimonials.Models.TestimonialCarouselCardModel>
 <div class="swiper-slide">
 	<article class="testimonials-card testimonials-card--with-image">
-		<img class="testimonials-card__photo" src="@Model.Thumbnail.GetCustomWidthImageSrc(80)" height="80" width="80" alt="@Model.FullName" loading="lazy" />
+		<img class="testimonials-card__photo" src="@Model.Thumbnail.GetCustomWidthImageSrc(80)" height="80" width="80" alt="@Model.Thumbnail.Alt" loading="lazy" />
 		<header>
 			<h3 class="testimonials-card__name">
 				@Model.FullName
