@@ -1,0 +1,30 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.RelatedContent.Models.CallToActionCardModel>
+
+<aside class='swiper-slide'>
+	<article class="content-card  content-card--no-image ">
+		@if (IsEditing || string.IsNullOrEmpty(Model.ThumbnailImage.Src))
+		{
+			<picture class="content-card__image">
+				<source media="(max-width: 767px)" srcset="@Model.ThumbnailImage.GetCustomWidthImageSrc(767)">
+				<source media="(max-width: 1279px)" srcset="@Model.ThumbnailImage.GetCustomWidthImageSrc(1279)">
+				<img src="@Model.ThumbnailImage.GetCustomWidthImageSrc(790)" alt="@Model.ThumbnailImage.Alt" loading="lazy">
+			</picture>
+		}
+		<div class="content-card__wrapper">
+			<h6 class="content-card__heading">@Model.Heading</h6>
+			<div class="content-card__copy">@Model.Copy</div>
+			<div class="content-card__actions">
+				@if (IsEditing)
+				{
+					@Model.Link.Rendered
+				}
+				else
+				{
+					<a href="@Model.Link.Url" title="@Model.Link.Title" target="@Model.Link.Target" class="btn btn--primary btn--small">
+						@Model.Link.Text
+					</a>
+				}
+			</div>
+		</div>
+	</article>
+</aside>

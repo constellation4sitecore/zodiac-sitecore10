@@ -810,6 +810,7 @@
     <Content Include="Areas\Feature_RelatedContent\Views\CallToActionCardRow2Column.cshtml" />
     <Content Include="Areas\Feature_RelatedContent\Views\CallToActionCardRow4Column.cshtml" />
     <Content Include="Areas\Feature_RelatedContent\Views\CallToActionCardRow.cshtml" />
+    <Content Include="Areas\Feature_RelatedContent\Views\CallToActionCard.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />

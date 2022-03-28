@@ -1,17 +1,16 @@
 ---
-ID: "c717fb31-7b56-4017-9d14-98a6ac69b6c4"
-Parent: "10172255-6dfd-42c9-8e56-6df1a665f065"
-Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
-Path: /sitecore/layout/Placeholder Settings/Feature/Related Content/CallToActionCards
+ID: "97cd169a-6af2-4f2b-a628-73ed2b8c3fdf"
+Parent: "e6bc1e64-20a5-4942-b11b-083dbe25470f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Related Content/Call to Action Card/Content/Heading
 DB: master
 SharedFields:
-- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
-  Hint: Placeholder Key
-  Value: CallToActionCards
-- ID: "e391b526-d0c5-439d-803e-17512eae6222"
-  Hint: Allowed Controls
-  Type: TreelistEx
-  Value: "{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -19,7 +18,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20220328T140520Z
+      Value: 20220328T204608Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -30,11 +29,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b3b51283-700d-40da-8af8-7c27b3b6745b"
+      Value: "f1e0a6aa-5c99-4354-bd4c-9b4dd220a1d1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220328T205207Z
+      Value: 20220328T204608Z

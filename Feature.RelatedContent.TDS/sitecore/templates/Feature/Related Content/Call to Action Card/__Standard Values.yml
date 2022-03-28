@@ -1,0 +1,46 @@
+---
+ID: "fe70b88e-c1c8-4e40-8fe3-8215fb47fbbc"
+Parent: "a3f2e1ea-70d1-41d1-83e2-249d84605469"
+Template: "a3f2e1ea-70d1-41d1-83e2-249d84605469"
+Path: /sitecore/templates/Feature/Related Content/Call to Action Card/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220328T204608Z
+    - ID: "2d991c2d-4c0f-412e-8435-c025de7b77b0"
+      Hint: Link
+      Value: |
+        <link text="Donec aliquam" linktype="external" url="https://google.com" anchor="" title="Donec aliquam" class="btn btn--primary btn--small" target="_blank" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f931d61a-d1a7-4b7d-9b58-0626da5d3cab"
+    - ID: "97cd169a-6af2-4f2b-a628-73ed2b8c3fdf"
+      Hint: Heading
+      Value: $name
+    - ID: "99584623-1041-4922-aa8d-e3727468f287"
+      Hint: Copy
+      Value: <p>Nam ac dui dapibus, volutpat turpis eu, iaculis arcu. Suspendisse ut ipsum tincidunt, pharetra eros a, ullamcorper metus. Integer sed massa erat. Fusce pulvinar orci justo, id aliquet nunc facilisis ac. </p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220328T204854Z
+    - ID: "fe2b9a93-5bf3-49b9-b2cc-9181dc398eee"
+      Hint: Thumbnail Image
+      Value: |
+        <image mediaid="{1B29486B-1277-4551-9643-002129E0E58E}" />
