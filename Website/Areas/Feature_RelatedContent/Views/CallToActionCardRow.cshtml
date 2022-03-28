@@ -1,0 +1,33 @@
+﻿@using Sitecore.Mvc
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.RelatedContent.Models.CallToActionCardRowModel>
+
+@{
+	string columns;
+	if (this.ViewData["columns"] == null)
+	{
+		columns = "three";
+
+	}
+	else
+	{
+		columns = this.ViewData["columns"].ToString();
+	}
+}
+
+<section class='column-row' data-module='column-row' data-breakpoint=767 aria-labelledby="columnRowHeading">
+	<header>
+		<h2 class='column-row__heading' id="columnRowHeading">@Model.Heading</h2>
+		<div class='column-row__copy rtf'>@Model.Copy</div>
+	</header>
+	<div class='swiper-container'>
+		<div class='swiper-wrapper swiper-wrapper--@columns'>
+			@Html.Sitecore().DynamicPlaceholder("CallToActionCards")
+		</div>
+		<div class='column-row__pagination'>
+			<div class='swiper-button-prev'></div>
+			<div class='swiper-pagination'></div>
+			<div class='swiper-button-next'></div>
+		</div>
+	</div>
+	<div class='column-row__copy rtf'>@Model.TrailingCopy</div>
+</section>

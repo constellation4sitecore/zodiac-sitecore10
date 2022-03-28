@@ -273,7 +273,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\CallToActionCardRowController.cs" />
     <Compile Include="Controllers\CallToActionController.cs" />
+    <Compile Include="Models\CallToActionCardRowModel.cs" />
     <Compile Include="Models\CallToActionModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

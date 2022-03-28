@@ -1,0 +1,45 @@
+---
+ID: "05aa9fca-14b2-4776-ab6c-ab1e9ad7baf8"
+Parent: "6d3965d2-9f0c-44c9-a2a5-b09da7d77a2b"
+Template: "6d3965d2-9f0c-44c9-a2a5-b09da7d77a2b"
+Path: /sitecore/templates/Feature/Related Content/Call to Action Card Row/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "21b79659-2319-4550-b0f3-1fe33f81de73"
+      Hint: Trailing Copy
+      Value: |
+        <p>Vestibulum viverra dictum est, ut sodales risus. Integer tempor lacus nulla, ac aliquet velit ultricies quis. Duis id purus purus. Aenean at finibus ex, in ornare nulla.
+        </p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220328T135429Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "07f330b4-e0b6-4118-a69c-6c8eecfc0305"
+    - ID: "b5ad4278-fb8b-4932-b494-3cf074204727"
+      Hint: Heading
+      Value: $name
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "bdf98245-6361-4e28-9b28-0da045ce4ce2"
+      Hint: Copy
+      Value: |
+        <p>Morbi hendrerit risus sit amet urna tincidunt, quis convallis augue scelerisque. Integer et consectetur massa. Etiam egestas velit id quam vehicula.
+        </p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220328T135536Z

@@ -1,0 +1,72 @@
+---
+ID: "78c8e207-7aa1-43e1-9f37-3c2e91fda7d6"
+Parent: "24d2e51f-0156-45a0-b7c9-81179668b4f5"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Feature/Related Content/Call to Action Card Row 4 Column
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/layout_horizontal.png
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/Related Content/Call to Action Card Row
+- ID: "1c0af338-70a8-455f-8366-173135e03be6"
+  Hint: Placeholder
+  Value: Rows
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Type: Checkbox
+  Value: 1
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Type: Checkbox
+  Value: 1
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: ./_subcontent
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: Index
+- ID: "e441abe7-2ca3-4640-ae26-3789967925d7"
+  Hint: Compatible Renderings
+  Type: Treelist
+  Value: |
+    {EFEB3340-1E69-4D05-8AAD-0409768CA4F0}
+    {3D6DF5E8-705C-4D6A-9383-7579B363DB29}
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: CallToActionCardRow
+- ID: "f3e7e552-d7c8-469b-a150-69e4e14ab35c"
+  Hint: ClearOnIndexUpdate
+  Type: Checkbox
+  Value: 1
+- ID: "fc5c3451-dfde-4778-9901-5d0b1da1e212"
+  Hint: Area
+  Value: Feature_RelatedContent
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220328T135752Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2468ed1-a710-4970-a510-b40e206f634c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220328T140222Z

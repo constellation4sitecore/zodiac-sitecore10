@@ -1,0 +1,6 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.RelatedContent.Models.CallToActionCardRowModel>
+@{
+	this.ViewData.Add("columns", "two");
+}
+
+@{ Html.RenderPartial("/Areas/Feature_RelatedContent/Views/CallToActionCardRow.cshtml", this.Model, this.ViewData); }
