@@ -1,0 +1,27 @@
+---
+ID: "7e5a5b8e-11d5-4c2a-b87e-f97da470048c"
+Parent: "70177c3e-b541-4788-b7f6-9dac2f6e8c93"
+Template: "6d3965d2-9f0c-44c9-a2a5-b09da7d77a2b"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-related-content/call-to-action-card-rows/_subcontent/Call to Action Card Row 2 Column"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220413T140813Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7117221d-cf5e-4c3a-93fe-67cf6da08bf4"
+    - ID: "b5ad4278-fb8b-4932-b494-3cf074204727"
+      Hint: Heading
+      Value: Call to Action Card Row 2 Column
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220413T140813Z

@@ -1,0 +1,32 @@
+---
+ID: "5a1c0c58-bd19-4b7c-a95d-6ad0513e7ae7"
+Parent: "278860be-c95e-4a1a-bd86-96736e6851d1"
+Template: "34827329-cec6-4a46-90f1-1b93fb46dfde"
+Path: /sitecore/content/Zodiac/ReuseLibrary/Navigation/Footer/Footer Social Links/Twitter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220411T154205Z
+    - ID: "343b5d00-6e10-4863-840b-cee38447b2f1"
+      Hint: Link
+      Value: |
+        <link text="Follow us on Twitter" linktype="external" url="https://twitter.com" anchor="" target="_blank" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7e0cb65c-430a-4468-850f-3ac1fe43fcd4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "c6e7b3e8-0bca-4f7e-a7b9-22c0d1b43b63"
+      Hint: Image
+      Value: |
+        <image mediaid="{52A61018-C8D6-48E1-AC91-AD9B5F15EE81}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220411T163341Z

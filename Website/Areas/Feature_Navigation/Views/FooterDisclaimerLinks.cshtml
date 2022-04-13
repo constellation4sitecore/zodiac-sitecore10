@@ -1,0 +1,19 @@
+﻿@using Constellation.Feature.Navigation.Models
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Constellation.Feature.Navigation.Models.NavigationMenu>
+<div class="footer__info">
+	<nav class="footer__info-links">
+	@foreach (var node in Model.Children)
+	{
+		if (node is NavigationLink link)
+		{
+			<a href="@link.LinkUrl" target="@link.LinkTarget" class="link-reuse link link--on-dark">
+				@link.GetBestLinkText()
+			</a>
+		}
+	}
+	</nav>
+	<div>
+		<span class="footer__info-copyright">© Copyright 2021 Reuse</span>
+		<span>| 1000 Rochelle Blvd., Irving, TX | 75062 | 1-800-922-8800</span>
+	</div>
+</div>

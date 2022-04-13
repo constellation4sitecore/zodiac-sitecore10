@@ -1,0 +1,28 @@
+---
+ID: "53e45c4c-f248-4812-86eb-6919b3128af4"
+Parent: "10ce3796-9e5b-4bfe-a011-fd5f7a8c684a"
+Template: "38212b66-f3c1-46fc-9a32-e04f4337bf8f"
+Path: /sitecore/content/Zodiac/ReuseLibrary/Navigation/Header/Primary Navigation/Primary Content/Video Row
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220411T154502Z
+    - ID: "343b5d00-6e10-4863-840b-cee38447b2f1"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{FC6D64CF-9008-4B6C-91C2-A206F63CB03B}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "334f024a-5ee9-450e-82d7-d3a2737d8496"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220411T160720Z

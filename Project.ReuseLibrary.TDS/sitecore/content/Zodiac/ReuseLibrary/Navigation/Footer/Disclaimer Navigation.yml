@@ -1,0 +1,24 @@
+---
+ID: "9183b429-39a3-4324-a31b-d44e30ed8018"
+Parent: "fa3b9bff-8b00-4b8f-923a-3b4368615a43"
+Template: "a1f44058-08d9-4d0a-acc6-2b38aa183a8e"
+Path: /sitecore/content/Zodiac/ReuseLibrary/Navigation/Footer/Disclaimer Navigation
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220411T153359Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ff8a4e13-89cb-442b-9161-4d94bd76b550"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220411T153359Z

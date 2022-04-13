@@ -1,0 +1,14 @@
+﻿@using Constellation.Feature.Navigation.Models
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Constellation.Feature.Navigation.Models.NavigationMenu>
+<h5 class="footer__text--uppercase">Connect with us</h5>
+<nav class="footer__social-links" aria-label="Reuse Social Links">
+@foreach (var node in Model.Children)
+{
+	if (node is ImageNavigationLink link)
+	{
+		<a href="@link.LinkUrl" class="social-link" aria-label="@link.GetBestLinkText()" target="@link.LinkTarget" rel="noopener noreferrer">
+			<img src="@link.Image.Src" class="social-link__icon" alt="@link.GetBestLinkText()"/>
+		</a>
+	}
+}
+</nav>

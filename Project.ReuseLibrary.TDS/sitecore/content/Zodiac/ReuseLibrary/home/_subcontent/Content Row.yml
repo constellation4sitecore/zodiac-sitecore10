@@ -9,19 +9,25 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "083437a1-f162-42a0-90f3-4b00239f2700"
+      Hint: Subheading
+      Value: Save your customers money
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20220119T175329Z
     - ID: "7c4b6efb-f374-4915-936c-b931332c6101"
       Hint: Heading
-      Value: Content Row
+      Value: Stop Reinventing the Wheel
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "83ae4e3d-6e77-420f-9867-a45af2252ac6"
+      Value: "ed4134f0-26aa-4efe-81d8-92afb761a253"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220119T175329Z
+      Value: 20220413T130053Z

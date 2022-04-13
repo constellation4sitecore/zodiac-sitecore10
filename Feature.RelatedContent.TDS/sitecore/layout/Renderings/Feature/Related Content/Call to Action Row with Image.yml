@@ -28,7 +28,7 @@ SharedFields:
   Value: "{01664F21-2876-45E7-A562-A0B0B4C3D07F}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: ./_subcontent|/sitecore/content/shared calls to action
+  Value: "./_subcontent|query:./ancestor-or-self::*[@@templatename='Site']/Widgets/Related Content/Shared Call to Action Rows|/sitecore/content/Global Call to Action Rows"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
@@ -77,11 +77,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ff409228-21f8-46c9-b25c-0743031861fe"
+      Value: "472c338c-3bba-46fb-a585-86b1b9bce545"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220316T140325Z
+      Value: 20220413T144829Z

@@ -1,0 +1,13 @@
+﻿@using Constellation.Feature.Navigation.Models
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Constellation.Feature.Navigation.Models.NavigationMenu>
+<nav class='footer__nav' aria-label='Footer Navigation'>
+	@foreach (var node in Model.Children)
+	{
+		if (node is NavigationLink link)
+		{
+			<a href="@link.LinkUrl" target="@link.LinkTarget" class="link-reuse link link--on-dark">
+				@link.GetBestLinkText()
+			</a>
+		}
+	}
+</nav>

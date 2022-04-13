@@ -264,11 +264,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\BreadcrumbsController.cs" />
-    <Compile Include="Controllers\PrimaryNavigationController.cs" />
+    <Compile Include="Controllers\PrimaryNavigationMenuController.cs" />
+    <Compile Include="Controllers\NavigationMenuController.cs" />
     <Compile Include="Controllers\SectionCardsController.cs" />
     <Compile Include="Controllers\SectionNavigationController.cs" />
     <Compile Include="ModelBuilders\PrimaryNavigationModelBuilder.cs" />
     <Compile Include="Models\BreadcrumbLabels.cs" />
+    <Compile Include="Models\HeaderLabels.cs" />
     <Compile Include="Models\SectionCardLabels.cs" />
     <Compile Include="Models\SectionCardModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

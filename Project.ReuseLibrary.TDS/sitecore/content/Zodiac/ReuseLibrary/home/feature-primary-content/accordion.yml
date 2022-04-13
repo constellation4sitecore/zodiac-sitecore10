@@ -21,14 +21,8 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{6E66ACD5-C6F9-4BD8-BAA6-31CB0CA6BC27}"
-              p:after="p[@uid='{3C73BCD4-85D5-4ECF-97BE-596F8B29C0E7}']"
-              s:ds="{D5F6AE72-9411-437E-B65E-7463B1047227}"
-              s:id="{437D65D6-2C2F-45AC-AE09-BF277D170F48}"
-              s:ph="/Rows/AccordionTabs-{ACE2147C-809B-4ACC-9D09-3810C8CDE202}-0/AccordionTabContent-{2C702ED2-A2BB-4702-AC7D-FC42341845E7}-0" />
-            <r
               uid="{4F319A89-69F8-4BED-949E-D2376EA14118}"
-              p:after="r[@uid='{6E66ACD5-C6F9-4BD8-BAA6-31CB0CA6BC27}']"
+              p:after="r[@uid='{6995ADF9-CF84-4CE6-BBB5-572A1BC0E03C}']"
               s:ds="{B33FC9FD-15CB-4856-A929-0A34583AC8F7}"
               s:id="{7AEB62CA-2B8D-43BF-9391-72836227E1B5}"
               s:ph="/Rows/AccordionTabs-{ACE2147C-809B-4ACC-9D09-3810C8CDE202}-0/AccordionTabContent-{F1873FDA-0357-4559-A02B-653D11C30C5E}-0" />
@@ -80,6 +74,12 @@ Languages:
               s:ds="{8F63936B-10D9-4CF4-A5B0-2A63651C89BE}"
               s:id="{A0B73393-DF6C-4E42-831F-CFDAB6FBC320}"
               s:ph="Rows" />
+            <r
+              uid="{6E66ACD5-C6F9-4BD8-BAA6-31CB0CA6BC27}"
+              p:after="*[1=2]"
+              s:ds="{D5F6AE72-9411-437E-B65E-7463B1047227}"
+              s:id="{437D65D6-2C2F-45AC-AE09-BF277D170F48}"
+              s:ph="/Rows/AccordionTabs-{ACE2147C-809B-4ACC-9D09-3810C8CDE202}-0/AccordionTabContent-{2C702ED2-A2BB-4702-AC7D-FC42341845E7}-0" />
           </d>
         </r>
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
@@ -93,7 +93,7 @@ Languages:
       Value: Accordion
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5bcd33dc-66d7-4139-b25c-0fef663d19fa"
+      Value: "c392dc30-2e27-4519-84eb-6a63855835fe"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Accordion
@@ -103,4 +103,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220218T184705Z
+      Value: 20220413T140726Z

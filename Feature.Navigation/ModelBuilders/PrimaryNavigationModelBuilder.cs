@@ -37,7 +37,7 @@ namespace Feature.Navigation.ModelBuilders
 			 * contextItem's ID
 			 */
 
-			var key = GetCacheKey(contextItem);
+			var key = GetCacheKey(contextItem, datasource);
 
 			var model = Cache.Get<NavigationMenu>(key);
 
@@ -51,9 +51,9 @@ namespace Feature.Navigation.ModelBuilders
 			return model;
 		}
 
-		private string GetCacheKey(Item contextItem)
+		private string GetCacheKey(Item contextItem, Item datasource)
 		{
-			return this.GetType().FullName + contextItem.ID;
+			return this.GetType().FullName + contextItem.ID + datasource.ID;
 		}
 	}
 }

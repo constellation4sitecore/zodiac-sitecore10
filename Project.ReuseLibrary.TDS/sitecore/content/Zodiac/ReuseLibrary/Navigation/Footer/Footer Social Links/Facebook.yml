@@ -1,0 +1,32 @@
+---
+ID: "f84892af-6062-45a3-9d16-5daede1e044f"
+Parent: "278860be-c95e-4a1a-bd86-96736e6851d1"
+Template: "34827329-cec6-4a46-90f1-1b93fb46dfde"
+Path: /sitecore/content/Zodiac/ReuseLibrary/Navigation/Footer/Footer Social Links/Facebook
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220411T154147Z
+    - ID: "343b5d00-6e10-4863-840b-cee38447b2f1"
+      Hint: Link
+      Value: |
+        <link text="Like us on Facebook" linktype="external" url="https://facebook.com" anchor="" target="_blank" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bd057a53-8d58-4988-8ed6-ad6b8ef4496a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "c6e7b3e8-0bca-4f7e-a7b9-22c0d1b43b63"
+      Hint: Image
+      Value: |
+        <image mediaid="{234CD3A2-0F1F-471A-BA2A-05EFD00D1366}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220411T163238Z

@@ -1,0 +1,27 @@
+---
+ID: "b9da010c-5892-4916-aa14-ed8adb587d32"
+Parent: "289d5cc3-3d42-4ae8-8f46-8d3363acd5e6"
+Template: "5b08c93b-f48c-4bc1-b40d-72f4094ea137"
+Path: /sitecore/content/Zodiac/ReuseLibrary/home/_subcontent/Developer Testimonials
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1d631840-345e-4dde-b053-9099ea076eee"
+      Hint: Heading
+      Value: Developer Testimonials
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220413T130222Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2bba0fc7-2396-402a-aea6-0321c2c9f548"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220413T130222Z

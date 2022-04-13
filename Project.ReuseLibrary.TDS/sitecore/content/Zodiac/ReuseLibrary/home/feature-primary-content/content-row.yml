@@ -21,17 +21,17 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{6C59D4F6-8C6D-4927-BB34-C504401B0974}"
-              p:after="p[@uid='{3C73BCD4-85D5-4ECF-97BE-596F8B29C0E7}']"
-              s:ds="{A4EADC8A-ACB1-417A-845A-2419AD9343AF}"
-              s:id="{5E479D85-CF7A-4E9A-92B0-A496E60D6830}"
-              s:ph="/Rows/ContentRowActions-{AA6F3E23-EA9B-4493-A659-A10D13AD41D4}-0" />
-            <r
               uid="{AA6F3E23-EA9B-4493-A659-A10D13AD41D4}"
-              p:after="r[@uid='{6C59D4F6-8C6D-4927-BB34-C504401B0974}']"
+              p:after="r[@uid='{6995ADF9-CF84-4CE6-BBB5-572A1BC0E03C}']"
               s:ds="{3367FEB9-3340-4678-9EB6-6307F5902474}"
               s:id="{84A46E07-1413-4F15-B36E-0E933E7A3D4B}"
               s:ph="Rows" />
+            <r
+              uid="{6C59D4F6-8C6D-4927-BB34-C504401B0974}"
+              p:after="*[1=2]"
+              s:ds="{A4EADC8A-ACB1-417A-845A-2419AD9343AF}"
+              s:id="{5E479D85-CF7A-4E9A-92B0-A496E60D6830}"
+              s:ph="/Rows/ContentRowActions-{AA6F3E23-EA9B-4493-A659-A10D13AD41D4}-0" />
           </d>
         </r>
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
@@ -45,7 +45,7 @@ Languages:
       Value: Content Row
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f4ebf9c9-612f-40e9-b1bc-6f1acba1c48a"
+      Value: "ee70684f-f8bd-4e66-bece-bd6b0d04afdd"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Content Row
@@ -55,4 +55,4 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220218T160112Z
+      Value: 20220413T140726Z

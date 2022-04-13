@@ -1,19 +1,23 @@
 ﻿@inherits Constellation.Foundation.Labels.EditorCompatibleView<Constellation.Feature.Navigation.Models.Breadcrumb[], Feature.Navigation.Models.BreadcrumbLabels>
 
-<nav aria-label="@Labels.Breadcrumbs" class="breadcrumbs" style="--separator: '@Labels.Separator'">
-	<ol>
-		@foreach (var link in Model)
-		{
-			<li>
-				@if (!link.IsContextItem)
-				{
-				<a href="@link.Url">@link.GetBestLinkText()</a>
-				}
-				else
-				{
-				<a aria-current="page">@link.GetBestLinkText()</a>
-				}
-			</li>
-		}
-	</ol>
-</nav>
+
+@if (Model.Length > 1)
+{
+	<nav aria-label="@Labels.Breadcrumbs" class="breadcrumbs" style="--separator: '@Labels.Separator'">
+		<ol>
+			@foreach (var link in Model)
+			{
+				<li>
+					@if (!link.IsContextItem)
+					{
+						<a href="@link.Url">@link.GetBestLinkText()</a>
+					}
+					else
+					{
+						<a aria-current="page">@link.GetBestLinkText()</a>
+					}
+				</li>
+			}
+		</ol>
+	</nav>
+}

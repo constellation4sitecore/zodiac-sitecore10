@@ -1,21 +1,53 @@
-﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Constellation.Feature.Navigation.Models.NavigationMenu>
+﻿@using Constellation.Feature.Navigation.Models
+@inherits Constellation.Foundation.Labels.EditorCompatibleView<Constellation.Feature.Navigation.Models.NavigationMenu, Feature.Navigation.Models.HeaderLabels>
 
-@* 
-	This is the Feature's default output, which is intentionally simple. You could customize this to be suitable for the bulk of your
-	websites and only override it with new markup when a site deviates from your stock navigation approach.
-*@
-
-<div id="primaryNavigation">
+<nav class="header__primary-nav" aria-label="@Labels.PrimaryNavigation">
 	<ul>
-		@foreach (var link in Model.ChildLinks)
+		@foreach (var node in Model.Children)
 		{
-			if (link.IsActive)
+			switch (node)
 			{
-				<li class="active"><a href="@link.LinkUrl">@link.GetBestLinkText() <span>(current)</span></a></li>
-				continue;
-			}
+				case NavigationLink link:
+					<li class="header__item">
+						<a href="@link.LinkUrl" target="@link.LinkTarget">@link.GetBestLinkText()</a>
+					</li>
+					break;
+				case LinkGroup group:
+					<li class="header__item">
+						<button aria-haspopup="true" aria-expanded="false">
+							@group.DisplayName
+						</button>
+						@if (group.Children.Count > 0)
+						{
+							<ul class="header__inner-nav" style="display: none">
+								@foreach (var child in group.Children)
+								{
+									if (child is NavigationLink childLink)
+									{
+										if (child.IsActive)
+										{
+											<li class="header__item header__item--active">
+												<a href="@childLink.LinkUrl" target="@childLink.LinkTarget">
+													@childLink.GetBestLinkText()
+												</a>
+											</li>
+										}
+										else
+										{
+											<li class="header__item">
+												<a href="@childLink.LinkUrl" target="@childLink.LinkTarget">
+													@childLink.GetBestLinkText()
+												</a>
+											</li>
+										}
+									}
+								}
+							</ul>
+						}
 
-			<li><a href="@link.LinkUrl">@link.GetBestLinkText()</a></li>
+					</li>
+					break;
+			}
 		}
 	</ul>
-</div>
+</nav>

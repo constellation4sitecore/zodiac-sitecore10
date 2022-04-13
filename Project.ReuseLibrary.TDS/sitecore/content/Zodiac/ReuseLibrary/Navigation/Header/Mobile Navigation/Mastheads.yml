@@ -1,0 +1,28 @@
+---
+ID: "10c6e9a0-98de-4601-8dde-76db480d5d7f"
+Parent: "48ddac6c-0d17-41d5-ba45-e115608924cc"
+Template: "4a78b518-f009-45f3-89b9-ba2e8d0b7775"
+Path: /sitecore/content/Zodiac/ReuseLibrary/Navigation/Header/Mobile Navigation/Mastheads
+DB: master
+SharedFields:
+- ID: "6fd695e7-7f6d-4ca5-8b49-a829e5950ae9"
+  Hint: __Subitems Sorting
+  Value: "{C1FF011E-B02A-44E3-8444-9FC89CFC28CE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220411T154254Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a23668bc-98d2-4116-9f0d-5d332e72826c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220411T154405Z

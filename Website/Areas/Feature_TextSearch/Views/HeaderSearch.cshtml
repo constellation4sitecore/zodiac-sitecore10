@@ -1,0 +1,27 @@
+﻿
+<div class="header__search" data-endpoint="http://localhost:5000/search-suggestions" data-search-page-url="/html/search.html">
+	<div class="header__search-field" aria-haspopup="true" role="button" aria-expanded="false">
+		<div id="search-announce" class="sr-only" aria-live="assertive"></div>
+		<button aria-label="Open Search" class="header__search-btn">
+			<svg viewBox="0 0 120 120">
+				<use xlink:href="#search" />
+			</svg>
+		</button>
+		<label class="sr-only" for="header-search">Search in page, press escape to close</label>
+		<input autocomplete="off" class="header__search-input" placeholder="Search" id="header-search" role="combobox" type="text" />
+		<button aria-label="Clear Search Input" class="header__clear-input-btn" hidden>
+			<svg viewBox="0 0 120 120">
+				<use xlink:href="#close-bold" />
+			</svg>
+		</button>
+	</div>
+	<div class="header__search-results-backdrop">
+		<div class="header__search-results">
+			<span class="header__search-results-heading" id="search-suggested-results-heading">Suggested Results</span>
+			<ul role="listbox" hidden></ul>
+			<a class="header__search-view-all" data-additional-query-string="Content=all">
+				View All Results
+			</a>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,32 @@
+---
+ID: "e33858df-7a4a-44b1-bece-5a360409dc87"
+Parent: "278860be-c95e-4a1a-bd86-96736e6851d1"
+Template: "34827329-cec6-4a46-90f1-1b93fb46dfde"
+Path: /sitecore/content/Zodiac/ReuseLibrary/Navigation/Footer/Footer Social Links/YouTube
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220411T154157Z
+    - ID: "343b5d00-6e10-4863-840b-cee38447b2f1"
+      Hint: Link
+      Value: |
+        <link text="Subscribe on YouTube" linktype="external" url="https://youtube.com" anchor="" target="_blank" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d74e98f1-02bd-46eb-981b-2a6e63d472c3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "c6e7b3e8-0bca-4f7e-a7b9-22c0d1b43b63"
+      Hint: Image
+      Value: |
+        <image mediaid="{611A8BE4-AB6D-4070-BA8F-1584F2494E91}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220411T163324Z

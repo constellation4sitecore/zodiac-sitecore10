@@ -1,0 +1,24 @@
+---
+ID: "632fcb17-67de-4df2-bd26-e36fc506ffb0"
+Parent: "0488b0cc-ce6d-485a-8b6a-c349d73f5a6a"
+Template: "60913af9-a3e9-4642-8b01-ac18579b7924"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-primary-content/content-row-with-media/_subcontent/Content Row Video"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220413T135749Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc36c128-1540-41f5-9672-e50f1fce058a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220413T135749Z

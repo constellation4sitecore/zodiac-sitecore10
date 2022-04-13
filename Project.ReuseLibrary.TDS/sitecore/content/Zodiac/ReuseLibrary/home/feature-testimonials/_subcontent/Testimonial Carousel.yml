@@ -1,0 +1,27 @@
+---
+ID: "1fd250a6-55f0-40f7-aaed-5ec967e41d7f"
+Parent: "8b37a1da-37f6-4e06-ac83-3a9336f04f07"
+Template: "5b08c93b-f48c-4bc1-b40d-72f4094ea137"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-testimonials/_subcontent/Testimonial Carousel"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1d631840-345e-4dde-b053-9099ea076eee"
+      Hint: Heading
+      Value: Testimonial Carousel
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220413T131536Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e986ee1a-fac0-46e3-bfc9-b27aa287596b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220413T131536Z

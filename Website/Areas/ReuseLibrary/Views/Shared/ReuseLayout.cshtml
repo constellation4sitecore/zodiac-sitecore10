@@ -1,5 +1,7 @@
 ﻿@using Constellation.Feature.PageTagging.Models
+@using Constellation.Foundation.Labels
 @using Constellation.Foundation.ModelMapping
+@using Feature.Navigation.Models
 @using Sitecore.Links
 @using Sitecore.Mvc
 @using Sitecore.Mvc.Analytics.Extensions
@@ -17,6 +19,8 @@
 	options.EncodeNames = true;
 	options.Site = SiteContext.Current;
 	var canonical = LinkManager.GetItemUrl(Model.Item, options);
+
+	var headerLabels = LabelRepository.GetLabelsForView<HeaderLabels>();
 }
 
 <!DOCTYPE html>
@@ -34,16 +38,39 @@
 </head>
 <body>
 	@Html.Sitecore().Placeholder("Alerts")
-	Header
-	<main role="main">
+	
+<header class="header" data-module="header" >
+	<div class="header__content-wrapper">
+		<button class="header__mobile-btn header__mobile-btn--nav" aria-expanded="false" aria-label="@headerLabels.CloseMenu">
+			<svg viewBox="0 0 120 120">
+				<use xlink:href="#menu" />
+			</svg>
+			<svg viewBox="0 0 120 120">
+				<use xlink:href="#close-thin" />
+			</svg>
+		</button>
+		<a href="/" class="header__logo">
+			<img src="@headerLabels.Logo.Src" width="303" height="36" alt="@headerLabels.Logo.Alt" />
+		</a>
+		@Html.Sitecore().Placeholder("PrimaryNavigation")
+		@Html.Sitecore().Placeholder("HeaderSearch")
+		@Html.Sitecore().Placeholder("UtilityNavigation")
+		@Html.Sitecore().Placeholder("MobileNavigation")
+	</div>
+</header>
+<main role="main">
 		<div class="container">
 			@Html.Sitecore().Placeholder("Masthead")
 			@Html.Sitecore().Placeholder("Rows")
 		</div>
 	</main>
 	<!-- Footer -->
-	<footer>
-		Footer
+	<footer class="footer">
+		<div class="footer__links">
+			<div class="container footer__container">
+				@Html.Sitecore().Placeholder("footer")
+			</div>
+		</div>
 	</footer>
 	<!-- JavaScript -->
 	<script>

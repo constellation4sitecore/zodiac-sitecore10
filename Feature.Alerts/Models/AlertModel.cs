@@ -1,10 +1,13 @@
 ﻿using Constellation.Foundation.ModelMapping.MappingAttributes;
+using Sitecore.Data;
 using System;
 
 namespace Feature.Alerts.Models
 {
 	public class AlertModel
 	{
+		public ID ID { get; set; }
+
 		[RawValueOnly]
 		public string Heading { get; set; }
 

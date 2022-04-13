@@ -1,0 +1,136 @@
+---
+ID: "07195838-97f2-4490-b2af-b74dbae2249d"
+Parent: "174c9661-cf35-478a-a8de-93a1b754aa76"
+Template: "ccc93eeb-3bdd-4088-b804-3458f4b46b69"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-related-content/call-to-action-card-rows"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{1D2774FB-7220-4E3D-8087-E2C4AE09CDD0}"
+              p:after="p[@uid='{3C73BCD4-85D5-4ECF-97BE-596F8B29C0E7}']"
+              s:ds="{D6F7CA38-D44E-46D1-874D-513088247334}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{297AEE99-14C1-4BBE-8908-C55F887B23CD}-0" />
+            <r
+              uid="{C1E00211-ACC2-4088-AEDE-592666A484E2}"
+              p:after="r[@uid='{1D2774FB-7220-4E3D-8087-E2C4AE09CDD0}']"
+              s:ds="{EE08D3B2-8A24-4EA1-9CA2-EA5F54F27DD3}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{297AEE99-14C1-4BBE-8908-C55F887B23CD}-0" />
+            <r
+              uid="{7EB31348-ECF5-4EE8-9263-4BC707E3B784}"
+              p:after="r[@uid='{C1E00211-ACC2-4088-AEDE-592666A484E2}']"
+              s:ds="{0CD3FFED-4E2F-45A4-987A-C42497DF2E0E}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{297AEE99-14C1-4BBE-8908-C55F887B23CD}-0" />
+            <r
+              uid="{59334477-4C70-4E7C-A15F-8D7E043E6A80}"
+              p:after="r[@uid='{7EB31348-ECF5-4EE8-9263-4BC707E3B784}']"
+              s:ds="{956BF0D4-FDD5-41EB-A3FF-5A771480FCEF}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{297AEE99-14C1-4BBE-8908-C55F887B23CD}-0" />
+            <r
+              uid="{1589A1DF-8E7A-4E95-910F-DD861CA9D578}"
+              p:after="r[@uid='{59334477-4C70-4E7C-A15F-8D7E043E6A80}']"
+              s:ds="{509E32B6-00A2-453A-A5B0-9CB22EE6E4E4}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{5608C774-77FA-4728-A8D9-9CC0E7286C40}-0" />
+            <r
+              uid="{D15B83EA-D859-4B2D-9FAA-82524E4BC1D3}"
+              p:after="r[@uid='{1589A1DF-8E7A-4E95-910F-DD861CA9D578}']"
+              s:ds="{0861DC02-3B20-463C-A1A0-34C8809C8276}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{5608C774-77FA-4728-A8D9-9CC0E7286C40}-0" />
+            <r
+              uid="{0DE4A85C-49C3-4B56-B63E-32E090B097B5}"
+              p:after="r[@uid='{D15B83EA-D859-4B2D-9FAA-82524E4BC1D3}']"
+              s:ds="{4F8B6B27-686F-400D-BC68-196C4D0C7047}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{5608C774-77FA-4728-A8D9-9CC0E7286C40}-0" />
+            <r
+              uid="{57F3B1F3-07F8-458A-99D2-43A9818768BF}"
+              p:after="r[@uid='{0DE4A85C-49C3-4B56-B63E-32E090B097B5}']"
+              s:ds="{D7F306B0-9431-41A8-AC5C-E21AD18E1B16}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{930D3247-609D-407E-96AC-77D2248712B1}-0" />
+            <r
+              uid="{DCEC3763-B167-4A93-BF51-FFF51FF789E0}"
+              p:after="r[@uid='{57F3B1F3-07F8-458A-99D2-43A9818768BF}']"
+              s:ds="{1EF3AEE3-F0EB-42A1-9424-176FFF2B731D}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{930D3247-609D-407E-96AC-77D2248712B1}-0" />
+            <r
+              uid="{930D3247-609D-407E-96AC-77D2248712B1}"
+              p:after="r[@uid='{DCEC3763-B167-4A93-BF51-FFF51FF789E0}']"
+              s:ds="{7E5A5B8E-11D5-4C2A-B87E-F97DA470048C}"
+              s:id="{3D6DF5E8-705C-4D6A-9383-7579B363DB29}"
+              s:ph="Rows" />
+            <r
+              uid="{5608C774-77FA-4728-A8D9-9CC0E7286C40}"
+              p:after="r[@uid='{930D3247-609D-407E-96AC-77D2248712B1}']"
+              s:ds="{28025FC0-37FD-4F66-AED8-5B11DECE0585}"
+              s:id="{EFEB3340-1E69-4D05-8AAD-0409768CA4F0}"
+              s:ph="Rows" />
+            <r
+              uid="{297AEE99-14C1-4BBE-8908-C55F887B23CD}"
+              p:after="r[@uid='{5608C774-77FA-4728-A8D9-9CC0E7286C40}']"
+              s:ds="{D8FDEF41-163D-4FD9-BD29-29FD1FF2E04A}"
+              s:id="{78C8E207-7AA1-43E1-9F37-3C2E91FDA7D6}"
+              s:ph="Rows" />
+            <r
+              uid="{10BF0E66-B67B-4CCF-8C60-B7915B536EA0}"
+              s:ph="PrimaryNavigation" />
+            <r
+              uid="{7B901C2B-D4CC-4216-8572-2E2B1948124B}"
+              s:ph="UtilityNavigation" />
+            <r
+              uid="{76DB92B9-3451-405C-B627-2FFEA6293A7E}"
+              s:ph="MobileNavigation" />
+            <r
+              uid="{E7D9F239-EE48-47B4-ADDF-C5EE31F27D33}"
+              s:ph="Footer" />
+            <r
+              uid="{1FA6B10E-E584-4E6F-AF02-FB14D61FC62F}"
+              s:ph="Footer" />
+            <r
+              uid="{6995ADF9-CF84-4CE6-BBB5-572A1BC0E03C}"
+              s:ph="Footer" />
+          </d>
+        </r>
+    - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
+      Hint: Browser Title
+      Value: Call to Action Card Rows
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220413T140403Z
+    - ID: "79cdbca6-5485-4d4e-a163-6a1681d61c85"
+      Hint: Heading
+      Value: Call to Action Card Rows
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "98bd2cc0-18de-424a-a197-3af139c04d86"
+    - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
+      Hint: Navigation Title
+      Value: Call to Action Card Rows
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220413T143346Z

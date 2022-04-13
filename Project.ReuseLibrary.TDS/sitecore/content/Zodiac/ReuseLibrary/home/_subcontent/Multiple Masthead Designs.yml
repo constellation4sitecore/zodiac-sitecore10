@@ -1,0 +1,37 @@
+---
+ID: "458005f3-0cdf-41c1-9377-e3c042260e18"
+Parent: "289d5cc3-3d42-4ae8-8f46-8d3363acd5e6"
+Template: "10daaaa5-aab3-4e58-b01a-2cbb635f7e0e"
+Path: /sitecore/content/Zodiac/ReuseLibrary/home/_subcontent/Multiple Masthead Designs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220413T125914Z
+    - ID: "4dfa4b10-e9aa-452b-859e-6e1fb42ef051"
+      Hint: Link
+      Value: |
+        <link linktype="internal" text="Check Out Masthead Options" class="btn btn--primary" querystring="" target="" id="{8769EEEF-C7AD-48A8-850E-434B4341D1B3}" />
+    - ID: "72e70c97-d020-4b56-8316-09f31e6c7878"
+      Hint: Heading
+      Value: "Multiple Masthead Designs!"
+    - ID: "83f73d0e-dbd6-4e80-91b9-e9082c13b548"
+      Hint: Copy
+      Value: "<p>Give users the flexibility they need, or, enforce particular mastheads for particular content types. We've got all the common variants, with placement variability to support any photograph choice!</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b02af771-dc0c-48a1-9e18-e40dfa62fbd2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220413T130053Z

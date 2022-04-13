@@ -9,16 +9,27 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "16165772-8956-46bf-ad8e-be327c0d84bb"
+      Hint: Secondary Link
+      Value: |
+        <link linktype="internal" text="Related Content Components" class="link link--primary" querystring="" target="" id="{174C9661-CF35-478A-A8DE-93A1B754AA76}" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20220204T172736Z
+    - ID: "598b6c37-4c09-421e-a40c-5781de286af0"
+      Hint: Primary Link
+      Value: |
+        <link linktype="internal" text="Primary Content Components" class="btn btn--primary" querystring="" target="" id="{8C131E80-D71B-42F7-B748-F8411CFD2350}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f83a798c-d0aa-4ff8-b0ba-7159f55720ea"
+      Value: "6f5a97e2-9d51-4537-a867-9c7cc0003b5f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220204T172736Z
+      Value: 20220413T125659Z

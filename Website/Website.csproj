@@ -638,6 +638,9 @@
     <Content Include="Areas\ReuseLibrary\Scripts\12.bundle.js" />
     <Content Include="Areas\ReuseLibrary\Scripts\13.bundle.js" />
     <Content Include="Areas\ReuseLibrary\Scripts\14.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\15.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\16.bundle.js" />
+    <Content Include="Areas\ReuseLibrary\Scripts\17.bundle.js" />
     <Content Include="Areas\ReuseLibrary\Scripts\3.bundle.js" />
     <Content Include="Areas\ReuseLibrary\Scripts\4.bundle.js" />
     <Content Include="Areas\ReuseLibrary\Scripts\5.bundle.js" />
@@ -670,6 +673,7 @@
     <Compile Include="Areas\Feature_PrimaryContent\Feature_PrimaryContentAreaRegistration.cs" />
     <Compile Include="Areas\Feature_RelatedContent\Feature_RelatedContentAreaRegistration.cs" />
     <Compile Include="Areas\Feature_Testimonials\Feature_TestimonialsAreaRegistration.cs" />
+    <Compile Include="Areas\Feature_TextSearch\Feature_TextSearchAreaRegistration.cs" />
     <Compile Include="Areas\Feature_Timeline\Feature_TimelineAreaRegistration.cs" />
     <Compile Include="Areas\ReuseLibrary\ReuseLibraryAreaRegistration.cs" />
     <Compile Include="Areas\ZodiacManual\ZodiacManualAreaRegistration.cs" />
@@ -811,6 +815,17 @@
     <Content Include="Areas\Feature_RelatedContent\Views\CallToActionCardRow4Column.cshtml" />
     <Content Include="Areas\Feature_RelatedContent\Views\CallToActionCardRow.cshtml" />
     <Content Include="Areas\Feature_RelatedContent\Views\CallToActionCard.cshtml" />
+    <Content Include="Areas\Feature_Alerts\Views\AjaxAlertGroup.cshtml" />
+    <Content Include="Areas\ReuseLibrary\Scripts\15.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\16.bundle.js.map" />
+    <Content Include="Areas\ReuseLibrary\Scripts\17.bundle.js.map" />
+    <Content Include="Areas\Feature_TextSearch\Views\web.config" />
+    <Content Include="Areas\Feature_TextSearch\Views\HeaderSearch.cshtml" />
+    <Content Include="Areas\Feature_Navigation\Views\UtilityNavigation.cshtml" />
+    <Content Include="Areas\Feature_Navigation\Views\MobileNavigation.cshtml" />
+    <Content Include="Areas\Feature_Navigation\Views\FooterNavigation.cshtml" />
+    <Content Include="Areas\Feature_Navigation\Views\FooterSocialLinks.cshtml" />
+    <Content Include="Areas\Feature_Navigation\Views\FooterDisclaimerLinks.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />

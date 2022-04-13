@@ -24,8 +24,7 @@ SharedFields:
   Value: 1
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: |
-    ancestor-or-self::*[templateName="site"]/widgets/related content/call to action cards
+  Value: "./_subcontent|query:./ancestor-or-self::*[@@templatename='Site']/Widgets/Related Content/Shared Call to Action Cards"
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
   Value: Index
@@ -57,11 +56,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5d70fdec-d7c0-4665-807e-3e6deac2a58d"
+      Value: "c0d9cde9-623b-4302-aada-85ba4d2151eb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220328T205149Z
+      Value: 20220413T144448Z

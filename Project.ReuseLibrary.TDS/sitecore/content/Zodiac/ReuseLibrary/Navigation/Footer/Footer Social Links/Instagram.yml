@@ -1,0 +1,32 @@
+---
+ID: "4981faf4-39fe-432c-94a4-4447a8581e44"
+Parent: "278860be-c95e-4a1a-bd86-96736e6851d1"
+Template: "34827329-cec6-4a46-90f1-1b93fb46dfde"
+Path: /sitecore/content/Zodiac/ReuseLibrary/Navigation/Footer/Footer Social Links/Instagram
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220411T154219Z
+    - ID: "343b5d00-6e10-4863-840b-cee38447b2f1"
+      Hint: Link
+      Value: |
+        <link text="Follow us on Instragram" linktype="external" url="https://instagram.com" anchor="" target="_blank" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4c037b1b-eca5-499a-9a6a-7560c9ea0d4d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "c6e7b3e8-0bca-4f7e-a7b9-22c0d1b43b63"
+      Hint: Image
+      Value: |
+        <image mediaid="{35F214C3-C5F2-47AD-B04C-341F84AA4532}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220411T163359Z

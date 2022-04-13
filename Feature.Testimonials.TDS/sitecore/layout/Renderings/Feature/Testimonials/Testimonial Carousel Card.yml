@@ -28,7 +28,7 @@ SharedFields:
   Value: "{70A66CF6-35FF-4C4E-A3CA-03050F196D15}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: ./_subcontent|/sitecore/content/Shared Testimonials
+  Value: "./_subcontent|query:./ancestor-or-self::*[@@templatename='Site']/Widgets/Testimonials/Shared Testimonials|/sitecore/content/Global Testimonials"
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -64,11 +64,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2b7972f7-b4e3-4eb2-afb3-343f95e00a6a"
+      Value: "d9583cfa-d95e-4ffb-b88d-1d1e94dffce2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211230T135843Z
+      Value: 20220413T144944Z

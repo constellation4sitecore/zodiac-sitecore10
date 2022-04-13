@@ -28,18 +28,17 @@ Languages:
       Value: "{9C42F121-301E-4EBA-90F9-2728440DFBD5}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3f62b744-d253-4e93-b7bc-a296bbd30e68"
+      Value: "f994a487-19a0-4ea0-b19b-b85c0767373c"
     - ID: "aa89805d-2b78-412d-9742-29235d0ce020"
       Hint: Section Image
-      Value: |
-        <image mediaid="{84EAF4D7-59B1-4C89-B98A-D8DDAD87F10B}" />
+      Value: 
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220308T140919Z
+      Value: 20220412T201623Z
     - ID: "ec374585-f2ef-4ecb-9496-24de7fdc4851"
       Hint: Heading
       Value: $name

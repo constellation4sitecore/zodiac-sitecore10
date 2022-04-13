@@ -1,0 +1,27 @@
+---
+ID: "b4156d56-6cf4-4e96-ba04-f87dc7dddf02"
+Parent: "0488b0cc-ce6d-485a-8b6a-c349d73f5a6a"
+Template: "283c8bd9-0f2b-4e71-bbcf-dae14ed8879c"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-primary-content/content-row-with-media/_subcontent/Content Row with Media Right"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220413T135741Z
+    - ID: "7c4b6efb-f374-4915-936c-b931332c6101"
+      Hint: Heading
+      Value: Content Row with Media Right
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "233b538a-ae79-40f9-9d23-030cd0d2fe31"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220413T135741Z

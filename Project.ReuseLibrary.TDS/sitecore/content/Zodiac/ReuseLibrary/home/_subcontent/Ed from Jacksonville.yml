@@ -1,0 +1,36 @@
+---
+ID: "1f968a17-2a9a-4f38-bca9-138700925c39"
+Parent: "289d5cc3-3d42-4ae8-8f46-8d3363acd5e6"
+Template: "d3cf5b2a-9e9d-4a08-baa0-e7dc50e8d6a8"
+Path: /sitecore/content/Zodiac/ReuseLibrary/home/_subcontent/Ed from Jacksonville
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "191ae223-feb9-4068-a5ba-fc163cbcebd5"
+      Hint: Title
+      Value:  Jackonsville, FL
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220413T130506Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "acd8fb69-15d7-48b1-b63a-5e839d287cb6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "cb7d1e3b-7d24-441f-a79b-e5c559dbfcc0"
+      Hint: Quote
+      Value: <p>Uh, yeah. I probably could have written this faster but I guess it's OK.</p>
+    - ID: "d63aa828-7f34-469d-afe9-13dde709ac69"
+      Hint: Full Name
+      Value: Ed Lane
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220413T130813Z

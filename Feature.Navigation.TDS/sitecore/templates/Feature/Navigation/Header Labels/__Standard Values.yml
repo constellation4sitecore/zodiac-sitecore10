@@ -1,0 +1,38 @@
+---
+ID: "99892d23-a2c4-45be-a96d-80bd1b6f28fe"
+Parent: "f7224da4-0626-43e6-9499-c6aa843b2bbb"
+Template: "f7224da4-0626-43e6-9499-c6aa843b2bbb"
+Path: /sitecore/templates/Feature/Navigation/Header Labels/__Standard Values
+DB: master
+SharedFields:
+- ID: "c9c7879f-3f24-4baa-897f-ebffb73ada33"
+  Hint: Logo
+  Value: |
+    <image mediaid="{C0398312-979D-4386-A517-B7703FB41FF6}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220412T204438Z
+    - ID: "5fa1b66f-74b6-4314-9512-abd424190180"
+      Hint: Utility Navigation
+      Value: Utility Navigation
+    - ID: "6723a8bb-d533-406d-841b-fba54dbe311f"
+      Hint: Close Menu
+      Value: Close Menu
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f6a96d8b-b769-46cc-bfbc-9cd82728d734"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220412T204636Z
+    - ID: "de3b40d3-9f13-4f88-90b8-fe2eab024047"
+      Hint: Primary Navigation
+      Value: Primary Navigation

@@ -1,0 +1,27 @@
+---
+ID: "2af5f351-1d61-497b-808d-2596086c7a02"
+Parent: "8b37a1da-37f6-4e06-ac83-3a9336f04f07"
+Template: "d3cf5b2a-9e9d-4a08-baa0-e7dc50e8d6a8"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-testimonials/_subcontent/John Smith"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220413T131602Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b5792ca7-9577-416b-b775-ab0c54830a05"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d63aa828-7f34-469d-afe9-13dde709ac69"
+      Hint: Full Name
+      Value: John Smith
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220413T131602Z
