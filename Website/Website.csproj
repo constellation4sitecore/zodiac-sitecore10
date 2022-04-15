@@ -608,6 +608,7 @@
     <Content Include="App_Config\Include\Feature\Constellation.Feature.PageTagging.SitemapXml.config" />
     <Content Include="App_Config\Include\Feature\Constellation.Feature.Redirects.config" />
     <Content Include="App_Config\Include\Feature\Feature.Alerts.config" />
+    <Content Include="App_Config\Include\Feature\Feature.Client.config" />
     <None Include="App_Config\Include\Feature\_Put_Feature_Config_Patches_Here.txt" />
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Caching.config" />
     <Content Include="App_Config\Include\Foundation\Constellation.Foundation.Datasources.config" />
@@ -844,6 +845,10 @@
     <ProjectReference Include="..\Feature.Alerts\Feature.Alerts.csproj">
       <Project>{9ba8a002-121d-4b55-9ae6-9ede07c2c5aa}</Project>
       <Name>Feature.Alerts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.Client\Feature.Client.csproj">
+      <Project>{010222e6-d195-480c-bc28-449c251dd28d}</Project>
+      <Name>Feature.Client</Name>
     </ProjectReference>
     <ProjectReference Include="..\Feature.Content\Feature.Content.csproj">
       <Project>{f3f7cd87-6087-47e6-80a1-4d0bfc5f4164}</Project>
