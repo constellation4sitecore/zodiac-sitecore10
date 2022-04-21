@@ -599,6 +599,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\DefaultSettingOverrides\Change.SerializationToYaml.config" />
+    <None Include="App_Config\DefaultSettingOverrides\Add.TDS.ToIgnoreUrlPrefixes.config.disable" />
     <None Include="App_Config\DefaultSettingOverrides\_Change_Global_Settings_Here.txt" />
     <None Include="App_Config\Helix\_Do_Not_Modify_These_Config_Files.txt" />
     <Content Include="App_Config\Include\Feature\Constellation.Feature.ItemSorting.config" />
@@ -664,6 +665,12 @@
     <Content Include="sitecore modules\Shell\Redirect\RedirectManager.aspx" />
     <Content Include="Zodiac.License.txt" />
     <Content Include="Global.asax" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -829,12 +836,13 @@
     <Content Include="Areas\Feature_Navigation\Views\FooterDisclaimerLinks.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
+    <None Include="Web.config.XP.disabled" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
+    <None Include="Web.config.XP.Debug.disabled">
+      <DependentUpon>Web.config.XP.disabled</DependentUpon>
     </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
+    <None Include="Web.config.XP.Release.disabled">
+      <DependentUpon>Web.config.XP.disabled</DependentUpon>
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>

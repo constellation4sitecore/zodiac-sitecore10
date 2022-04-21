@@ -297,7 +297,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="App_Config\Include\Foundation\Constellation.Foundation.ModelMapper.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

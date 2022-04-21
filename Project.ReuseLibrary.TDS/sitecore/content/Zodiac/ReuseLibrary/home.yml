@@ -21,17 +21,19 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{C5AC87DD-7E7A-4FE5-BC96-30969F7CC049}"
-              p:after="p[@uid='{3C73BCD4-85D5-4ECF-97BE-596F8B29C0E7}']"
-              s:ds="{52F8DFBE-D585-4D2E-823B-7D1833F74734}"
-              s:id="{1D1A1C34-852D-461A-8D0C-39DBAF848934}"
-              s:ph="/Rows/TestimonialCarouselCards-{2593C041-880F-4FB2-A475-DCFCFD2A4E4E}-0" />
+              uid="{1CCCE395-F757-46F3-8E79-D786F3784A5B}">
+              <p:da
+                name="ccb" />
+              <p:da
+                name="ds" />
+            </r>
             <r
-              uid="{A7138D7C-681C-4630-AB0B-FFA75C8BFD55}"
-              p:after="r[@uid='{C5AC87DD-7E7A-4FE5-BC96-30969F7CC049}']"
-              s:ds="{D569A082-908C-41BA-BEDB-0B659EBAEAEB}"
-              s:id="{1D1A1C34-852D-461A-8D0C-39DBAF848934}"
-              s:ph="/Rows/TestimonialCarouselCards-{2593C041-880F-4FB2-A475-DCFCFD2A4E4E}-0" />
+              uid="{3ED5AB8C-A279-4AE5-BDF6-233123D3EAE2}">
+              <p:da
+                name="ccb" />
+              <p:da
+                name="ds" />
+            </r>
             <r
               uid="{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}">
               <p:d />
@@ -41,61 +43,106 @@ Languages:
               p:after="r[@uid='{3ED5AB8C-A279-4AE5-BDF6-233123D3EAE2}']"
               s:ds="{63387ECD-8B63-4007-B564-768176EE81E6}"
               s:id="{84A46E07-1413-4F15-B36E-0E933E7A3D4B}"
+              s:par=""
               s:ph="Rows" />
             <r
               uid="{B3D68D3E-904B-4AF9-8ED9-F64092583180}"
               p:after="r[@uid='{820059E1-E466-4747-B4BF-E2BFB5E71520}']"
               s:ds="{458005F3-0CDF-41C1-9377-E3C042260E18}"
               s:id="{B20DE485-5F17-442D-A0E2-66B55E2FEE17}"
+              s:par=""
+              s:ph="Rows" />
+            <r
+              uid="{7DA6A9C7-89EC-416A-A75C-F82D57F8CD6D}"
+              p:after="r[@uid='{B3D68D3E-904B-4AF9-8ED9-F64092583180}']"
+              s:id="{84A46E07-1413-4F15-B36E-0E933E7A3D4B}"
+              s:par=""
               s:ph="Rows" />
             <r
               uid="{2593C041-880F-4FB2-A475-DCFCFD2A4E4E}"
-              p:after="r[@uid='{B3D68D3E-904B-4AF9-8ED9-F64092583180}']"
+              p:after="r[@uid='{7DA6A9C7-89EC-416A-A75C-F82D57F8CD6D}']"
               s:ds="{B9DA010C-5892-4916-AA14-ED8ADB587D32}"
               s:id="{58618A6D-CF5D-44C2-AB99-89F57D09D44C}"
+              s:par=""
               s:ph="Rows" />
             <r
               uid="{10BF0E66-B67B-4CCF-8C60-B7915B536EA0}"
-              s:ph="PrimaryNavigation" />
+              s:ph="PrimaryNavigation">
+              <p:da
+                name="ccb" />
+            </r>
             <r
               uid="{7B901C2B-D4CC-4216-8572-2E2B1948124B}"
-              s:ph="UtilityNavigation" />
+              s:ph="UtilityNavigation">
+              <p:da
+                name="ccb" />
+            </r>
             <r
               uid="{76DB92B9-3451-405C-B627-2FFEA6293A7E}"
-              s:ph="MobileNavigation" />
+              s:ph="MobileNavigation">
+              <p:da
+                name="ccb" />
+            </r>
             <r
               uid="{E7D9F239-EE48-47B4-ADDF-C5EE31F27D33}"
-              s:ph="Footer" />
+              s:ph="Footer">
+              <p:da
+                name="ccb" />
+            </r>
             <r
               uid="{1FA6B10E-E584-4E6F-AF02-FB14D61FC62F}"
-              s:ph="Footer" />
+              s:ph="Footer">
+              <p:da
+                name="ccb" />
+            </r>
             <r
               uid="{6995ADF9-CF84-4CE6-BBB5-572A1BC0E03C}"
-              s:ph="Footer" />
+              s:ph="Footer">
+              <p:da
+                name="ccb" />
+            </r>
             <r
               uid="{C68B3929-7147-43CF-9D49-22AB02361F00}"
               p:after="r[@uid='{6995ADF9-CF84-4CE6-BBB5-572A1BC0E03C}']"
               s:ds="{1F968A17-2A9A-4F38-BCA9-138700925C39}"
               s:id="{1D1A1C34-852D-461A-8D0C-39DBAF848934}"
+              s:par=""
               s:ph="/Rows/TestimonialCarouselCards-{2593C041-880F-4FB2-A475-DCFCFD2A4E4E}-0" />
             <r
               uid="{B5677A80-504B-4D7E-B898-759FB5FA5B09}"
               p:after="r[@uid='{C68B3929-7147-43CF-9D49-22AB02361F00}']"
               s:ds="{3044A180-63B6-4995-8428-5BDB82EABF14}"
               s:id="{4B5898A0-53C5-4B07-B8AD-F6EA953D3DA5}"
+              s:par=""
               s:ph="/Masthead/MastheadActions-{D03E3056-DD7D-4937-9C0A-0C6B17217BC1}-0" />
             <r
               uid="{D03E3056-DD7D-4937-9C0A-0C6B17217BC1}"
               p:after="r[@uid='{B5677A80-504B-4D7E-B898-759FB5FA5B09}']"
               s:ds="{D89D1C7F-327F-4885-A173-E8BE56EA3A00}"
               s:id="{F703ED99-818A-49E0-815F-FE28424DF576}"
+              s:par=""
               s:ph="Masthead" />
             <r
+              uid="{A7138D7C-681C-4630-AB0B-FFA75C8BFD55}"
+              p:after="r[@uid='{D03E3056-DD7D-4937-9C0A-0C6B17217BC1}']"
+              s:ds="{D569A082-908C-41BA-BEDB-0B659EBAEAEB}"
+              s:id="{1D1A1C34-852D-461A-8D0C-39DBAF848934}"
+              s:par=""
+              s:ph="/Rows/TestimonialCarouselCards-{2593C041-880F-4FB2-A475-DCFCFD2A4E4E}-0" />
+            <r
               uid="{C57C2A15-FC66-4717-8030-6817CAA85819}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{A7138D7C-681C-4630-AB0B-FFA75C8BFD55}']"
               s:ds="{3044A180-63B6-4995-8428-5BDB82EABF14}"
               s:id="{4B5898A0-53C5-4B07-B8AD-F6EA953D3DA5}"
+              s:par=""
               s:ph="/Masthead/MastheadActions-{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}-0" />
+            <r
+              uid="{C5AC87DD-7E7A-4FE5-BC96-30969F7CC049}"
+              p:after="*[1=2]"
+              s:ds="{52F8DFBE-D585-4D2E-823B-7D1833F74734}"
+              s:id="{1D1A1C34-852D-461A-8D0C-39DBAF848934}"
+              s:par=""
+              s:ph="/Rows/TestimonialCarouselCards-{2593C041-880F-4FB2-A475-DCFCFD2A4E4E}-0" />
           </d>
         </r>
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
@@ -112,17 +159,17 @@ Languages:
       Value: "<p>Use our off-the-shelf components to implement common website design components. Just add CSS.</p>"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0fd6728d-9517-42c2-bffd-2d0a27657f04"
+      Value: "2709d569-a6bb-4bf7-aecd-296a67d040f8"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Home
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\rcabral
+        sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220413T144036Z
+      Value: 20220419T201358Z
     - ID: "ec07cbf7-d85a-4ea1-ad43-4c12f7178428"
       Hint: Subheading
       Value: Verndale Best Practices in a Box

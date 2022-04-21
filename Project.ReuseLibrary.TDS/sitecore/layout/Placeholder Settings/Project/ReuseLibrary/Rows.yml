@@ -1,0 +1,54 @@
+---
+ID: "3af6e86b-f42a-4f33-82fd-ba1786d04b8b"
+Parent: "8fc51517-9712-4713-9d85-880f11353db3"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Project/ReuseLibrary/Rows
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: Rows
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {A0B73393-DF6C-4E42-831F-CFDAB6FBC320}
+    {84A46E07-1413-4F15-B36E-0E933E7A3D4B}
+    {ECDFED8A-5C4C-49F9-AF52-2CF84AE0D60C}
+    {F5FCD8AB-EF52-4010-AEFF-20C0C869209E}
+    {A37DF9B3-E9F8-4395-A38F-62F83FDC045B}
+    {2AB83B5A-D513-4948-A4ED-D9FB74B57F1D}
+    {3D6DF5E8-705C-4D6A-9383-7579B363DB29}
+    {EFEB3340-1E69-4D05-8AAD-0409768CA4F0}
+    {78C8E207-7AA1-43E1-9F37-3C2E91FDA7D6}
+    {B20DE485-5F17-442D-A0E2-66B55E2FEE17}
+    {6125E39C-EAF4-41D7-8ED5-83FF6D38679B}
+    {0A7DB0F3-9708-490C-8C14-902838E4C434}
+    {58618A6D-CF5D-44C2-AB99-89F57D09D44C}
+    {E563070E-C32D-49DF-AB59-BC6688338CFB}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220419T200824Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "10ac7bc2-9939-44d7-89a7-8dfd886996e9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220419T201857Z

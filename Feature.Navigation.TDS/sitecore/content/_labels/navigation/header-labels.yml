@@ -1,14 +1,13 @@
 ---
-ID: "a1d7594c-a326-459c-a1d4-00a6c511ecfb"
-Parent: "029f953c-ef36-474b-aeda-df4642d40ae1"
+ID: "6607cbe7-21a4-4440-8347-2803d0ea1cdb"
+Parent: "c0418d87-bd30-42a6-a03c-77502f1457f5"
 Template: "f7224da4-0626-43e6-9499-c6aa843b2bbb"
-Path: "/sitecore/content/Zodiac/ReuseLibrary/_labels/navigation/header-labels"
+Path: "/sitecore/content/_labels/navigation/header-labels"
 DB: master
 SharedFields:
 - ID: "c9c7879f-3f24-4baa-897f-ebffb73ada33"
   Hint: Logo
-  Value: |
-    <image mediaid="{07604ABF-CEE6-447E-B944-081074E91404}" />
+  Value: 
 Languages:
 - Language: en
   Versions:
@@ -19,11 +18,11 @@ Languages:
       Value: 20220412T204711Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "78830a05-6236-4746-89c3-4a76b7061c90"
+      Value: "9e181626-6c4c-4f91-a1d7-3abe6f844c8e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220421T124657Z
+      Value: 20220421T124810Z

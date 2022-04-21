@@ -14,6 +14,8 @@
 		xdt:Transform="SetAttributes" xdt:Locator="Match(name)"/>
 	</connectionStrings>
   -->
+
+
 	<system.web>
 		<compilation xdt:Transform="RemoveAttributes(debug)" />
 		<!--
@@ -27,9 +29,10 @@
 		<error statusCode="500" redirect="InternalError.htm"/>
 	  </customErrors>
 	-->
-		<customErrors defaultRedirect="GenericError.htm"
-					  mode="RemoteOnly" xdt:Transform="Replace">
-			<error statusCode="500" redirect="InternalError.htm"/>
+		
+		<!-- This line is here for troubleshooting. Turn it off once you're ready for production -->
+		<customErrors mode="Off" xdt:Transform="Replace">
+
 		</customErrors>
 	</system.web>
 </configuration>
