@@ -23,11 +23,16 @@ Languages:
       Value: Stop Reinventing the Wheel
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ed4134f0-26aa-4efe-81d8-92afb761a253"
+      Value: "cc5e3188-5b12-4efa-a0d9-923c8b38de0a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\rcabral
+        sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220413T130053Z
+      Value: 20220523T143245Z
+    - ID: "fded5813-deda-4380-99b7-a6e9dd666524"
+      Hint: Copy
+      Value: |
+        <p>Fasellus pondimentum neque vitae ante imperdiet suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Curabitur in vestibulum ante. Vestibulum vehicula, augue a lacinia congue, eros enim iaculis justo, eu ullamcorper lacus dui et felis. Sed id felis varius, laoreet neque sit amet, euismod nulla. </p>
+        <p>Nunc maximus fermentum turpis in pulvinar. Etiam egestas lobortis egestas. Aenean commodo felis augue, vestibulum lobortis tortor ullamcorper efficitur. Maecenas faucibus sapien eu nibh auctor auctor. Pellentesque sodales elementum orci, quis aliquam odio consectetur at. Phasellus quis bibendum mi. In vehicula ut lectus ac eleifend. Etiam condimentum tempor velit, eu varius nisl fringilla vel.</p>

@@ -1,0 +1,44 @@
+---
+ID: "06a5f6f7-3155-45a0-b4e1-ce84fefddf32"
+Parent: "289d5cc3-3d42-4ae8-8f46-8d3363acd5e6"
+Template: "d3cf5b2a-9e9d-4a08-baa0-e7dc50e8d6a8"
+Path: /sitecore/content/Zodiac/ReuseLibrary/home/_subcontent/Liz from New Jersey
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "191ae223-feb9-4068-a5ba-fc163cbcebd5"
+      Hint: Title
+      Value: New Jersey
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220523T143155Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "789512e6-1eee-4e3b-a917-a1d26051fffd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cb7d1e3b-7d24-441f-a79b-e5c559dbfcc0"
+      Hint: Quote
+      Value: "<p>This is really great. The best thing since sliced bread!</p>"
+    - ID: "d63aa828-7f34-469d-afe9-13dde709ac69"
+      Hint: Full Name
+      Value: Liz Spranzani
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220523T143245Z

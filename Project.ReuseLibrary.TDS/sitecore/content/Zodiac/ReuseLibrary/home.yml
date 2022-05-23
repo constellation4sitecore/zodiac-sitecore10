@@ -21,6 +21,18 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
+              uid="{6A4A6E92-6427-4162-8169-657E1D55C1F7}"
+              p:after="p[@uid='{A0517E8B-B7C5-4551-9974-B863B6632132}']"
+              s:ds="{1F968A17-2A9A-4F38-BCA9-138700925C39}"
+              s:id="{1D1A1C34-852D-461A-8D0C-39DBAF848934}"
+              s:ph="/Rows/TestimonialCarouselCards-{2593C041-880F-4FB2-A475-DCFCFD2A4E4E}-0" />
+            <r
+              uid="{E864C2DA-F95A-403A-9DE3-4E1BC6E3BE62}"
+              p:after="r[@uid='{6A4A6E92-6427-4162-8169-657E1D55C1F7}']"
+              s:ds="{06A5F6F7-3155-45A0-B4E1-CE84FEFDDF32}"
+              s:id="{1D1A1C34-852D-461A-8D0C-39DBAF848934}"
+              s:ph="/Rows/TestimonialCarouselCards-{2593C041-880F-4FB2-A475-DCFCFD2A4E4E}-0" />
+            <r
               uid="{1CCCE395-F757-46F3-8E79-D786F3784A5B}">
               <p:da
                 name="ccb" />
@@ -102,15 +114,8 @@ Languages:
                 name="ccb" />
             </r>
             <r
-              uid="{C68B3929-7147-43CF-9D49-22AB02361F00}"
-              p:after="r[@uid='{6995ADF9-CF84-4CE6-BBB5-572A1BC0E03C}']"
-              s:ds="{1F968A17-2A9A-4F38-BCA9-138700925C39}"
-              s:id="{1D1A1C34-852D-461A-8D0C-39DBAF848934}"
-              s:par=""
-              s:ph="/Rows/TestimonialCarouselCards-{2593C041-880F-4FB2-A475-DCFCFD2A4E4E}-0" />
-            <r
               uid="{B5677A80-504B-4D7E-B898-759FB5FA5B09}"
-              p:after="r[@uid='{C68B3929-7147-43CF-9D49-22AB02361F00}']"
+              p:after="r[@uid='{6995ADF9-CF84-4CE6-BBB5-572A1BC0E03C}']"
               s:ds="{3044A180-63B6-4995-8428-5BDB82EABF14}"
               s:id="{4B5898A0-53C5-4B07-B8AD-F6EA953D3DA5}"
               s:par=""
@@ -123,26 +128,12 @@ Languages:
               s:par=""
               s:ph="Masthead" />
             <r
-              uid="{A7138D7C-681C-4630-AB0B-FFA75C8BFD55}"
-              p:after="r[@uid='{D03E3056-DD7D-4937-9C0A-0C6B17217BC1}']"
-              s:ds="{D569A082-908C-41BA-BEDB-0B659EBAEAEB}"
-              s:id="{1D1A1C34-852D-461A-8D0C-39DBAF848934}"
-              s:par=""
-              s:ph="/Rows/TestimonialCarouselCards-{2593C041-880F-4FB2-A475-DCFCFD2A4E4E}-0" />
-            <r
               uid="{C57C2A15-FC66-4717-8030-6817CAA85819}"
-              p:after="r[@uid='{A7138D7C-681C-4630-AB0B-FFA75C8BFD55}']"
+              p:after="*[1=2]"
               s:ds="{3044A180-63B6-4995-8428-5BDB82EABF14}"
               s:id="{4B5898A0-53C5-4B07-B8AD-F6EA953D3DA5}"
               s:par=""
               s:ph="/Masthead/MastheadActions-{B92CDBB8-01AB-4E07-9295-0FB6247A36F2}-0" />
-            <r
-              uid="{C5AC87DD-7E7A-4FE5-BC96-30969F7CC049}"
-              p:after="*[1=2]"
-              s:ds="{52F8DFBE-D585-4D2E-823B-7D1833F74734}"
-              s:id="{1D1A1C34-852D-461A-8D0C-39DBAF848934}"
-              s:par=""
-              s:ph="/Rows/TestimonialCarouselCards-{2593C041-880F-4FB2-A475-DCFCFD2A4E4E}-0" />
           </d>
         </r>
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
@@ -159,7 +150,7 @@ Languages:
       Value: "<p>Use our off-the-shelf components to implement common website design components. Just add CSS.</p>"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2709d569-a6bb-4bf7-aecd-296a67d040f8"
+      Value: "0df23eb1-703b-452e-b50a-0595f2f97ba3"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Home
@@ -169,7 +160,7 @@ Languages:
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220419T201358Z
+      Value: 20220523T143414Z
     - ID: "ec07cbf7-d85a-4ea1-ad43-4c12f7178428"
       Hint: Subheading
       Value: Verndale Best Practices in a Box
