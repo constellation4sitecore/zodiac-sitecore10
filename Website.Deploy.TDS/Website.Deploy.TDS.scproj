@@ -17,6 +17,8 @@
     <SourceWebProject>{900746a9-5695-4c0b-9f64-cf95baba5adc}|Website\Website.csproj</SourceWebProject>
     <SourceWebPhysicalPath>..\Website</SourceWebPhysicalPath>
     <SerializationFormat>YML</SerializationFormat>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -148,5 +150,14 @@
       <ProjectId>{211ae8fe-8e59-494e-99c8-032491afc0b2}</ProjectId>
     </BundledProject>
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <Import Project="..\packages\HedgehogDevelopment.TDS.6.0.0.31\build\HedgehogDevelopment.TDS.targets" Condition="Exists('..\packages\HedgehogDevelopment.TDS.6.0.0.31\build\HedgehogDevelopment.TDS.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\HedgehogDevelopment.TDS.6.0.0.31\build\HedgehogDevelopment.TDS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\HedgehogDevelopment.TDS.6.0.0.31\build\HedgehogDevelopment.TDS.targets'))" />
+  </Target>
 </Project>
