@@ -1,0 +1,27 @@
+---
+ID: "c2246965-62ae-4cc0-926f-90a535dde534"
+Parent: "289d5cc3-3d42-4ae8-8f46-8d3363acd5e6"
+Template: "a3f2e1ea-70d1-41d1-83e2-249d84605469"
+Path: /sitecore/content/Zodiac/ReuseLibrary/home/_subcontent/Call to Action Card
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220609T122842Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "624aadd3-180b-445d-aca1-8598058a0296"
+    - ID: "97cd169a-6af2-4f2b-a628-73ed2b8c3fdf"
+      Hint: Heading
+      Value: Call to Action Card
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220609T122842Z

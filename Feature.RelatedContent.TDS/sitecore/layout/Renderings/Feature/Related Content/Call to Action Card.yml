@@ -22,6 +22,10 @@ SharedFields:
   Hint: VaryByData
   Type: Checkbox
   Value: 1
+- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
+  Hint: Page Editor Buttons
+  Type: Treelist
+  Value: "{01664F21-2876-45E7-A562-A0B0B4C3D07F}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: "./_subcontent|query:./ancestor-or-self::*[@@templatename='Site']/Widgets/Related Content/Shared Call to Action Cards"
@@ -56,11 +60,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c0d9cde9-623b-4302-aada-85ba4d2151eb"
+      Value: "47c25343-aebd-40da-9655-d347871bef35"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220413T144448Z
+      Value: 20220810T144117Z

@@ -1,0 +1,27 @@
+---
+ID: "80216f04-0c70-4482-b68e-9d93b5cd8b9b"
+Parent: "70177c3e-b541-4788-b7f6-9dac2f6e8c93"
+Template: "a3f2e1ea-70d1-41d1-83e2-249d84605469"
+Path: "/sitecore/content/Zodiac/ReuseLibrary/home/feature-related-content/call-to-action-card-rows/_subcontent/Third Card"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T144718Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6b6be47c-d703-4146-bb7e-b87ff3be68dd"
+    - ID: "97cd169a-6af2-4f2b-a628-73ed2b8c3fdf"
+      Hint: Heading
+      Value: Third Card
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220810T144718Z

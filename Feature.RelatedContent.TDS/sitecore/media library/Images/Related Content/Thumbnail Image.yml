@@ -1,13 +1,9 @@
 ---
-ID: "2c2cebc8-2f22-4fd9-9c40-2fb4d040b4b6"
-Parent: "da61ad50-8fdb-4252-a68f-b4470b1c9fe8"
-Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
-Path: /sitecore/layout/Renderings/Feature/Mastheads
+ID: "f1eae76b-6c5a-4869-a610-ad395e2b8986"
+Parent: "1802b051-c3eb-407d-abfa-9330008432b6"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Images/Related Content/Thumbnail Image
 DB: master
-SharedFields:
-- ID: "6fd695e7-7f6d-4ca5-8b49-a829e5950ae9"
-  Hint: __Subitems Sorting
-  Value: 
 Languages:
 - Language: en
   Versions:
@@ -15,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211129T211412Z
+      Value: 20220810T144236Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -26,11 +22,11 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "97f15003-43a1-444c-8ea1-f59788c276dc"
+      Value: "acbda8a2-7589-4766-8b27-18976204e16f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220526T133154Z
+      Value: 20220810T144236Z

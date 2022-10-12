@@ -4,6 +4,11 @@ Parent: "b9153ae3-926d-4d40-8f82-e715ade8ea95"
 Template: "ccc93eeb-3bdd-4088-b804-3458f4b46b69"
 Path: /sitecore/content/Zodiac/ReuseLibrary/home
 DB: master
+SharedFields:
+- ID: "ed14e473-2eff-493e-bfb3-946eb8d170a8"
+  Hint: Search Engine Indexes Page
+  Type: Checkbox
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -150,17 +155,21 @@ Languages:
       Value: "<p>Use our off-the-shelf components to implement common website design components. Just add CSS.</p>"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0df23eb1-703b-452e-b50a-0595f2f97ba3"
+      Value: "123040c6-5774-481e-9bfd-cbda78ee4a91"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Home
+    - ID: "aadca14b-9b41-4311-a4bc-7d8c395fcf19"
+      Hint: Inherit Author and Publisher
+      Type: Checkbox
+      Value: 1
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Admin
+        sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220523T143414Z
+      Value: 20220609T130339Z
     - ID: "ec07cbf7-d85a-4ea1-ad43-4c12f7178428"
       Hint: Subheading
       Value: Verndale Best Practices in a Box

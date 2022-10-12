@@ -4,13 +4,18 @@ namespace Feature.Alerts.Pipelines.HttpRequest
 {
 	/// <summary>
 	/// Responds to requests for "/alerts" and sets the Context Item to an Item that can handle the request.
-	/// Refer to Feature.Alerts.config in your webroot/App_Config/Includes// folder for details as to when this
+	/// Refer to Feature.Alerts.config in your webroot/App_Config/Includes/ folder for details as to when this
 	/// processor will fire.
 	/// </summary>
 	public class AlertFolderResolver : Constellation.Foundation.Contexts.Pipelines.ContextSensitiveHttpRequestProcessor
 	{
 		protected override void Execute(HttpRequestArgs args)
 		{
+			if (!args.RequestUrl.AbsolutePath.EndsWith("/alerts"))
+			{
+				return; // not a request we need to handle.
+			}
+
 			if (Sitecore.Context.Item != null)
 			{
 				return; // not a request we need to handle.

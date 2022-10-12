@@ -9,12 +9,20 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "21b79659-2319-4550-b0f3-1fe33f81de73"
+      Hint: Trailing Copy
+      Value: |
+        <p>Vestibulum viverra dictum est, ut sodales risus. Integer tempor lacus nulla, ac aliquet velit ultricies quis. Duis id purus purus. Aenean at finibus ex, in ornare nulla.
+        </p>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20220413T143257Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "98b92954-a96e-493d-9361-d6d8234ef6b9"
+      Value: "5692abfb-862c-4668-88ee-f080997f8281"
     - ID: "b5ad4278-fb8b-4932-b494-3cf074204727"
       Hint: Heading
       Value: Call to Action Card Row 4 Column
@@ -22,6 +30,11 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\rcabral
+    - ID: "bdf98245-6361-4e28-9b28-0da045ce4ce2"
+      Hint: Copy
+      Value: |
+        <p>Morbi hendrerit risus sit amet urna tincidunt, quis convallis augue scelerisque. Integer et consectetur massa. Etiam egestas velit id quam vehicula.
+        </p>
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220413T143257Z
+      Value: 20220810T144137Z

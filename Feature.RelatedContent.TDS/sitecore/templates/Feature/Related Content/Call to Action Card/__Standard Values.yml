@@ -26,7 +26,7 @@ Languages:
         sitecore\rcabral
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f931d61a-d1a7-4b7d-9b58-0626da5d3cab"
+      Value: "241ec710-ccfe-4ed2-8ae6-fb5cc7705b66"
     - ID: "97cd169a-6af2-4f2b-a628-73ed2b8c3fdf"
       Hint: Heading
       Value: $name
@@ -39,8 +39,8 @@ Languages:
         sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220328T204854Z
+      Value: 20220810T144334Z
     - ID: "fe2b9a93-5bf3-49b9-b2cc-9181dc398eee"
       Hint: Thumbnail Image
       Value: |
-        <image mediaid="{1B29486B-1277-4551-9643-002129E0E58E}" />
+        <image mediaid="{5B8CBC9D-45CC-433D-9172-12B56DBAAEF0}" />

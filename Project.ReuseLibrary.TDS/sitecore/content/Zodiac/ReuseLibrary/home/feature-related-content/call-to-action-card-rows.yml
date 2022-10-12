@@ -21,6 +21,60 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
+              uid="{7E0532CF-AC35-42A2-A343-C42EBD9E6E6D}"
+              p:after="p[@uid='{A0517E8B-B7C5-4551-9974-B863B6632132}']"
+              s:ds="{D47FD270-D337-42C3-907C-040D3AB7E5A5}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{297AEE99-14C1-4BBE-8908-C55F887B23CD}-0" />
+            <r
+              uid="{F95FF48B-E1D0-4FEA-B5F9-351543F3B726}"
+              p:after="r[@uid='{7E0532CF-AC35-42A2-A343-C42EBD9E6E6D}']"
+              s:ds="{1920EBAC-7202-4A28-8F49-2BE96C9E08A4}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{297AEE99-14C1-4BBE-8908-C55F887B23CD}-0" />
+            <r
+              uid="{12721747-E755-4F2E-BCEF-B9C64247E6A7}"
+              p:after="r[@uid='{F95FF48B-E1D0-4FEA-B5F9-351543F3B726}']"
+              s:ds="{80216F04-0C70-4482-B68E-9D93B5CD8B9B}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{297AEE99-14C1-4BBE-8908-C55F887B23CD}-0" />
+            <r
+              uid="{0BD8BA04-4F3B-4469-AD7D-93094CAFD235}"
+              p:after="r[@uid='{12721747-E755-4F2E-BCEF-B9C64247E6A7}']"
+              s:ds="{732B6ED6-A849-48DA-9FF7-B93459D82E55}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{297AEE99-14C1-4BBE-8908-C55F887B23CD}-0" />
+            <r
+              uid="{8B56D86A-E65A-404A-8A54-352FCA5E0C29}"
+              p:after="r[@uid='{0BD8BA04-4F3B-4469-AD7D-93094CAFD235}']"
+              s:ds="{D47FD270-D337-42C3-907C-040D3AB7E5A5}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{5608C774-77FA-4728-A8D9-9CC0E7286C40}-0" />
+            <r
+              uid="{04ACB9E8-7A46-4DC0-B843-20EB6AB0EC11}"
+              p:after="r[@uid='{8B56D86A-E65A-404A-8A54-352FCA5E0C29}']"
+              s:ds="{1920EBAC-7202-4A28-8F49-2BE96C9E08A4}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{5608C774-77FA-4728-A8D9-9CC0E7286C40}-0" />
+            <r
+              uid="{CB9C80DF-5154-4916-95AF-57985ABBD237}"
+              p:after="r[@uid='{04ACB9E8-7A46-4DC0-B843-20EB6AB0EC11}']"
+              s:ds="{80216F04-0C70-4482-B68E-9D93B5CD8B9B}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{5608C774-77FA-4728-A8D9-9CC0E7286C40}-0" />
+            <r
+              uid="{BB25E6DD-AF5A-4C71-9C65-9A03721F69D8}"
+              p:after="r[@uid='{CB9C80DF-5154-4916-95AF-57985ABBD237}']"
+              s:ds="{D47FD270-D337-42C3-907C-040D3AB7E5A5}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{930D3247-609D-407E-96AC-77D2248712B1}-0" />
+            <r
+              uid="{AFC95E51-407E-4A1A-BF4F-DC764BECB143}"
+              p:after="r[@uid='{BB25E6DD-AF5A-4C71-9C65-9A03721F69D8}']"
+              s:ds="{1920EBAC-7202-4A28-8F49-2BE96C9E08A4}"
+              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
+              s:ph="/Rows/CallToActionCards-{930D3247-609D-407E-96AC-77D2248712B1}-0" />
+            <r
               uid="{10BF0E66-B67B-4CCF-8C60-B7915B536EA0}"
               s:ph="PrimaryNavigation" />
             <r
@@ -39,56 +93,8 @@ Languages:
               uid="{6995ADF9-CF84-4CE6-BBB5-572A1BC0E03C}"
               s:ph="Footer" />
             <r
-              uid="{C1E00211-ACC2-4088-AEDE-592666A484E2}"
-              p:after="r[@uid='{6995ADF9-CF84-4CE6-BBB5-572A1BC0E03C}']"
-              s:ds="{EE08D3B2-8A24-4EA1-9CA2-EA5F54F27DD3}"
-              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
-              s:ph="/Rows/CallToActionCards-{297AEE99-14C1-4BBE-8908-C55F887B23CD}-0" />
-            <r
-              uid="{7EB31348-ECF5-4EE8-9263-4BC707E3B784}"
-              p:after="r[@uid='{C1E00211-ACC2-4088-AEDE-592666A484E2}']"
-              s:ds="{0CD3FFED-4E2F-45A4-987A-C42497DF2E0E}"
-              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
-              s:ph="/Rows/CallToActionCards-{297AEE99-14C1-4BBE-8908-C55F887B23CD}-0" />
-            <r
-              uid="{59334477-4C70-4E7C-A15F-8D7E043E6A80}"
-              p:after="r[@uid='{7EB31348-ECF5-4EE8-9263-4BC707E3B784}']"
-              s:ds="{956BF0D4-FDD5-41EB-A3FF-5A771480FCEF}"
-              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
-              s:ph="/Rows/CallToActionCards-{297AEE99-14C1-4BBE-8908-C55F887B23CD}-0" />
-            <r
-              uid="{1589A1DF-8E7A-4E95-910F-DD861CA9D578}"
-              p:after="r[@uid='{59334477-4C70-4E7C-A15F-8D7E043E6A80}']"
-              s:ds="{509E32B6-00A2-453A-A5B0-9CB22EE6E4E4}"
-              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
-              s:ph="/Rows/CallToActionCards-{5608C774-77FA-4728-A8D9-9CC0E7286C40}-0" />
-            <r
-              uid="{D15B83EA-D859-4B2D-9FAA-82524E4BC1D3}"
-              p:after="r[@uid='{1589A1DF-8E7A-4E95-910F-DD861CA9D578}']"
-              s:ds="{0861DC02-3B20-463C-A1A0-34C8809C8276}"
-              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
-              s:ph="/Rows/CallToActionCards-{5608C774-77FA-4728-A8D9-9CC0E7286C40}-0" />
-            <r
-              uid="{0DE4A85C-49C3-4B56-B63E-32E090B097B5}"
-              p:after="r[@uid='{D15B83EA-D859-4B2D-9FAA-82524E4BC1D3}']"
-              s:ds="{4F8B6B27-686F-400D-BC68-196C4D0C7047}"
-              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
-              s:ph="/Rows/CallToActionCards-{5608C774-77FA-4728-A8D9-9CC0E7286C40}-0" />
-            <r
-              uid="{57F3B1F3-07F8-458A-99D2-43A9818768BF}"
-              p:after="r[@uid='{0DE4A85C-49C3-4B56-B63E-32E090B097B5}']"
-              s:ds="{D7F306B0-9431-41A8-AC5C-E21AD18E1B16}"
-              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
-              s:ph="/Rows/CallToActionCards-{930D3247-609D-407E-96AC-77D2248712B1}-0" />
-            <r
-              uid="{DCEC3763-B167-4A93-BF51-FFF51FF789E0}"
-              p:after="r[@uid='{57F3B1F3-07F8-458A-99D2-43A9818768BF}']"
-              s:ds="{1EF3AEE3-F0EB-42A1-9424-176FFF2B731D}"
-              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
-              s:ph="/Rows/CallToActionCards-{930D3247-609D-407E-96AC-77D2248712B1}-0" />
-            <r
               uid="{930D3247-609D-407E-96AC-77D2248712B1}"
-              p:after="r[@uid='{DCEC3763-B167-4A93-BF51-FFF51FF789E0}']"
+              p:after="r[@uid='{6995ADF9-CF84-4CE6-BBB5-572A1BC0E03C}']"
               s:ds="{7E5A5B8E-11D5-4C2A-B87E-F97DA470048C}"
               s:id="{3D6DF5E8-705C-4D6A-9383-7579B363DB29}"
               s:ph="Rows" />
@@ -100,16 +106,10 @@ Languages:
               s:ph="Rows" />
             <r
               uid="{297AEE99-14C1-4BBE-8908-C55F887B23CD}"
-              p:after="r[@uid='{5608C774-77FA-4728-A8D9-9CC0E7286C40}']"
+              p:after="*[1=2]"
               s:ds="{D8FDEF41-163D-4FD9-BD29-29FD1FF2E04A}"
               s:id="{78C8E207-7AA1-43E1-9F37-3C2E91FDA7D6}"
               s:ph="Rows" />
-            <r
-              uid="{1D2774FB-7220-4E3D-8087-E2C4AE09CDD0}"
-              p:after="*[1=2]"
-              s:ds="{D6F7CA38-D44E-46D1-874D-513088247334}"
-              s:id="{6400A7BE-700D-45EE-8749-15FE1813FB47}"
-              s:ph="/Rows/CallToActionCards-{297AEE99-14C1-4BBE-8908-C55F887B23CD}-0" />
           </d>
         </r>
     - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
@@ -123,14 +123,14 @@ Languages:
       Value: Call to Action Card Rows
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "60f5e24a-4657-4e9a-ab33-199904d163da"
+      Value: "5b24dcda-3f48-4eb3-a903-5ff540087170"
     - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
       Hint: Navigation Title
       Value: Call to Action Card Rows
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Admin
+        sitecore\rcabral
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220419T200955Z
+      Value: 20220810T144857Z
